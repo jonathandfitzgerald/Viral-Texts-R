@@ -75,8 +75,11 @@ topics.labels
 
 rownames(doc.topics) = input$Cluster
 colnames(doc.topics) = topics.labels
+```
 
-#Schmidt's classifying on topics (http://bookworm.benschmidt.org/posts/2015-09-14-Classifying_genre.html)
+Schmidt's classifying on topics (http://bookworm.benschmidt.org/posts/2015-09-14-Classifying_genre.html)
+
+```{r}
 
 topicsDF = doc.topics %>% as.data.frame() %>% mutate(cluster = input$Cluster, primary_genre = input$Genre)
 head(topicsDF)
@@ -149,6 +152,7 @@ ggplot(confusion) + geom_histogram(stat="identity") + aes(x=actual_genre,y=`clus
 confusion = best_guesses %>% group_by(cluster) %>% mutate(`cluster`=n()) %>% filter(actual_genre!=classified_genre) %>% group_by(cluster,actual_genre,classified_genre) %>% summarize(n_misclassified=n(),`cluster`=`cluster`[1]) %>% ungroup %>% arrange(-n_misclassified)
 
 confusion
+
 
 
 ```
