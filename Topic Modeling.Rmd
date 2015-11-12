@@ -130,20 +130,19 @@ predictions_frame %>% sample_n(6)
 tidied = predictions_frame %>% gather("classified_genre","probability",-primary_genre,-cluster)
 
 #tidied where the classified_genre is not Unknown and probability is high
-tidiedLessUnknown = tidied %>% filter(primary_genre=="Unknown") %>% filter(classified_genre!="Unknown") %>% filter(probability > .09) 
+tidiedLessUnknown = tidied %>% filter(primary_genre=="Unknown") %>% filter(classified_genre!="Unknown") %>% filter(probability > .1) 
 
-
-tidiedLessUnknown = tidiedLessUnknown %>% mutate("Cluster.Number" = as.integer(cluster)) %>% left_join(withGenres) 
-
-genreClass = best_guesses %>% select(-V1, -V2, -V3, -V4, -V5, -V6, -V7, -V8, -Cluster.Number, -Genre.1) 
-
-
-write.csv(genreClass, file = paste('output/genreClass-all-genres.csv',sep=""))
-
+tidiedLessUnknown = tidiedLessUnknown %>% mutate("Cluster.Number" = as.integer(cluster)) %>% left_join(withGenres)
 
 best_guesses = tidiedLessUnknown %>% group_by(cluster) %>% 
   arrange(-probability) %>% slice(1) %>% # (Only take the top probability for each episode)
   mutate(actual_genre=primary_genre)
+ 
+
+genreClass = best_guesses %>% select(-V1, -V2, -V3, -V4, -V5, -V6, -V7, -V8, -Cluster.Number, -Genre.1) 
+
+
+write.csv(genreClass, file = paste('output/genreClass-all-genres-point1-threshhold.csv',sep=""))
 
 confusion = best_guesses %>% group_by(actual_genre,classified_genre) %>% summarize(`cluster`=n())
 
