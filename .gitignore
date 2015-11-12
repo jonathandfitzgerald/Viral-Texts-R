@@ -1,6 +1,9 @@
 # History files
 .Rhistory
 .Rapp.history
+.RDataTmp
+.RData
+.DS_Store
 
 # Example code in package build process
 *-Ex.R
@@ -11,3 +14,8 @@
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
+
+# big data
+data/
+Archive/
+output/
