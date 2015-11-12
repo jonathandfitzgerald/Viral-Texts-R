@@ -1,0 +1,82 @@
+---
+title: "PCA"
+output: html_document
+---
+
+This document includes the process for performing PCA on clusters. It requires some tweaking as all clusters seem to group at present. Among the things I need to figure out is how to eliminate stop words from the bag of words.
+
+```{r}
+
+#Streamlined PCA Code
+stopWords = stopwords("en")
+wordCutoff = 10
+df = poemswithBY %>% mutate(V1 = as.character(V1))
+clusterWords = getWords(df) 
+counts = clusterWords %>% mutate(word=tolower(word)) %>% group_by(V1,word) %>% dplyr::summarize(count=n()) %>% ungroup
+td = allWordsIntoTD(clusterWords,normalized = T) 
+justaMatrix = td %>% select(-V1)
+model = prcomp(justaMatrix)
+prediction = predict(model)
+prediction = prediction %>% 
+  as.data.frame %>% mutate(cluster=td$V1 %>% as.character) %>% 
+  select(cluster,PC1,PC2,PC3)
+
+
+
+
+
+
+```
+
+See the Principal Components
+
+```{r}
+
+#We can see what the weights are by 
+model$rotation %>% as.data.frame %>% mutate(word=rownames(model$rotation)) %>% select(word,PC1) %>% arrange(-PC1) %>% head
+model$rotation %>% as.data.frame %>% mutate(word=rownames(model$rotation)) %>% select(word,PC1) %>% arrange(PC1) %>% head
+# The second "Principal Component"
+model$rotation %>% as.data.frame %>% mutate(word=rownames(model$rotation)) %>% select(word,PC2) %>% arrange(-PC2) %>% head
+model$rotation %>% as.data.frame %>% mutate(word=rownames(model$rotation)) %>% select(word,PC2) %>% arrange(PC2) %>% head
+
+```
+
+
+Visualize using a variety of methods
+
+```{r}
+
+#Visualize (Need to get V1 Cluster number into the mix)
+
+ggplot(prediction) + geom_point(aes(x=PC1,y=PC2,color=cluster))
+ggplot(prediction %>% mutate(V1=cluster) %>% inner_join(df) %>% filter(n()>5)) + geom_text(aes(x=PC1,y=PC2,label=V1))
+ggplot(prediction %>% mutate(url=url) %>% inner_join(df)) + geom_point(aes(x=PC2,y=PC3,shape=username,color=username,size=5))
+ggplot(prediction %>% mutate(url=url) %>% inner_join(df) %>% group_by(username) %>% filter(n()>5)) + geom_text(aes(y=PC1,x=as.Date(Date),color=username,size=5,label=username))
+
+ggplot(prediction %>% mutate(url=url) %>% inner_join(df) %>% group_by(username) %>% filter(n()>5)) + geom_text(aes(y=PC1,x=PC2,color=username,size=5,label=username))
+
+#Print df header
+head(prediction)
+
+#Select a row to print
+df[10,]
+
+
+
+```
+
+This requires more work, but here is the alternative to ggplot that Abby suggested. It seems promising, but I'm not yet able to get it to work.
+
+```{r}
+
+#Visualize with ggbiplot (???)
+data(halfCluster)
+clusters.pca <- prcomp(halfCluster, scale. = TRUE)
+ggbiplot(clusters.pca, obs.scale = 1, var.scale = 1,
+         groups = halfCluster.V1, ellipse = TRUE, circle = TRUE) +
+  scale_color_discrete(name = '') +
+  theme(legend.direction = 'horizontal', legend.position = 'top')
+
+
+```
+

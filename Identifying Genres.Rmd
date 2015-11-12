@@ -1,0 +1,133 @@
+---
+title: "Identifying Genres"
+output: html_document
+---
+
+This file will be used primarily for identifying genres within the clusters using a variety of means. For example, the following block of code identifies poem by simply searching for the word poem in the text of the clusters.
+
+```{r}
+
+source("functions.R")
+
+#Look for poetry by searching for the word "poem"
+poems = df[grep("^poe", df$V9),] %>% as.data.frame()
+
+#poems found using naive Bayes
+poems = read.csv("output/potentialpoems.csv", header=TRUE)
+poems$actualGenre=NULL
+poems$X=NULL
+poems$genreGuess=NULL
+poems$logProbability=NULL
+
+#poems from viraltexts.northeastern.edu
+poems = read.csv("data/poetry-from-web.csv", header=TRUE)
+
+#Get just one poem row from each cluster
+poems = poems %>% group_by(V1) %>% slice(1)
+
+#Messing with the poems from VT website
+poems = poems[grep("POETRY", poems$V9, ignore.case=F),]
+poems = poems[47:90,]
+
+
+
+#Look for sketches
+sketches = halfCluster[grep("SKETCH", halfCluster$V9),] %>% as.data.frame()
+
+
+
+
+#Do Classification looking for other poems!
+ballads = clusterGroup100000[grep("^ball", clusterGroup100000$V9),] %>% as.data.frame()
+
+vignette = clusterGroup100000[grep("^beautiful", clusterGroup100000$V9),] %>% as.data.frame()
+
+
+##### EXPERIMENTS #####
+
+#This worked out well for finding poems: search for a break followed by the word "BY" (works better with caps):
+
+poemswithBY = halfCluster[grep("<br/>BY", halfCluster$V9),] %>% as.data.frame()
+write.csv(poemswithBY, file = paste('output/poems-with-by.csv',sep=""))
+
+#Grab 2 stories from poemswithBy (4958, 596)
+
+stories = poemswithBY[ which(poemswithBY$V1=='4958' | poemswithBY$V1=='596'), ]
+
+#Can we add word counts to this? allClusterWordCount should do it (now that I ran the getwords on poemswithBy)
+
+byCounts = inner_join(poemswithBY, allClusterWordCount, by="V1")
+storieswithBy = allClusterWordCount %>% filter(WordCount >= 500)
+ggplot(allClusterWordCount) + geom_text(aes(x=V1,y=WordCount,label=V1)) + scale_y_continuous(trans="log")
+
+#Name at the end of the cluster (or anything with Capital Letters)
+nameEnd = halfCluster[grep("<br/>[A-Z][-'a-zA-Z]+,?\\s[A-Z][-'a-zA-Z]{0,19}$", halfCluster$V9),] %>% as.data.frame()
+write.csv(nameEnd, file = paste('output/name-at-end.csv',sep=""))
+
+  
+
+#Experiments with capital letters at the start of a cluster
+allCapsAtFront1 = halfCluster[grep("^[A-Z ]*(\\.)<br/>", halfCluster$V9),] %>% as.data.frame()
+allCapsAtFront2 = halfCluster[grep("^[^a-z][^a-z]*(\\.)", halfCluster$V9),] %>% as.data.frame()
+allCapsAfterBR = halfCluster[grep("<br/>[A-Z]{3,}", halfCluster$V9),] %>% as.data.frame()
+
+#The word "THE" at the start of a cluster
+theAtFront = halfCluster[grep("^THE", halfCluster$V9),] %>% as.data.frame()
+write.csv(theAtFront, file = paste('output/the-at-front.csv',sep=""))
+
+retter = clusterGroup100000[grep("RETTER", clusterGroup100000$V9),] %>% as.data.frame()
+
+#lists?
+
+lists = halfCluster[grep("<br/>[1-9]\\.\\s[A-Z]", halfCluster$V9),]
+write.csv(lists, file = paste('output/lists.csv',sep=""))
+
+recipes1 = halfCluster[grep("following recipe", halfCluster$V9),] %>% as.data.frame()
+recipes2 = halfCluster[grep("recipe for", halfCluster$V9),] %>% as.data.frame()
+howTo = halfCluster[grep("<br/>How to", halfCluster$V9),] %>% as.data.frame()
+
+
+laws = halfCluster[grep("resolved", halfCluster$V9),] %>% as.data.frame()
+
+sermons = clusterGroup100000[grep("preach", clusterGroup100000$V9),] %>% as.data.frame()
+
+random = halfCluster[1500:1600,] %>% mutate(genre = "unknown")
+
+#Combine poems, stories, recipes
+
+poemswithBY = poemswithBY %>% mutate(genre = "poetry")
+stories = stories %>% mutate(genre = "prose")
+recipes = recipes %>% mutate(genre = "recipe")
+genres = rbind(poemswithBY,stories,recipes,random)
+
+#Delete rows
+poemswithBY = poemswithBY[-(4), ] 
+recipes = slice(recipes, 1:7)
+recipes = recipes[-(4),]
+
+
+```
+
+This bit of code is an attempt to find trivia, by isolating very frequently reprinted materials. More work is needed to find trivia.
+
+```{r}
+
+#Looking for Trivia (search for reprints over 175)
+lotsofReprints = thousandClusters %>%
+  group_by(V1) %>%
+  mutate(count=n())  %>% 
+  filter(count>175) %>% 
+  ungroup %>%
+  arrange(count)
+
+
+
+?order_by
+
+initCoreNLP("stanford-corenlp-full-2015-01-29")  
+catInHat = c("the sun did not shine.", "it was too wet to play.","so we sat in the house all that cold, cold, wet day.")
+
+output = annotateString(catInHat)
+
+```
+
