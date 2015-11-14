@@ -130,7 +130,7 @@ predictions_frame %>% sample_n(6)
 tidied = predictions_frame %>% gather("classified_genre","probability",-primary_genre,-cluster)
 
 #tidied where the classified_genre is not Unknown and probability is high
-tidiedLessUnknown = tidied %>% filter(primary_genre=="Unknown") %>% filter(classified_genre!="Unknown") %>% filter(probability > .1) 
+tidiedLessUnknown = tidied %>% filter(primary_genre=="Unknown") %>% filter(classified_genre!="Unknown") %>% filter(probability > .15) 
 
 tidiedLessUnknown = tidiedLessUnknown %>% mutate("Cluster.Number" = as.integer(cluster)) %>% left_join(withGenres)
 
@@ -139,14 +139,14 @@ best_guesses = tidiedLessUnknown %>% group_by(cluster) %>%
   mutate(actual_genre=primary_genre)
  
 
-genreClass = best_guesses %>% select(-V1, -V2, -V3, -V4, -V5, -V6, -V7, -V8, -Cluster.Number, -Genre.1) 
+genreClass = best_guesses %>% select(-V1, -V2, -V3, -V4, -V5, -V7, -V8, -Cluster.Number, -Genre.1) 
 
 
-write.csv(genreClass, file = paste('output/genreClass-all-genres-point1-threshhold.csv',sep=""))
+write.csv(genreClass, file = paste('output/genreClass-all-genres-point1five-threshhold.csv',sep=""))
 
 confusion = best_guesses %>% group_by(actual_genre,classified_genre) %>% summarize(`cluster`=n())
 
-ggplot(confusion) + geom_histogram(stat="identity") + aes(x=actual_genre,y=`cluster`,fill=classified_genre) + coord_flip()
+ggplot(confusion) + geom_histogram(stat="identity") + aes(x=probability,y=`cluster`,fill=classified_genre) + coord_flip()
 
 confusion = best_guesses %>% group_by(cluster) %>% mutate(`cluster`=n()) %>% filter(actual_genre!=classified_genre) %>% group_by(cluster,actual_genre,classified_genre) %>% summarize(n_misclassified=n(),`cluster`=`cluster`[1]) %>% ungroup %>% arrange(-n_misclassified)
 
