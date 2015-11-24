@@ -36,7 +36,7 @@ clustersForTM = data.frame(Cluster=as.character(withGenres$V1),Text=as.character
 
 input=clustersForTM
 
-n.topics=50
+n.topics=100
 
 mallet.instances <- mallet.import(input$Cluster, input$Text, stoplist.file="data/stopwords.txt", token.regexp = "\\w+",preserve.case=F)
                                  
@@ -82,6 +82,11 @@ Schmidt's classifying on topics (http://bookworm.benschmidt.org/posts/2015-09-14
 ```{r}
 
 topicsDF = doc.topics %>% as.data.frame() %>% mutate(cluster = input$Cluster, primary_genre = input$Genre)
+
+#ONLY USE THIS TO CLASSIFY JUST THOSE WE ALREADY KNOW
+topicsDF = topicsDF %>% filter(primary_genre != "Unknown") 
+#END ONLY USE THIS
+
 head(topicsDF)
 
 modeling_matrix = topicsDF %>% select(-primary_genre, -cluster) 
@@ -111,9 +116,11 @@ topicsDF %>%
   coord_flip() + 
   labs(title="most common genres, by number of episodes in training set")
 
-top_genres = topicsDF %>% group_by(primary_genre) %>% summarize(cluster=n()) %>% mutate(rank=rank(-cluster)) %>% arrange(rank) %>% slice(1:15) %>% select(primary_genre) %>% unlist
+#I removed Unknown from the top genres
+top_genres = topicsDF %>% group_by(primary_genre) %>% summarize(cluster=n()) %>% mutate(rank=rank(-cluster)) %>% arrange(rank) %>% slice(2:15) %>% select(primary_genre) %>% unlist
 
-top_genres
+top_genres 
+
 
 models = lapply(top_genres,build_model,glm,family=binomial)
 
@@ -129,6 +136,10 @@ predictions_frame %>% sample_n(6)
 
 tidied = predictions_frame %>% gather("classified_genre","probability",-primary_genre,-cluster)
 
+#ONLY USE THIS WITH THE GENRES WE ALREADY KNOW
+tidiedCheck = tidied %>% filter(primary_genre == classified_genre)
+#END ONLY USE THIS
+
 #tidied where the classified_genre is not Unknown and probability is high
 tidiedLessUnknown = tidied %>% filter(primary_genre=="Unknown") %>% filter(classified_genre!="Unknown") %>% filter(probability > .15) 
 
@@ -142,7 +153,7 @@ best_guesses = tidiedLessUnknown %>% group_by(cluster) %>%
 genreClass = best_guesses %>% select(-V1, -V2, -V3, -V4, -V5, -V7, -V8, -Cluster.Number, -Genre.1) 
 
 
-write.csv(genreClass, file = paste('output/genreClass-all-genres-point1five-threshhold.csv',sep=""))
+write.csv(genreClass, file = paste('output/genreClass-all-genres-point1five-threshhold-1000seed.csv',sep=""))
 
 confusion = best_guesses %>% group_by(actual_genre,classified_genre) %>% summarize(`cluster`=n())
 
@@ -152,7 +163,16 @@ confusion = best_guesses %>% group_by(cluster) %>% mutate(`cluster`=n()) %>% fil
 
 confusion
 
+#How is the classifier performing on topics?
 
+top_predictors = lapply(1:length(top_genres),function(n,return_length=15) {
+  comedy_model = models[n][[1]]
+  using = (rank((comedy_model$coefficients))<=(return_length/2)) | (rank(-comedy_model$coefficients)<=(return_length/2))
+  coefficients = data.frame(genre = top_genres[n],topic=names(comedy_model$coefficients[using]) %>% gsub("modeling_matrix","",.),strength = comedy_model$coefficients[using],row.names = NULL)
+  coefficients
+}) %>% rbind_all
+
+ggplot(top_predictors %>% filter(topic!="(Intercept)")) + geom_point(aes(x=strength,y=topic,color=strength>0)) + facet_wrap(~genre,scales="free",ncol=3)
 
 ```
 

@@ -18,13 +18,21 @@ clusterGroup100000[97937,]
 
 #Read in hand-tagged genres from halfCluster
 halfClusterGenres = read.csv("data/fiveHundredClusters-genre.csv", header=TRUE, fill = TRUE, sep = ",", quote = "", row.names = NULL, stringsAsFactors = FALSE)
-halfCluster = halfCluster %>% mutate(Cluster.Number = V1)
 
+
+#Read in clusters tagged by classifier, round 1 --  bind with halfClusterGenres
+newGenreClusters = read.csv("data/classifiedClusters.csv", header=TRUE, fill = TRUE, sep = ",", row.names = NULL, stringsAsFactors = FALSE)
+halfClusterGenres = rbind(halfClusterGenres,newGenreClusters)
+
+#Merge tagged clusters with the rest of the data, mark those without genres as Unknown
+halfCluster = halfCluster %>% mutate(Cluster.Number = V1)
 withGenres = halfCluster %>% left_join(halfClusterGenres)
 withGenres = replace(withGenres, is.na(withGenres), "Unknown") 
-withGenres = withGenres %>% as.character(withGenres$Cluster.Number)
-class(withGenres$V1)
+
+
+
+
 
 #Delete all data
 rm(list=ls())
-rm(clusterGroup100000)
+rm(LJBib)
