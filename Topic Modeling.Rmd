@@ -33,10 +33,9 @@ library(mallet)
 clustersForTM = withGenres[,c("V1","V9","Genre.1")] %>% filter(nchar(as.character(V9), allowNA=TRUE) > 50) #Get the Cluster Number and text column from Cluster frame
 clustersForTM = data.frame(Cluster=as.character(withGenres$V1),Text=as.character(withGenres$V9),Genre=as.character(withGenres$Genre.1),stringsAsFactors = F)
 
-
 input=clustersForTM
 
-n.topics=100
+n.topics=50
 
 mallet.instances <- mallet.import(input$Cluster, input$Text, stoplist.file="data/stopwords.txt", token.regexp = "\\w+",preserve.case=F)
                                  
@@ -81,83 +80,91 @@ Schmidt's classifying on topics (http://bookworm.benschmidt.org/posts/2015-09-14
 
 ```{r}
 
-topicsDF = doc.topics %>% as.data.frame() %>% mutate(cluster = input$Cluster, primary_genre = input$Genre)
+topicsDF = doc.topics %>% as.data.frame() %>% mutate(cluster = input$Cluster, primary_genre = input$Genre) %>% filter(primary_genre!="Unknown")
 
-#ONLY USE THIS TO CLASSIFY JUST THOSE WE ALREADY KNOW
-topicsDF = topicsDF %>% filter(primary_genre != "Unknown") 
-#END ONLY USE THIS
+modeling_matrix = topicsDF %>% select(-primary_genre, -cluster)
+modeling_matrix = log(modeling_matrix)
 
-head(topicsDF)
+unclassified_data = doc.topics %>% as.data.frame() %>% mutate(cluster = input$Cluster, primary_genre = input$Genre) %>% filter(primary_genre=="Unknown") %>% select(-primary_genre,-cluster) %>% log
 
-modeling_matrix = topicsDF %>% select(-primary_genre, -cluster) 
-training = sample(c(TRUE,FALSE),nrow(modeling_matrix),replace=T)
+should_be_training = sample(c(TRUE,FALSE),nrow(modeling_matrix),replace=T,prob = c(.75,.25))
 
-dim(modeling_matrix)
-
-training_frame = data.frame(modeling_matrix[training,])
+training_frame = data.frame(modeling_matrix[should_be_training,])
 training_frame$match = NA
+
 build_model = function(genre,model_function=glm,...) {
   # genre is a string indicating one of the primary_genre fields;
   # model function is something like "glm" or "svm";
   # are further arguments passed to that function.
-  training_frame$match=as.numeric(topicsDF$primary_genre == genre)[training]
+  training_frame$match=as.numeric(topicsDF$primary_genre == genre)[should_be_training]
   # we model against a matrix: the columns are the topics, which we get by dropping out the other four elements
-  model = model_function(match ~ ., training_frame,...)
+  match_ratio = sum(as.numeric(training_frame$match))/length(training_frame$match)
+  model = model_function(match ~ ., training_frame,...,weights = ifelse(match,1/match_ratio,1/(1-match_ratio)))
 }
 
+filter_to_top = 5
 topicsDF %>% 
-  filter(training) %>% 
+  filter(should_be_training) %>% 
   group_by(primary_genre) %>% 
   summarize(cluster=n()) %>% 
   mutate(rank=rank(-cluster)) %>% 
   arrange(rank) %>% 
   ggplot() + 
-  geom_bar(aes(y=cluster,x=reorder(primary_genre,cluster),fill=rank<=7),stat="identity") + 
+  geom_bar(aes(y=cluster,x=reorder(primary_genre,cluster),fill=rank<=filter_to_top),stat="identity") + 
   coord_flip() + 
   labs(title="most common genres, by number of episodes in training set")
 
 #I removed Unknown from the top genres
-top_genres = topicsDF %>% group_by(primary_genre) %>% summarize(cluster=n()) %>% mutate(rank=rank(-cluster)) %>% arrange(rank) %>% slice(2:15) %>% select(primary_genre) %>% unlist
+top_genres = topicsDF %>% group_by(primary_genre) %>% summarize(cluster=n()) %>% mutate(rank=rank(-cluster)) %>% arrange(rank) %>% slice(1:filter_to_top) %>% select(primary_genre) %>% unlist
 
-top_genres 
+top_genres
 
 
 models = lapply(top_genres,build_model,glm,family=binomial)
 
-predictions = lapply(models,predict,newdata = data.frame(modeling_matrix[!training,]),type="response")
+# Here's where we predict on out-of-model data.
+predictions = lapply(models,predict,newdata = data.frame(modeling_matrix[!should_be_training,]),type="response")
 
-predictions_frame = do.call(cbind,predictions) %>% as.data.frame
+# Work on this, still nto working quite right
+out_of_domain_predictions =lapply(models,predict,newdata = data.frame(unclassified_data),type="response") %>% do.call(cbind,.) %>% as.data.frame
+names(out_of_domain_predictions) = top_genres
+
+out_of_domain_predictions = cbind(topicsDF %>% select(cluster,primary_genre) %>% filter(!should_be_training),predictions_frame)
+
+tidied_ood = out_of_domain_predictions %>% gather("classified_genre","probability",-primary_genre,-cluster)
+
+tidied_ood_unknown = tidied_ood %>% filter(primary_genre == "Unknown")
+
+# END
+
+  
+predictions_frame = do.call(cbind,predictions) %>% as.data.frame()
 names(predictions_frame) = top_genres
 
-predictions_frame = cbind(topicsDF %>% select(cluster,primary_genre) %>% filter(!training),predictions_frame)
-
-set.seed(1)
-predictions_frame %>% sample_n(6)
+predictions_frame = cbind(topicsDF %>% select(cluster,primary_genre) %>% filter(!should_be_training),predictions_frame)
 
 tidied = predictions_frame %>% gather("classified_genre","probability",-primary_genre,-cluster)
 
-#ONLY USE THIS WITH THE GENRES WE ALREADY KNOW
-tidiedCheck = tidied %>% filter(primary_genre == classified_genre)
-#END ONLY USE THIS
+tidied %>% filter(primary_genre=="political") %>% ggplot() + geom_histogram(aes(x=probability)) + facet_wrap(~classified_genre,scales="free_y")
 
-#tidied where the classified_genre is not Unknown and probability is high
-tidiedLessUnknown = tidied %>% filter(primary_genre=="Unknown") %>% filter(classified_genre!="Unknown") %>% filter(probability > .15) 
 
-tidiedLessUnknown = tidiedLessUnknown %>% mutate("Cluster.Number" = as.integer(cluster)) %>% left_join(withGenres)
-
-best_guesses = tidiedLessUnknown %>% group_by(cluster) %>% 
+best_guesses = tidied %>% group_by(cluster) %>% 
   arrange(-probability) %>% slice(1) %>% # (Only take the top probability for each episode)
   mutate(actual_genre=primary_genre)
  
+confusion = best_guesses %>% group_by(actual_genre,classified_genre) %>% summarize(`count`=n())
+ggplot(confusion) + geom_point(aes(y=classified_genre,x=count)) + facet_wrap(~actual_genre)
+
+confusion %>% group_by(actual_genre) %>% summarize(percent_right = 100 * sum(count[actual_genre==classified_genre])/sum(count)) %>% arrange(-percent_right)
+
+confusion %>% group_by(1) %>% summarize(percent_right = 100 * sum(count[actual_genre==classified_genre])/sum(count)) %>% arrange(-percent_right)
+
 
 genreClass = best_guesses %>% select(-V1, -V2, -V3, -V4, -V5, -V7, -V8, -Cluster.Number, -Genre.1) 
 
 
 write.csv(genreClass, file = paste('output/genreClass-all-genres-point1five-threshhold-1000seed.csv',sep=""))
 
-confusion = best_guesses %>% group_by(actual_genre,classified_genre) %>% summarize(`cluster`=n())
-
-ggplot(confusion) + geom_histogram(stat="identity") + aes(x=probability,y=`cluster`,fill=classified_genre) + coord_flip()
 
 confusion = best_guesses %>% group_by(cluster) %>% mutate(`cluster`=n()) %>% filter(actual_genre!=classified_genre) %>% group_by(cluster,actual_genre,classified_genre) %>% summarize(n_misclassified=n(),`cluster`=`cluster`[1]) %>% ungroup %>% arrange(-n_misclassified)
 
