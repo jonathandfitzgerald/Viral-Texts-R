@@ -35,7 +35,7 @@ clustersForTM = data.frame(Cluster=as.character(withGenres$V1),Text=as.character
 
 input=clustersForTM
 
-n.topics=50
+n.topics=25
 
 mallet.instances <- mallet.import(input$Cluster, input$Text, stoplist.file="data/stopwords.txt", token.regexp = "\\w+",preserve.case=F)
                                  
@@ -104,7 +104,7 @@ build_model = function(genre,model_function=glm,...) {
   model = model_function(match ~ ., training_frame,...,weights = ifelse(match,1/match_ratio,1/(1-match_ratio)))
 }
 
-filter_to_top = 5
+filter_to_top = 10
 topicsDF %>% 
   filter(should_be_training) %>% 
   group_by(primary_genre) %>% 
@@ -150,15 +150,8 @@ confusion %>% group_by(actual_genre) %>% summarize(percent_right = 100 * sum(cou
 confusion %>% group_by(1) %>% summarize(percent_right = 100 * sum(count[actual_genre==classified_genre])/sum(count)) %>% arrange(-percent_right)
 
 
-genreClass = best_guesses %>% select(-V1, -V2, -V3, -V4, -V5, -V7, -V8, -Cluster.Number, -Genre.1) 
 
 
-write.csv(genreClass, file = paste('output/genreClass-all-genres-point1five-threshhold-1000seed.csv',sep=""))
-
-
-confusion = best_guesses %>% group_by(cluster) %>% mutate(`cluster`=n()) %>% filter(actual_genre!=classified_genre) %>% group_by(cluster,actual_genre,classified_genre) %>% summarize(n_misclassified=n(),`cluster`=`cluster`[1]) %>% ungroup %>% arrange(-n_misclassified)
-
-confusion
 
 #How is the classifier performing on topics?
 
@@ -193,10 +186,10 @@ out_of_domain_predictions_best_guesses = out_of_domain_predictions_tidied %>% gr
   arrange(-probability) %>% slice(1) %>% # (Only take the top probability for each episode)
   mutate(actual_genre=primary_genre)
 
-genreClass = out_of_domain_predictions_best_guesses %>% mutate(Cluster = cluster) %>% left_join(clustersForTM) %>% select(-V1, -V2, -V3, -V4, -V5, -V7, -V8, -Cluster.Number, -Genre.1)
+genreClass = out_of_domain_predictions_best_guesses %>% mutate(Cluster = cluster) %>% left_join(clustersForTM) 
 
 
-write.csv(genreClass, file = paste('output/genreClass-all-genres-point1five-threshhold-1000seed.csv',sep=""))
+write.csv(genreClass, file = paste('output/genreClass-12-1-15.csv',sep=""))
 
 # END
 
