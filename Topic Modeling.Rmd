@@ -82,6 +82,8 @@ Schmidt's classifying on topics (http://bookworm.benschmidt.org/posts/2015-09-14
 
 topicsDF = doc.topics %>% as.data.frame() %>% mutate(cluster = input$Cluster, primary_genre = input$Genre) %>% filter(primary_genre!="Unknown")
 
+topics_Unknown = doc.topics %>% as.data.frame() %>% mutate(cluster = input$Cluster, primary_genre = input$Genre) %>% filter(primary_genre =="Unknown")
+
 modeling_matrix = topicsDF %>% select(-primary_genre, -cluster)
 modeling_matrix = log(modeling_matrix)
 
@@ -125,18 +127,6 @@ models = lapply(top_genres,build_model,glm,family=binomial)
 # Here's where we predict on out-of-model data.
 predictions = lapply(models,predict,newdata = data.frame(modeling_matrix[!should_be_training,]),type="response")
 
-# Work on this, still nto working quite right
-out_of_domain_predictions =lapply(models,predict,newdata = data.frame(unclassified_data),type="response") %>% do.call(cbind,.) %>% as.data.frame
-names(out_of_domain_predictions) = top_genres
-
-out_of_domain_predictions = cbind(topicsDF %>% select(cluster,primary_genre) %>% filter(!should_be_training),predictions_frame)
-
-tidied_ood = out_of_domain_predictions %>% gather("classified_genre","probability",-primary_genre,-cluster)
-
-tidied_ood_unknown = tidied_ood %>% filter(primary_genre == "Unknown")
-
-# END
-
   
 predictions_frame = do.call(cbind,predictions) %>% as.data.frame()
 names(predictions_frame) = top_genres
@@ -145,7 +135,7 @@ predictions_frame = cbind(topicsDF %>% select(cluster,primary_genre) %>% filter(
 
 tidied = predictions_frame %>% gather("classified_genre","probability",-primary_genre,-cluster)
 
-tidied %>% filter(primary_genre=="political") %>% ggplot() + geom_histogram(aes(x=probability)) + facet_wrap(~classified_genre,scales="free_y")
+
 
 
 best_guesses = tidied %>% group_by(cluster) %>% 
@@ -180,6 +170,36 @@ top_predictors = lapply(1:length(top_genres),function(n,return_length=15) {
 }) %>% rbind_all
 
 ggplot(top_predictors %>% filter(topic!="(Intercept)")) + geom_point(aes(x=strength,y=topic,color=strength>0)) + facet_wrap(~genre,scales="free",ncol=3)
+
+
+
+
+# Here's where we predict on out-of-model data.
+# Work on this, still nto working quite right
+
+
+
+out_of_domain_predictions = lapply(models,predict,newdata = data.frame(unclassified_data),type="response")
+
+  
+out_of_domain_predictions_frame = do.call(cbind,out_of_domain_predictions) %>% as.data.frame()
+names(out_of_domain_predictions_frame) = top_genres
+
+out_of_domain_predictions_frame = cbind(topics_Unknown %>% select(cluster,primary_genre),out_of_domain_predictions_frame)
+
+out_of_domain_predictions_tidied = out_of_domain_predictions_frame %>% gather("classified_genre","probability",-primary_genre,-cluster)
+
+out_of_domain_predictions_best_guesses = out_of_domain_predictions_tidied %>% group_by(cluster) %>% 
+  arrange(-probability) %>% slice(1) %>% # (Only take the top probability for each episode)
+  mutate(actual_genre=primary_genre)
+
+genreClass = out_of_domain_predictions_best_guesses %>% mutate(Cluster = cluster) %>% left_join(clustersForTM) %>% select(-V1, -V2, -V3, -V4, -V5, -V7, -V8, -Cluster.Number, -Genre.1)
+
+
+write.csv(genreClass, file = paste('output/genreClass-all-genres-point1five-threshhold-1000seed.csv',sep=""))
+
+# END
+
 
 ```
 
