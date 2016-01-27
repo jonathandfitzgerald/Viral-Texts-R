@@ -30,7 +30,16 @@ withGenres = halfCluster %>% left_join(halfClusterGenres)
 withGenres = replace(withGenres, is.na(withGenres), "Unknown") 
 
 
+#Read in clusters 1-26-15
+part00001 = read.csv("/Volumes/fitz-home/Projects/Viral-Texts-R/data/part-00001", header=TRUE, fill = TRUE, sep = ",", row.names = NULL, stringsAsFactors = FALSE)
 
+#Cordells vignettes
+cordellVignettes = read.csv("data/vignettes.csv", header=TRUE, fill = TRUE, sep = ",", row.names = NULL, stringsAsFactors = FALSE)
+
+first.appeal.by.id = ddply(cordellVignettes, "cluster", function (x) as.integer(x$X[1])) %>% mutate(X = V1)
+cordellVignettes = first.appeal.by.id %>% left_join(cordellVignettes)
+
+write.csv(cordellVignettes, file = paste('output/cordellVignettes-1-27-16.csv',sep=""))
 
 
 #Delete all data

@@ -1,4 +1,5 @@
 #Required packages
+library(plyr)
 library(dplyr)
 library(RCurl)
 library(rjson)
@@ -10,6 +11,7 @@ library(RSQLite)
 library(devtools)
 library(e1071)
 library(coreNLP)
+library(bookworm)
 
 #library(ggbiplot)
 

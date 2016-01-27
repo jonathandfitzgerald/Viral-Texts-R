@@ -80,20 +80,27 @@ Schmidt's classifying on topics (http://bookworm.benschmidt.org/posts/2015-09-14
 
 ```{r}
 
+#Create a dataframe with all topics for clusters that have hand-tagged genres
 topicsDF = doc.topics %>% as.data.frame() %>% mutate(cluster = input$Cluster, primary_genre = input$Genre) %>% filter(primary_genre!="Unknown")
 
+#Create a dataframe for all topics for clusters with unknown genres
 topics_Unknown = doc.topics %>% as.data.frame() %>% mutate(cluster = input$Cluster, primary_genre = input$Genre) %>% filter(primary_genre =="Unknown")
 
+#Convert to a matrix
 modeling_matrix = topicsDF %>% select(-primary_genre, -cluster)
 modeling_matrix = log(modeling_matrix)
 
+#Create a matrix for all topics for clusters with unknown genres
 unclassified_data = doc.topics %>% as.data.frame() %>% mutate(cluster = input$Cluster, primary_genre = input$Genre) %>% filter(primary_genre=="Unknown") %>% select(-primary_genre,-cluster) %>% log
 
+#Create a training set
 should_be_training = sample(c(TRUE,FALSE),nrow(modeling_matrix),replace=T,prob = c(.75,.25))
 
+#Convert training set into dataframe
 training_frame = data.frame(modeling_matrix[should_be_training,])
 training_frame$match = NA
 
+#Build a model using GLM
 build_model = function(genre,model_function=glm,...) {
   # genre is a string indicating one of the primary_genre fields;
   # model function is something like "glm" or "svm";
@@ -104,6 +111,7 @@ build_model = function(genre,model_function=glm,...) {
   model = model_function(match ~ ., training_frame,...,weights = ifelse(match,1/match_ratio,1/(1-match_ratio)))
 }
 
+#Visualize top ten (filter_to_top) genres
 filter_to_top = 10
 topicsDF %>% 
   filter(should_be_training) %>% 
@@ -116,28 +124,30 @@ topicsDF %>%
   coord_flip() + 
   labs(title="most common genres, by number of episodes in training set")
 
-#I removed Unknown from the top genres
+#Create a value of the top genres. 
 top_genres = topicsDF %>% group_by(primary_genre) %>% summarize(cluster=n()) %>% mutate(rank=rank(-cluster)) %>% arrange(rank) %>% slice(1:filter_to_top) %>% select(primary_genre) %>% unlist
 
 top_genres
 
-
+#Create models
 models = lapply(top_genres,build_model,glm,family=binomial)
 
 # Here's where we predict on out-of-model data.
 predictions = lapply(models,predict,newdata = data.frame(modeling_matrix[!should_be_training,]),type="response")
 
-  
+# Convert to dataframe with scores for each genre  
 predictions_frame = do.call(cbind,predictions) %>% as.data.frame()
 names(predictions_frame) = top_genres
 
+# Add cluster number and primary genre
 predictions_frame = cbind(topicsDF %>% select(cluster,primary_genre) %>% filter(!should_be_training),predictions_frame)
 
+# Tidied data frame
 tidied = predictions_frame %>% gather("classified_genre","probability",-primary_genre,-cluster)
 
 
 
-
+# Create a data frame with top probability for each cluster
 best_guesses = tidied %>% group_by(cluster) %>% 
   arrange(-probability) %>% slice(1) %>% # (Only take the top probability for each episode)
   mutate(actual_genre=primary_genre)
@@ -188,8 +198,10 @@ out_of_domain_predictions_best_guesses = out_of_domain_predictions_tidied %>% gr
 
 genreClass = out_of_domain_predictions_best_guesses %>% mutate(Cluster = cluster) %>% left_join(clustersForTM) 
 
-
-write.csv(genreClass, file = paste('output/genreClass-12-1-15.csv',sep=""))
+justVignettes = genreClass %>% filter(classified_genre=="vignette") %>% select(-Cluster, -actual_genre, -Genre)
+justVignettes = justVignettes %>% mutate(V9 = Text) %>% inner_join(halfCluster) %>% select(cluster, primary_genre, classified_genre, probability, Text, V6)
+justVignettes = justVignettes %>% mutate(url = V6) %>% select(-V6)
+write.csv(justVignettes, file = paste('output/justVignettes-1-27-16.csv',sep=""))
 
 # END
 
