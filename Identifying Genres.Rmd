@@ -10,7 +10,13 @@ This file will be used primarily for identifying genres within the clusters usin
 source("functions.R")
 
 #Look for poetry by searching for the word "poem"
-poems = df[grep("^poe", df$V9),] %>% as.data.frame()
+vignettesWithA = allData[grep("^A ", allData$text),] %>% as.data.frame()
+write.csv(vignettesWithA, file = paste('output/vignettesWithA-7-5-16.csv',sep=""))
+
+
+vignettesWithStory = allData[grep("(?i)anecdote", allData$text),] %>% as.data.frame()
+sermon = allData[grep("(?i)sermon", allData$text),] %>% as.data.frame()
+
 
 #poems found using naive Bayes
 poems = read.csv("output/potentialpoems.csv", header=TRUE)
@@ -34,6 +40,8 @@ poems = poems[47:90,]
 #Look for sketches
 sketches = halfCluster[grep("SKETCH", halfCluster$V9),] %>% as.data.frame()
 
+#Look for sketches with a story...
+sketches = newData[grep("there is a", newData$text),] %>% as.data.frame() 
 
 
 
@@ -47,8 +55,9 @@ vignette = clusterGroup100000[grep("^beautiful", clusterGroup100000$V9),] %>% as
 
 #This worked out well for finding poems: search for a break followed by the word "BY" (works better with caps):
 
-poemswithBY = halfCluster[grep("<br/>BY", halfCluster$V9),] %>% as.data.frame()
-write.csv(poemswithBY, file = paste('output/poems-with-by.csv',sep=""))
+poemswithBY = beginData[grep("\nBY [A-Z]", beginData$text),] %>% as.data.frame()
+write.csv(poemswithBY, file = paste('output/poems11-2-16.csv',sep=""))
+write.xlsx(poemswithBY, "output/poems11-2-16.xlsx")
 
 #Grab 2 stories from poemswithBy (4958, 596)
 
@@ -61,7 +70,7 @@ storieswithBy = allClusterWordCount %>% filter(WordCount >= 500)
 ggplot(allClusterWordCount) + geom_text(aes(x=V1,y=WordCount,label=V1)) + scale_y_continuous(trans="log")
 
 #Name at the end of the cluster (or anything with Capital Letters)
-nameEnd = halfCluster[grep("<br/>[A-Z][-'a-zA-Z]+,?\\s[A-Z][-'a-zA-Z]{0,19}$", halfCluster$V9),] %>% as.data.frame()
+nameEnd = newData[grep("<br/>[A-Z][-'a-zA-Z]+,?\\s[A-Z][-'a-zA-Z]{0,19}$", newData$text),] %>% as.data.frame()
 write.csv(nameEnd, file = paste('output/name-at-end.csv',sep=""))
 
   

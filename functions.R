@@ -11,7 +11,11 @@ library(RSQLite)
 library(devtools)
 library(e1071)
 library(coreNLP)
-library(bookworm)
+#library(bookworm)
+library(mallet)
+library(pamr)
+library(lava)
+library(hunspell)
 
 #library(ggbiplot)
 

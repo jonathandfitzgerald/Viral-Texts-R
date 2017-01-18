@@ -7,21 +7,43 @@ This document includes the process for performing PCA on clusters. It requires s
 
 ```{r}
 
-#Streamlined PCA Code
+#Streamlined PCA Code for WORDS
 stopWords = stopwords("en")
-wordCutoff = 10
-df = poemswithBY %>% mutate(V1 = as.character(V1))
-clusterWords = getWords(df) 
-counts = clusterWords %>% mutate(word=tolower(word)) %>% group_by(V1,word) %>% dplyr::summarize(count=n()) %>% ungroup
-td = allWordsIntoTD(clusterWords,normalized = T) 
-justaMatrix = td %>% select(-V1)
+wordCutoff = 100
+df = allData
+allDataWords = getusersWords(df)
+counts = allDataWords %>% filter(word!="") %>% mutate(word=tolower(word)) %>% group_by(cluster,word,genre) %>% summarize(count=n()) %>% ungroup
+td = allDataWordsIntoTD(allDataWords,normalized = T) 
+justaMatrix = td %>% select(-cluster, -genre)
+justaMatrix = log(justaMatrix + .5)
 model = prcomp(justaMatrix)
 prediction = predict(model)
 prediction = prediction %>% 
-  as.data.frame %>% mutate(cluster=td$V1 %>% as.character) %>% 
-  select(cluster,PC1,PC2,PC3)
+  as.data.frame %>% mutate(cluster=td$cluster %>% as.character, genre=td$genre %>% as.character) %>% 
+  select(cluster,genre,PC1,PC2,PC3)
+
+#PCA Code for TOPICS (This assumes topic modelling has been completed in Topic Modelling Generic.r)
 
 
+#Create a dataframe with all topics for clusters that have known genres
+topicsDF = doc.topics %>% 
+  as.data.frame() %>% 
+  mutate(cluster = input$Cluster, primary_genre = input$Genre) %>% 
+  filter(primary_genre!="unknown")
+
+#Convert to a matrix
+modeling_matrix = topicsDF %>% select(-primary_genre, -cluster)
+modeling_matrix = log(modeling_matrix + .5)
+
+#PCA
+model = prcomp(modeling_matrix)
+prediction = predict(model)
+prediction = prediction %>% 
+  as.data.frame %>% 
+  mutate(cluster=topicsDF$cluster %>% 
+           as.character, genre=topicsDF$primary_genre %>% 
+           as.character) %>% 
+  select(cluster,genre,PC1,PC2,PC3)
 
 
 
@@ -42,15 +64,26 @@ model$rotation %>% as.data.frame %>% mutate(word=rownames(model$rotation)) %>% s
 ```
 
 
-Visualize using a variety of methods
+
 
 ```{r}
-
+#Visualize using a variety of methods
 #Visualize (Need to get V1 Cluster number into the mix)
 
-ggplot(prediction) + geom_point(aes(x=PC1,y=PC2,color=cluster))
-ggplot(prediction %>% mutate(V1=cluster) %>% inner_join(df) %>% filter(n()>5)) + geom_text(aes(x=PC1,y=PC2,label=V1))
+ggplot(prediction) + geom_point(aes(x=PC1,y=PC2,color=genre, size=5))
+
+ggplot(prediction %>% group_by(genre) %>% filter(n()>1)) + geom_point(aes(x=PC1,y=PC2,color=genre, shape=genre))
+ggplot(prediction %>% group_by(genre) %>% filter(n()>1)) + geom_point(aes(x=PC2,y=PC3,color=genre, shape=genre))
+
+
+ggplot(prediction) + geom_text(aes(x=PC1,y=PC2,label=cluster, shape=genre, color=genre))
+ggplot(prediction) + geom_text(aes(x=PC2,y=PC3,label=cluster, shape=genre, color=genre))
+
+
+ggplot(prediction) + geom_point(aes(x=PC2,y=PC3,color=genre))
+
 ggplot(prediction %>% mutate(url=url) %>% inner_join(df)) + geom_point(aes(x=PC2,y=PC3,shape=username,color=username,size=5))
+
 ggplot(prediction %>% mutate(url=url) %>% inner_join(df) %>% group_by(username) %>% filter(n()>5)) + geom_text(aes(y=PC1,x=as.Date(Date),color=username,size=5,label=username))
 
 ggplot(prediction %>% mutate(url=url) %>% inner_join(df) %>% group_by(username) %>% filter(n()>5)) + geom_text(aes(y=PC1,x=PC2,color=username,size=5,label=username))

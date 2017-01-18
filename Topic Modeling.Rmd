@@ -120,9 +120,9 @@ topicsDF %>%
   mutate(rank=rank(-cluster)) %>% 
   arrange(rank) %>% 
   ggplot() + 
-  geom_bar(aes(y=cluster,x=reorder(primary_genre,cluster),fill=rank<=filter_to_top),stat="identity") + 
+  geom_bar(aes(y=cluster,x=reorder(primary_genre,cluster),fill=primary_genre),stat="identity") + 
   coord_flip() + 
-  labs(title="most common genres, by number of episodes in training set")
+  labs(title="Most common genres, by number of clusters in training set")
 
 #Create a value of the top genres. 
 top_genres = topicsDF %>% group_by(primary_genre) %>% summarize(cluster=n()) %>% mutate(rank=rank(-cluster)) %>% arrange(rank) %>% slice(1:filter_to_top) %>% select(primary_genre) %>% unlist
@@ -160,7 +160,15 @@ confusion %>% group_by(actual_genre) %>% summarize(percent_right = 100 * sum(cou
 confusion %>% group_by(1) %>% summarize(percent_right = 100 * sum(count[actual_genre==classified_genre])/sum(count)) %>% arrange(-percent_right)
 
 
-
+genreClass %>% 
+  group_by(classified_genre) %>% 
+  summarize(cluster=n()) %>% 
+  mutate(rank=rank(-cluster)) %>% 
+  arrange(rank) %>% 
+  ggplot() + 
+  geom_bar(aes(y=cluster,x=reorder(classified_genre,cluster),fill=classified_genre),stat="identity") + 
+  coord_flip() + 
+  labs(title="Most common guessed genres, by number of clusters")
 
 
 #How is the classifier performing on topics?
@@ -197,11 +205,43 @@ out_of_domain_predictions_best_guesses = out_of_domain_predictions_tidied %>% gr
   mutate(actual_genre=primary_genre)
 
 genreClass = out_of_domain_predictions_best_guesses %>% mutate(Cluster = cluster) %>% left_join(clustersForTM) 
+write.csv(genreClass, file = paste('output/genreClass-2-3-16.csv',sep=""))
 
 justVignettes = genreClass %>% filter(classified_genre=="vignette") %>% select(-Cluster, -actual_genre, -Genre)
-justVignettes = justVignettes %>% mutate(V9 = Text) %>% inner_join(halfCluster) %>% select(cluster, primary_genre, classified_genre, probability, Text, V6)
+justVignettes = justVignettes %>% mutate(V9 = Text) %>% inner_join(halfCluster) %>% select(cluster, primary_genre, classified_genre, probability, Text, V6, V3)
 justVignettes = justVignettes %>% mutate(url = V6) %>% select(-V6)
 write.csv(justVignettes, file = paste('output/justVignettes-1-27-16.csv',sep=""))
+
+#Vignettes by year (work on this... create year column)
+justVignettes = justVignettes %>%
+  mutate(year=gsub(".*(\\d{4}).*","\\1",V3)) %>%
+  mutate("year" = as.numeric(year)) %>%
+  group_by(year) %>%
+  mutate(count=n()) %>% 
+  ungroup 
+
+  ggplot(justVignettes) +
+  geom_line() +
+  aes(x=year,y=count) + 
+  geom_point(size=count,alpha=.8) + 
+  ggtitle("Number of vignettes published by year")
+  
+#other genres by year
+genreClass = genreClass %>% mutate(V9 = Text) %>% inner_join(halfCluster) %>% select(cluster, primary_genre, classified_genre, probability, Text, V6, V3)  
+  
+genretoGraph = "poetry"
+genreClass %>%
+  mutate(year=gsub(".*(\\d{4}).*","\\1",V3)) %>%
+  mutate("year" = as.numeric(year)) %>%
+  group_by(year) %>%
+  mutate(count=n()) %>% 
+  ungroup %>%
+  filter(classified_genre==genretoGraph) %>%
+  ggplot() +
+  geom_line() +
+  aes(x=year,y=count) + 
+  geom_point(size=count,alpha=.8) + 
+  ggtitle("Number of poems published by year")
 
 # END
 
