@@ -41,8 +41,8 @@ build_model = function(genre,model_function=glm,...) {
   model = model_function(match ~ ., training_frame,...,weights = ifelse(match,1/match_ratio,1/(1-match_ratio)))
 }
 
-#Visualize top ten (filter_to_top) genres
-filter_to_top = 2
+#Visualize top ten (filter_to_top) genres YOU MIGHT NEED TO CHANGE THIS
+filter_to_top = 4
 topicsDF %>% 
   filter(should_be_training) %>% 
   group_by(primary_genre) %>% 
@@ -98,6 +98,8 @@ confusion %>%
   summarize(percent_right = 100 * sum(count[actual_genre==classified_genre])/sum(count)) %>% 
   arrange(-percent_right)
 
+#END TEST DATA
+
 
 #Create dataframe of averages per genre (first run, remove _column)
 averages_column = confusion %>% 
@@ -116,12 +118,12 @@ averages = merge(averages,averages_column,by="actual_genre")
 total_averages = merge(total_averages,total_averages_column,by="1")
 
 #Name columns
-names(averages)[2:21]<-paste("percent_right_",1:20,sep = "")
-names(total_averages)[2:21]<-paste("percent_right_",1:20,sep = "")
+names(averages)[2:11]<-paste("percent_right_",1:10,sep = "")
+names(total_averages)[2:11]<-paste("percent_right_",1:10,sep = "")
 
 #Compute averages
-averages = averages %>% mutate("average" = rowMeans(averages[2:21]))
-total_averages = total_averages %>% mutate("average" = rowMeans(total_averages[2:21]))
+averages = averages %>% mutate("average" = rowMeans(averages[2:11]))
+total_averages = total_averages %>% mutate("average" = rowMeans(total_averages[2:11]))
 
 #Bar plot on averages
 ggplot(averages) + geom_bar(stat="identity") + aes(x=actual_genre,y=average,fill=actual_genre) + coord_flip()
@@ -155,7 +157,7 @@ ggplot(top_predictors %>% filter(topic!="(Intercept)", strength>0)) + geom_bar(s
 
 
 # Here's where we predict on out-of-model data.
-# Work on this, still nto working quite right
+
 
 out_of_domain_predictions = lapply(models,predict,newdata = data.frame(unclassified_data),type="response")
 out_of_domain_predictions_frame = do.call(cbind,out_of_domain_predictions) %>% as.data.frame()
@@ -165,13 +167,13 @@ out_of_domain_predictions_tidied = out_of_domain_predictions_frame %>% gather("c
 out_of_domain_predictions_best_guesses = out_of_domain_predictions_tidied %>% group_by(cluster) %>% 
   arrange(-probability) %>% slice(1) %>% # (Only take the top probability for each episode)
   mutate(actual_genre=primary_genre)
-genreClass = out_of_domain_predictions_best_guesses %>% mutate(Cluster = cluster) %>% left_join(clustersForTM) 
+genreClass = out_of_domain_predictions_best_guesses %>% mutate(Cluster = cluster) %>% left_join(allData) 
 
 
 genreClass = genreClass %>% filter(probability>.8)
 genreClass = genreClass %>% filter(classified_genre=="Sentimental")
-genreClass = genreClass[,c("cluster","classified_genre","probability","Text")]
-write.csv(genreClass, file = paste('output/sentimentalClass-11-19-16.csv',sep=""))
+genreClass = genreClass[,c("cluster","classified_genre","probability","text")]
+write.csv(genreClass, file = paste('output/sentimentalClass-12-3-16.csv',sep=""))
 
 #visualize best guesses of unknown
 

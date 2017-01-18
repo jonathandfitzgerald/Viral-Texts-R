@@ -5,7 +5,7 @@ part00002 = read.csv("data/part-00002", header=TRUE, fill = TRUE, sep = ",", row
 part00003 = read.csv("data/part-00003", header=TRUE, fill = TRUE, sep = ",", row.names = NULL, stringsAsFactors = FALSE)
 part00004 = read.csv("data/part-00004", header=TRUE, fill = TRUE, sep = ",", row.names = NULL, stringsAsFactors = FALSE)
 beginData = rbind(part00000,part00001,part00002,part00003,part00004)
-beginData = beginData[,c("cluster","text")] 
+beginData = beginData[,c("cluster","text","url","size")] 
 
 #select longest witness of each cluster
 beginData = beginData %>% 
@@ -21,7 +21,7 @@ part00007 = read.csv("data/part-00997", header=TRUE, fill = TRUE, sep = ",", row
 part00008 = read.csv("data/part-00998", header=TRUE, fill = TRUE, sep = ",", row.names = NULL, stringsAsFactors = FALSE)
 part00009 = read.csv("data/part-00999", header=TRUE, fill = TRUE, sep = ",", row.names = NULL, stringsAsFactors = FALSE)
 endData = rbind(part00005,part00006,part00007,part00008,part00009)
-endData = endData[,c("cluster","text")] 
+endData = endData[,c("cluster","text","url","size")] 
 
 #select longest witness of each cluster
 endData = endData %>% 
@@ -60,7 +60,7 @@ allDataGenres$cluster = as.character(allDataGenres$cluster)
 allDataGenres = allDataGenres[ which(allDataGenres$genre!=''), ]
 
 #Read in sentimental classifier & merge with newData
-sentimental = read.csv("data/sentimental-11-19-16-JF.csv", header=TRUE, fill = TRUE, sep = ",", row.names = NULL, stringsAsFactors = FALSE)
+sentimental = read.csv("data/sentimental-11-19-16-combined.csv", header=TRUE, fill = TRUE, sep = ",", row.names = NULL, stringsAsFactors = FALSE)
 sentimental$cluster = as.character(sentimental$cluster)
 allData = newData %>% left_join(sentimental, by="cluster")
 allData = allData[,c("cluster","text.x","genre.y")]

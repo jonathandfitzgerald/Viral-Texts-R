@@ -73,6 +73,13 @@ ggplot(allClusterWordCount) + geom_text(aes(x=V1,y=WordCount,label=V1)) + scale_
 nameEnd = newData[grep("<br/>[A-Z][-'a-zA-Z]+,?\\s[A-Z][-'a-zA-Z]{0,19}$", newData$text),] %>% as.data.frame()
 write.csv(nameEnd, file = paste('output/name-at-end.csv',sep=""))
 
+#clusters about death of children
+death = newData[grep("\\bdeath\\W+(?:\\w+\\W+){0,10}?child", newData$text),] %>% as.data.frame()
+write.csv(death, file = paste('output/death.csv',sep=""))
+
+childDeath = read.csv("output/childdeath.csv", header=TRUE, fill = TRUE, sep = ",", row.names = NULL, stringsAsFactors = FALSE)
+childDeath = merge(childDeath,newData,by="cluster")
+
   
 
 #Experiments with capital letters at the start of a cluster

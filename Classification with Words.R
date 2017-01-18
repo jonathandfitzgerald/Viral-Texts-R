@@ -40,7 +40,7 @@ build_model = function(genre,model_function=glm,...) {
 }
 
 #Visualize top ten (filter_to_top) genres
-filter_to_top = 4
+filter_to_top = 2
 topicsDF %>% 
   filter(should_be_training) %>% 
   group_by(genre) %>% 
@@ -140,7 +140,7 @@ out_of_domain_predictions_best_guesses = out_of_domain_predictions_tidied %>% gr
 
 genreClassWords = out_of_domain_predictions_best_guesses %>% mutate(Cluster = cluster) %>% left_join(clustersForTM) 
 genreClassWords = genreClassWords[,c("cluster","classified_genre","probability","Text")]
-write.csv(genreClassWords, file = paste('output/vignetteClassWords-9-29-16.csv',sep=""))
+write.csv(genreClassWords, file = paste('output/SentimentalClassWords-12-3-16.csv',sep=""))
 
 #visualize best guesses of unknown
 
