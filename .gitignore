@@ -2,6 +2,7 @@
 .Rhistory
 .Rapp.history
 .RDataTmp
+.RDataTmp1
 .RData
 .DS_Store
 
