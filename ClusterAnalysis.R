@@ -1,5 +1,5 @@
 #Read in clusters parts
-part00000 = read.csv("data/part-00000.csv", header=TRUE, fill = TRUE, sep = ",", row.names = NULL, stringsAsFactors = FALSE)
+part00000 = read.csv("data/part-00000", header=TRUE, fill = TRUE, sep = ",", row.names = NULL, stringsAsFactors = FALSE)
 part00001 = read.csv("data/part-00001", header=TRUE, fill = TRUE, sep = ",", row.names = NULL, stringsAsFactors = FALSE)
 part00002 = read.csv("data/part-00002", header=TRUE, fill = TRUE, sep = ",", row.names = NULL, stringsAsFactors = FALSE)
 part00003 = read.csv("data/part-00003", header=TRUE, fill = TRUE, sep = ",", row.names = NULL, stringsAsFactors = FALSE)
