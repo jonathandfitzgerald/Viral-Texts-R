@@ -28,7 +28,7 @@ should_be_training = sample(c(TRUE,FALSE),nrow(modeling_matrix),replace=T,prob =
 
 #Convert training set into dataframe
 training_frame = data.frame(modeling_matrix[should_be_training,])
-training_frame$match = NA
+
 
 #Build a model using GLM
 build_model = function(genre,model_function=glm,...) {
@@ -58,6 +58,8 @@ topicsDF %>%
 top_genres = topicsDF %>% group_by(primary_genre) %>% summarize(cluster=n()) %>% mutate(rank=rank(-cluster)) %>% arrange(rank) %>% slice(1:filter_to_top) %>% select(primary_genre) %>% unlist
 
 top_genres
+
+
 
 #Create models (models = lapply(top_genres,build_model,glm,family=quasibinomial,maxit = 100))
 models = lapply(top_genres,build_model,glm,family=quasibinomial,maxit = 100)
