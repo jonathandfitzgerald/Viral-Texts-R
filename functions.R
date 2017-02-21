@@ -16,6 +16,7 @@ library(mallet)
 library(pamr)
 library(lava)
 library(hunspell)
+library(readr)
 
 #library(ggbiplot)
 

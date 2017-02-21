@@ -13,7 +13,7 @@ clustersForTM = data.frame(Cluster=as.character(dataTM$cluster),Text=as.characte
 
 input=clustersForTM
 
-n.topics=15
+n.topics=30
 
 #Don't change below...
 
