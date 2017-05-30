@@ -13,7 +13,8 @@ clustersForTM = data.frame(Cluster=as.character(dataTM$cluster),Text=as.characte
 
 input=clustersForTM
 
-n.topics=30
+n.topics=12
+SEED = 1789
 
 #Don't change below...
 
@@ -24,6 +25,7 @@ mallet.instances <- mallet.import(input$Cluster,
 
 
 topic.model <- MalletLDA(num.topics=n.topics)
+#topic.model$model$setRandomSeed(as.integer(SEED))
 topic.model$loadDocuments(mallet.instances)
 
 #Look at the word frequencies sorted in order.

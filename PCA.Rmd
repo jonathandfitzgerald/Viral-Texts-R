@@ -29,7 +29,7 @@ prediction = prediction %>%
 topicsDF = doc.topics %>% 
   as.data.frame() %>% 
   mutate(cluster = input$Cluster, primary_genre = input$Genre) %>% 
-  filter(primary_genre!="unknown")
+  filter(primary_genre=="unknown")
 
 #Convert to a matrix
 modeling_matrix = topicsDF %>% select(-primary_genre, -cluster)

@@ -1,4 +1,4 @@
-
+  
 #This assumes topic modelling has been completed in topicmodellingGenres.rmd
 
 #The input for classification is the topic modeled data frame from above.
@@ -88,7 +88,11 @@ best_guesses = tidied %>% group_by(cluster) %>%
 
 confusion = best_guesses %>% group_by(actual_genre,classified_genre) %>% summarize(`count`=n())
 ggplot(confusion) + geom_point(aes(y=classified_genre,x=count)) + facet_wrap(~actual_genre)
-ggplot(confusion) + geom_bar(stat="identity") + aes(x=actual_genre,y=count,fill=classified_genre) + coord_flip()
+ggplot(confusion) + geom_bar(stat="identity") + aes(x=actual_genre,y=count,fill=classified_genre) + coord_flip() + 
+  theme(plot.title = element_text(family = "Helvetica", color="#666666", face="bold", size=22, hjust=0)) +
+  theme(axis.title = element_text(family = "Helvetica", color="#666666", face="bold", size=18)) + 
+  theme(legend.title = element_text(family = "Helvetica", color="#666666", face="bold", size=18)) +
+  theme(axis.text = element_text(family = "Helvetica", color="#333333", face="bold", size=16))
 
 confusion %>% 
   group_by(actual_genre) %>% 
@@ -154,7 +158,11 @@ top_predictors = lapply(1:length(top_genres),function(n,return_length=50) {
 }) %>% rbind_all
 
 ggplot(top_predictors %>% filter(topic!="(Intercept)")) + geom_point(aes(x=strength,y=topic,color=strength>0)) + facet_wrap(~genre,scales="fixed",ncol=2)
-ggplot(top_predictors %>% filter(topic!="(Intercept)", strength>0)) + geom_bar(stat="identity") + aes(x=topic,y=strength,fill=genre) + coord_flip()
+ggplot(top_predictors %>% filter(topic!="(Intercept)", strength>0)) + geom_bar(stat="identity") + aes(x=topic,y=strength,fill=genre) + coord_flip() + 
+  theme(plot.title = element_text(family = "Helvetica", color="#666666", face="bold", size=22, hjust=0)) +
+  theme(axis.title = element_text(family = "Helvetica", color="#666666", face="bold", size=18)) + 
+  theme(legend.title = element_text(family = "Helvetica", color="#666666", face="bold", size=18)) +
+  theme(axis.text = element_text(family = "Helvetica", color="#333333", face="bold", size=16))
 
 
 
@@ -187,13 +195,19 @@ out_of_domain_predictions_best_guesses %>%
   ggplot() + 
   geom_bar(aes(y=cluster,x=reorder(classified_genre,cluster),fill=classified_genre),stat="identity") + 
   coord_flip() + 
-  labs(title="Most common guessed genres, by number of clusters")
+  labs(title="Most commonly guessed genres, by number of clusters") + 
+  theme(plot.title = element_text(family = "Helvetica", color="#666666", face="bold", size=22, hjust=0)) +
+  theme(axis.title = element_text(family = "Helvetica", color="#666666", face="bold", size=18)) + 
+  theme(legend.title = element_text(family = "Helvetica", color="#666666", face="bold", size=18)) +
+  theme(axis.text = element_text(family = "Helvetica", color="#333333", face="bold", size=16))
 
 out_of_domain_predictions_best_guesses %>% 
   group_by(classified_genre) %>% 
   summarize(cluster=n()) %>% 
   mutate(percent=(cluster/nrow(out_of_domain_predictions_best_guesses))*100) %>% 
-  arrange(-percent)
+  arrange(-percent) 
+  
+
 
 #Rank classified genres in order of probability THE RESHAPE PACKAGE FOR CAST BREAKS THE MODEL FOR SOME REASON
 genreRank = out_of_domain_predictions_tidied %>% group_by(cluster) %>% arrange(-probability) %>% mutate(genreOrder = paste("genre_",row_number(-probability),sep=""))
@@ -201,7 +215,7 @@ genreRank$probability=paste(round(genreRank$probability*100,digits=2)) %>% as.nu
 genreRank = genreRank %>% cast(cluster~classified_genre, value="probability") 
 genreRank = genreRank %>% left_join(allData) 
 genreRank = genreRank[,c("cluster","text","prose","advertisement","news","poetry")]
-write.csv(genreRank, file = paste('output/genreRank-6-28-16.csv',sep=""))
+write.csv(genreRank, file = paste('output/genreRank-2-22-17.csv',sep=""))
 
 #Histogram for genreRank
 

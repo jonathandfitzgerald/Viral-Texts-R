@@ -77,6 +77,7 @@ names(allData)[names(allData)=="text.x"] <- "text"
 #allData <- allData[sample(1:nrow(allData), 2000,replace=FALSE),]
 allData = replace(allData, is.na(allData), "unknown") 
 
+
 #Merge hand-tagged vignettes into alldata
 vignettes = read.csv("data/vignettesWithA-7-5-16.csv", header=TRUE, fill = TRUE, sep = ",", row.names = NULL, stringsAsFactors = FALSE)
 vignettes = vignettes[,c("cluster","text","genre")]

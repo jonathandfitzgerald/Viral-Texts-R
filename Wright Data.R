@@ -22,12 +22,18 @@ allWRIGHT$text = gsub("/n", "", allWRIGHT$text)
 allWRIGHT$text = gsub("\r?\n|\r", "\\s", allWRIGHT$text)
 allWRIGHT$text = gsub(".*?----FULL TEXT----", " ", allWRIGHT$text)
 
-#sample 8 in an effor to get a smaller corpus
+#sample 8 in an effort to get a smaller corpus
 #allWRIGHT <- allWRIGHT[sample(1:nrow(allWRIGHT), 8,replace=FALSE),]
 
+#convert text to string and chunk by character count. Convert to df
 allWRIGHT_string = paste(unlist(allWRIGHT$text), collapse =" ")
 allWRIGHT_string = substring(allWRIGHT_string,seq(1,nchar(allWRIGHT_string),2000),seq(2000,nchar(allWRIGHT_string),2000))
 allWRIGHT2 = allWRIGHT_string %>% as.data.frame()
+
+# Use Lincoln's update of tokenizers to chunk text
+allWRIGHT2 = chunk_text(allWRIGHT$text, chunk_size = 300, doc_id = allWRIGHT$filename) %>% as_data_frame()
+allWRIGHT2 = allWRIGHT2 %>% gather(id, text)
+
 allWRIGHT2 = allWRIGHT2 %>% as.data.frame()
 allWRIGHT2 = allWRIGHT2 %>% mutate(genre="fiction")
 allWRIGHT2 = allWRIGHT2 %>% mutate(cluster=paste("wright",1:nrow(allWRIGHT2), sep = "_"))

@@ -17,7 +17,13 @@ library(pamr)
 library(lava)
 library(hunspell)
 library(readr)
-
+library(twitteR)
+library(tidytext)
+library(tokenizers)
+library(plotly)
+library(magrittr)
+library(tidyverse)
+library(wordVectors)
 #library(ggbiplot)
 
 
@@ -111,4 +117,8 @@ dunning.log = function(set1,set2) {
   data.frame(word = names(dunning),largerIn = ifelse(dunning>0,"set1","set2"),dunning=abs(dunning),group1=wordlist$count.x,group2=wordlist$count.y)
 }
 
+
+#plotly
+Sys.setenv("plotly_username"="jonathandfitzgerald")
+Sys.setenv("plotly_api_key"="qksRUSqO7kZ8Xeccbayq")
 
