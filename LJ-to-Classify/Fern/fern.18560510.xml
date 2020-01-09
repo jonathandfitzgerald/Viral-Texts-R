@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560510">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">"Leaves Of Grass" ; "Little Benny"</title>
+            <title type="sub">a machine-readable transcription</title>
+             <editor xml:id="jf">Jacob K. Friefeld</editor>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2014</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                   <title level="a">"Leaves Of Grass" ; "Little Benny"</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-05-10">10 May 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+          <change who="#km" when="2015-03-13">further updated encoding; proofed text</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#jf" when="2012-05-02">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18560510.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18560510.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18560510.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18560510.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18560510.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18560510.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18560510.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18560510.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+            
+            
+            
+            
+            <div type="column">
+            <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by R. BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                <head type="main">"Leaves Of Grass."</head>
+                
+                <p>Well baptized: fresh, hardy, and grown for the masses. Not more welcome is their natural type to the winter-bound, bed-ridden, and spring-emancipated invalid. "Leaves of Grass" thou art unspeakably delicious, after the forced, stiff, Parnassian exotics for which our admiration has been vainly challenged.</p>
+                
+                <p>Walt Whitman, the effeminate world needed thee. The timidest soul whose wings ever drooped with discouragement, could not choose but rise on thy strong pinions.</p>
+                
+                <lg type="stanza">
+                    <l>"Undrape&#8212;you are not guilty to me, nor stale nor discarded;</l>
+                    <l>I see through the broadcloth and gingham whether or no."</l>
+                </lg>
+                
+                <milestone unit="asterisks"/>
+                
+                <lg type="stanza">
+                    <l>"O despairer, here is my neck,</l>
+                    <l>You shall not go down! Hang your whole weight upon me."</l>
+                </lg>
+                
+         
+                <p>Walt Whitman, the world needed a "Native American" of thorough, out and out breed&#8212;enamored of <hi rend="italic">women</hi> not <hi rend="italic">ladies, men</hi> not <hi rend="italic">gentlemen;</hi> something beside a mere Catholic-hating Know-Nothing; it needed a man who dared speak out his strong, honest thoughts, in the face of pusillanimous, toadeying, republican aristocracy; dictionary-men, hypocrites, cliques and creeds; it needed a large-hearted, untainted, self-reliant, fearless son of the Stars and Stripes, who disdains to sell his birthright for a mess of pottage; who does</p>
+                
+                <lg type="stanza">
+                   <l>"Not call one greater or one smaller,</l>
+                   <l>That which fills its period and place being equal to any;"</l> 
+                </lg>
+                
+                <p>who will</p>
+                
+                <lg type="stanza">
+                    <l>"Accept nothing which cannot have their counterpart of on the same terms."</l>
+                </lg>
+                
+                <p>Fresh "Leaves of Grass!" not submitted by the self-reliant author to the fingering of any publisher's critic, to be arranged, re-arranged and disarranged to his circumscribed liking, till they hung limp, tame, spiritless, and scentless. No. It were a spectacle worth seeing, this glorious Native American, who when the daily labor of chisel and plane was over, himself, with toil-hardened fingers, handled the types to print the pages which wise and good men have since delighted to endorse and to honor. Small critics, whose contracted vision could see no beauty, strength, or grace, in these "Leaves," have long ago repented that they so hastily wrote themselves down shallow by such a premature confession. Where an Emerson, and a Howitt have commended, my woman's voice of praise may not avail; but happiness was born a twin, and so I would fain share with others the unmingled delight which these "Leaves" have given me.</p>
+                
+                <p>I say unmingled; I am not unaware that the charge of coarseness and sensuality has been affixed to them. My moral constitution may be hopelessly tainted or&#8212;too sound to be tainted, as the critic wills, but I confess that I extract no poison from these "Leaves"&#8212;to me they have brought only healing. Let him who can do so, shroud the eyes of the nursing babe lest it should see its mother's breast. Let him look carefully between the gilded covers of books, backed by high-sounding names, and endorsed by parson and priest, lying unrebuked upon his own family table; where the asp of sensuality lies coiled amid rhetorical flowers. Let him examine well the paper dropped weekly at his door, in which virtue and religion are rendered disgusting, save when they walk in satin slippers, or, clothed in purple and fine linen, kneel on a damask <hi rend="italic">"prie-dieu."</hi></p>
+                
+                <p>Sensual!&#8212;NO&#8212;the moral assassin looks you not boldly in the eye by broad daylight; but Borgia-like takes you treacherously by the hand, while from the glittering ring on his finger he distils through your veins the subtle and deadly poison.</p>
+                
+                <p>Sensual? The artist who would inflame, paints you not nude Nature, but stealing Virtue's veil, with artful artlessness now conceals, now exposes, the ripe and swelling proportions.</p>
+                
+                <p>Sensual? Let him who would affix this stigma upon "Leaves of Grass," write upon his heart, in letters of fire, these noble words of its author: </p>
+                
+                <lg type="stanza">
+                    <l>"In woman I see the bearer of the great fruit, which is immortality * * * * the good thereof is not tasted by <hi rend="italic">roues</hi> and never can be.</l>
+                </lg>
+                
+                <milestone unit="asterisks"/>
+                
+                <lg type="stanza">
+                    <l>Who degrades or defiles the living human body is cursed,</l>
+                    <l>Who degrades or defiles the body of the dead is not more cursed."</l>
+                </lg>
+                
+                
+           
+                <p>Were I an artist I would like no more suggestive subjects for my easel than Walt Whitman's pen has furnished.</p>
+                
+                <lg type="stanza">
+                    <l>The little one sleeps in its cradle,</l>
+                    <l>I lift the gauze and look a long time, and silently brush away flied with my hand.</l>
+                    <l>The farmer stops by the bars of a Sunday and looks at the oats and rye.</l>
+                </lg>
+                
+                <milestone unit="asterisks"/>
+                
+               
+                
+                <lg type="stanza">
+                    <l>Earth of the slumbering and liquid trees!</l>
+                    <l>Earth of departed Sunset,</l>
+                    <l>Earth of the mountain's misty topt!</l>
+                    <l>Earth of the vitreous pour of the full moon just tinged with blue!</l>
+                    <l>Earth of shine and dark mottling the tide of the river!</l>
+                    <l>Earth of the limpid grey of clouds brighter and clearer for my sake!</l>
+                    <l>Far swooping elbowed earth! Rich apple-blossomed earth!</l>
+                    <l>Smile, for your lover comes!"</l>
+                </lg>
+                
+                <p>I quote at random, the following passages which appeal to me: </p>
+                
+                <lg type="stanza">
+                    <l>"A morning glory at my window, satisfies me more than the metaphysics of books.</l>
+                </lg>
+                
+                <milestone unit="asterisks"/>
+                
+                <lg type="stanza">
+                    <l>Logic and sermons never convince.</l>
+                    <l>The damp of the night drives deeper into my soul."</l>
+                </lg>
+                
+                <p>Speaking of animals, he says:</p>
+                
+                <lg type="stanza">
+                    <l>"I stand and look at them sometimes half the day long.</l>
+                    <l><hi rend="italic">They</hi> do not make me sick, discussing their duty to God.</l>
+                </lg>
+                
+                <milestone unit="asterisks"/>
+                
+                <lg type="stanza">
+                    <l>&#8212;Whoever walks a furlong without sympathy, walks to his own funeral dressed in his shroud.</l>
+                </lg>
+                
+                <milestone unit="asterisks"/>
+                
+                <lg type="stanza">
+                    <l>I hate him that oppresses me,</l>
+                    <l>I will either destroy him, or he shall release me.</l>
+                </lg>
+                
+                <milestone unit="asterisks"/>
+                
+                <lg type="stanza">
+                    <l>I find letters from God dropped in the street, and every one is signed by God's name,</l>
+                    <l>And I leave them where they are, for I know that others will punctually come forever and ever.</l>
+                </lg>
+                
+                <milestone unit="asterisks"/>
+                
+                <lg type="stanza">
+                    <l>&#8212;&#8212;Under Niagara, <hi rend="italic">the cataract falling like a veil over my countenance."</hi></l>
+                </lg>
+                
+                <p>Of the grass he says:</p>
+                
+              <lg type="stanza">
+                  <l>"It seems to me <hi rend="italic">the beautiful uncut hair of graves</hi>.</l>
+              </lg>
+                
+                
+                <p>I close the extracts from these "Leaves," which it were easy to multiply, for one is more puzzled what to leave unculled, than what to gather, with the following sentiments; for which, and for all the good things included between the covers of his book, Mr. Whitman will please accept the cordial grasp of a woman's hand: </p>
+                
+                <lg type="stanza">
+                    <l>"The wife&#8212;and she is not one jot less than the husband,</l>
+                    <l>The daughter&#8212;and she is just as good as the son,</l>
+                    <l>The mother&#8212;and she is every bit as much as the father."</l>
+            </lg>
+                
+                
+                <byline>FANNY FERN.</byline> 
+         </div>
+                
+           <div type="column">      
+                <head type="main">"LITTLE BENNY."</head>
+                
+                <p>So the simple headstone said. Why did my eyes fill? I never saw the little creature. I never looked in his laughing eye, or heard his merry shout, or listened for his tripping tread; I never pillowed his little head, or bore his little form, or smoothed his silky locks, or laved his dimpled limbs, or fed his cherry lips with dainty bits, or kissed his rosy cheek as he lay sleeping.</p>
+               
+                <p>I did not see his eye grow dim; or his little hand droop powerless; or the dew of agony gather on his pale forehead; I stood not with clasped hands and suspended breath, and watched the look that comes but once, flit over his cherub face. And yet, "little Benny," my tears are falling; for, <hi rend="italic">somewhere</hi>, I know, there is an empty crib, a vacant chair, useless robes and toys, a desolate hearthstone, and a weeping mother.</p>
+                
+                <q>"LITTLE BENNY!"</q>
+                
+                <p>It was all her full heart could utter; and it was enough. It tells the whole story.</p>
+               
+               <byline>FANNY FERN.</byline>
+            </div>
+            
+            
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

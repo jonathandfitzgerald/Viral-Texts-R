@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560405">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Soliloquy Of Overgrown Fifteen; A Tilt at the New Spring Bonnets; "Parasol" Repairs.</title>
+            <title type="sub">a machine-readable transcription</title>
+             <editor xml:id="jf">Jacob K. Friefeld</editor>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2014</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">Soliloquy Of Overgrown Fifteen; A Tilt at the New Spring Bonnets; "Parasol" Repairs.</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-04-05">5 April 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2016-09-18">added missing quotation mark</change>
+         <change who="#km" when="2015-02-03">further upated encoding; proofed text</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#jf" when="2012-05-02">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18560405.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18560405.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18560405.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18560405.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18560405.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18560405.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18560405.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18560405.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+            
+            
+            
+            
+            <div type="column">
+            <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by R. BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                <head type="main">SOLILOQUY OF OVERGROWN FIFTEEN.</head>
+               
+                <p><corr type="addition">I</corr> sprang up, like Jonah's gourd, in a night; I am as tall as a bean stalk and as green; I am thick where I ought to be thin, and thin where I should be thick; I am too big to drive hoop, and not old enough to wear one; too tall to let my hair loose on my shoulders, and not old enough to twist it up with a comb; I am too large to wear an apron, and I can't keep  my dress clean without one; I have out-grown tucks, and am not allowed to wear flounces; I have to pay full price in the omnibusses, and yet gentlemen, because of my baby-face, never pull the strap for me; I have lost my relish for "Mother Goose," and am not allowed to read love stories; old men have done giving me sugar plums, and young men have not begun to give me "kisses;" I have done with gingerbread hearts, and nobody offers me the other sort; I have given up playing with "doll-babies," and am forbidden to think of a husband; if I ask my mother for a "dress hat," she says, "Pshaw! you are nothing but a child;" if I run or jump in the street, she says, "My dear, you should remember that you are a young lady now." I say it's real mean; so there now, and I don't care.</p>
+                
+                
+                <byline>FANNY FERN.</byline>
+         </div>
+         
+            <milestone unit="line"/>
+         
+            <div type="column">
+            <head type="main">A TILT AT THE NEW SPRING BONNETS.</head>
+               
+               <p>Editors are in league with the milliners&#8212;there is no doubt about that; a good&#8212;long&#8212;continuous&#8212;advertisement from them is a regular tongue-tyer to the editorial corps, who praise their most ridiculous inventions and importations, in the shape of bonnets; of which the new Spring hats are the most absurdly-absurd-absurdities.</p>
+               
+               <p>In this state of things, and in view of the horrors the milliners are about to visit on us ladies, (I need not say <hi rend="italic">us</hi>, for may I go barehead&#8212;I should say unbonnetted&#8212;before I mount one of them.) I hail with applause the following judicious and <hi rend="italic">independent</hi> editorial comments upon this subject from the Sunday Times&#8212;which I trust were written on a week day. They are those of a man whose opinion has not been bought up by milliners' advertisements, and whose sentiments are mine to the letter. But to the extract:</p>
+               
+            
+               <q>Sir Pedestrian, did <hi rend="italic">you</hi> happen to notice the perplexed ladies out in the avenues so jostlingly last Thursday? Then, by these tokens did you recognize milliner's opening day.</q>
+               
+            <q>We have seen the hats. We abominate them. We pray for the extinction of the <hi rend="italic">shapes</hi>. How long shall the Empress Eugenie rule American ladies? We saw yesterday the wife of a prominent Hindoo with one of these abomination hats on (we beg pardon, <hi rend="italic">off,</hi>) her head. <hi rend="italic">He</hi> cries "Americans must rule America;" and yet allows the Empress to rule his wife, who rules him! Mrs. Napoleon is a Spanish lady. Spanish ladies abominate hats. Mrs. N., when she became a French wife, made a compromise, and wore something like a cap at the back of her head, and exposed the whole front and top: forthwith all England and America imitate her. Mrs. N. is in a looked-for situation, and she wears hoops: forthwith the ladies, young and old, of America and England imitate the hoops, producing a philosophical anomaly, in most cases, of an effect without a cause!</q>
+               
+               <q><hi rend="italic">When will the dear delightful "kiss-me-quicks" come back?&#8212;those saucy little bonnets, which gave the head shape&#8212;allowed us to see the neck, instead of its being hid by a curtain&#8212;gave a spirit to the spread of the shoulders, instead of hunching them&#8212;which covered the top of the head from rain and sun, and gave the face an expression of beauty&#8212;living Grecian beauty instead of making it appear as if the owner were being guillotined.</hi></q>
+               
+               <q><hi rend="italic">Well! we live in hope. When Eugenie gets her baby, and if it should turn out a girl, maybe she will feel like hiding her head. Then our ladies will do the same. As the fashions now go, bonnets are still off&#8212;so let the gentlemen in all gallantry try "Hats off!"</hi></q>
+            
+            
+            <p>The only marvel to me is, how a <hi rend="italic">man</hi> could write so sensibly, and so knowingly, on so top-knot-ty a subject!</p>
+               
+                <byline>FANNY FERN.</byline>
+         </div>
+            
+         <milestone unit="line"/>
+            
+           <div type="column"> 
+            
+               <head type="main">"PARASOL" REPAIRS.</head>
+               
+              <p>MR. BONNER:&#8212;Had you written an article for the LEDGER, called "Peeps from under a Parasol," and had the printer's devil made you say&#8212;"<hi rend="italic">heavily</hi>," instead of "<hi rend="italic">vainly</hi>;" and&#8212;"write book," instead of "write a book;" and&#8212;"<hi rend="italic">eat</hi> bread and molasses," instead of "<hi rend="italic">eaten</hi>" bread and molasses;" and&#8212;"<hi rend="italic">wearied</hi>," instead of "<hi rend="italic">weird</hi>;" and&#8212;had you then reflected upon the immense circulation of the "LEDGER," and the thousands of readers who would suppose those horrid mistakes yours&#8212;oh! Mr. BONNER, no Dictionary <hi rend="italic">can</hi> express my emotions!</p>
+               
+               
+               <byline>FANNY FERN.</byline>
+         </div>
+            
+            
+        </body>
+   </text>
+</TEI>

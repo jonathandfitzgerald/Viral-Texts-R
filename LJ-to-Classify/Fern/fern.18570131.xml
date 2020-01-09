@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18570131">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">First Pure</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="cm">Carmen McCue</editor>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2015</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">First Pure</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1857-01-31">31 January 1857</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-10-10">proofed, and further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#cm" when="2012-04-08">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18570131.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18570131.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18570131.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18570131.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18570131.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18570131.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18570131.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18570131.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+            
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+
+                <epigraph>
+                    <p>Entered according Act of Congress, in the year 1856, by Robert Bonner, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+
+                <head type="main">FIRST PURE.</head>
+
+                <p>I would that I had time to answer the many kind letters I receive from my unknown friends, or power, as they seem to imagine, to reform the abuses to which they call my attention. The subject of licentiousness, upon which I have just received a letter, is one upon which I have thought much and often since my residence in New York. I could not, if I would, ignore it, when at every step its victims rustle past me in the gay livery of shame, or stretch out to me, from beneath tattered garments, the hand, prematurely old, which should, alas! wear the golden pledge of honorable love. But they tell me this is a subject a woman cannot understand, and should not write about. Perhaps so; but woman can understand it when, like a blighting mildew, it strips bud, blossom, and verdure, from her household olive-plants; woman can understand it, when she weeps in secret over the wrong which she may not whisper even to herself; woman can understand it, when the children of the man whom she thought worthy of her maidenly love and honor, sink into early graves, under the inherited taint of his "youthful follies."</p>
+
+               <p>And yet they are right: virtuous woman does <hi rend="italic">not</hi> understand it; would that she did&#8212;would that she sometimes paused to think of her share of blame in this matter; would that she knew how much her ready smile, and <hi rend="italic">indiscriminate hand of welcome</hi> has to do in perpetuating it; how often it blunts the sting of conscience, and confirms the immoral man in that detestable clubhouse creed, that woman's virtue depends upon opportunity. Would that mothers would sometimes ask, not&#8212;is he a gentleman, or is he accomplished; but, is he moral? is he pure? Pure! Young New York holds its sides in derision at the word. Pure! is he in leading strings? Pure! it is a contemptible reflection on his manhood and free will. Pure! it is a word for old women and priests.</p>
+
+                <p>I once expressed my astonishment to a lady, that she should permit the calls of a gentleman whom she knew to be licentious. "That is none of my business, you know, my dear," she replied, "so long as he behaves himself properly in my presence;" and this answer, I am afraid, would be endorsed by too many of my readers. As well might she have said, that it was none of her business that her neighbor's house was in flames, or that they had the yellow fever or the plague. That a man sings well, dresses well, or talks well, is, I am sorry to say, too often sufficient to outweigh his moral delinquency. This is poor encouragement to young men who, not having yet learned to think lightly of the sex to which their mothers and sisters belong, are old-fashioned enough to wish to lead virtuous lives; and some of whom notwithstanding have the courage and manhood in these degenerate days to <hi rend="italic">dare</hi> to do it.</p>
+
+                <p>As to a reform in this matter, I think virtuous women must begin it, by turning the cold shoulder to every man of their acquaintance whom they know to be immoral, and I think a woman of penetration will not be at fault, if she takes pains to sift a man's sentiments in conversation.</p>
+
+               <p>Perhaps you will tell me, (though I hope it is not so,) that this would exclude two-thirds of every lady's gentlemen acquaintance. Be it so&#8212;better for those ladies, better for their daughters, if they have any, better for the cause of virtue; at least, it would not take long, at that rate, to thin the ranks of vice.</p>
+
+               <p>I wonder does man never think, in his better moments, how much nobler it were to protect than to debase woman?&#8212;aye, protect her&#8212;if need be&#8212;<hi rend="italic">even from herself</hi>; and ignoring the selfish creed that she has a right to, and is alone responsible for, her own self-disposal, withdraw her as with a brother's hand from the precipice over which misery or inclination would plunge her, and prove to the "weaker sex" that he is in the noblest sense the stronger. That, indeed, were God-like.</p>
+
+                <byline>FANNY FERN.</byline>
+            </div>
+
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

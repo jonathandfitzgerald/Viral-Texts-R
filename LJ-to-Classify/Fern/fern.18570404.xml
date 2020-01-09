@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xml:id="fern.18570404" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Has a Mother a Right to Her Children?; The Soul&#8212;and the Stomach</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <date>2014</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to Kevin McMullen, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Has a Mother a Right to Her Children?; The Soul&#8212;and the Stomach</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-04-04">4 April 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2014-09-25" who="#km">updated sourceDesc encoding</change>
+            <change when="2014-09-19" who="#km">facsimile element added</change>
+            <change when="2014-04-29" who="#km">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570404.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570404.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570404.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570404.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570404.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570404.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570404.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570404.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+           
+            <div>
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according Act of Congress in the year 1855 by Robert Bonner, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <div>
+                        <head type="main">HAS A MOTHER A RIGHT TO HER CHILDREN?</head>
+                
+                    <p>Most unquestionably, law or no law. Let us begin at the beginning. Let us take into consideration the physical prostration of mind and boyd endured by mothers antecedent to the birth of their offspring; their extreme nervousness and restlessness, without the ability for locomotion; the great nameless horror which hangs over those, who for the first time are called upon to endure agonies that no man living would have fortitude to bear more than once, even at their shortest period of duration; and which, to those who have passed through it, is intensified by the vivid recollection (the only verse in the Bible which I call in question being this&#8212;"She remembereth no more her pains, for joy that a man-child is born into the world.) Granted that the mother's life is spared through this terrible ordeal, she rises from her sick bed, after weeks of prostration, with the 
+                    
+                    <figure>
+                        <graphic url="http://fannyfern.org/images/illustrations/fern18570404.04_ill1.jpg"/>
+                        <figDesc>A woman, seated in a chair and holding a young child.</figDesc>
+                    </figure>
+                    
+                    precious burthern in her arms which she has carried so long and so patiently beneath her heart. Oh, the continuous, tireless watching necessary to preserve the life and limbs of this fragile little thing! At a time, too, of all times, when the mother most needs relaxation and repose. It is known only to those who have passed through it. Its reward is with Him who seeth in secret.</p>
+                
+                <p>I speak now only of <hi rend="italic">good</hi> mothers; mothers who deserve the high and holy name. Mothers who in their unselfish devotion look not at their capacity to endure, but the duties allotted them, (would that husbands and fathers did not so often leave it to the tombstone to call their attention to the former.) Mothers, whose fragile hands keep the domestic tread-mill in as unerring motion as if no new care was superadded in the feeble wail of the new-born infant. Mothers whose work is literally <hi rend="italic">never</hi> done; who sleep with one eye open, entrusting to no careless hireling the precious little life. Mothers who can scarce secure to themselves five minutes of the morning hours free from interruption, to ask God's help that a feeble tired woman may hold evenly the scales of domestic justice amid the conflicting elements of human needs and human frailties. Now I ask you&#8212;shall any human law, for any conceivable reason, wrest the child of such a mother from her frenzied clasp?</p>
+                
+                <p>Shall any human law, give into a man's hand, though that man be the child's own father, the sole right to its direction and disposal? Has not she, who suffered, martyr-like, these crucifying pains&#8212;these wearisome days and sleepless nights, <hi rend="italic">earned</hi> this her sweet reward?</p>
+                
+                <p>Shall any virtuous woman, who is in the full possession of her mental faculties, how poor soever she be, be <hi rend="italic">beggared</hi> by robbing her of that which has been, and, thank God! will be, the salvation of many a down-trodden wife?</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>
+                    </div>
+                
+                <milestone unit="line"/>
+
+                <div>
+                    <head type="main">THE SOUL&#8212;AND THE STOMACH.</head>
+                    
+                    <p>There is a good old man. His head is white&#8212;his form is bent&#8212;his step slow and tremulous. Life has no charms for him and the opening grave is full of terrors; he wanders up and down&#8212;up and down&#8212;wringing his withered hands, and says, "I have committed the unpardonable sin; I am lost&#8212;lost&#8212;lost." They who love him, and their name is Legion, look on dismayed at this good father, good husband, good nieghbor, good Christian; and one of them says to me, "why, if your God be merciful does he afflict his faithful servant thus? God is not good."</p>
+                    
+                    <p>God <hi rend="italic">is</hi> good, though all else fail, and we like insects creep and complain; God is good. It is not religion that makes the old man gloomy&#8212;it is not, that the word of God shall not stand forever; but He who has bid us care for the soul, bids us also care for the body. "If one member suffer, all the other members suffer with it." If we neglect the laws of health, and abuse our bodies, <hi rend="italic">even in his service</hi>, he does not guarantee to the delinquent, a strong mind, an unperverted spiritual vision&#8212;clouds and darkness will come between us and the Sun of Righteousness, and though we shall feel after Him, we shall grope like children in the dark. It is an earthly physician, which such as that old man needs; a tonic for the body, not a sermon from the pulpit. Let him lean upon your arm, lead him forth to the green fields, where every little bird sings God is good; where waving trees and blossoming flowers pass the whisper round with myriad voices; take away the old man's psalm-book, and let him listen to that anthem, and as the soft breath of spring lifts his white locks from his troubled brow, the film of disease will fall from his eyes, and he too shall sing that God is <hi rend="italic">good</hi>.</p>
+                    
+                    <p>Never lay upon the back of Religion what Dyspepsia should shoulder; the Christian warrior, no more than any other, can afford to neglect or gorge his "rations" when preparing for battle; nor if either faint by the way, in consequence, is it to be laid to the commander.</p>
+                    
+                    <byline>FANNY FERN.</byline>
+                </div>
+               
+            </div>
+           
+        </body>
+        
+    </text>
+</TEI>

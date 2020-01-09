@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560202">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Getting Up The Wrong Way</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor xml:id="jf">Jake Friefeld</editor>
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            <publicationStmt>
+                <date>2014</date>
+                <availability> <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">     <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike         4.0 Unported License         (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be         credited to Fanny Fern in The New York Ledger, made available         non-commercially, and distributed under the same terms.</p> </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct xml:id="column"> <analytic>     <author ref="#ff">Fanny Fern</author>     <title level="a">Getting Up The Wrong Way</title> </analytic> <monogr>     <title xml:id="paper" level="j">The New-York Ledger</title>     <editor ref="#rb">Robert Bonner</editor>     <imprint>         <date xml:id="issue_date" when="1856-02-02">2 February 1856</date>     </imprint>     <biblScope type="pp">[4]</biblScope> </monogr> <series>     <title level="s">Fresh Fern Leaves</title> </series>
+                </biblStruct>
+                <biblStruct xml:id="issue"> <monogr>     <title level="j" sameAs="#paper"/>     <imprint>         <date sameAs="#issue_date"/>     </imprint> </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text.
+                Hyphenation, punctuation, variant spellings, and errors present in the source text
+                have been retained. The transcription does not attempt to capture all aspects of the
+                original formatting or layout.</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="#km" when="2016-09-18">added missing phrase from first paragraph</change>
+            <change who="#km" when="2014-10-09">updated encoding</change>
+            <change who="#jf" when="2012-05-02">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18560202.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18560202.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18560202.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18560202.04.jpg"/>
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18560202.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18560202.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18560202.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18560202.08.jpg"/>
+        </surface>
+    </facsimile>
+
+    <text>
+        <body>
+
+            <div>
+                <head type="column">Fresh Fern Leaves</head>
+
+                <epigraph> <p>Entered according to Act of Congress, in the year 1855, by R. BONNER, in the     Clerk's Office of the District Court for the Southern District of New     York.</p>
+                </epigraph>
+
+                <head type="main">GETTING UP THE WRONG WAY.</head>
+
+                <p> It was an unlucky day; everybody has known such. I got up just one hour too late, and spent the whole day vainly trying to make it up. It was useless Things were predestined to go wrong. I felt it. Hooks and eyes, strings and buttons were in the maddening conspiracy. Shoes and stockings were mismated; there was a pin in the towel on which I wiped my face; my hair-brush and comb had absconded, and my hair-brush and nail-brush had gone to keep them company. I ate a hurried breakfast, salting my coffee and sugaring my beefsteak; for I recollected that I had pressing business down town which required a cool head and punctual feet; as I looked at my watch I saw that it was already time that I was on my way. I wound it up with a jerk, snapping the crystal, and dislocating a spring. Now my boot lacings knotted and twisted, and defied every attempt to coerce them into duty, and what was worse, upon looking for the MS., (the product of hours and days of labor,) I found that I had burned it, in my absent state of mind, along with some waste paper! and I recollected with agony how indifferently I had watched the last sparkling fragment, as the hated wind merrily whistled it up the chimney.</p>
+                <p> I held my head for one distracted minute! Was it possible to recall it as it was originally written? Even suppose I could? think of all that lost labor (on heavenly days, too, when the pleasant sunlight wooed me out-of-doors), and think of all that jog-trot punctuating to be gone over again. For me, who <hi rend="italic"> hate</hi> stops—who believe only in an exclamation point and a dash! I, who turn my back disdainfully upon an interrogation point, who despise coal-on (save in January), who religiously believe that a writer should no more be expected to fritter away his brains on stupid stops, than that an artist should be required to manufacture with his own hands the wooden frames used for his pictures.</p>
+                <p> Well, the MS. was gone—stops and all—past praying for. I had not even time to whine about it; I must go directly down town. I had the misfortune to be boarding, so every drawer, closet and cupboard must be locked before starting; for locking one's room door is a mere farce while there are duplicate keys in the house. Yes, I locked them, and unlocked them, too, twenty times or more, as I recollected some handkerchief, collar, or purse, which I had forgotten to take out.</p>
+                <p>All right now, said I, dolorously, as I put the rattling keys in my pocket, descended the interminable hotel-stairs, and gained the street. I had passed two blocks when I discovered that the pair of gloves I had brought out were both for one hand; the thermometer was at nipping point and I had left my muff behind! I thrust on bare hand into my shawl, shut my teeth together and exclaimed, as I looked Fate full in the face—now, do your worst.</p>
+                <p>And so it did!</p>
+                <p> Down came the snow; had I taken my umbrella, not a flake would have fallen; everybody knows that; I looked at the omnibusses—they were all full; full of great, lazy, black-coated men; I hate a black coat; I don't know why a man, unless he has received "the right-hand of fellowship," should button himself up in one. Yes, there they sat, as solemn as so many parsons, with their hats slouched over their faces, thinking to save time, (while they ruined their eye-sight,) by reading the morning papers as they joggled along to their offices. Meanwhile down came the pitiless snow, as I plodded along. <hi rend="italic">Plodded,</hi> for every wheel-barrow, box, bale, cask, cart and wagon, got purposely across my track; and not for the life of me could I remember a sentence of that ascension MS!</p>
+                <p> I tried not to meet anybody, and I met everybody, and everybody would speak to me; beggars stopped me, country folks singled me out to inquire the way;—<hi rend="italic">me!—why me?</hi> with a street full of people? Did I direct them wrong? Let them learn to ask somebody next time who does not mourn a lost MS.; somebody whose life is not spent locking up things and losing the keys; somebody who is not required to write an article, with a stupid chambermaid flying in and out every ten minutes, leaving your door ajar, whirling your papers across the room, and scattering your ideas to the remorseless winds; somebody whose meals are not <hi rend="italic"> always</hi> not to be had, when type and printers wait for no woman.</p>
+                <p>This is a digression. I reached the goal at last; simply and only because one who keeps moving must inevitably fetch up somewhere. I performed my errand—or thought I had, till I got half-way home, when I recollected an important fact     omitted—<hi rend="italic">n' importe</hi> I was desperate now. Guns and pistols could not have turned my steps back again. How it blew! how it snowed! I did not hurry one step; I took a savage pleasure in thinking of my spoiled bonnet ribbon, wet feet, and ice-ermined skirts. I even stopped, as I observed some umbrella-shielded pedestrian looking wonderingly at me, and gazed with affected delight at the miserable feminine kick-shaws in the shop windows, just to show my sublime indifference to the warring elements.</p>
+                <p>Rat, tat, rat, tat!</p>
+                <p>Shall I hear it?</p>
+                <p>Not I!</p>
+                <p>Rat, tat, tat, rat, tat!</p>
+                <p> It is of no use, I shall go mad with that thumping. I had rather face Cloven Foot himself than hear it; I open the door, it is my washerwoman. She has a huge pile of clothes to be counted, and sorted, and paid for, too! She dumps them down on the floor, just as if every minute was not to me so much gold dust until that MS. was resurrectionized. I look around for my list of the clothes. It is not in the big Dictionary, no, nor in the Bible, no, nor in the pocket of my blue, red, grey, green or plaid dress.</p>
+                <p> Bother! I exclaim, I can't find it. I dare say you have them all right; so I commence taking them out, and counting the pieces with an eye to her pay. What's that? A dickey, two shirts, a vest! I hold them up to the light with the tips of my fingers.</p>
+                <p>Woman alive! what need has a female of such garments?</p>
+                <p> She had made a mistake. She had brought me Mr.&#8212;&#8212;'s clothes&#8212;I will not expose him by telling his name, for they were wretchedly ragged&#8212;but as I turned the key again on them and her, I squeezed this drop of comfort out of my misery&#8212;Thank heaven, I have not to mend those clothes! </p>
+                <p> Rat, tat, tat! Merciful man! what now? </p>
+                <p> A bundle of proofs, big as my head, to read and return by the bearer immediately, and quick at that.</p>
+                <p> I sat down. So did the devil. I began to read, pen in hand. I could not remember, with my bewildered brain, whether <hi rend="italic">"stet"</hi> stood for, let it be, or, take it out; or what <hi rend="italic">"d"</hi> signified in a type-setters alphabet. I read on. Could it be possible <hi rend="italic">I</hi> ever wrote such a disconnected sentence as this? No, they have left out an entire line; and forgot to send the MS. copy, too!</p>
+                <p> Devil take it! I exclaim; and so he does (the literal infernal!) and is out of sight before I can explain that the unorthodox exclamation was wrung out of me by the last drop in my brimming cup on that unlucky day.</p>
+
+
+
+
+                <byline>FANNY FERN.</byline>
+            </div>
+
+        </body>
+    </text>
+</TEI>

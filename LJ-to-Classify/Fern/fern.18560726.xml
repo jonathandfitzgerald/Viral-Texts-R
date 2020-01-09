@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xml:id="fern.18560726" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Closet Meditations</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <date>2014</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Closet Meditations</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1856-07-26">26 July 1856</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2015-08-28" who="#km">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18560726.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18560726.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18560726.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18560726.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18560726.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18560726.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18560726.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18560726.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according Act of Congress, in the year 1855, by R. BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">CLOSET MEDITATIONS.</head>
+                
+                <head type="sub">NOT FOUND IN JAY, OR DODDRIDGE.</head>
+                
+                
+                    <p>Shall I ever be unhappy again? Six big closets with shelves and drawers! What a Godsend! You laugh! you are unable to comprehend how such joyful emotions can spring from so trivial a cause.</p>
+                
+                <p>Trivial? Did you ever board out? Did you ever stand in the midst of your gas-lighted, damask-curtained, velvet-chaired, <hi rend="italic">closetless</hi> hotel (yes&#8212;<hi rend="italic">hotel</hi>) apartments, with a six-cent ink-bottle between your perplexed thumb and finger, taxing your brain, as it was never taxed before, to discover an oasis where to deposit it, when not in use?</p>
+                
+                <p>Trivial? Did you ever live for a series of years with your head in a trunk? Did you ever see your ghost-like habiliments dangling day after day from pegs on the wall? Did you ever turn away your disgusted eyes, as a remorseless chambermain whirled clouds of dust over their unprotected fabrics? Did you ever, as you lay in bed of a morning, exhaust your ingenuity in devising some means of relief? Did you ever, exulting in your superier acumen, rush out, and purchase, at your own expense, a curtain to cover them? Did you ever jam off all of your finger nails trying to drive it up? (for what woman ever yet hit a nail on the head?) Did you ever have that dusty curtain drop down on your nicely smoothed hair, nine times out of ten when you went to it for a dress? Did you ever set fire to it with a candle, when in an abstracted state of mind?</p>
+                
+                <p>Trivial? Did you ever implore a white-aproned waiter, with tears in your eyes, and twenty-five cents in your hand, to bring you an empty cigar box to keep your truant clippers in? Did you ever stifle with closed windows, because if you threw them up, you would throw out your books, which were piled on the window ledge? Were you ever startled in the middle of the night, by the giving way of a solitary nail, on  which were hung a bag of buttons, a bag of hooks and eyes, a child's satchel, a child's slate, a basket of oyster-crackers, a bag of chess-men, and&#8212;your hopes?</p>
+                
+                <p>Trivial? Did you ever partially carry out the curse, which was passed on Eden's tempter, the serpent, as with a long-handled umbrella, you explored, for some missing shoe, the unknown regions under the bed? Did you ever sit on your best bonnet? DId you ever step into your husband's hat? Did you ever tear a zig-zag rent in your favorite dress, and find on looking for pieces of the same to mend it, that you had given them away, to your wash-woman, with other uncounted needfuls, because you had no place to keep them? Did you ever stand in dismay over your furs and woollens in spring, and your muslins, grenadines and bareges, in autumn?</p>
+                
+                <p>Trivial? Ah&#8212;you never witnessed the cold-blooded indifference with which hotel-keepers, and landlords generally, shrug their shoulders, as surveying your rooms, and taking a <hi rend="italic">coup d'&#339;il</hi> of your feminine effects, you pathetically exclaim, with dropped hands and intonation&#8212;no closets!</p>
+                    
+                                   
+                    <byline>FANNY FERN.</byline>                
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

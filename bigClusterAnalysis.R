@@ -6,6 +6,12 @@ allPartsDates = read_csv("~/Documents/Northeastern/Viral Texts Project/Viral-Tex
 
 
 #select longest witness of each cluster
+allParts = allParts %>% 
+  group_by(cluster) %>% 
+  mutate(count=nchar(text)) %>%
+  arrange(-count) %>% 
+  slice(1)
+
 allPartsDates = allPartsDates %>% 
   group_by(cluster) %>% 
   mutate(count=nchar(text)) %>%
@@ -15,12 +21,15 @@ allPartsDates = allPartsDates %>%
 allParts <- allParts[,c("cluster","text")] %>% mutate(genre = "unknown")
 allParts$cluster <- as.character(allParts$cluster)
 
-allParts_short <- allParts[sample(nrow(allParts), 15000),]
+allParts_short <- allParts[sample(nrow(allParts), 5000),] %>% as_data_frame()
 
 
 #read in classified clusters from big data
 bigClustersClassRaw = read_csv("~/Documents/Northeastern/Viral Texts Project/Viral-Texts-R/output/genreClass-2-19-17.csv")
 bigClustersClassRaw <- bigClustersClassRaw[,c("cluster","text","classified_genre", "probability")]
+
+#merge in classified clusters from PCA
+allDataBig <- rbind(allParts_short,newGenres_slim)
 
 #merge dates from allPartsDates and visualize
 bigClustersClass = bigClustersClassRaw %>% inner_join(allPartsDates,by = "cluster")
@@ -31,10 +40,10 @@ colnames(bigClustersClass)[colnames(bigClustersClass) == 'classified_genre'] <- 
 gTime <- bigClustersClass %>%
   mutate(year=gsub(".*(\\d{4}).*","\\1",date)) %>%
   mutate("year" = as.numeric(year)) %>%
-  group_by(year,classified_genre) %>%
+  group_by(year,genre) %>%
   mutate(count=n()) %>% 
   ggplot() +
-  geom_line(aes(x = year, y = count, color = classified_genre)) 
+  geom_line(aes(x = year, y = count, color = genre)) 
 
 ggplotly(gTime)
 chart_link = plotly_POST(gTime, filename="vt-genres-over-time")
@@ -100,3 +109,13 @@ handTaggedJoin %>%
   mutate(count=n()) %>% 
   ggplot() +
   geom_line(aes(x = year, y = count, color = genre))
+
+# Work with new genres from PCA
+
+newGenres = read_csv("output/newGenres-6-23-17.csv")
+newGenres$X1 <- NULL
+newGenres$cluster <- as.character(newGenres$cluster)
+
+allData <- rbind(newGenres,allParts_short)
+
+# Go topic model from here

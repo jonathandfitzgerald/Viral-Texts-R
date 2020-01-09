@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560614">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">The Little Sisters</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2014</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">The Little Sisters</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-06-14">14 June 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-07-09">proofed and further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#km" when="2012-03-29">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18560614.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18560614.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18560614.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18560614.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18560614.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18560614.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18560614.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18560614.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+           
+            
+            
+            
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by R. BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+
+                <head type="main">THE LITTLE SISTERS.</head>
+
+
+                <p>Hark! there is a bird singing—the first one I have heard this spring. How can you expect me to sit looking this stupid sheet of paper in the face, when that pretty bird is calling me out-doors, with all his sweet might? I have a great mind to throw my ink-stand right out of the window! No I won't; it might hit that bent old woman, who is raking the gutter with her long iron poker. Oh, it is hard enough for young people to be poor; but to be poor, feeble, and grey-headed&#8212;Oh, 'tis very sad! The <hi rend="italic">young</hi> heart is always hopeful; it can bear a great deal of discouragement; it leaps to a bird's sweet trill, or a patch of green grass, or a bit of blue sky, although its owner may be covered with rags, and knows not where he shall get his next meal, or find his next night's shelter.</p>
+                
+               <p>The other day, I saw two little bits of girls, with tangled hair, dirty skins, bare legs, and ragged skirts, crouching down upon the pavement, and clapping their little tan-colored hands, because they had found&#8212;what do you think? A diamond? No&#8212;they never saw such a thing; though could they have seen their own eyes just then, in a looking glass they might have found out how diamonds look.&#8212;Had they found a sixpence or a shilling? No&#8212;I think by their appearance, they might never have seen so much money. "A London doll?" with blue eyes and red cheeks and flaxen curls? No&#8212;all the dolls they ever saw were made of old newspapers rolled up. What then? why two little blades of grass, that even the Mayor, Alderman, and Common Council could not keep from struggling up through the pavement, to tell those poor little children that Spring had come. No more little shivering toes and fingers, no more imprisonment in a dark, damp, underground cellar room, gloomy enough to chill even the light hopeful heart of a little child. No indeed! Oh but they were lovely, those two tiny blades of grass! and the children lay flat down on their stomachs upon the pavement, and called it their "little garden," and kicked their poor, thin calves up in the air, and were happier with their treasure than many a rich man, worth millions, with his hot-house, and conservatory full of costly flowers, and mimic fountains, whose beauty he scarce notices, for thinking of some great ship of his, off on the water, and trembling for fear she may be lost, with her rich freight of silks and laces.</p>
+                
+               <p>"Get out of the way, there," growled a pompous old gentleman, with a big waistcoat, and a gold-headed cane, thrusting the two children rudely aside, as he strutted past: "Dirty little vagabonds&#8212;ought to be sent to 'the Island.' Pah!" "Yes&#8212;off with you," said the Policeman, bowing low before the gold-headed cane and the golden calf who carried it&#8212;"off with you, d'ye hear?"</p>
+                
+                <p>"He has trod on our pretty garden," whimpered the distressed little things, looking back, "he has spoiled our garden," and they rubbed their dirty little fists into their eyes.</p>
+                
+               <p>"Dis&#8212;gus&#8212;ting,"&#8212;lisped a lady, whose flounces the children had run against in their endeavor to "get out of the way." Poor things&#8212;ever since they were born they had heard nothing but "get out of the way:" they had begun to think the world was not intended for children. Ah! but another lady who is coming along, and who has watched the whole scene, does not think so.</p>
+                
+               <p>"Would you like this?&#8212;and this?"&#8212;said she, putting in their hands two of those delicious little boquets, sold by the flower girls of New York.</p>
+                
+               <p>A shilling to give so much happiness! Who would have thought it? How the smiles drank up the tears of those little faces! Was there ever anything so beautiful as those forget-me-nots? See those little bare feet trip so lightly home with them; now they crawl down into the dark cellar room. Comfortless enough, is it not? Their mother stands wringing out her husband's red flannel shirts, at the wash-tub; both children begin at once to tell about "the lady who gave them the flowers," and their mother wipes the suds from her hands and gets an old cracked mug, and places the violets in it, up against the dingy window-pane; and now and then she stops to smell them, for she has not always lived in the city, and the odor of those violets, brings the tears to her faded eyes, once as blue as they; but she must not think of that; and bending over them once more, with an "Ah me!" she goes back again to her work; for well she knows, that bye-and-bye a step will be heard stumbling down those stairs, and a man's voice&#8212;not singing, cheerily, because his home, his wife and children, are so near, but cursing&#8212;cursing that patient, toiling woman, cursing those half-starved innocent little girls. Oh what could have turned that once kind man into such a cruel brute? Ask him, who, for a few paltry pence, sells the <hi rend="italic">Rum</hi> that freezes the hearts of so <hi rend="italic">many</hi> little girls' father's, and sends their patient, all-enduring mothers, weeping to the grave!</p>
+
+               
+                <byline>FANNY FERN.</byline>
+            </div>
+            
+            
+           
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560301">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Men Who Blush.</title>
+            <title type="sub">a machine-readable transcription</title>
+             <editor xml:id="jf">Jacob K. Friefeld</editor>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2014</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">   
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>   
+                  <author ref="#ff">Fanny Fern</author>   
+                  <title level="a">Men Who Blush.</title>
+               </analytic>
+               <monogr>   
+                  <title xml:id="paper" level="j">The New-York Ledger</title>   
+                  <editor ref="#rb">Robert Bonner</editor>   
+                  <imprint>      
+                     <date xml:id="issue_date" when="1856-03-01">1 March 1856</date>   
+                  </imprint>   
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>   
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>   
+                  <title level="j" sameAs="#paper"/>   
+                  <imprint>      
+                     <date sameAs="#issue_date"/>   
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-01-30">adjusted encoding structure (spacing) and proofed text</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#jf" when="2012-05-02">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18560301.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18560301.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18560301.03.jpg"/>
+      </surface>
+       <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18560301.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18560301.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18560301.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18560301.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18560301.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+            
+            
+            
+            
+            <div>
+                <head type="column">FRESH FERN LEAVES.</head>  
+               <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p> 
+                    <p>Written for the New York Ledger.</p>
+               </epigraph>  
+                <head type="main">MEN WHO BLUSH.</head>  
+                <p>[Having received the following note from a bashful correspondent, and feeling our inability to do justice to so delicate a subject as that of MASCULINE BLUSHING, we handed the matter over to our gifted and exclusive contributor, FANNY FERN, knowing that she could enlighten "Curiosity," where we might, perhaps, only mystify.&#8212;ED. LEDGER.]</p>
+            </div> 
+                
+                    <div type="letter">
+                        <dateline>247 BROADWAY, Thursday, Feb 21.</dateline>  
+                        <p>MR. BONNER:&#8212;Dear Sir.&#8212;I read your paper every week, and I derive  considerable information and useful knowledge from many of the articles. In your article on blushes, you say "Blushing men are not held in very great esteem by  the other sex." I would like to know why it is so? I feel anxious to know, because  <hi rend="italic">I</hi> blush.</p>
+                <signed>CURIOSITY.</signed>
+                    </div>
+                 
+                <div>
+                    <p>Why? Because blushing is generally considered a sign of timidity; and woman adores in man, courageous, indomitable qualities. It is not the red coat of the soldier which charms her, but the brave, chivalrie heart which is supposed to throb beneath it. Cowardice is her detestation, and a blush (not at all inconsistent with manly, indomitable qualities) she often erroneously considers the sign of it. For me, the quick flush on a manly brow has an irresistible attraction. Why? because I know that the man who blushes is no petrifaction, that intercourse with the world has not blunted his finer sensibilities&#8212;that he has a <hi rend="italic">heart</hi>&#8212;and&#8212;that it shall be my pleasing duty to find it!</p> 
+                <p>Young men who have the good fortune to have sisters, seldom blush to a painful degree. Accustomed to their innocent raillery, (on the advent of the first razor or long-tailed coat,) which at the time their incipient sovereignty resents, they learn, unconsciously to themselves, in the home circle, that lesson of self-possession so difficult of mastery before more promiscuous and less indulgent eyes. </p> 
+                <p>We have seen in-skinned sensitive men, who suffered tortures from the  unconquerable habit of blushing. Sometimes from conscious awkwardness and ignorance of the little  conventionalities of life; sometimes from the utterance of sentiments in their  presence, which their souls repelled, though their tongues were too unskilful to clothe their antagonistic thoughts with expression; sometimes again, at the sight of some bright being, whom they worshipped, only as one might worship the stars above him. To myself, blushes are painful to witness, only as they are a source of pain  to the sensitive sufferer. I infinitely prefer the most diffident man who ever  crimsoned to the roots of his hair, to the conceited fop, who tiptoes into my presence with the serene smirk of self-satisfied appreciation; who looks upon every woman as a school-boy looks upon a tree of ripe plums&#8212;as ready to drop into his outspread hands at the first appetising touch.</p> 
+                <p>Such a wretch never blushes. Give me the man who pays our sex this involuntary tribute of respect.</p>     
+                <byline>FANNY FERN</byline>
+         </div>
+            
+            
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

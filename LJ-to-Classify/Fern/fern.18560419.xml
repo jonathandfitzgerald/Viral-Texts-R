@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560419">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Peeps From Under A Parasol.&#8212;No. 3.</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="jf">Jacob K. Friefeld</editor>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2014</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">Peeps From Under A Parasol.&#8212;No. 3.</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-04-19">19 April 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-02-13">further updated encoding; proofed text</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#jf" when="2012-05-02">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18560419.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18560419.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18560419.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18560419.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18560419.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18560419.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18560419.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18560419.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+            
+            
+            
+            
+            <div type="column">
+            <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by R. BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                <head type="main">PEEPS FROM UNDER A PARASOL.&#8212;NO. 3.</head>
+                
+                <p>Look?</p>
+               
+                <p>Which? How? Where?</p>
+               
+                <p>Why <hi rend="italic">there</hi>; don't you see? there's Potiphar Curtis.</p>
+               
+               <p>Potiphar Curtis! ye gods, what a name! Pity my ignorance Reader, I had not then heard of the great "Howadji;" the only Potiphar I knew of being that much abused ancient who&#8212;but never mind him; suffice it to say, I had not heard of "Howadji;" and while I stood transfixed with his ridiculous cognomen, his coat tails, like his namesake's rival's, were disappearing in the distance. So I cannot describe him for you; but I give you my word, should I ever see him, to do him justice to the tips of his boots; which I understand are of immaculate polish. I have read his "Papers" though, and to speak in the style of the patronising critics who review lady-books, they are very well&#8212;<hi rend="italic">for a man.</hi></p>
+               
+               <p>And speaking of books, here comes Walt. Whitman, author of "Leaves of Grass," which, by the way, I have not yet read. His shirt collar is turned off from his muscular throat, and his shoulders are thrown back as if even in that fine, ample chest of his, his lungs had not sufficient play-room. Mark his voice! rich&#8212;deep&#8212;and clear, as a clarion note. In the most crowded thoroughfare, one would turn instinctively on hearing it, to seek out its owner. Such a voice is a gift rare as it is priceless. A fig for phrenology! Let me but hear the <hi rend="italic">voice</hi> of man or woman and I will tell you what stuff its owners are made of. One of the first things I noticed in New York, was the sharp, shrill, squeeking, unrefined, vixenish, <hi rend="italic">uneducated</hi> voices of its women. How inevitably such disenchanting discord, breaks the spell of beauty!</p>
+               
+                <p>Fair New Yorkers, keep your mouths <hi rend="italic">shut,</hi> if you would conquer.</p>
+               
+               <p>By what magnetism has our mention of voices conjured up the form of Dr. LOWELL MASON? And yet, there he is, as majestic as Old Hundred&#8212;as popular&#8212;and apparently as indestructible by <hi rend="italic">Time.</hi> I would like to see a pupil of his who does not love him. I defy any one to look at this noble, patriarchal chorister (as he leads the <hi rend="italic">Congregational Singing</hi> on the Sabbath, in Dr. Alexander's church) with an unmoistened eye. How fitting his position&#8212;and oh! how befitting God's temple, the praises of <hi rend="italic">"all</hi> the people." Should some conquering hero, whose blood had been shed, free as water, for us and ours, revisit our shores, oh, who as his triumphal chariot wheels rolled by, would <hi rend="italic">pass over to his neighbor for expression</hi> the tumultuous gratitude with which his own heart was swelling?</p>
+               
+                <p>That the mantle of the father should have fallen on the son, is not surprising; and they who have listened delightedly at Mr. William Mason's "Musical Matinee's" must bear witness how this inherited gift has been enriched by assiduous culture. Nature in giving him the ear and genius for a pianist, has also finished off his hands with such nicety, that, as they dart over the keys, they look to the observer like little snow-white scampering mice.</p>
+               
+               <p>Ah&#8212;here is Dr. Skinner! no misnomer that: but what a logician&#8212;what an orator! Not an unmeaning sentence&#8212;not a superfluous word&#8212;not an unpolished period escapes him. In these days of superficial, botched, evangelical apprentice-work, it is treat to welcome a master workman. Thank Providence, <hi rend="italic">all</hi> the talent is not on the side of Beelzebub!</p>
+               
+               <p>Vinegar cruets and vestry meetings! here come a group of Bostonians! Mark their puckered, spick-and-span self-complaisance! Mark that scornful gathering up of their skirts as they sidle away from that gorgeous Magdalen who, God pity and help her, <hi rend="italic">may</hi> repent in her robes of unwomanly shame, but they in their "mint and anise," white-washed garments&#8212;&#8212;<hi rend="italic">never!</hi></p>
+               
+                <p>I close with a little quotation, not that it has anything to do with my subject, but that it is merely a poetical finish to my article. Some people have a weakness for poetry; I have; it is from the pen of the cant-hating HOOD.</p>
+                
+                <lg type="stanza">
+                   <l>"A pride there is of rank&#8212;a pride of birth,</l>
+                     <l>A pride of learning, and a pride of purse,</l>
+                   <l>A London pride&#8212;in short, there be on earth</l>
+                     <l> A host of prides, some better, and some worse;</l>
+                     <l>But of all prides, since Lucifer's attaint,</l>
+                     <l>The proudest swells a <hi rend="italic">self-elected saint</hi></l>
+                     <l>To picture that cold pride, <hi rend="italic">so</hi> harsh and hard,</l>
+                     <l>Fancy a peacock, in a poultry yard.</l>
+                     <l>Behold him in conceited circles sail,</l>
+                     <l>Strutting and dancing, and planted stiff</l>
+                     <l>In all his pomp and pageantry, as if</l>
+                     <l><hi rend="italic">He felt "the eyes of Europe" on his tail!"</hi></l>
+               </lg>
+                
+                
+                
+                <byline>FANNY FERN.</byline>
+         </div>
+            
+            
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

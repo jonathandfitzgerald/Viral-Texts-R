@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18561004">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Moral Molasses; or, Too Sweet By Half</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="cm">Carmen McCue</editor>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2015</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">Moral Molasses; or, Too Sweet By Half</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-10-04">4 October 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-09-13">proofed, and further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#cm" when="2012-04-03">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18561004.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18561004.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18561004.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18561004.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18561004.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18561004.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18561004.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18561004.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+            
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by R. BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+
+                <head type="main">MORAL MOLASSES;</head>
+               
+               <head type="sub">OR,</head>
+               
+               <head type="sub">TOO SWEET BY HALF.</head>
+
+                <p>The most thorough emetic I know of, is in the shape of "Guide to Young Wives," and kindred books; as if one rule could, by any possibility, apply to all persons; as if every man living did not require different management; (bless me, I did not intent to use that torpedo word, but it is out now;) as if, when things go wrong, a wife had only to fly up stairs, read a chapter in the "Young Wife's Guide," supposed to be suited to her complaint, and then go down stairs and apply the worthless plaster to the matrimonial sore. Pshaw! as well might a doctor send a peck of pills into a hospital, to be distributed by the hands of the nurse, to any and every male patient brought there, without regard to complaints or constitutional tendencies. I have no patience with such matrimonial nostrums.</p>
+
+                <p>"Always meet your husband with a smile." That is one of them. Suppose we put the boot on the other foot, and require the men to come grinning home? no matter how many of their notes may have been protested; no matter how like Beelzebub, their business partner may have tormented them; no matter how badly elections go;&#8212;when they do it, may I be there to see! Nor should they. Passing over the everlasting monotony of that everlasting "Guide Book" smile, let us consider, brethren, (sisters not admitted,) what matrimony was intended for. As I look at it, as much to share each other's joys, as to share each other's sorrows; neither of the twain to shoulder wholly the one or the other: those of you, brethren, who agree with me in this lucid view of the subject, please to signify it by rising.</p>
+
+                <p>'Tis a vote.</p>
+
+                <p>Well then, do people in moments of perplexity generally grin? Is it not asking too much of female, and a confounded sight too much of male nature, to do it when a man's store burns down and there is no insurance? or when a misguided and infatuated baby stuffs beans up its nose, while its mamma is putting new cuffs on her husband's coat, hearing Katy say her lesson, and telling the cook about dinner? And when this sorely afflicted couple meet, would it not be best to make a clean breast of their troubles, sympathize together over them, have a nice matrimonial cry on each others shoulders, and wind up with a first class kiss?</p>
+
+                <p>'Tis a vote.</p>
+
+               <p>Well then&#8212;to the mischief with your grinning over a volcano;&#8212;erupt, and have done with it! so shall you love each other more for your very sorrows; so shall you avoid hypocrisy and kindred be-devilments, and pull evenly in the matrimonial harness. I speak as unto <hi rend="italic">wise</hi> men.</p>
+
+                <p>Lastly, brethren, what I particularly admire, is the indirect compliment to your sex, which this absurd rule I have quoted implies; the devotion, magnanimity, fortitude, and courage, it gives <hi rend="italic">you</hi> fair-weather sailors credit for! But what is the use of talking about it? These guide books are mainly written by sentimental old maids; who, had they ever been within kissing distance of a beard, would not so abominably have wasted pen, ink and paper; or, by some hermaphrodite old bachelor, tip-toeing on the outskirts of the promised land, without a single clear idea of its resources and requirements; or courage enough to settle there if he had.</p>
+               
+                <byline>FANNY FERN.</byline>
+            </div>
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

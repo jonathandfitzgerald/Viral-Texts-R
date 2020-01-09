@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xml:id="fern.18570228" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">The "Favorite" Child; The House Without a Baby</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <date>2014</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to Kevin McMullen, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">The "Favorite" Child; The House Without a Baby</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-02-28">28 February 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2014-09-25" who="#km">updated sourceDesc encoding</change>
+            <change when="2014-09-19" who="#km">added facsimile element</change>
+            <change when="2014-04-08" who="#km">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570228.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570228.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570228.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570228.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570228.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570228.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570228.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570228.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+           
+            <div>
+                <head type="column">FRESH FERN LEAVES.</head>
+                <epigraph>
+                    <p>Entered according Act of Congress in the year 1855 by Robert Bonner, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                <head type="main">THE "FAVORITE" CHILD.</head>
+                
+                <p>Why will parents use that expression? What right have you to have a <hi rend="italic">favorite</hi> child? The All-Father maketh his sun to shine alike upon the daisy and the rose. Where would you be, were His care measured by your merits or deserts? Is your child none the less your child, that nature has denied him a fluent tongue, or forgotten her cunning, when in careless mood she fashioned his limbs? Because beauty beams not from the eye, is there no intelligence there? Because the rosy flush mantles not the pale cheek, does the blood never tingle at your coldness or neglect? Because the passive arms are not wound about your neck, has the soul no passionate yearnings for parental love? Oh, how often does God, more merciful than you, passing by the <hi rend="italic">Josephs</hi> of your household, stoop in his pity and touch those quivering lips with a live coal from off the altar! How often does this neglected one, burst from out the chrysalis in which your criminal coldness has enveloped him, and soaring far above your wildest parental imaginings, compel from your ambition, what he could not gain from your love?</p>
+                
+                <p>How often does he replenish with liberal hand, the coffers, which the "favorite child," in the selfishness which you fostered, has drained of their last fraction. "He that is first shall be last, and the last shall be first." Let parents write this on their heart tablets. Let them remember it when they repulse the little clinging arms, or turn a deaf ear to the childish tale of sorrow. Oh, gather up those clinging tendrils of affection with gentlest touch; trample them not with the foot of haste or insensibility rudely in the dust.</p>
+                
+                <q>
+                    <lg>
+                        <l>And they in the darkest of days shall be</l>
+                        <l>Greenness, and beauty, and strength to thee.</l>
+                    </lg>
+                </q>
+                
+                <byline>FANNY FERN.</byline>
+            </div>
+            
+            <milestone unit="line"/>
+            
+            <div>
+                <head type="main">A HOUSE WITHOUT A BABY.</head>
+                
+                <p>There was not a child in the house, not one; I was sure of it, when I first went in. Such a spick-and-span look as it had! Chairs&#8212;grown-up chairs, plastered straight up against the wall; books arranged by rule and compass; no dear little careless finger-marks on furniture, doors, or window-glass; no hoop, or ball, or doll, or mitten, or basket, or picture-book on the premises; not a pin, or a shred on the angles and squares of the immaculate carpet; the tassels of the window shades, at which baby-fingers always make such a dead set, as fresh as if just from the upholsterers. I sat down at the well-polished window of a wooden house opposite. I saw a little bald baby, tied into a high chair, speculating upon the panorama in the street, while its little fat hands frantically essayed to grab distant pedestrians on the sidewalk. Its mother sat sewing diligently by its side. Happy woman! she has a baby! She thought so, too; for bye and bye she threw down her work, untied the fettering handkerchief, took the child from its prison-house, and covered it with kisses. Ah! she ahd heard a step upon the stairs&#8212;<hi rend="italic">the</hi> step! And now there are <hi rend="italic">two</hi> to kiss the baby; for John has come to his dinner, and giving both mother and child a kiss that makes my lips work, he tosses the babe up on his strong arms, while its mother puts dinner on the table.</p>
+                
+                <p>But, pshaw!&#8212;here come the old maids I was sent to see. I hear the rustle of their well-preserved silks in the entry. I feel proper all over. Vinegar and icicles! how shall I ever get through with it? Now the door opens. What a bloodless look they have!&#8212;how dictionary-ish they speak!&#8212;how carefully they lower themselves into their chairs, as if the cushions were stuffed with live kittens!&#8212;how smooth their ruffs and ribbons!</p>
+                
+                <p>Bibs and pinafores! Give me the upper room in the wooden house, with kissing John and the bald babe!</p>
+                
+                <byline>FANNY FERN.</byline>
+            </div>
+           
+        </body>
+        
+    </text>
+</TEI>

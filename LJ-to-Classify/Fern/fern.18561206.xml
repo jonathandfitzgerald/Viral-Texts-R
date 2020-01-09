@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18561206">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">To Literary Aspirants; The Shadow of a Great Rock in a Weary Land</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="cm">Carmen McCue</editor>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2015</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">To Literary Aspirants; The Shadow of a Great Rock in a Weary Land</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-12-06">6 December 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-09-26">proofed, and further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#cm" when="2012-04-07">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18561206.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18561206.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18561206.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18561206.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18561206.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18561206.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18561206.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18561206.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+            
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by Robert Bonner, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+
+                <head type="main">TO LITERARY ASPIRANTS.</head>
+
+               <p>My heart aches at the letters I am daily receiving from persons who wish to support themselves by their pens; many of these letters, mis-spelt and ungrammatical, show their writers to be totally unfit for the vocation they have chosen; and yet, alas! their necessities are for that reason none the less pressing. Others, unexceptionable in these respects, see no preliminary steps to be taken between avowing this their determination, and at once securing the remuneration accorded to long-practiced writers, who, by patient toil and waiting, have secured a remunerative name. They see a short article in print, by some writer; it reads easy&#8212;they doubt not it was written easily; this may or may not be the case; if so&#8212;what enabled the writer to produce it in so short a space of time? Long habit of patient, trained thinking, which the beginner has yet to acquire.</p>
+
+               <p>You are taken sick; you send for a physician; he comes in, stays ten minutes, prescribes for you a healing medicine, and charges you three or four dollars. You call this "extortionate"&#8212;forgetting the medical books he must have waded through; the revolting dissections he must have witnessed and participated in, and the medical lectures he must have digested, to have enabled him to pronounce on your case so summarily and satisfactorily. To return to our subject. These practiced writers have gone through (as you must do) the purgatorial furnace which separates the literary dross from the pure ore. That all who do this should come out fine gold, is impossible; but I maintain, that if there is anything in a literary aspirant, this process will develope it, spite of discouragement&#8212;spite of depression&#8212;nay, on that very account.</p>
+
+               <p>Now what I would say is this. Let none enter this field of labor, least of all shrinking, destitute women, unless they are prepared for this long, tedious ordeal, and have also the self-sustaining conviction that they have a God-given talent. The reading community is not what it once was. The world is teeming with books&#8212;good, bad, and indifferent. Publishers have a wide field from which to cull. There is a great feast to sit down to; and the cloyed and fastidious taste demands dishes daintily and skillfully prepared. How shall an unpracticed aspirant, whose lips perhaps have not been touched with the live coal from the alter, successfully contend with these? How shall the halt and maimed win in such a race?</p>
+
+               <p>Every editor's drawer is crammed&#8212;every newspaper office besieged&#8212;by hundreds doomed to disappointment; not two-thirds of the present surfeit of writers, born of the success of a few, obtain even a hearing. Editors have any quantity of MSS. on hand<choice><sic>.</sic><corr>,</corr></choice> which they know will answer their purpose; and they have, they say, when I have applied to them for those who have written me to do so, neither time nor inclination to paragraph, punctuate, revise and correct the inevitable mistakes of beginners, even though there may possibly be some grains of wheat for the seeking.</p>
+
+                <p>To women, therefore, who are destitute, and rely upon their pen for a support, I would say, again, do anything that is honest that your hands find to do, but make not authorship, at least, your <hi rend="italic">sole</hi> dependance in the present state of things.</p>
+
+               <p>Now, having performed this ungrateful task, and mapped out faithfully the shoals and quicksands, if there are among you those whose mental and physical muscle will stand the strain with this army of competitors&#8212;and, above all, who have the "barrel of meal and cruse of oil" to fall back upon&#8212;I wish you God speed! and none will be happier than she, who has herself borne the burden and heat of the day, to see you crowned victor.</p>
+
+                <byline>FANNY FERN.</byline>
+            </div>
+         
+         <milestone unit="line"/>
+
+            <div type="column">
+                <head type="main">THE SHADOW OF A GREAT ROCK IN A WEARY LAND.</head>
+
+               <p>Man may turn his back upon Revelation, and feed upon the dry husks of infidelity, if he will; but sure I am, that <hi rend="italic">woman</hi> cannot do without her Saviour. In her happiest estate, she has sorrows that can only be entrusted to an Almighty ear; responsibilities that no human aid can give her strength to meet. But what if earthly love be poisoned at the fountain?&#8212;what if her feeble shoulders bend unsupported under the weight of her daily cross!&#8212;what if her life-sky be black with gathering gloom!&#8212;what if her foes be they of her own household!&#8212;what if treachery sit down at the hearth-stone, and calumny await her without, with extended finger? What then&#8212;if no Saviour's arms be outstretched to enfold her? What if it be "absurd," (as some tell her,) that the God who governs the universe should stoop to interest himself in her petty concerns? What if the Bible to which she flies be "a dead letter?" and "Come unto me all ye who are weary and heavy laden,"&#8212;only "a metaphor?" What earthly accents can fall upon her ear as sweet as these&#8212;"A bruised reed will I not break?" Woman may be "weak;" but blessed be the weakness which leads her to lean on that Almighty arm, which man in his pride rejects; listening rather in his extremity, to the demon whisper&#8212;"Curse God and die."</p>
+
+               <p>Woman may be "weak;" you may confuse her with your sophistries, deafen her with your arguments, and standing before her in your false strength, explain like the unbelievers of old&#8212;"Away with him!" and still her yearning soul cried out, with a voice no subtlety of yours can satisfy or stifle&#8212;<hi rend="italic">My</hi> Lord and <hi rend="italic">my</hi> God!</p>
+
+                <byline>FANNY FERN.</byline>
+            </div>
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

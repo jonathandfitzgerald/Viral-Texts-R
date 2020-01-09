@@ -1,0 +1,308 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="http://fannyfern.org/images/other_images/ferncutout_head.jpg" type="image/jpeg" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<link rel="canonical" href="/columns/fern.18560510" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortlink" href="/node/42" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <title>May 10, 1856 | Fanny Fern in The New York Ledger</title>
+  <style type="text/css" media="all">
+@import url("http://fannyfern.org/modules/system/system.base.css?om2vlq");
+@import url("http://fannyfern.org/modules/system/system.menus.css?om2vlq");
+@import url("http://fannyfern.org/modules/system/system.messages.css?om2vlq");
+@import url("http://fannyfern.org/modules/system/system.theme.css?om2vlq");
+</style>
+<style type="text/css" media="all">
+@import url("http://fannyfern.org/modules/field/theme/field.css?om2vlq");
+@import url("http://fannyfern.org/modules/node/node.css?om2vlq");
+@import url("http://fannyfern.org/modules/search/search.css?om2vlq");
+@import url("http://fannyfern.org/modules/user/user.css?om2vlq");
+</style>
+<style type="text/css" media="all">
+@import url("http://fannyfern.org/modules/ctools/css/ctools.css?om2vlq");
+@import url("http://fannyfern.org/modules/panels/css/panels.css?om2vlq");
+</style>
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700" media="all" />
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Rosarivo:400,400italic&amp;subset=latin,latin-ext" media="all" />
+<style type="text/css" media="all">
+@import url("http://fannyfern.org/themes/bamboo/css/menu.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/normalize.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/style.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/design.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/responsive.css?om2vlq");
+</style>
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="http://fannyfern.org/themes/bamboo/css/ie8-fixes.css?om2vlq" media="all" />
+<![endif]-->
+
+<!--[if IE 9]>
+<link type="text/css" rel="stylesheet" href="http://fannyfern.org/themes/bamboo/css/ie9-fixes.css?om2vlq" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://fannyfern.org/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://fannyfern.org/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://fannyfern.org/misc/drupal.js?om2vlq"></script>
+<script type="text/javascript" src="http://fannyfern.org/themes/bamboo/js/scripts.js?om2vlq"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"bamboo","theme_token":"plQH4g8KAuQMzQ4hQeq3NDJFwmZV0E4bSkAptL9q4gw","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"themes\/bamboo\/js\/scripts.js":1,"modules\/statistics\/statistics.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/ctools\/css\/ctools.css":1,"modules\/panels\/css\/panels.css":1,"\/\/fonts.googleapis.com\/css?family=Open+Sans:400italic,600italic,700italic,400,600,700":1,"\/\/fonts.googleapis.com\/css?family=Rosarivo:400,400italic\u0026subset=latin,latin-ext":1,"themes\/bamboo\/css\/menu.css":1,"themes\/bamboo\/css\/normalize.css":1,"themes\/bamboo\/css\/style.css":1,"themes\/bamboo\/css\/design.css":1,"themes\/bamboo\/css\/responsive.css":1,"themes\/bamboo\/css\/ie8-fixes.css":1,"themes\/bamboo\/css\/ie9-fixes.css":1}},"urlIsAjaxTrusted":{"\/node\/42":true},"statistics":{"data":{"nid":"42"},"url":"\/modules\/statistics\/statistics.php"}});
+//--><!]]>
+</script>
+    <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-42 node-type-page site-name-hidden bg-green-gradient color-palette-green-bamboo header-font-serif body-font-serif sidebar-right imagecaption section-columns is-node theme-logo-none">
+<div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+
+<header id="head" role="banner" class="container">
+  <hgroup class="ten columns alpha">
+
+    <div id="logo">
+          </div>
+
+    <div id="site-title-wrapper">
+      <h1 id="site-title">
+        <a href="/" title="Home">
+               </a>
+      </h1>
+          </div>
+
+  </hgroup>
+
+<div id="top-links" class="six columns omega">
+        <div class="region region-top-links">
+    <div id="block-search-form" class="block block-search">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <form action="/node/42" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-tBl9YDb_1Kcos1feaRBoxVEldvDIYUP-miLuUgYMEZY" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+</div>
+</div>
+  </div>
+  </div>
+</header>
+
+<div id="menu-wrapper" class="container">
+  <nav id="main-menu" role="navigation" class="sixteen columns alpha omega">
+    <div class="menu-navigation-container">
+      <!-- Theme native drop downs and mobile menu-->
+      <div id="nav-wrap">
+        <div id="menu-icon">Menu</div>
+        <ul class="menu"><li class="first leaf"><a href="/home">Home</a></li>
+<li class="leaf"><a href="/bio" title="A brief biography of Fanny Fern">Fanny Fern</a></li>
+<li class="leaf"><a href="/ledger" title="A brief historical overview of The New York Ledger">The New York Ledger</a></li>
+<li class="leaf"><a href="/columns" title="Transcriptions and images of Fanny Fern&#039;s columns in the Ledger">Her Columns</a></li>
+<li class="last expanded"><a href="/about">About</a><ul class="menu"><li class="first leaf"><a href="/about">About the Project</a></li>
+<li class="leaf"><a href="/contact" title="Send comments and corrections to the project editor">Contact</a></li>
+<li class="last leaf"><a href="/staff">Project Staff</a></li>
+</ul></li>
+</ul>      </div>
+    </div>
+  </nav>
+</div>
+<!-- end main-menu -->
+
+
+<div class="container" id="content-wrapper">
+
+  
+  
+    
+  
+        
+  <div id="content" class="sixteen columns">
+            <section id="post-content" role="main">
+
+      
+      
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      
+<article id="node-42" class="node node-page node-full clearfix"  about="/columns/fern.18560510" typeof="foaf:Document" role="article">
+
+  
+  <header class="article-header">
+
+  
+  <div class="title-wrapper">
+  
+  
+    <!-- node h1 title -->
+          <h1 class="article-title">May 10, 1856</h1>
+    
+    <span property="dc:title" content="May 10, 1856" class="rdf-meta element-hidden"></span>
+  <!-- Overidden in template.php to show just username. -->
+    
+  </div><!-- // submitted -->
+  </header>
+
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="content">
+<h1 class="pageTitle">10 May 1856 </h1>
+<p><a class="image" href="http://fannyfern.org/images/fern18560510.01.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560510.01.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560510.02.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560510.02.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560510.03.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560510.03.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560510.04.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560510.04.jpg" width="75" class="containsColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560510.05.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560510.05.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560510.06.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560510.06.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560510.07.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560510.07.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560510.08.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560510.08.jpg" width="75" class="noColumn" /></a></p>
+<h1 class="columnHead">FRESH FERN LEAVES.</h1>
+<h4><span class="epigraph">Entered according to Act of Congress, in the year 1855, by R. BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</span></h4>
+<h2 class="columnTitle">"Leaves Of Grass."</h2>
+<p class="body_paragraph">Well baptized: fresh, hardy, and grown for the masses. Not more welcome is their natural type to the winter-bound, bed-ridden, and spring-emancipated invalid. "Leaves of Grass" thou art unspeakably delicious, after the forced, stiff, Parnassian exotics for which our admiration has been vainly challenged.</p>
+<p class="body_paragraph">Walt Whitman, the effeminate world needed thee. The timidest soul whose wings ever drooped with discouragement, could not choose but rise on thy strong pinions.</p>
+<div class="poem">
+                    <span class="line">"Undrape—you are not guilty to me, nor stale nor discarded;</span><br /><span class="line">I see through the broadcloth and gingham whether or no."</span>
+                </div>
+<p>                <span class="asterisks">* * * * * * * * *</span></p>
+<div class="poem">
+                    <span class="line">"O despairer, here is my neck,</span><br /><span class="line">You shall not go down! Hang your whole weight upon me."</span>
+                </div>
+<p class="body_paragraph">Walt Whitman, the world needed a "Native American" of thorough, out and out breed—enamored of <i>women</i> not <i>ladies, men</i> not <i>gentlemen;</i> something beside a mere Catholic-hating Know-Nothing; it needed a man who dared speak out his strong, honest thoughts, in the face of pusillanimous, toadeying, republican aristocracy; dictionary-men, hypocrites, cliques and creeds; it needed a large-hearted, untainted, self-reliant, fearless son of the Stars and Stripes, who disdains to sell his birthright for a mess of pottage; who does</p>
+<div class="poem">
+                   <span class="line">"Not call one greater or one smaller,</span><br /><span class="line">That which fills its period and place being equal to any;"</span>
+                </div>
+<p class="body_paragraph">who will</p>
+<div class="poem">
+                    <span class="line">"Accept nothing which all cannot have their counterpart of on the same terms."</span>
+                </div>
+<p class="body_paragraph">Fresh "Leaves of Grass!" not submitted by the self-reliant author to the fingering of any publisher's critic, to be arranged, re-arranged and disarranged to his circumscribed liking, till they hung limp, tame, spiritless, and scentless. No. It were a spectacle worth seeing, this glorious Native American, who when the daily labor of chisel and plane was over, himself, with toil-hardened fingers, handled the types to print the pages which wise and good men have since delighted to endorse and to honor. Small critics, whose contracted vision could see no beauty, strength, or grace, in these "Leaves," have long ago repented that they so hastily wrote themselves down shallow by such a premature confession. Where an Emerson, and a Howitt have commended, my woman's voice of praise may not avail; but happiness was born a twin, and so I would fain share with others the unmingled delight which these "Leaves" have given me.</p>
+<p class="body_paragraph">I say unmingled; I am not unaware that the charge of coarseness and sensuality has been affixed to them. My moral constitution may be hopelessly tainted or—too sound to be tainted, as the critic wills, but I confess that I extract no poison from these "Leaves"—to me they have brought only healing. Let him who can do so, shroud the eyes of the nursing babe lest it should see its mother's breast. Let him look carefully between the gilded covers of books, backed by high-sounding names, and endorsed by parson and priest, lying unrebuked upon his own family table; where the asp of sensuality lies coiled amid rhetorical flowers. Let him examine well the paper dropped weekly at his door, in which virtue and religion are rendered disgusting, save when they walk in satin slippers, or, clothed in purple and fine linen, kneel on a damask <i>"prie-dieu."</i></p>
+<p class="body_paragraph">Sensual!—NO—the moral assassin looks you not boldly in the eye by broad daylight; but Borgia-like takes you treacherously by the hand, while from the glittering ring on his finger he distils through your veins the subtle and deadly poison.</p>
+<p class="body_paragraph">Sensual? The artist who would inflame, paints you not nude Nature, but stealing Virtue's veil, with artful artlessness now conceals, now exposes, the ripe and swelling proportions.</p>
+<p class="body_paragraph">Sensual? Let him who would affix this stigma upon "Leaves of Grass," write upon his heart, in letters of fire, these noble words of its author: </p>
+<div class="poem">
+                    <span class="line">"In woman I see the bearer of the great fruit, which is immortality * * * * the good thereof is not tasted by <i>roues</i> and never can be.</span>
+                </div>
+<p>                <span class="asterisks">* * * * * * * * *</span></p>
+<div class="poem">
+                    <span class="line">Who degrades or defiles the living human body is cursed,</span><br /><span class="line">Who degrades or defiles the body of the dead is not more cursed."</span>
+                </div>
+<p class="body_paragraph">Were I an artist I would like no more suggestive subjects for my easel than Walt Whitman's pen has furnished.</p>
+<div class="poem">
+                    <span class="line">The little one sleeps in its cradle,</span><br /><span class="line">I lift the gauze and look a long time, and silently brush away flies with my hand.</span><br /><span class="line">The farmer stops by the bars of a Sunday and looks at the oats and rye.</span>
+                </div>
+<p>                <span class="asterisks">* * * * * * * * *</span></p>
+<div class="poem">
+                    <span class="line">Earth of the slumbering and liquid trees!</span><br /><span class="line">Earth of departed Sunset,</span><br /><span class="line">Earth of the mountain's misty topt!</span><br /><span class="line">Earth of the vitreous pour of the full moon just tinged with blue!</span><br /><span class="line">Earth of shine and dark mottling the tide of the river!</span><br /><span class="line">Earth of the limpid grey of clouds brighter and clearer for my sake!</span><br /><span class="line">Far swooping elbowed earth! Rich apple-blossomed earth!</span><br /><span class="line">Smile, for your lover comes!"</span>
+                </div>
+<p class="body_paragraph">I quote at random, the following passages which appeal to me: </p>
+<div class="poem">
+                    <span class="line">"A morning glory at my window, satisfies me more than the metaphysics of books.</span>
+                </div>
+<p>                <span class="asterisks">* * * * * * * * *</span></p>
+<div class="poem">
+                    <span class="line">Logic and sermons never convince.</span><br /><span class="line">The damp of the night drives deeper into my soul."</span>
+                </div>
+<p class="body_paragraph">Speaking of animals, he says:</p>
+<div class="poem">
+                    <span class="line">"I stand and look at them sometimes half the day long.</span><br /><span class="line"><i>They</i> do not make me sick, discussing their duty to God.</span>
+                </div>
+<p>                <span class="asterisks">* * * * * * * * *</span></p>
+<div class="poem">
+                    <span class="line">—Whoever walks a furlong without sympathy, walks to his own funeral dressed in his shroud.</span>
+                </div>
+<p>                <span class="asterisks">* * * * * * * * *</span></p>
+<div class="poem">
+                    <span class="line">I hate him that oppresses me,</span><br /><span class="line">I will either destroy him, or he shall release me.</span>
+                </div>
+<p>                <span class="asterisks">* * * * * * * * *</span></p>
+<div class="poem">
+                    <span class="line">I find letters from God dropped in the street, and every one is signed by God's name,</span><br /><span class="line">And I leave them where they are, for I know that others will punctually come forever and ever.</span>
+                </div>
+<p>                <span class="asterisks">* * * * * * * * *</span></p>
+<div class="poem">
+                    <span class="line">——Under Niagara, <i>the cataract falling like a veil over my countenance."</i></span>
+                </div>
+<p class="body_paragraph">Of the grass he says:</p>
+<div class="poem">
+                  <span class="line">"It seems to me <i>the beautiful uncut hair of graves</i>.</span>
+              </div>
+<p class="body_paragraph">I close the extracts from these "Leaves," which it were easy to multiply, for one is more puzzled what to leave unculled, than what to gather, with the following sentiments; for which, and for all the good things included between the covers of his book, Mr. Whitman will please accept the cordial grasp of a woman's hand: </p>
+<div class="poem">
+                    <span class="line">"The wife—and she is not one jot less than the husband,</span><br /><span class="line">The daughter—and she is just as good as the son,</span><br /><span class="line">The mother—and she is every bit as much as the father."</span>
+            </div>
+<h5 class="byline">FANNY FERN.</h5>
+<h2 class="columnTitle">"LITTLE BENNY."</h2>
+<p class="body_paragraph">So the simple headstone said. Why did my eyes fill? I never saw the little creature. I never looked in his laughing eye, or heard his merry shout, or listened for his tripping tread; I never pillowed his little head, or bore his little form, or smoothed his silky locks, or laved his dimpled limbs, or fed his cherry lips with dainty bits, or kissed his rosy cheek as he lay sleeping.</p>
+<p class="body_paragraph">I did not see his eye grow dim; or his little hand droop powerless; or the dew of agony gather on his pale forehead; I stood not with clasped hands and suspended breath, and watched the look that comes but once, flit over his cherub face. And yet, "little Benny," my tears are falling; for, <i>somewhere</i>, I know, there is an empty crib, a vacant chair, useless robes and toys, a desolate hearthstone, and a weeping mother.</p>
+<blockquote><p>"LITTLE BENNY!"</p></blockquote>
+<p class="body_paragraph">It was all her full heart could utter; and it was enough. It tells the whole story.</p>
+<h5 class="byline">FANNY FERN.</h5>
+</div>
+<div class="citation">
+<h6>Source Text:</h6>
+<p class="citation">Fanny Fern, "'Leaves Of Grass' ; 'Little Benny'" <em>The New-York Ledger </em> (10 May 1856 ): [4]</p>
+<h6>To cite this project:</h6>
+<p class="citation">Fanny Fern, "'Leaves Of Grass' ; 'Little Benny'" <em>Fanny Fern in The New York Ledger</em> Ed. Kevin McMullen (2015) <a href="http://fannyfern.org">http://fannyfern.org</a>.</p>
+</div>
+<div class="report">
+<h6 class="report"><a href="http://fannyfern.org/contact" target="_blank">Report corrections</a></h6>
+</div>
+<div class="xmlDownload">
+<h6 class="xmlDownload"><a href="http://fannyfern.org/xml/fern.18560510.xml" download="fern.18560510.xml"><br />
+           Download source XML<br /></a></h6>
+</div>
+<p></p></div></div></div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"></nav>
+    
+      </div>
+</article>
+    </div>
+</div>
+</div>
+  </div>
+          </section>
+    <!-- /#main -->
+  </div>
+
+    
+</div>
+
+<footer id="colophon" class="container">
+
+  
+            <div class="sixteen columns footer-area">
+        <div class="region region-footer-first">
+    <div id="block-block-2" class="block block-block">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <div class="footer">
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Fanny Fern in <em>The New York Ledger</em></span>, edited by <a href="http://iamkevinmcmullen.com" target="_blank">Kevin McMullen</a>, is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+<div>
+</div></div>    </div>
+</div>
+</div>
+  </div>
+      </div>
+                  
+
+</footer>
+<script type="text/javascript" src="http://fannyfern.org/modules/statistics/statistics.js?om2vlq"></script>
+</body>
+</html>

@@ -10,8 +10,8 @@ This document includes the process for performing PCA on clusters. It requires s
 #Streamlined PCA Code for WORDS
 stopWords = stopwords("en")
 wordCutoff = 100
-df = allData
-allDataWords = getusersWords(df)
+allDataWords <- allData %>% 
+  unnest_tokens(word,text)
 counts = allDataWords %>% filter(word!="") %>% mutate(word=tolower(word)) %>% group_by(cluster,word,genre) %>% summarize(count=n()) %>% ungroup
 td = allDataWordsIntoTD(allDataWords,normalized = T) 
 justaMatrix = td %>% select(-cluster, -genre)
@@ -29,7 +29,12 @@ prediction = prediction %>%
 topicsDF = doc.topics %>% 
   as.data.frame() %>% 
   mutate(cluster = input$Cluster, primary_genre = input$Genre) %>% 
-  filter(primary_genre=="unknown")
+  filter(primary_genre != "unknown")
+
+
+
+#topicsDF <- topicsDF[sample(nrow(topicsDF), 1000),]
+
 
 #Convert to a matrix
 modeling_matrix = topicsDF %>% select(-primary_genre, -cluster)
@@ -46,8 +51,17 @@ prediction = prediction %>%
   select(cluster,genre,PC1,PC2,PC3)
 
 
+#vtData$cluster <- vtData$cluster %>% as.character()
+prediction <- prediction %>% inner_join(newGenres, by = "cluster" )
+prediction <- prediction[,c("cluster","text","genre.x","PC1","PC2","PC3")]
 
 
+
+prediction$text <- substr(prediction$text, 0, 300)
+
+class(prediction$text)
+
+write_csv(prediction, path = "VT-Data/data/pca4plotly-6-23-17.csv")
 ```
 
 See the Principal Components
@@ -70,7 +84,7 @@ model$rotation %>% as.data.frame %>% mutate(word=rownames(model$rotation)) %>% s
 #Visualize using a variety of methods
 #Visualize (Need to get V1 Cluster number into the mix)
 
-ggplot(prediction) + geom_point(aes(x=PC1,y=PC2,color=genre, size=5))
+prediction %>% filter(genre!="unknown") %>% ggplot() + geom_point(aes(x=PC1,y=PC2,color=genre, size=5))
 
 ggplot(prediction %>% group_by(genre) %>% filter(n()>1)) + geom_point(aes(x=PC1,y=PC2,color=genre, shape=genre))
 ggplot(prediction %>% group_by(genre) %>% filter(n()>1)) + geom_point(aes(x=PC2,y=PC3,color=genre, shape=genre))

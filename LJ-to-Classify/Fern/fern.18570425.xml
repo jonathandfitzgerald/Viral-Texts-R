@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xml:id="fern.18570425" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">"And Ye Shall Call the Sabbath a Delight"</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <date>2014</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to Kevin McMullen, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">"And Ye Shall Call the Sabbath a Delight"</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-04-25">25 April 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2014-09-20" who="#km">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570425.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570425.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570425.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570425.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570425.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570425.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570425.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570425.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+          
+            <div>
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                <head type="main">"AND YE SHALL CALL THE SABBATH A DELIGHT."</head>
+                
+                <p>I like to throw open the windows of my soul on Sabbath morning&#8212;air it of the week's fret, and toil, and care&#8212;and beckon in the white-winged dove of Peace to sing me a song of Heaven. I like to go to church;&#8212;it is to me like turning from the dusty highway of life into the green fields, and, under the friendly shade of some sheltering tree, gazing, through its leafy canopy, into the serene blue depths above. The holy hymn soothes me like a mother's lullaby to her weary child. I care not to read the words of the book which custom places in my hands. I would listen, with closed eyes, while my soul syllables its own secret burden; floating away on that melody to Him who has given us this blessed day of rest; and as the last note dies away, I would cross the sacred threshold, hugging to my heart this holy peace; not stay to listen to the cold, theoretical, charnel-house sermons to which, Sunday after Sunday&#8212;vary the church as I may&#8212;I feel myself, unless I do this, a disappointed, disheartened, and wearied listener. No earnestness, no life, no soul; long, dry, windy, wordy skeleton-discourses; tame platitudes, disgusting rant, a school-boy's parrot-lesson, injudicious deprecation of a world which is sweet to live in, and fair to see; injudicious denunciation of innocent, youthful pleasures&#8212;proper and healthful for life's young spring-time; an ascetic rendering of that Blessed Book which is, has been, and will be, the soul's life-boat, spite of its listless and blundering clerical expositors&#8212;many of whom offer us a Procrustean bed of theology, too short for any healthy creature of God to stretch himself upon. Who can wonder at the rebound? Who can wonder that our young people pass by the church-door, or cross its threshold compulsorily? or that their decorous seniors enter it but to sleep?</p>
+                
+                <p>A few Sabbaths since I chanced into a church where a hundred and fifty children were assembled for the afternoon service, to be addressed as Sunday-school scholars. The out-door air was a luxury to breathe&#8212;it was one of those lovely Spring days, which woo every living thing to bask in the warm sunshine. These children, many of them under four, none over fifteen, perspiring in their out-door clothing, were closely packed in those high-backed, uncomfortable seats,&#8212;their cheeks at fever heat, and every pore in their crucified bodice crying out for ventilation and common sense,&#8212;neither of which they had for a mortal hour-and-a-half, to speak within bounds. In vain did teachers frown, and nudge, and poke&#8212;in vain did the well-meaning but stupidest of possible ministers pound the pulpit cushions, to impress upon their memories, by gesticulation, this long-winded sentences; they were all written&#8212;as they deserved to be&#8212;in water. Flesh and blood couldn't stand it,&#8212;<hi rend="italic">least of all that most unperverted, critical, and discerning of audiences&#8212;childhoos!</hi></p>
+                
+                <p>That preacher, in my opinion, (and I ached to tell himso,) did more harm in that hour-and-a-half than he can remedy in a life-time. This may seem a bold assertion. <hi rend="italic">I</hi> think not. One hundred and fifty little children to carry away with them from that church (not only for that afternoon, but for a long life of Sundays,) a disgust of that blessed day, and what <hi rend="italic">should</hi> be its sweet and holy services. But what is the use talking? Every great and good cause is sure to be knocked in the head by some blunderbuss. Why didn't that man tell those children some <hi rend="italic">short</hi>, simple story that the youngest child there could understand, appreciate, and be interested in? Why didn't he open wide the church doors before their attention and interest flagged? Why so enamored of the sound of his own voice, as to keep those steaming, par-boiled little victims in that sacerdotal vapor-bath, after he had said all he could think of to them, to address their teachers, who, if necessary, should have had a meeting by themselves for that infliction? And why&#8212;(I ask all of you who have not forgotten how <hi rend="italic">your</hi> restless limbs ached when <hi rend="italic">you</hi> were children)&#8212;must <hi rend="italic">another</hi> minister get up after that, and torture common-sense, and his fainting, frying auditors, by another aimless, inflated, meaningless, and last-drop-in-the-bucket, but (thanks to a kind of Providence) <hi rend="italic">final</hi> address? And why didn't somebody seize the sexton of that church, who had compelled a hundred and fifty children to breathe the foul air which the morning worshippers had bequeathed, and which he was too lazy to let out the windows&#8212;why didn't somebody, I say, seize that sexton and place him in an exhausted receiver, long enough to give him some <hi rend="italic">faint</hi> notion of what he made those par-boiled children suffer in that "protracted meeting?"</p>
+                
+                <byline>FANNY FERN</byline>             
+               
+            </div>
+            
+        </body>
+        
+    </text>
+</TEI>

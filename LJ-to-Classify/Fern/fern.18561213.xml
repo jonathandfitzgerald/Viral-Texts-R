@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18561213">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">To Gentlemen. A Call to be a Husband; To the Ladies. A Call to be a Wife</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="cm">Carmen McCue</editor>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2015</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">To Gentlemen. A Call to be a Husband; To the Ladies. A Call to be a Wife</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-12-13">13 December 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-09-26">proofed</change>
+         <change who="#km" when="2015-02-16">further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#cm" when="2012-04-07">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18561213.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18561213.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18561213.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18561213.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18561213.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18561213.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18561213.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18561213.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+            
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1856, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+
+                <head type="main">TO GENTLEMEN.</head>
+
+                <head type="sub">A CALL TO BE A HUSBAND.</head>
+
+                <p>Yes, I did say that "it is not every man who has a call to be a husband;" and I am not going to back out of it.</p>
+
+                <p>Has that man a call to be a husband, who having wasted his youth in excesses, looks around him at the eleventh hour for a "virtuous young girl," (such men have the effrontery to be <hi rend="italic">very</hi> particular on this point,) to nurse up his damaged constitution, and perpetuate it in their offspring?</p>
+
+                <p>Has that man a call to be a husband, who believing that the more the immortal within us is developed in this world, the higher we shall rank with heavenly intelligencies in the next, yet deprecates for a wife, a woman of thought and intellect, lest a marriage with such should peril the seasoning of his favorite pudding, or lest she should presume in any of her opinions to be aught else that his echo?</p>
+
+                <p>Has that man a call to be a husband, who, when the rosy maiden he married, is transformed by too early an introduction to the cares and trials of maternity, into a feeble, confirmed invalid, turns impatiently from the restless wife's sick room, to sun himself in the perfidious smile of one whom he would blush to name in that wife's pure ears?</p>
+
+                <p>Has <hi rend="italic">he</hi> any call to be a husband, who adds to his wife's manifold cares, that of selecting and providing the household stores, and enquires of her, at that, how she spent the surplus shilling of yesterday's appropriation?</p>
+
+                <p>Has <hi rend="italic">he</hi> any call to be a husband, who permits his own relatives, in his hearing, to speak disrespectfully or censoriously of his wife?</p>
+
+                <p>Has <hi rend="italic">he</hi> any call to be a husband, who reads the newspaper from beginning to end, giving notice of his presence to the weary wife who is patiently mending his old coat, only by an occasional "Jupiter!" which may mean, to the harrowed listener, that we have a President worth standing in a driving rain, at the tail of a three mile procession, to vote for, or&#8212;the contrary! and who, after having extracted every particle of news the paper contains, coolly puts it in one of his many mysterious pockets, and goes to sleep in his chair?</p>
+
+                <p>Has <hi rend="italic">he</hi> call to be a husband, who carries a letter, intended for his wife, in his pocket for six weeks, and expects anything short of "Gunpowder Tea" for his supper that night?</p>
+
+                <p>Has he a call to be a husband, who leaves his wife to blow out the lamp, and stub her precious little toes while she is navigating for the bedpost?</p>
+
+                <p>Has he a call to be a husband, who tells his wife "to walk on a couple of blocks and he will overtake her," and then joins in a hot political discussion with an opponent, after which, in a fit of absence of mind, he walks off home, leaving his wife transformed by his perfidy into "a pillar of salt?"</p>
+
+                <p>Has he any call to be a husband, who sits down on his wife's best bonnet, or puts her shawl over her shoulders upside-down, or wrong-side-out, at the Opera?</p>
+
+                <p>Has he any call to be a husband, who goes "unbeknown" to his wife, to some wretch of a barber, and parts for twenty-five cents, with a beard which she has coaxed from its first infantile sprout, to luxuriant, full-grown, magnificent, unsurpassable hirsute-ness, and then comes home to her horrified vision a pocket-edition of Moses?</p>
+
+                <p>Has he any call to be a husband, who kisses his wife only on Saturday night, when he winds up the clock and pays the grocer, and who never notices, day by day, the neat dress, and shining bands of hair, arranged to please his stupid milk-and-water-ship?</p>
+
+                <byline>FANNY FERN.</byline>
+            </div>
+
+            <div type="column">
+               
+                <head type="main">TO THE LADIES.</head>
+               
+                <head type="sub">A CALL TO BE A WIFE.</head>
+
+                <p>Has that woman a call to be a wife, who thinks more of her silk dress than her children, and visits her nursery no oftener than once a day?</p>
+
+                <p>Has that woman a call to be a wife, who cries for a cashmere shawl when her husband's notes are being protested?</p>
+
+                <p>Has that woman a call to be a wife, who sits reading the last new novel, while her husband stands before the glass vainly trying to pin together a buttonless shirt bosom?</p>
+
+                <p>Has that woman a call to be a wife, who expects her husband to swallow diluted coffee, soggy bread, smoky tea, and watery potatoes, six days out of the seven?</p>
+
+                <p>Has she a call to be a wife, who keeps her husband standing on one leg a full hour in the street, while she is saying that interminable "last word" to some female acquaintance?</p>
+
+                <p>Has she a call to be a wife, who flirts with every man she meets, and reserves her frowns for the home fireside?</p>
+
+                <p>Has she a call to be a wife, who comes down to breakfast in abominable curl-papers, a soiled dressing-gown, and shoes down at the heel?</p>
+
+                <p>Has she a call to be a wife, who bores her husband, when he comes into the house, with the history on a broken tea-cup, or the possible whereabouts of a missing broom-handle?</p>
+
+                <p>Has she a call to be a wife, whose husband's love weighs naught in the balance with her next door neighbor's damask curtains, or velvet carpet?</p>
+
+                <p>Has she a call to be a wife, who would take advantage of a moment on conjugal weakness, to extort money or exact a promise?</p>
+
+                <p>Has she a call to be a wife, who "has the headache" whenever her husband wants her to walk with him, but willingly wears out her gaiter-boots promenading with his gentleman friends?</p>
+
+                <p>Has she a call to be a wife, who takes a journey for pleasure, leaving her husband to toil in a close office, and "have an eye, when at home, to the servants and children?"</p>
+
+                <p>Has she a call to be a wife, who values an unrumpled collar or crinoline more than a conjugal kiss?</p>
+
+                <p>Has she a call to be a wife, to whom a <hi rend="italic">good</hi> husband's society is not the greatest of earthly blessings, and a house full of rosy children its best furnishing, and prettiest adornment?</p>
+
+                <byline>FANNY FERN.</byline>
+            </div>
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

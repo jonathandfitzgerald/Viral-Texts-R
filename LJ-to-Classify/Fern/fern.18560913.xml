@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560913">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Funeral Notes</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2014</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">Funeral Notes</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-09-13">13 September 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2016-09-18">added missing/obscured text from another source; added explanatory note</change>
+         <change who="#km" when="2015-09-11">proofed, and further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#km" when="2012-04-09">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18560913.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18560913.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18560913.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18560913.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18560913.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18560913.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18560913.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18560913.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+           
+            
+            
+            
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1856, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+
+                <head type="main">FUNERAL NOTES.</head>
+                
+                              
+                <p>Was there every anything like these insensate New Yorkers? Peep with me into that undertaker's shop, sandwiched between a millinery establishment and an oyster saloon. See the coffins, Behemoth and Lilliputian, pyramided in corners, spread out in rows, challenging in platoons, on the side-walk, the passers-by; while in the windows are corpse-caps, stiffly starched and plaited, with white ribbon strings, ready to be tied under your chin, or mine.</p>
+                
+                <p>See the jolly owner, seated on a chair in the middle of his shop, with his legs crossed, his hat on the back of his head, nonchalantly smoking, with his children about his knee; as if the destroying angel had charge to pass unvisited <hi rend="italic">his</hi> blood-besprinkled door-post; as if, eyes now bright with hope, were never to weep themselves dim over those narrow houses.</p>
+                
+               <p>Now a customer comes in; a young man, whose swollen lids tell their own sorrowful tale. The jolly undertaker, wide awake, throws away his segar stump, hands a chair to the new comer, exchanges a few words with him, draws a pencil and paper from his pocket, and <hi rend="italic">taking an infant's coffin into his lap for a writing desk</hi>, commences scribbling down directions. Meanwhile, a hearse rattles up to the door; none of your poor-house hearses, in rusty black, with "seedy" driver, and hang-dog looking horses; but a smart, sonsie, gay-looking New York turn-out&#8212;fit for a turtle-consuming, turtle-consumed Mayor; with nine huge ostrich feathers, black and white, nodding patronizingly to the a-gape urchins, who stand around the door, who are almost willing to get into a coffin to have a ride with them&#8212;with two spanking white horses, equal to Dan Rice's "Excelsior," with ostrich feathers in either ear, flowing as their well-combed tails, which whisk gracefully over the black velvet pall and trappings, as if Life were a holiday and Death its Momus.</p>
+                
+               <p>Now the young man staggers out, shuddering as he passes the hearse, and screening his swollen lids from curious gazers, and the obtrusive sunshine, to whom broken hearts are an every-day story. The jolly undertaker rubs his hands, for death is busy and business is brisk. The young man has made no bargain with him beforehand as to prices; how could he? his heart was full of the widowed sister he left behind, and her newly made orphans; he only remarked as he left the street and number, "to do what is customary;" and custom requires that carriages shall be provided for all the "friends and acquaintances" who may wish to go. So "friends and acquaintances" gather, (when the funeral hour arrives.) Why not? The day is fine and a ride<!-- The preceding two words are obscured in the microfilm image, due to a fold in the periodical page. The missing words have been supplied from the reprinting of this column in Fern's collection entitled Fresh Leaves (New York: Mason Brothers, 1857), 280. --> to the out-of-town cemetery pleasant, and (to them) inexpensive; they whose eyes scarce rested with interest on the living form, gaze ceremoniously and curiously on the dead; the widow's tears are counted, the mourning dresses of herself and children scrutinized; the prayer that always falls so immeasurably short of what critical ears demand, is said; a great silence&#8212;then a rustling&#8212;bustling&#8212;whispering&#8212;then the coffin is borne past the widow, who sees it through a mist of tears; and then the long procession winds its way through harlequin Broadway, with its brass bands, and military companies, its thundering omnibuses, its bedizened courtezans, its laughing pedestrians, and astonished, simple-hearted country-folk. Wheels lock, milk carts and market wagons join the procession; Barnum's band pipes from out the Museum balcony merry "Yankee Doodle," and amid curses and shouts, laughter and tears, the mournful cavalcade moves on.</p>
+                
+                <p>And now the incongruous showy farce is over, and the "friends and acquaintances" alighting at their respective houses, re-cross their unblighted thresholds, and the widow and children return to their desolate hearthstone; (<hi rend="italic">how</hi> desolate, God and themselves only know;) while Poverty, strange and unbidden guest, creeps stealthily after them, and takes the empty chair.</p>
+                
+                <p>Oh clamorous, tyrant Custom! Oh thoughtless, unfriendly friends, who can mourn for the dead only in carriages; that swallow up the little legacy, left for the living, by the dead for whom you profess to grieve!</p>
+                
+                <p>Beautiful the calm faith of Swedenborg, turning its hopeful eye away from such childish sackcloth mummery; anchoring where no wave of earthly trouble rolls; gliding through the accustomed life-paths, not lonely, not hopeless; feeling still the warm life-clasp, hearing still the loved voices, breaking the bread, or blessing the meat.</p>
+               
+                <byline>FANNY FERN.</byline>
+                
+                </div>
+            
+            
+           
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="http://fannyfern.org/images/other_images/ferncutout_head.jpg" type="image/jpeg" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<link rel="canonical" href="/columns/fern.18570221" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortlink" href="/node/2" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <title>February 21, 1857 | Fanny Fern in The New York Ledger</title>
+  <style type="text/css" media="all">
+@import url("http://fannyfern.org/modules/system/system.base.css?om2vlq");
+@import url("http://fannyfern.org/modules/system/system.menus.css?om2vlq");
+@import url("http://fannyfern.org/modules/system/system.messages.css?om2vlq");
+@import url("http://fannyfern.org/modules/system/system.theme.css?om2vlq");
+</style>
+<style type="text/css" media="all">
+@import url("http://fannyfern.org/modules/field/theme/field.css?om2vlq");
+@import url("http://fannyfern.org/modules/node/node.css?om2vlq");
+@import url("http://fannyfern.org/modules/search/search.css?om2vlq");
+@import url("http://fannyfern.org/modules/user/user.css?om2vlq");
+</style>
+<style type="text/css" media="all">
+@import url("http://fannyfern.org/modules/ctools/css/ctools.css?om2vlq");
+@import url("http://fannyfern.org/modules/panels/css/panels.css?om2vlq");
+</style>
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700" media="all" />
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Rosarivo:400,400italic&amp;subset=latin,latin-ext" media="all" />
+<style type="text/css" media="all">
+@import url("http://fannyfern.org/themes/bamboo/css/menu.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/normalize.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/style.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/design.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/responsive.css?om2vlq");
+</style>
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="http://fannyfern.org/themes/bamboo/css/ie8-fixes.css?om2vlq" media="all" />
+<![endif]-->
+
+<!--[if IE 9]>
+<link type="text/css" rel="stylesheet" href="http://fannyfern.org/themes/bamboo/css/ie9-fixes.css?om2vlq" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://fannyfern.org/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://fannyfern.org/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://fannyfern.org/misc/drupal.js?om2vlq"></script>
+<script type="text/javascript" src="http://fannyfern.org/themes/bamboo/js/scripts.js?om2vlq"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"bamboo","theme_token":"JfvLcaQFfpw1cHB2LPhA0uzp4cTs5PXQIFjCIDK3ekE","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"themes\/bamboo\/js\/scripts.js":1,"modules\/statistics\/statistics.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/ctools\/css\/ctools.css":1,"modules\/panels\/css\/panels.css":1,"\/\/fonts.googleapis.com\/css?family=Open+Sans:400italic,600italic,700italic,400,600,700":1,"\/\/fonts.googleapis.com\/css?family=Rosarivo:400,400italic\u0026subset=latin,latin-ext":1,"themes\/bamboo\/css\/menu.css":1,"themes\/bamboo\/css\/normalize.css":1,"themes\/bamboo\/css\/style.css":1,"themes\/bamboo\/css\/design.css":1,"themes\/bamboo\/css\/responsive.css":1,"themes\/bamboo\/css\/ie8-fixes.css":1,"themes\/bamboo\/css\/ie9-fixes.css":1}},"urlIsAjaxTrusted":{"\/columns\/fern.18570221":true},"statistics":{"data":{"nid":"2"},"url":"\/modules\/statistics\/statistics.php"}});
+//--><!]]>
+</script>
+    <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-2 node-type-page site-name-hidden bg-green-gradient color-palette-green-bamboo header-font-serif body-font-serif sidebar-right imagecaption section-columns is-node theme-logo-none">
+<div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+
+<header id="head" role="banner" class="container">
+  <hgroup class="ten columns alpha">
+
+    <div id="logo">
+          </div>
+
+    <div id="site-title-wrapper">
+      <h1 id="site-title">
+        <a href="/" title="Home">
+               </a>
+      </h1>
+          </div>
+
+  </hgroup>
+
+<div id="top-links" class="six columns omega">
+        <div class="region region-top-links">
+    <div id="block-search-form" class="block block-search">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <form action="/columns/fern.18570221" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-6imrM07Az1FqnO9JvQEVBlGNvWwwcRMYRVBg6y0qZdY" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+</div>
+</div>
+  </div>
+  </div>
+</header>
+
+<div id="menu-wrapper" class="container">
+  <nav id="main-menu" role="navigation" class="sixteen columns alpha omega">
+    <div class="menu-navigation-container">
+      <!-- Theme native drop downs and mobile menu-->
+      <div id="nav-wrap">
+        <div id="menu-icon">Menu</div>
+        <ul class="menu"><li class="first leaf"><a href="/home">Home</a></li>
+<li class="leaf"><a href="/bio" title="A brief biography of Fanny Fern">Fanny Fern</a></li>
+<li class="leaf"><a href="/ledger" title="A brief historical overview of The New York Ledger">The New York Ledger</a></li>
+<li class="leaf"><a href="/columns" title="Transcriptions and images of Fanny Fern&#039;s columns in the Ledger">Her Columns</a></li>
+<li class="last expanded"><a href="/about">About</a><ul class="menu"><li class="first leaf"><a href="/about">About the Project</a></li>
+<li class="leaf"><a href="/contact" title="Send comments and corrections to the project editor">Contact</a></li>
+<li class="last leaf"><a href="/staff">Project Staff</a></li>
+</ul></li>
+</ul>      </div>
+    </div>
+  </nav>
+</div>
+<!-- end main-menu -->
+
+
+<div class="container" id="content-wrapper">
+
+  
+  
+    
+  
+        
+  <div id="content" class="sixteen columns">
+            <section id="post-content" role="main">
+
+      
+      
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      
+<article id="node-2" class="node node-page node-full clearfix"  about="/columns/fern.18570221" typeof="foaf:Document" role="article">
+
+  
+  <header class="article-header">
+
+  
+  <div class="title-wrapper">
+  
+  
+    <!-- node h1 title -->
+          <h1 class="article-title">February 21, 1857</h1>
+    
+    <span property="dc:title" content="February 21, 1857" class="rdf-meta element-hidden"></span>
+  <!-- Overidden in template.php to show just username. -->
+    
+  </div><!-- // submitted -->
+  </header>
+
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="content">
+<h1 class="pageTitle">21 February 1857</h1>
+<p><a class="image" href="http://fannyfern.org/images/fern18570221.01.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18570221.01.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18570221.02.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18570221.02.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18570221.03.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18570221.03.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18570221.04.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18570221.04.jpg" width="75" class="containsColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18570221.05.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18570221.05.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18570221.06.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18570221.06.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18570221.07.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18570221.07.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18570221.08.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18570221.08.jpg" width="75" class="noColumn" /></a></p>
+<h1 class="columnHead">FRESH FERN LEAVES.</h1>
+<h4><span class="epigraph">Entered according Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</span></h4>
+<h2 class="columnTitle">A GAUNTLET FOR THE MEN.</h2>
+<p class="body_paragraph">I maintain it: all the heroism of the present day is to be found among women. I say it to your beards. I am sick of such remarks as these: "Poor fellow! he was unfortunate in business, and so he took to drinking;" or—"poor fellow! he had a bad wife, and lost all heart." What does a <i>woman</i> do, who is unfortunate in business, I would like to know? Why—she tries again, of course, and keeps on trying to the end of the chapter, notwithstanding the pitiful remuneration man bestows upon her labor—notwithstanding his oft-repeated attempts to cheat her out of it when she has earned it! What does a woman do, who has a bad, improvident husband? Works all the harder, to be sure, to make up his deficiencies to her household; works day and night—smiles when her heart and back are both breaking—speaks hopeful words when her very soul is dying within her; denies herself the needed morsel to increase her children's portion, and crushed neither by the iron gripe of poverty, nor allured by the Judas smile of temptation, hopefully puts her trust in Him who feedeth the sparrows.</p>
+<p class="body_paragraph">She—"the weaker sex?" Out on your pusillanimous manhood! "Took to drinking because he was unhappy!" Bless—his—big—Spartan—soul! How I admire him! Couldn't live a minute without he had everything to his mind; never had the slightest idea of walking round an obstacle, or jumping over it; never practised that sort of philosophical gymnastics—couldn't grit his teeth at fate, and defy it to do its worst, because they chattered so;—poor fellow! Wanted buttered toast, and had to eat dry bread; liked "2:40," and had to go a-foot; fond of wine, and had to drink Croton; couldn't smoke, though his stove-pipe did; rushed out of the world and left his wife and children to battle with the fate that his coward soul was afraid to meet. Brave, magnanimous fellow!</p>
+<p class="body_paragraph">Again—we are constantly hearing that the extravagance of women debars young men from the bliss of matrimony. Poor things! they can't select a wife <i>from out</i> the frivolous circle of fashion; there are no refined, well educated, lady-like, practical girls and women, whom any man, with a man's soul, might be proud to call wife, nobly struggling for an honest maintenance as writers, governesses, teachers, semptresses, and milliners. They never read such an advertisement as this in the papers:</p>
+<blockquote><p>"Wanted, by a young girl, the situation as governess. She can teach the English branches, French and Italian; and is willing to accept a small remuneration, to secure a respectable home."</p></blockquote>
+<p class="body_paragraph">Fudge! None so blind as they who <i>wont</i> see. The truth is, most of the young men of the present day are selfish to the backbone. "Poor," too—very poor!—never go to Shelley's or Delmonico's for a nice little game supper, washed down with champagne at $2 a bottle; never smoke dozens of cigars a-day, at six cents a piece; never invite——<i>themselves</i> to go to concerts, the opera, or the theatre! Wish they could afford to get married, but can't, at least not—till, as they elegantly express it, "they meet a pretty girl who has the tin."</p>
+<h5 class="byline">FANNY FERN.</h5>
+</div>
+<div class="citation">
+<h6>Source Text:</h6>
+<p class="citation">Fanny Fern, "A Gauntlet for the Men" <em>The New-York Ledger </em> (21 February 1857): [4]</p>
+<h6>To cite this project:</h6>
+<p class="citation">Fanny Fern, "A Gauntlet for the Men" <em>Fanny Fern in The New York Ledger</em> Ed. Kevin McMullen (2014) <a href="http://fannyfern.org">http://fannyfern.org</a>.</p>
+</div>
+<div class="report"><a href="http://fannyfern.org/contact" target="_blank"><br /><h6 class="report">Report corrections</h6>
+<p></p></a></div>
+<h6 class="xmlDownload"><a href="http://fannyfern.org/xml/fern.18570221.xml" download=""><br />
+           Download source XML<br /></a></h6>
+<p></p></div></div></div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"></nav>
+    
+      </div>
+</article>
+    </div>
+</div>
+</div>
+  </div>
+          </section>
+    <!-- /#main -->
+  </div>
+
+    
+</div>
+
+<footer id="colophon" class="container">
+
+  
+            <div class="sixteen columns footer-area">
+        <div class="region region-footer-first">
+    <div id="block-block-2" class="block block-block">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <div class="footer">
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Fanny Fern in <em>The New York Ledger</em></span>, edited by <a href="http://iamkevinmcmullen.com" target="_blank">Kevin McMullen</a>, is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+<div>
+</div></div>    </div>
+</div>
+</div>
+  </div>
+      </div>
+                  
+
+</footer>
+<script type="text/javascript" src="http://fannyfern.org/modules/statistics/statistics.js?om2vlq"></script>
+</body>
+</html>

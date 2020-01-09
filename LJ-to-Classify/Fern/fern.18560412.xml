@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560412">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Peeps From Under A Parasol.&#8212;No. 2.</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="jf">Jacob K. Friefeld</editor>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2014</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">Peeps From Under A Parasol.&#8212;No. 2.</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-04-12">12 April 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-02-13">further updated encoding; proofed text</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#jf" when="2012-05-02">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18560412.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18560412.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18560412.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18560412.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18560412.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18560412.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18560412.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18560412.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+            
+            
+            
+            
+            <div type="column">
+            <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by R. BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                <head type="main">PEEPS FROM UNDER A PARASOL.&#8212;NO. 2.</head>
+                
+                <p>Everybody must have noticed <hi rend="italic">the</hi> tall, agile boquet man; now here, now there, but principally on the St. Nicholas Hotel steps; with his shiny beaver cocked knowingly on one side, and his upper and lower limbs moving entirely independent of each other; not that I object to this; it is his profession to <hi rend="italic">writhe</hi>; but why always tantalise me with that lovely little rosebud, pendant from his mouth? With what longing eyes have I viewed it, in contrast with the great cabbage-sized boquets, which are my aversion, and how often have I wished some friendly breeze might titillate his nasal organ to a sneese, and force it from his mouth to my itching fingers. Why choose the St. Nicholas Hotel steps to display his tempting treasures? Those thronged steps which a lady had rather break her neck trying to cross the street than pass. The vitriol man is a pest, but is his offence, bad as it is, worse than the infinitessimal, innumerable, and, alas! <hi rend="italic">indelible</hi> jets of tobacco juice ejected from the St. Nicholas steps, at all hours of the day and evening, upon ladies' robes? We call upon every public-spirited New Yorker to contribute to the purchase of a row of spittoons, to be placed in front of this palatial entrance, for the accommodation of the gentlemen (?) who haunt it, and the protection of their lady victims. We call upon the gallant Captain DeGroot, of the chinchilla beard and well-knit limbs, to come to the rescue. And here, if I only might have the ear of Fernando Wood, I would suggest the following:</p>
+               
+                <q>Resolved, That henceforth all cigars, with gentleman loafers attached, shall be restricted to the <hi rend="italic">shilling side of Broadway</hi>, with the Russ pavement between them and the ladies; who prefer, if they <hi rend="italic">must</hi> die by choking, to choose a more agreeable mode.</q>
+               
+                <p>And here comes Barnum; poor Barnum! late so <hi rend="italic">riant</hi> and rosy. Kick not the prostrate lion, ye crowing changelings; you may yet feel his paws in your faces; Mammon grant it! not for the love I bear to "woolly horses," but for the hate I bear to pharasaical summer friends.</p>
+               
+               <p>Ah! here comes Count Gurowski; Mars of the Tribune. Oh! the knowledge buttoned up in that shaggy black overcoat! Oh the prophet eyes hid by those ugly green goggles! Not a move on the European chequer-board escapes their notice; but no film of patriotism can cloud to their Russian owner the fall of Sebastopol; and while we gladly welcome rare foreign talent like his to our shores, our cry still must be&#8212;Down with Tyranny and Tyrants!</p>
+               
+                <p>And there is Briggs; whilome editor of Putnam's Monthly, now factotum of the New York Times, a most able writer, and indefatigable worker. People judge him to be unamiable because his pen has a sharp nib. Fudge! one know what to expect from a torpedo, but who can count on an eel? I trust no malicious person will twist this question to the disparagement of Briggs' editorial coadjutor, Lieutenant-Governor Raymond.</p>
+               
+               <p>And here come Lester and Laura Keene, (not together! Thespis forbid!) I <hi rend="italic">must</hi> like Laura's energy and determination, and I <hi rend="italic">do</hi> wonder at the weight of business those fair and fragile shoulders bear; I <hi rend="italic">must</hi> honor any woman who snaps her finger at repeated discouragements to gain an honest livelihood; yes, long-visaged, saucer-eyed Pharisee, even though she be "an actress." I hear whispers <hi rend="italic">against</hi> the pretty Laura. Of course&#8212;who that is successful&#8212;who that is attractive escapes them? When a man is defamed, a fist, a pistol, or the law rights him: a woman thus situated, if silent, is guilty; if rasped to a public vindication of her rights, is bold, revengeful and unwomanly. <hi rend="italic">So</hi> "get thee behind me, defaming limb of Satan!" for the indomitable Laura shall, in <hi rend="italic">my</hi> eyes, be worthy of honor, until proven otherwise.</p> 
+               
+               <p>And there's Jordan; a hero for a boarding-school Miss. If I might be allowed to name a fault, it is his excessive modesty!</p>
+               
+               <p>And Lester&#8212;but his fine person needs no eulogium of mine; I <hi rend="italic">have</hi> sometimes thought he himself was not unconscious of it! And Wallack, with his lovely grandchild by the hand; (Autumn and Spring)&#8212;you will see no picture in the artist's studio more touching and sweet.</p>
+               
+                <p>And here, by the rood, comes FANNY FERN! FANNY is a woman. For that she is not to blame, though since she first found it out, she has never ceased to deplore it. She might be prettier, she might be younger. She might be older, she might be uglier. She might be better, she might be worse. She has been both over-praised and over-abused, and those who have abused her worst, have imitated and copied her most.</p>
+               
+                <p>One thing may be said in favor of FANNY: she was NOT, thank Providence, born in the beautiful, backbiting; sanctimonious, slandering; clean, contumelious; pharasaical, phiddle-dee-dee; peck-measure city&#8212;of Boston!</p>               
+                
+                
+                <byline>FANNY FERN.</byline>
+         </div>
+            
+            
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

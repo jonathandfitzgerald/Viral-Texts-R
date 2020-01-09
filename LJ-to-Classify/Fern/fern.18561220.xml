@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18561220">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Biographical Whitewash</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="cm">Carmen McCue</editor>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2015</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">Biographical Whitewash</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-12-20">20 December 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-09-30">proofed, and further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#cm" when="2012-04-07">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18561220.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18561220.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18561220.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18561220.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18561220.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18561220.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18561220.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18561220.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+            
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1856, by Robert Bonner, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+
+                <head type="main">BIOGRAPHICAL WHITEWASH.</head>
+
+                <p>"Lord, how the world is given to lying!" as Falstaff hath it. Not that I ever read Shakspeare. I am happy to say that I never could get through even one play; and I am not going to commit the very sin I am about to run a tilt with, by affecting an admiration, or even a toleration that I never felt; no&#8212;not even for that critical Shaksperian critic, Richard Grant White, whose immaculate, starched prim-ativeness I always feel a demoniac desire to discom-sturb!</p>
+
+               <p>But to return to my subject: I repeat it&#8212;How the world <hi rend="italic">is</hi> given to lying! Now here is an obituary notice that has just come in my way, of Mr. Brewis Bright&#8212;a man who, according to his biographer, led a self-sacrificing, spotless life, was scrupulously just, anxious only to benefit his poor distressed fellow-creatures, and casting behind him this world's lusts and vanities, looked beyond all human applause for his reward in Heaven.</p>
+
+               <p>Great C&#230;sar! Didn't I know Brewis Bright? Didn't I know him to be selfish to the backbone? Didn't I know that he did all his alms to be seen of men? Didn't I know that he <hi rend="italic">always</hi> let his left hand know what his right hand did? Didn't I know that Rank and Mammon were the gods he worshipped&#8212;that to dine with the Hon. Joseph this, and sup with the Hon. Thomas that, and walk through the public streets arm-in-arm with Senator&#8212;&#8212;, he would sacrifice his toadying soul? Didn't I know that Lazarus might gasp his last at his gate (if he was sure the world would not hear of it) before he would leave the savory viands of Dives's table? Didn't I know that his long prayers covered Jewish bargains with his landladies, and that even the orphan's portion was not safe in his grasping fingers? Didn't I know that the charitable collections he made from the earnings of poor servant-girls, the expenditure and appropriation of which he was too pure and holy to be questioned about, went to pay for his pleasure trips to Niagara, and Saratoga, and divers other saintly private necessities? Didn't I know that this man of tender susceptibilities could eat, drink, sleep and snore while his nearest of kin were "sick, and in prison, and he visited them not?" Didn't I know that he cheated an old grey-haired man (on the strength of his saintly word, which he said "was as good as his bond") of his righteous dues? Didn't I know, that because a man has "Hon." prefixed to his name here, that it does not, as a matter of course, furnish him with a free ticket to the reserved seats in Heaven? Am I not self-appointed to "stop this whining" about such hypocrites&#8212;to rub the biographical whitewash off their tomb-stones, and to make legible the handwriting beneath, which says&#8212;"Thou art weighed in the balance and found wanting?" And lastly; don't I know this saintly Mr. Brewis Bright to have been a hypocritical, aristocratic, selfish, domineering, tyrannical, gluttonous old mule?</p>
+
+                <p>The fact is, the flimsy, posthumous veil of biography is all too transparent to hide from the discerning eyes of a wide-awake world a man's true character; nor does it advance the cause of religion, as some seem to suppose, to deny, or ignore, the inexcusable sins and shortcomings of its professors. Let a biographical notice be a <hi rend="italic">true</hi> transcript of the man of whom it treats, or, let it remain forever unwritten; and the more exalted a man's station, the more strict should be the adherence to this rule. The world is nauseated with this fulsome biographical whitewash; it stands the scrutiny of neither sinner nor saint. Could the subjects of some of these laudatory notices be resurrectionized, their astonishment at the fabulous virtues attributed to them, would be edifying to witness.</p>
+
+                <byline>FANNY FERN.</byline>
+            </div>
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

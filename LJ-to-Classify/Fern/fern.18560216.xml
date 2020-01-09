@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560216">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">To The Children Who Read The New York Ledger</title>
+            <title type="sub">a machine-readable transcription</title>
+             <editor xml:id="jf">Jacob Friefeld</editor>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2014</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">   <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>   <author ref="#ff">Fanny Fern</author>   <title level="a"/>
+               </analytic>
+               <monogr>   <title xml:id="paper" level="j">The New-York Ledger</title>   <editor ref="#rb">Robert Bonner</editor>   <imprint>      <date xml:id="issue_date" when="1856-02-16">16 February 1856</date>   </imprint>   <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>   <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>   <title level="j" sameAs="#paper"/>   <imprint>      <date sameAs="#issue_date"/>   </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#jf" when="2012-05-02">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18560216.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18560216.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18560216.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18560216.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18560216.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18560216.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18560216.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18560216.08.jpg"/>
+        </surface>
+    </facsimile>
+   <text>
+      <body>
+            
+            <div>
+            <head type="column">Fresh Fern Leaves</head>  <epigraph>     <p>Entered according to Act of Congress, in the year 1855, by R. BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p> </epigraph>  <head type="main">TO THE CHILDREN WHO READ THE NEW YORK LEDGER.</head>  <p>Now I suppose you think because I have been writing to the grown-up people these two or three weeks, that I have forgotten you. Catch me at it! I only waited upon them first, because they are oldest; not, between you and me, because I like them one bit better. No; I believe in children, and I can't say that  of all grown-up people, by a great deal. For instance, I don't believe in an Editor who feels too important or too busy to say a word now and then to the children of his subscribers. I would not give a copper for him; I don't care how much he knows about politics, (which you and I always skip when we read this paper,) if he does not love children he is not the Editor for me—there is something wrong about him. Why need he put on such big airs? Ten to one, if we inquired, we should find out he was once a little boy <hi rend="italic">himself;</hi> cried for sugar candy; was afraid of the dark, and ran screaming to his mother whenever he saw a poor, harmless, old black man. He put on big airs indeed! that's a joke! I've a great mind to set up a paper for you myself, and not notice the grown up folks at all. Wouldn't that be fun? But you see I have my own ideas about things—and there's your Aunt Nancy, who was born and brought up when children were thumped on the head for asking the reason for things. She would take up our little paper, and scowl at it over her spectacles. Other papers for children generally keep an eye out for Aunt Nancy—and papers for big people too, for the       <figure>         <graphic url="http://fannyfern.org/images/illustrations/fern18560216.04_ill1.jpg"/>         <figDesc>Two adult women talking to each other, with a young girl standing next to one of them.</figDesc>     </figure>      matter of that. But <hi rend="italic">I</hi>couldn't do it. Your Aunt Nancy believes that children should talk, move, and act as if they were a hundred years old. I respect your Aunt Nancy, but I can't believe in that; and what is more, I am sure that God does not. I believe that the merry laugh of a little child is just as sweet in His ear,as the little prayer it lisps. He loves you all; oh, how much! He <hi rend="italic">likes</hi> you to be happy;     He <hi rend="italic">made</hi>you to be happy as well as good. And He never—<hi rend="italic">never</hi> thinks, great as He is, that what little children say or think, great as He is, that  what little children say or think, is "of no consequence." And though He keeps the sun, moon, and stars in their right places, and holds the roaring winds and the great mighty sea in His fists, and makes all the trees and flowers, and birds and beasts, and human beings all over the earth, He is never so "busy" that He cannot bend down His ear whenever a little child sobs, or, looking up to Heaven, calls Him "Father."</p> <p>Well, you see it looks very small when an Editor or anybody else, thinks himself too important or too busy to remember the dear little children whom God can watch over so  lovingly. I don't like it; and I don't like a great many other things you children have to bear, and sometimes I get so troubled about it, that I want to go all round battling for your rights.</p> <p>Now, the other day I saw a lady, very gaily dressed, leading along her little girl by the hand. It was a bitter cold day, and by and bye this lady met a lady friend of hers, and they both stopped just as they reached a corner where the wind blew the coldest, to admire each other's new bonnets and cloaks. Now, though the lady had wrapped  <hi rend="italic">herself</hi>up warmly in furs, her little girl's legs, for two inches above her pretty gaiter boots, were quite bare, and the cold wind nipped her little calves till they were quite purple, and she began to cry, as well she might; but her mamma only shook her impatiently, and went on for half an hour longer, talking about the fashions—foolish fashions, which tell foolish  mammas to let their little children go bare-legged in winter, and tell them that a muslin ruffle will keep their little calves warm enough.</p> <p>Now I did not know the name of that little girl; so, when I looked day after day at the list of deaths, I could not tell whether God had taken her up to Heaven or not, but I hoped so, because I did not want her to suffer, and  because I thought that a mother who would be so foolish as to do that, would make a great many other very sad mistakes in bringing up her little girl.</p> <p>Yes, I felt very badly about it; and I felt badly about my little friend George,  the other day. George goes to school; he has a great many lessons to get out of school. He is a very conscientious little boy, and cannot be tempted away from his lessons after he sits down to learn them; so, when it was proposed the other night, after tea, to take him to some place of amusement, he said, "I would rather not go, because I am not sure that I have my French lesson perfectly for to-morrow." So he staid at home and studied it, and the next morning trudged of to school, quite happy in the thought that he knew it perfectly.</p> <p>Now, the boys in George's school, have a bad way of "telling" each other in the class. George is too honest to do this; he neither will tell them, nor let them tell him.</p> <p>Poor little George! he missed in his lesson that morning, although he had tried so hard to learn it. The teacher reprimanded him, (that means scolded him,) and gave him a bad mark, while the naughty boys who had scarcely looked at their lessons got <hi rend="italic">good</hi> marks, because they peeped in the book and told each other the answers.</p> <p>Poor little George!</p> <p>He came home, with his large brown eyes full of tears, looking sick and discouraged. He could not eat a bit of dinner, though there was roast turkey and plum pudding. His little heart was almost broke.</p> <p>So I took him in my lap, and I told him that a great many men, and women, too, all over the world, were suffering just such injustice; that when they tried hardest to do right, they got no credit for it from their fellow creatures, and often had "bad marks" for it just as he did, and that it really seemed to  them sometimes as if the lazy and deceitful prospered most.</p> <p> But then I told little George that it was only in <hi rend="italic">seeming</hi> that they prospered, because God, who, as you know, sees everything, and is never careless of short-sighted as George's teacher was, never lets those who do right suffer for it. He may take His own time to right them, (which is always the best time,) but He <hi rend="italic">does</hi> it; and I told George that those naughty boys would grow up ignorant though they <hi rend="italic">did</hi> get good marks, and that he would grow up to be well educated and useful if he did get bad ones when he did not deserve them; and I told George that one of these days, when they all grew up, that while those  lazy, ignorant fellows found it impossible to earn a living, and what was worse, had no hear to do good. some College which wanted a splendid President, would write a letter to George and make him one, and he could become at once both honorable and useful.</p> <p>Yes, my children, just so surely as the bright sun shines over your dear little heads, our loving God, who writes down in His book every act of injustice and wrong-doing, even to little children, will, if you only work on with a brave, patient heart, turn all your trials into blessings.</p> <p>
+               <hi rend="italic">True as Heaven—Aunt Fanny knows it!</hi>
+            </p> 
+                 <byline>FANNY FERN.</byline>
+         </div>
+          
+        </body>
+   </text>
+</TEI>

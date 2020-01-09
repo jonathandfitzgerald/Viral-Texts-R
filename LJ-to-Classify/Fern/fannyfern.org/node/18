@@ -1,0 +1,230 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="http://fannyfern.org/images/other_images/ferncutout_head.jpg" type="image/jpeg" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<link rel="canonical" href="/columns/fern.18570321" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortlink" href="/node/18" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <title>March 21, 1857 | Fanny Fern in The New York Ledger</title>
+  <style type="text/css" media="all">
+@import url("http://fannyfern.org/modules/system/system.base.css?om2vlq");
+@import url("http://fannyfern.org/modules/system/system.menus.css?om2vlq");
+@import url("http://fannyfern.org/modules/system/system.messages.css?om2vlq");
+@import url("http://fannyfern.org/modules/system/system.theme.css?om2vlq");
+</style>
+<style type="text/css" media="all">
+@import url("http://fannyfern.org/modules/field/theme/field.css?om2vlq");
+@import url("http://fannyfern.org/modules/node/node.css?om2vlq");
+@import url("http://fannyfern.org/modules/search/search.css?om2vlq");
+@import url("http://fannyfern.org/modules/user/user.css?om2vlq");
+</style>
+<style type="text/css" media="all">
+@import url("http://fannyfern.org/modules/ctools/css/ctools.css?om2vlq");
+@import url("http://fannyfern.org/modules/panels/css/panels.css?om2vlq");
+</style>
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700" media="all" />
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Rosarivo:400,400italic&amp;subset=latin,latin-ext" media="all" />
+<style type="text/css" media="all">
+@import url("http://fannyfern.org/themes/bamboo/css/menu.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/normalize.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/style.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/design.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/responsive.css?om2vlq");
+</style>
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="http://fannyfern.org/themes/bamboo/css/ie8-fixes.css?om2vlq" media="all" />
+<![endif]-->
+
+<!--[if IE 9]>
+<link type="text/css" rel="stylesheet" href="http://fannyfern.org/themes/bamboo/css/ie9-fixes.css?om2vlq" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://fannyfern.org/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://fannyfern.org/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://fannyfern.org/misc/drupal.js?om2vlq"></script>
+<script type="text/javascript" src="http://fannyfern.org/themes/bamboo/js/scripts.js?om2vlq"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"bamboo","theme_token":"5I2LDewiwsVMgCEOETeMj9X084V8Igr1I6C0WXu3ZFg","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"themes\/bamboo\/js\/scripts.js":1,"modules\/statistics\/statistics.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/ctools\/css\/ctools.css":1,"modules\/panels\/css\/panels.css":1,"\/\/fonts.googleapis.com\/css?family=Open+Sans:400italic,600italic,700italic,400,600,700":1,"\/\/fonts.googleapis.com\/css?family=Rosarivo:400,400italic\u0026subset=latin,latin-ext":1,"themes\/bamboo\/css\/menu.css":1,"themes\/bamboo\/css\/normalize.css":1,"themes\/bamboo\/css\/style.css":1,"themes\/bamboo\/css\/design.css":1,"themes\/bamboo\/css\/responsive.css":1,"themes\/bamboo\/css\/ie8-fixes.css":1,"themes\/bamboo\/css\/ie9-fixes.css":1}},"urlIsAjaxTrusted":{"\/node\/18":true},"statistics":{"data":{"nid":"18"},"url":"\/modules\/statistics\/statistics.php"}});
+//--><!]]>
+</script>
+    <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-18 node-type-page site-name-hidden bg-green-gradient color-palette-green-bamboo header-font-serif body-font-serif sidebar-right imagecaption section-columns is-node theme-logo-none">
+<div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+
+<header id="head" role="banner" class="container">
+  <hgroup class="ten columns alpha">
+
+    <div id="logo">
+          </div>
+
+    <div id="site-title-wrapper">
+      <h1 id="site-title">
+        <a href="/" title="Home">
+               </a>
+      </h1>
+          </div>
+
+  </hgroup>
+
+<div id="top-links" class="six columns omega">
+        <div class="region region-top-links">
+    <div id="block-search-form" class="block block-search">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <form action="/node/18" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-jqzyVPsMKLRU_nnwhETkiLybk88R2XLp1Ht7G-Cy-Ro" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+</div>
+</div>
+  </div>
+  </div>
+</header>
+
+<div id="menu-wrapper" class="container">
+  <nav id="main-menu" role="navigation" class="sixteen columns alpha omega">
+    <div class="menu-navigation-container">
+      <!-- Theme native drop downs and mobile menu-->
+      <div id="nav-wrap">
+        <div id="menu-icon">Menu</div>
+        <ul class="menu"><li class="first leaf"><a href="/home">Home</a></li>
+<li class="leaf"><a href="/bio" title="A brief biography of Fanny Fern">Fanny Fern</a></li>
+<li class="leaf"><a href="/ledger" title="A brief historical overview of The New York Ledger">The New York Ledger</a></li>
+<li class="leaf"><a href="/columns" title="Transcriptions and images of Fanny Fern&#039;s columns in the Ledger">Her Columns</a></li>
+<li class="last expanded"><a href="/about">About</a><ul class="menu"><li class="first leaf"><a href="/about">About the Project</a></li>
+<li class="leaf"><a href="/contact" title="Send comments and corrections to the project editor">Contact</a></li>
+<li class="last leaf"><a href="/staff">Project Staff</a></li>
+</ul></li>
+</ul>      </div>
+    </div>
+  </nav>
+</div>
+<!-- end main-menu -->
+
+
+<div class="container" id="content-wrapper">
+
+  
+  
+    
+  
+        
+  <div id="content" class="sixteen columns">
+            <section id="post-content" role="main">
+
+      
+      
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      
+<article id="node-18" class="node node-page node-full clearfix"  about="/columns/fern.18570321" typeof="foaf:Document" role="article">
+
+  
+  <header class="article-header">
+
+  
+  <div class="title-wrapper">
+  
+  
+    <!-- node h1 title -->
+          <h1 class="article-title">March 21, 1857</h1>
+    
+    <span property="dc:title" content="March 21, 1857" class="rdf-meta element-hidden"></span>
+  <!-- Overidden in template.php to show just username. -->
+    
+  </div><!-- // submitted -->
+  </header>
+
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="content">
+<h1 class="pageTitle">21 March 1857</h1>
+<p><a class="image" href="http://fannyfern.org/images/fern18570321.01.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18570321.01.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18570321.02.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18570321.02.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18570321.03.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18570321.03.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18570321.04.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18570321.04.jpg" width="75" class="containsColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18570321.05.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18570321.05.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18570321.06.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18570321.06.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18570321.07.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18570321.07.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18570321.08.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18570321.08.jpg" width="75" class="noColumn" /></a></p>
+<h1 class="columnHead">FRESH FERN LEAVES.</h1>
+<h4><span class="epigraph">Entered according to Act of Congress in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</span></h4>
+<h2 class="columnTitle">A HEADACHE.</h2>
+<p class="body_paragraph">Now I am in for it, with one of my unappeasable headaches. Don't talk to me of doctors; it is incurable as a love-fit; nothing on earth will stop it; you may put that down in your memorandum-book. Now, I suppose everybody in the house today will put on their creakingest shoes; and everybody will go up and down stairs humming all the tunes they ever heard, especially those I most dislike; and I suppose everything that is cooking in the kitchen will boil and stew over, and the odor will come up to me; and I have <i>such</i> a nose! And I suppose all the little boys in the neighborhood, bless their little restless souls, will play duetts on tin-pans and tin-kettles; and I suppose everybody who comes into my room to ask me how I do, will squeak that horrid door, and <i>keep</i> squeaking it: and I suppose that unhappy dog confined over in that four-square-feet yard, will howl more deliriously than ever; and Mr. Jones's obnoxious blind will flap and hang till I am as crazy as an omnibus-driver who has a baulky horse, and whose passengers are hopping out behind without paying their fare; and I suppose some poor little child will be running under the window every now and then, screaming "Mother," and whenever I hear that I think somebody wants <i>me</i>; and I've no doubt there will be "proof" to read to-day, and that that pertinacious and Stentorian rag-man will lumber past on his crazy old cart, and insist on having some of my dry goods; and I feel it in my bones that oysters and oranges, and tape and blacking, and brooms and mats and tin-ware, will settle and congregate on this side-walk, and assert their respective claims to my notice, till the sight of an undertaker would be a positive blessing.</p>
+<p class="body_paragraph">Whack! how my head snaps! Don't tell me any living woman ever had such a headache before—because it will fill me with disgust. What o'clock is it? "Twelve." Merciful man! only twelve o'clock! I thought it was five. How am I to get through the day, I would like to know, for this headache wont let up till sun-down; it never does. "Read to me?" What'll you read? "Tom Moore!"—as if I were not sick enough already. Moore! with his nightingales, and bulbuls, and jessamines; and loves and doves, and roses and posies—till the introduction of an uneducated wildcat, or the tearingest kind of a hyena in his everlasting gardens, would be an untold relief. No—I hate Moore. Beside—he is the fellow who said, "when away from the lips that we love, we'll make love to the lips that are near." No wonder he was baptized <i>more</i>—carnivorous old profligate.</p>
+<p class="body_paragraph">"Will I have a cup of tea?" No, of course I wont. I'm not an old maid. Tea! I'd like a dose of strychnine. There goes my head again—I should think a string of fire-crackers was fastened to each hair. Now the pain is in my left temple; now it is in my eye-balls; now—oh dear—it is everywhere. Sit down beside me, on the bed—don't jar it; now put your cold hand on my forehead—so——good gracious! there's a hand-organ! I knew it—the very one I moved here to get rid of. Playing the same old tune, too, composed of three notes; "tweedle—dum—tweedle—dee!"</p>
+<p class="body_paragraph">Now if that organ man would pull each of my finger and toe-nails out by the root one by one I wouldn't object, but that everlasting "tweedle——" oh, dear!—Or if a cat's tail were to be irretrievably shut into yonder door,—or a shirt sleeve should be suddenly and unexpectedly thrown around an old maid's neck in this room, anything—everything but that eternal, die-away "tweedle." What is the use of a city government? What is the use of anything? What is the use of <i>me</i>?</p>
+<h5 class="byline">FANNY FERN</h5>
+</div>
+<div class="citation">
+<h6>Source Text:</h6>
+<p class="citation">Fanny Fern, "A Headache" <em>The New-York Ledger </em> (21 March 1857): [4]</p>
+<h6>To cite this project:</h6>
+<p class="citation">Fanny Fern, "A Headache" <em>Fanny Fern in The New York Ledger</em> Ed. Kevin McMullen (2014) <a href="http://fannyfern.org">http://fannyfern.org</a>.</p>
+</div>
+<div class="report"><a href="http://fannyfern.org/contact" target="_blank"><br /><h6 class="report">Report corrections</h6>
+<p></p></a></div>
+<h6 class="xmlDownload"><a href="http://fannyfern.org/xml/fern.18570321.xml" download=""><br />
+           Download source XML<br /></a></h6>
+<p></p></div></div></div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"></nav>
+    
+      </div>
+</article>
+    </div>
+</div>
+</div>
+  </div>
+          </section>
+    <!-- /#main -->
+  </div>
+
+    
+</div>
+
+<footer id="colophon" class="container">
+
+  
+            <div class="sixteen columns footer-area">
+        <div class="region region-footer-first">
+    <div id="block-block-2" class="block block-block">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <div class="footer">
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Fanny Fern in <em>The New York Ledger</em></span>, edited by <a href="http://iamkevinmcmullen.com" target="_blank">Kevin McMullen</a>, is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+<div>
+</div></div>    </div>
+</div>
+</div>
+  </div>
+      </div>
+                  
+
+</footer>
+<script type="text/javascript" src="http://fannyfern.org/modules/statistics/statistics.js?om2vlq"></script>
+</body>
+</html>

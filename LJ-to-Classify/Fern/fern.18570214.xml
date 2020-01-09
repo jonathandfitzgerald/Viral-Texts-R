@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xml:id="fern.18570214" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Paper Pellets</title>
+                <title type="sub">a machine-readable transcription</title>              
+                 <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+                      
+            <publicationStmt>
+                <date>2014</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                       <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to Kevin McMullen, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Paper Pellets</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-02-14">14 February 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+       <encodingDesc>
+           <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+       </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2014-09-25" who="#km">updated sourceDesc encoding</change>
+            <change when="2014-09-19" who="#km">added facsimile element</change>
+            <change when="2014-04-01" who="#km">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570214.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570214.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570214.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570214.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570214.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570214.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570214.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570214.08.jpg"/>
+        </surface>
+    </facsimile>
+
+
+    <text>
+        <body>
+            
+            <div>
+                <head type="column">FRESH FERN LEAVES.</head>
+                <epigraph>
+                    <p>Entered according Act of Congress in the year 1855 by Robert Bonner, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                <head type="main">PAPER PELLETS.</head>
+                
+                <p>What should we do without newspapers? I read in "The New York Times" the other day, that a provision-dealer in Brooklyn was selling pork which, contrary to usage, had departed this life without leave from the butcher; and as "The Times" did not favor the public with the name of this conscientious pork-merchant; and as there are several of that anti-Jewish persuasion in the "city of churches;" I was for a long period sorely exercised in my mind whether the estimable young man in the white frock, and sanguinary hands, who called dailey in my kitchen to take my orders through Betty, was an emisary from that obnoxious individual of whom "The Times" made mention. Still I would not be understood to hint that newspaper are not a great institution.</p>
+                
+                <p>Then I took up the "Foam Journal," and I read therein an article by Genio-Genius, on "Fashion," in which he described with the pen of inspiration two loves of costumes; one for a lad of six, another for a little girl of eight, ornamented with Eugenie buttons, Victoria braid and Prince Albert gimp; with frills exactly the fifteenth part of an inch wide, terminating in a bow not too long, nor yet too short, but just hitting the happy medium between vulgarity and upper-tendon; to be worn with a delicately fitting boot, toes not too long, nor too pointed, not yet round, neither of a vulgar square, but toed off with that ineffable grace, which only a fashionable Crispin can hope in a life-time to attain; which description Genio-Genius finished by exhorting parents to attend carefully to the morals of their offspring, and so to educate them, both by precept and example, that they would at any moment be prepared for a transit to another and a better world. Still I would not be understood to hint that newspapers, including Fashion's High Priest&#8212;the Foam Journal&#8212;are not great institutions.</p>
+                
+                <p>Then I took up "Life Illustrated," the professed mouth-piece of Woman's Rights, and the organ of a kimbo feminity; and I read therein the following <hi rend="italic">liberal</hi> sentiment, which struck me as being so well adapted to this nineteenth century of progress, particularly the words italicised; and so calculated to develope individuality in woman; and to render this world anti-monotenous, that I cannot forbear quoting it entire, as follows:&#8212;</p>
+                
+                <q>"The triumph of woman lies not in the admiration of her lover, but in the respect of her husband, and that can only be gained by a constant cultivation of those qualities <hi rend="italic">which she knows he most values</hi>."</q>
+                
+                <p>Then I took up "The New York Evening Post" and read by its critic the following masculine, and consequently lucid description of a lady's dress at the opera. He eyed the Little Giant and his beautiful bride critically:</p>
+                
+                <q>"Mrs. Douglas," he says, "was attired in rather a high-necked blue silk dress, with a blue satin stripe trimmed with lace. Her hair was not, as is said to be usual, thrown in a braid round her classic forehead, but disposed after the fashion of the Empress Eugenie."</q>
+                
+                <p>Of course I was left in a terrific state of anxiety, as to the precise altitude of "<hi rend="italic">rather high-necked</hi>," and in a bewilderment of doubt as to which of Eugenie's various modes of dreaming her Andalusian locks, the "Little Giant's" transcendant bride transfixed the critic of the Post, by condescending to copy; also whether it was the blue satin stripe only that was trimmed with lace, or, the <hi rend="italic">rather</hi> high-necked blue satin dress generally, that was thus garnished. Still I would not be understood to hint that newspapers are not an edifying institution.</p>
+                
+                <p>Then I took up the "Lafayette Sentinel" and read an article from a bachelor commiserating married men, because their wives did not always endorse their old bachelor acquaintances. This reminded me of a person who was once taken in tow by an officious bogus philanthropist, and who naively remarked afterwards that he had not the slightest idea how miserable he was till Mr.&#8212;&#8212; told him! Still I am of the opinion that bachelors, husbands, and newspapers, are all necessary and national institutions.</p>
+                
+                <byline>FANNY FERN.</byline>
+            </div>
+           
+        </body>
+
+    </text>
+</TEI>

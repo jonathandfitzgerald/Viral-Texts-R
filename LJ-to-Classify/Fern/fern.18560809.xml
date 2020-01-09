@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560809">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">A Short Article on a Very "Long Island"</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2015</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">A Short Article on a Very "Long Island"</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-08-09">9 August 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-09-11">proofed, and further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#km" when="2012-04-07">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18560809.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18560809.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18560809.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18560809.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18560809.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18560809.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18560809.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18560809.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+           
+            
+            
+            
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1856, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+
+                <head type="main">A SHORT ARTICLE ON A VERY "LONG ISLAND."</head>
+                
+                <p>Brooklyn has its little ways, but one must needs admire it. The sparkle and dash of Broadway, pall like a ball-room belle, if seen too often; one must needs place the ferry between one's self and its millions of money, its millions of toil-worn and pleasure jaded faces, not to weary of it, and them. It is a relief to place East river between one's self, and the dusty, noisy streets of New York. It is a relief, after having crossed it, to release one's weary hands from the onerous duty of guarding trailing skirts. It is a relief to saunter through its clean and shady streets, up to its breezy Heights; to watch the busy boats, ploughing their way, through foamy paths, to distant piers; to hear the faint "yeave ho," of the brawny, sun-burnt sailor; to look down "The Narrows," and strain the eye to catch the sails, flattering like white-winged sea-birds, as they lessen out of sight; to see the green and waving trees, that tell of lovely Greenwood's peaceful sleepers.</p>
+                
+                <p>Yes, one must needs admire Brooklyn; in spite of its dogs, which are as un-muzzled as its street-car conductors, who tell parcel-laden ladies that "there is plenty of room," and then refuse to let them get out when they discover the fib; and in spite of the gentlemen (?) who smoke lawfully, and uncivilly upon the platform, in ladies disgusted, and not always disgusting faces.</p>
+                
+                <p>Yes, Brooklyn is a pleasant place, and one cannot wander over it, especially in the vicinity of Fort Green, now Washington Park, (which I venture to say, not one New Yorker in ten ever saw,) without pronouncing this tame praise; whether viewed through the capitalist's or the artist's spectacles. A much longer distance from New York, than this locality, might be traveled over by respectable citizens, without finding such eligible, elegant residences, within limited means, and reasonable business reach.</p>
+                
+                <p>And yet, as I said before, not one New Yorker in ten, perhaps, ever saw "Old Fort Green," or, from its summit, feasted his eyes upon the lovely panorama of sea and shore, spread out before him; or, felt his eye moisten as did Washington's (whose feet have consecrated it) as he thought of the flower of the Virginia and Maryland regiments, (young men entrusted, with tears, by neighbors and friends to his parental care,) who strewed the ground with their corpses, mangled by British fire.</p>
+                
+                <p>It is hard to believe it now, when laughing children dot the grass like daisies: when the fresh, pure wind, bringing us sounds of peaceful labor, lifts the tresses from brows which never flushed with the hot breath of War. It is hard to believe it, when the sun sinks down so gently, behind glistening church-spires, and tall-masted ships; gilding alike, with nature's loving touch, the poor man's hovel, and the rich man's hall. It is hard to believe it, when the quiet stars creep so softly out, and the sons and daughters of labor, with bronzed faces, but cheerful step, climb its ascent, and throwing themselves upon the fragrant greensward, thank God, that the star-lit dome above them, is bright with beauty, for their uneducated, but appreciative eyes. It is hard to believe it, when the gentle moon, slowly emerging from silvery clouds, reveals the lustrous eyes of rambling lovers, for whom it is bliss enough to be there, and to be together!</p>
+                
+                <p>God grant it may be long before ambitious politicians, and reckless rulers, shall unfurl from this sweet spot the blood-red flag of war!</p>
+               
+                <byline>FANNY FERN.</byline>
+                
+                </div>
+            
+            
+           
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

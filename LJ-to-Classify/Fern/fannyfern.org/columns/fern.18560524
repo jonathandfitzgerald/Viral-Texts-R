@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="http://fannyfern.org/images/other_images/ferncutout_head.jpg" type="image/jpeg" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<link rel="canonical" href="/columns/fern.18560524" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortlink" href="/node/45" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <title>May 24, 1856 | Fanny Fern in The New York Ledger</title>
+  <style type="text/css" media="all">
+@import url("http://fannyfern.org/modules/system/system.base.css?om2vlq");
+@import url("http://fannyfern.org/modules/system/system.menus.css?om2vlq");
+@import url("http://fannyfern.org/modules/system/system.messages.css?om2vlq");
+@import url("http://fannyfern.org/modules/system/system.theme.css?om2vlq");
+</style>
+<style type="text/css" media="all">
+@import url("http://fannyfern.org/modules/field/theme/field.css?om2vlq");
+@import url("http://fannyfern.org/modules/node/node.css?om2vlq");
+@import url("http://fannyfern.org/modules/search/search.css?om2vlq");
+@import url("http://fannyfern.org/modules/user/user.css?om2vlq");
+</style>
+<style type="text/css" media="all">
+@import url("http://fannyfern.org/modules/ctools/css/ctools.css?om2vlq");
+@import url("http://fannyfern.org/modules/panels/css/panels.css?om2vlq");
+</style>
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700" media="all" />
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Rosarivo:400,400italic&amp;subset=latin,latin-ext" media="all" />
+<style type="text/css" media="all">
+@import url("http://fannyfern.org/themes/bamboo/css/menu.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/normalize.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/style.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/design.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/responsive.css?om2vlq");
+</style>
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="http://fannyfern.org/themes/bamboo/css/ie8-fixes.css?om2vlq" media="all" />
+<![endif]-->
+
+<!--[if IE 9]>
+<link type="text/css" rel="stylesheet" href="http://fannyfern.org/themes/bamboo/css/ie9-fixes.css?om2vlq" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://fannyfern.org/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://fannyfern.org/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://fannyfern.org/misc/drupal.js?om2vlq"></script>
+<script type="text/javascript" src="http://fannyfern.org/themes/bamboo/js/scripts.js?om2vlq"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"bamboo","theme_token":"E2_pQsWPhBFE86kjF7zmUsLwSvXJ0kl17X5Som4zN9c","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"themes\/bamboo\/js\/scripts.js":1,"modules\/statistics\/statistics.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/ctools\/css\/ctools.css":1,"modules\/panels\/css\/panels.css":1,"\/\/fonts.googleapis.com\/css?family=Open+Sans:400italic,600italic,700italic,400,600,700":1,"\/\/fonts.googleapis.com\/css?family=Rosarivo:400,400italic\u0026subset=latin,latin-ext":1,"themes\/bamboo\/css\/menu.css":1,"themes\/bamboo\/css\/normalize.css":1,"themes\/bamboo\/css\/style.css":1,"themes\/bamboo\/css\/design.css":1,"themes\/bamboo\/css\/responsive.css":1,"themes\/bamboo\/css\/ie8-fixes.css":1,"themes\/bamboo\/css\/ie9-fixes.css":1}},"urlIsAjaxTrusted":{"\/columns\/fern.18560524":true},"statistics":{"data":{"nid":"45"},"url":"\/modules\/statistics\/statistics.php"}});
+//--><!]]>
+</script>
+    <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-45 node-type-page site-name-hidden bg-green-gradient color-palette-green-bamboo header-font-serif body-font-serif sidebar-right imagecaption section-columns is-node theme-logo-none">
+<div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+
+<header id="head" role="banner" class="container">
+  <hgroup class="ten columns alpha">
+
+    <div id="logo">
+          </div>
+
+    <div id="site-title-wrapper">
+      <h1 id="site-title">
+        <a href="/" title="Home">
+               </a>
+      </h1>
+          </div>
+
+  </hgroup>
+
+<div id="top-links" class="six columns omega">
+        <div class="region region-top-links">
+    <div id="block-search-form" class="block block-search">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <form action="/columns/fern.18560524" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-mZiGI1CNxmFyx2Xa-fA0Ej31BqviIS1CE-kPUz80BN4" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+</div>
+</div>
+  </div>
+  </div>
+</header>
+
+<div id="menu-wrapper" class="container">
+  <nav id="main-menu" role="navigation" class="sixteen columns alpha omega">
+    <div class="menu-navigation-container">
+      <!-- Theme native drop downs and mobile menu-->
+      <div id="nav-wrap">
+        <div id="menu-icon">Menu</div>
+        <ul class="menu"><li class="first leaf"><a href="/home">Home</a></li>
+<li class="leaf"><a href="/bio" title="A brief biography of Fanny Fern">Fanny Fern</a></li>
+<li class="leaf"><a href="/ledger" title="A brief historical overview of The New York Ledger">The New York Ledger</a></li>
+<li class="leaf"><a href="/columns" title="Transcriptions and images of Fanny Fern&#039;s columns in the Ledger">Her Columns</a></li>
+<li class="last expanded"><a href="/about">About</a><ul class="menu"><li class="first leaf"><a href="/about">About the Project</a></li>
+<li class="leaf"><a href="/contact" title="Send comments and corrections to the project editor">Contact</a></li>
+<li class="last leaf"><a href="/staff">Project Staff</a></li>
+</ul></li>
+</ul>      </div>
+    </div>
+  </nav>
+</div>
+<!-- end main-menu -->
+
+
+<div class="container" id="content-wrapper">
+
+  
+  
+    
+  
+        
+  <div id="content" class="sixteen columns">
+            <section id="post-content" role="main">
+
+      
+      
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      
+<article id="node-45" class="node node-page node-full clearfix"  about="/columns/fern.18560524" typeof="foaf:Document" role="article">
+
+  
+  <header class="article-header">
+
+  
+  <div class="title-wrapper">
+  
+  
+    <!-- node h1 title -->
+          <h1 class="article-title">May 24, 1856</h1>
+    
+    <span property="dc:title" content="May 24, 1856" class="rdf-meta element-hidden"></span>
+  <!-- Overidden in template.php to show just username. -->
+    
+  </div><!-- // submitted -->
+  </header>
+
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="content">
+<h1 class="pageTitle">24 May 1856 </h1>
+<p><a class="image" href="http://fannyfern.org/images/fern18560524.01.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560524.01.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560524.02.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560524.02.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560524.03.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560524.03.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560524.04.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560524.04.jpg" width="75" class="containsColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560524.05.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560524.05.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560524.06.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560524.06.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560524.07.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560524.07.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560524.08.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560524.08.jpg" width="75" class="noColumn" /></a></p>
+<h1 class="columnHead">FRESH FERN LEAVES.</h1>
+<h4><span class="epigraph">Entered according to Act of Congress, in the year 1855, by R. BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</span></h4>
+<h2 class="columnTitle">JENNY AND THE BUTCHER</h2>
+<h3 class="columnSubHead">A TRUE STORY.</h3>
+<h3 class="columnSubHead">FOR THE LITTLE READERS OF THE LEDGER.</h3>
+<p class="body_paragraph">Little Jenny was an only child. Now I suppose you think she was a great, petted cry-baby. "Petted," she certainly was, but all the petting in the world could not spoil Jenny. If you should miss her from the parlor, ten to one, she would be found binding a wet napkin round the forehead of her mother's cook, to cure her headache, or applying a bit of court-plaster to her cut finger. Sally used to say that the dark, underground kitchen seemed to grow lighter whenever Jenny flitted through it with her sunshiny face. Now, perhaps, you think that Jenny was a beauty; there, again, you are mistaken; for she had light-blue-gray eyes, a pugnose, and a freckled skin. But what of that? Did it ever enter your head when you kissed your mamma whether she was handsome or not? Is not every person whom we love handsome to us? Certainly. And I would defy anybody to be with Jenny ten minutes, and not love her. Even the milkman, who brought such a wholesome odor of clover and hay-fields into the city kitchens, always had a pretty little nosegay slightly tucked away among his milk-cans for Jenny. A ball-room belle might have turned up her nose at it; for often it was only a simple bunch of red and white clover, with one or two buttercups to brighten it u p; but to Jenny it was quite as beautiful as the scentless hot-house Camelia—yes—and more so; for a Camelia always reminds one of a beautiful woman without a soul.</p>
+<p class="body_paragraph">Then—beside the milkman, there was Shagbark, the grocer's boy, for whom Jenny had once opened the back gate, when Sally's hands were in the dough; I should like to have counted the great three-cornered nuts he used to empty on the kitchen table, from his pockets, for Jenny, every time he brought in a pound of tea or sugar. Oh—I can tell you, that a good-humored, smiling face, and a voice made musical by a kind heart, are worth all the beautiful Camelia faces that every peeped from under a green veil.</p>
+<p class="body_paragraph">Jenny was quite a little musician. She could hum tunes correctly before she could speak plain; and as soon as she was big enough to reach her little hands up to the piano keys, she began to play "by ear," for she could not read a note of music. When she heard fine singing, it seemed to throw her into an ectasy of pleasure; her plain face grew so luminous and beautiful, freckled Jenny. Her kind father and mother procured her good teachers, and Jenny was not discouraged at the idea of practising, as, I am sorry to say, are some little girls; for she know that nothing great is ever attained without patient labor; and long before even Sally was up in the morning, Jenny would be running up and down the scales, as fast as her little fat fingers could fly. Sally used to say, as she set the breakfast table, that "she did not like that tune as well as Yankee Doodle." This made Jenny laugh very heartily, but she did not pain Sally by calling her an ignoramus for saying so. And so things went on very pleasantly in Jenny's home, as is always the case, where each one strives to make the other happy.</p>
+<p class="body_paragraph">Little Jenny was in the habit of watching for her father to come home; and when she heard his step in the hall, she would bound down stairs like a little antelope, and jump into his arms, and kiss his face, just as if it were not all covered with beard, whiskers, mustaches and things. One day she seated herself at the front window, as usual, to wait his turning the corner of the street which led toward the house. "There he comes!" exclaimed Jenny; and then her little hands fell at her side, and she bent her head forward, and pressed her bright face close to the window pane. <i>Was—</i> that—her—papa, walking so slowly, like an old man, his head bent down upon his breast, and never one look for his little girl? He must be sick—and Jenny ran down stairs, and out at the front door, to meet him on the threshold.</p>
+<p class="body_paragraph">When she asked him, "was he sick?" he said "No;" but his voice trembled, and a great warm tear fell on Jenny's face, as he bent over her; and as he turned from her to meet her mamma, Jenny heard him say, "God shield the little lamb;" then Jenny's mamma told her that "she had better go and practice her music lesson;" and then Jenny's father and mother had a long—long talk; and when they came into dinner, her mamma's eyes were red with weeping, and her father looked as though he had a fit of sickness.</p>
+<p class="body_paragraph">Little Jenny asked no questions, for she had a great deal of delicacy, and she knew that if it was proper she should know what troubled her father, that he would tell her; but every time he helped his little daughter to any thing at the table she would kiss his hands, and at the dessert, she put the biggest orange and largest bunch of grapes upon his plate. Her papa's heart seemed too full to thank her, but his eyes brimmed with tears, as he laid his hand on her little brown head.</p>
+<p class="body_paragraph">The truth was, Jenny's father had failed, and lost all his money; and when he looked at Jenny, and thought that he might die before he could earn any more, and leave her, and her mamma, helpless in the world, it was too bitter a thought for him to bear: then the people to whom he owed the money which he had hoped to pay, were coming to take away all the furniture, and fine things; and Jenny's favorite piano, of course, must go with the rest; and he could not find heart to say a word to her about it.</p>
+<p class="body_paragraph">Well—the day came, on which all the things were to be sold; and nobody <i>yet</i> had had courage to tell Jenny—good little Jenny, who never gave a minute's pain to anybody in her life, not even to a little fly. Jenny wondered what made Sally, and all the family, look so strangely at her, but she was put off with excuses of one kind and another, and so the bewildered child went to her dear old friend the piano, for comfort.</p>
+<p class="body_paragraph">As she was playing, she heard a strange voice in the hall; then the door opened, and her father came in with the butcher, of whom he had purchased all the meat for the family since they had lived in that house.</p>
+<p class="body_paragraph">Then—Jenny's father put his arm around his little girl, and told her, that the butcher had come to take her piano for some money which he owed him. Jenny looked at her father as though she could not believe her ears—then she looked at the piano—then at the butcher—while great tears gathered slowly in her eyes.</p>
+<p class="body_paragraph">Now, the butcher was a great rough fellow, with a fist like a sledge hammer, and a voice like a bass drum; he had killed many a fat little calf, and bleating lamb, in his day; but he had never met such a sweet, pleading, tearful look, as Jenny gave him that minute, and he melted down under it, just like a pile of snow when the warm sun kisses it.</p>
+<p class="body_paragraph">Rubbing the corner of his white butcher's frock into his eyes, and turning to Jenny's father, he said,</p>
+<p class="body_paragraph">"<i>I'm</i> not the fellow to take that little girl's piano away from her;—and what's more, I wont!" and before Jenny could thank him, he, and the carman whom he had brought to carry away the piano, were through the door, and out of sight.</p>
+<p class="body_paragraph">Now should'nt you like to <i>hug</i> that butcher? I should. I tell you what it is, the best hearts are oftenest found under the roughest coats; and this, Jenny's father and mother very soon found out, for the gay people who had eaten their dinner and drank their wine, took flight as soon as Poverty came in and sat down at the table with them.</p>
+<p class="body_paragraph">The good butcher did not lose sight of Little Jenny, I promise you; he not only forgave her father's debt, but offered to lend him some money to begin business again. What do you thing of that?</p>
+<p class="body_paragraph">Bye and bye Jenny grew up a big girl, and learned a deal more about music; then she gave lessons on her piano, and helped her father, and beside that, played the organ on Sunday in one of the churches. This was very lucky, for her father, through disappointment and too close attention to business, was taken sick, and was unable to earn any more money. By and bye trouble overtook the good butcher too, and he had a long, and painful, and expensive sickness. Did Jenny forget her benefactor now? Did she draw down her face and her purse-strings, and tell him to "trust in Providence?" Did she try to hunt up some fault, which he might at some time in his life have committed, and make that a cover for her parsimony, and an excuse for not helping him in his necessity?—Not she. She stood by his bed, gave him his medicines, brought him wine, jellies and broths, sang to him, read to him, prayed God to save his life, and was as much of an angel as she could be, and be flesh and blood. But the good butcher died, and left a little orphan daughter. Oh, how far the influence of one good deed may reach! He had not laid up money for her in "The Bank Commerce," or "The City Bank," or "The Exchange Bank," but he had laid it up in the BANK OF HEAVEN by his many benevolent and charitable deeds, and God remembered it; and Jenny took the little weeping Susy home, and fed her, and clothed her, and sent her to school, and taught her to sing and play; and none who listen to the sweet voice, or look upon the sweet face, of the butcher's daughter, as she sings in one of our great churches of a Sunday, knows this little story that I have been telling you.</p>
+<p class="body_paragraph">Oh, <i>never</i> believe, dear children, that a good deed goes unrewarded. Angels bend to see it, and a richer, sweeter song rings through the golden streets of Heaven, whenever the strong, loving hand of compassion is held out to the weak, unfortunate and despairing.</p>
+<h5 class="byline">FANNY FERN.</h5>
+<hr class="column_divider" /><h2 class="columnTitle">A FERN LEAF FOR THE MEN.</h2>
+<h3 class="columnSubHead">"By your leave, gentlemen."—OLD PLAY.</h3>
+<p class="body_paragraph">The men have all had a time of it over the women's fashions. All right—they are ridiculous—but how is it with the men's? They don't approve of hoops. Every mother's son of 'em wears a strip of morocco, or some other stiffening in the hems of his trouser-legs, to make them stand out. Don't I know?</p>
+<p class="body_paragraph">They disapprove of superfluous trimmings on ladies' bonnets: Well and good; but they have all made <i>footmen</i> of themselves this spring, by wearing a broad band of black velvet "all around their hat." Don't I know?</p>
+<p class="body_paragraph">They think ladies' dresses should suit their style, size and figure: Do they? Every male Anakim you meet wears the waist of his coat up under his arm-pits, because his tailor tells him to. Don't I knnow?</p>
+<p class="body_paragraph">They are disgusted with the lengthened skirts of ladies' dresses: They, themselves, go waddling about the streets with their coat-tails flapping against their heels, till a Roman Catholic priest, or and Andover Theological Student, is a fool to 'em. Don't I know?</p>
+<p class="body_paragraph">Of course, they never step into Phalon's to have their locks twisted with the curling tongs, under pretence of "getting Shampooed"——Pooh!</p>
+<p class="body_paragraph">Of course, they don't diligently read the newspaper all the time, and then ask the barber, with an innocent start of astonishment, when he gets through, "What the d—ogs he has been doing to their hair?" Oh no!</p>
+<p class="body_paragraph">Of course, the <i>military</i> gentlemen never pad out the breasts of their coats till they look like trussed Thanksgiving turkeys! Oh no!</p>
+<p class="body_paragraph">Of course, the men never wear false mustaches, or "gutta percha paddings for lanter jaws," and never dye their whiskers, or beards, or hair, every Saturday night, and refuse all invitations to visit, the <i>latter part</i> of the week! Oh no! Sensible fellows, every mother's son of 'em. Bless—their—p-r-e-c-i-o-u-s, g-r-e-a-t, b-i-g s-o-u-l-s!</p>
+<h5 class="byline">FANNY FERN.</h5>
+</div>
+<div class="citation">
+<h6>Source Text:</h6>
+<p class="citation">Fanny Fern, "Jenny And The Butcher; A Fern Leaf for the Men" <em>The New-York Ledger </em> (24 May 1856): [4]</p>
+<h6>To cite this project:</h6>
+<p class="citation">Fanny Fern, "Jenny And The Butcher; A Fern Leaf for the Men" <em>Fanny Fern in The New York Ledger</em> Ed. Kevin McMullen (2015) <a href="http://fannyfern.org">http://fannyfern.org</a>.</p>
+</div>
+<div class="report">
+<h6 class="report"><a href="http://fannyfern.org/contact" target="_blank">Report corrections</a></h6>
+</div>
+<div class="xmlDownload">
+<h6 class="xmlDownload"><a href="http://fannyfern.org/xml/fern.18560524.xml" download="fern.18560524.xml"><br />
+           Download source XML<br /></a></h6>
+</div>
+<p></p></div></div></div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"></nav>
+    
+      </div>
+</article>
+    </div>
+</div>
+</div>
+  </div>
+          </section>
+    <!-- /#main -->
+  </div>
+
+    
+</div>
+
+<footer id="colophon" class="container">
+
+  
+            <div class="sixteen columns footer-area">
+        <div class="region region-footer-first">
+    <div id="block-block-2" class="block block-block">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <div class="footer">
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Fanny Fern in <em>The New York Ledger</em></span>, edited by <a href="http://iamkevinmcmullen.com" target="_blank">Kevin McMullen</a>, is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+<div>
+</div></div>    </div>
+</div>
+</div>
+  </div>
+      </div>
+                  
+
+</footer>
+<script type="text/javascript" src="http://fannyfern.org/modules/statistics/statistics.js?om2vlq"></script>
+</body>
+</html>

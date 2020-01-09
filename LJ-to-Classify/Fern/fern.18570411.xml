@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xml:id="fern.18570411" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">The Cherub in the Omnibus; Lady Doctors</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <date>2014</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to Kevin McMullen, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+           
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">The Cherub in the Omnibus; Lady Doctors</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-04-11">11 April 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2014-09-25" who="#km">updated sourceDesc encoding</change>
+            <change when="2014-09-19" who="#km">facsimile element added</change>
+            <change when="2014-05-01" who="#km">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570411.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570411.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570411.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570411.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570411.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570411.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570411.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570411.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+           
+            <div>
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according Act of Congress in the year 1855 by Robert Bonner, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <div>
+                        <head type="main">THE CHERUB IN THE OMNIBUS.</head>
+                
+                <p>They stepped in together&#8212;the man and his wife&#8212;honest, healthy country-folk. She&#8212;rosy and plump; he&#8212;stalwart, broad-chested and strong-limbed, as God intended man and woman to be. I might not have noticed them particularly, but they had a baby; and such a baby! None of your flabby city abortions; but a flesh-and-blood baby&#8212;a baby to make one's mouth water&#8212;aya, and <hi rend="italic">eyes, too!</hi> Such a baby as might have been born in the Garden of Eden, had the serpent never crept in; born of parents fed on strawberries and pomegranates&#8212;pure in soul&#8212;pure in body&#8212;and healthy and vigorous as purity <hi rend="italic">alone</hi> can be.</p>
+                
+                <p>Such a baby! such eyes&#8212;such a skin&#8212;such bewildering lips&#8212;such a heaven-born smile; my eyes overflowed as I looked at it. I was not worthy to hold that baby, but my heart yearned for it, and I held out my hands invitingly.</p>
+                
+                <p>See! the little trusting thing leaps from its father's arms and sits smiling on my knee. Ah! little baby, turn away those soft blue eyes from mine; is it not enough that my soul is on its knees to you? Is it not enough, that for every bitter word wrung from my tortured soul by wrong and suffering I could cry&#8212;God be merciful to me a sinner?</p>
+                
+                <p>And yet, little baby, I was once like thee. Like thee, I stretched out the trusting hand to those who&#8212;&#8212;ah, little baby&#8212;I am not like thee now; yet stay with me, and perhaps I shall be. Jesus "took a little child and set him in the midst." Take hold of my hand, and lead me to Heaven.</p>
+                
+                <p>Going? then God be with thee, as surely as he has been with me, in thy pure presence. I shall see thee again, little baby, if I heed thy teachings; thou hast done thy silent mission.</p>
+                                                       
+                    <byline>FANNY FERN.</byline>   
+                   </div>
+                <div>
+                    
+                    <milestone unit="line"/>
+                
+                    <head type="main">LADY DOCTORS.</head>               
+                
+                <figure>
+                    <graphic url="http://iamkevinmcmullen.com/fern/images/illustrations/fern18570411.04_ill1.jpg"/>
+                    <figDesc>A dark-clothed woman, standing, attending to a light-clothed woman seated in a chair.</figDesc>
+                </figure>
+                    
+                    <p>And so the female Doctors are prospering and getting practice. I am sure I am heartily glad of it, for several reasons; one of which is, that it is an honest, and honorable deliverance from the everlasting, non-remunerating, consumptive-provoking, monotonous needle. Another is, that it is a more excellent way of support, than by the mercenary and un-retraceable road, through the church-door to the altar, into which so many non-reliant women are driven. Having said this I feel at liberty to remark that we all have our little fancies, and one of mine is, that a hat is a pleasanter object of contemplation in a sick room than a bonnet. I think, too, that my wrist reposes more comfortably ina  big hand than a little one, and if my mouth is to be inspected I prefer submitting it to a beard than to a flounce. Still&#8212;this may be a narrow prejudice, I dare say it is, but like most of my prejudices I am afraid no amount of fire will burn it out of me.</p>
+                    
+                    <p>A female doctor! Great Esculapius! Before swallowing her pills, (of which she would be the first!) I should want to make sure, that I had never come between her and a lover, or a new bonnet, or been the innocent recipient of a gracious smile from her husband. If I desired her undivided attention to my case I should first remove the looking-glass, and if a consultation seemed advisable, I should wish to arm myself with a grid-iron, or a darning-needle, or some other appropriate weapon before expressing such a wish. If my female Doctor recommended a blister on my head, I should strongly doubt its necessity if my hair happened to be handsome, also the expediency of a scar-defacing plaster for my neck, if it happened to be plump and white. Still, these may be little prejudices; very like they are; but this I will say: before the breath is taken out of me by any female Doctor, that while I am in my senses I will never exchange my gentlemanly, soft-voiced, soft-stepping, experienced, intelligent, handsome Doctor for all the female M. Ds. who ever carved up head bodies or live characters&#8212;or tore each other's caps.</p>
+                    
+                    <byline>FANNY FERN.</byline>
+                    
+                </div>
+               
+            </div>
+           
+        </body>
+        
+    </text>
+</TEI>

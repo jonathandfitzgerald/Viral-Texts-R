@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18561122">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">The Old Sexton</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="cm">Carmen McCue</editor>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2015</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">The Old Sexton</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-11-22">22 November 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-09-25">proofed, and further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#cm" when="2012-04-06">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18561122.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18561122.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18561122.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18561122.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18561122.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18561122.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18561122.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18561122.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+            
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1856, by Robert Bonner, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+
+                <head type="main">THE OLD SEXTON.</head>
+
+               <p>Old Mattock! the grim old Sexton&#8212;the terror of my childish days&#8212;with his cold, hard face, his stony eye, and his iron-grey hair; how well I remember him. I know he hated me for my rollicking laugh, and the merry twinkle in my eye. I know that his fingers itched to tuck me underground! I know, as he sat there on Sunday, at the side of the pulpit, wiping his frost-bitten nose on his coat sleeve, that he rejoiced for my uneasy sake, at every added "ly," after "1st-ly," in the long-drawn, argumentative sermon. I know he was glad, as he fidgetted round that awful cold vestry, warming his skinny fingers by that ghost of a stove, that my little toes were aching so badly that I could not remember my "catechise." I know that he begrudged me, on Thanksgiving days, the toothsome and comforting "drumstick," to which the minister dismissed me after the morning service. I know it was he, who, when my little dangling legs hung suspended from the high vestry-bench, maliciously abducted my childish platform, the pine cricket. I know that when Mr. Scott's pig-tail queue hung suspended, as he sat down, over the back of the next pew, that it was he who declared it to be pinned fast by me, to the same. I know it was he who reported that my boy-lover left a note and a stick of candy for me, behind the tall gravestone in the church-yard. I know that he called me "a pill" and looked as if he would swallow me. I know that one Saturday afternoon, when, with curious feet, I strayed through the open side-door of the church, and crept audaciously up into that <hi rend="italic">sanctum sanctorum</hi>, the pulpit, to see the pictures in the mammoth red Bible, and to "make-believe minister," that it was he who locked the church-door, nor let me out till the stars came out, and till I had cried my pin-afore full, and "was humble." I know it was he, who closed the blinds of the pleasant west-window near our pew, because I liked to watch the elm-tree leaves as they danced up and down in the sunlight. I know that, when arrived at my teens, I fainted in the close air of a crowded church, it was he who threw a tumbler of water into the lining of my "go-to-meetin' bonnet" with such uncommon unction. I know it was he who pulled down the pretty swallow's nest under the eaves, and tore up by the roots a timid little morning-glory, that was warming itself in God's smile. I know with what a rough gripe he seized the babe's coffin, and heeded neither sob nor shiver, as the weeping mother shrank behind her flowing sable veil. I know what short grace he granted the living to look on the dead face that lay for the last time upturned to the quiet skies.</p>
+
+               <p>But his time came at last. The pale face grew paler still; the stony eye more rayless; the skeleton fingers fell by the palsied side; and the rigid lips, that all God's wealth of love could never warm into a smile; uttered their last querulous word&#8212;then were silent forever.</p>
+
+                <byline>FANNY FERN.</byline>
+            </div>
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

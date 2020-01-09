@@ -7,12 +7,44 @@ part00004 = read.csv("data/part-00004", header=TRUE, fill = TRUE, sep = ",", row
 beginData = rbind(part00000,part00001,part00002,part00003,part00004)
 beginData = beginData[,c("cluster","text","url","size")] 
 
+newBeginData_slim = beginData[,c("cluster","text","url","size")] 
+
+#New Stuff
+
+newPart00000 = read_csv("data/8-3-17-download/part-00000-c47c31a1-2923-43fe-a32b-f1b8f5b9b2fb.csv")
+newPart00001 = read_csv("data/8-3-17-download/part-00001-c47c31a1-2923-43fe-a32b-f1b8f5b9b2fb.csv")
+newPart00002 = read_csv("data/8-3-17-download/part-00002-c47c31a1-2923-43fe-a32b-f1b8f5b9b2fb.csv")
+newPart00003 = read_csv("data/8-3-17-download/part-00003-c47c31a1-2923-43fe-a32b-f1b8f5b9b2fb.csv")
+newPart00004 = read_csv("data/8-3-17-download/part-00004-c47c31a1-2923-43fe-a32b-f1b8f5b9b2fb.csv")
+newPart00005 = read_csv("data/8-3-17-download/part-00005-c47c31a1-2923-43fe-a32b-f1b8f5b9b2fb.csv")
+newPart00006 = read_csv("data/8-3-17-download/part-00006-c47c31a1-2923-43fe-a32b-f1b8f5b9b2fb.csv")
+newPart00007 = read_csv("data/8-3-17-download/part-00007-c47c31a1-2923-43fe-a32b-f1b8f5b9b2fb.csv")
+newPart00008 = read_csv("data/8-3-17-download/part-00008-c47c31a1-2923-43fe-a32b-f1b8f5b9b2fb.csv")
+newPart00009 = read_csv("data/8-3-17-download/part-00009-c47c31a1-2923-43fe-a32b-f1b8f5b9b2fb.csv")
+newPart00010 = read_csv("data/8-3-17-download/part-00005-c47c31a1-2923-43fe-a32b-f1b8f5b9b2fb.csv")
+newPart00011 = read_csv("data/8-3-17-download/part-00006-c47c31a1-2923-43fe-a32b-f1b8f5b9b2fb.csv")
+newPart00012 = read_csv("data/8-3-17-download/part-00007-c47c31a1-2923-43fe-a32b-f1b8f5b9b2fb.csv")
+newPart00013 = read_csv("data/8-3-17-download/part-00008-c47c31a1-2923-43fe-a32b-f1b8f5b9b2fb.csv")
+newPart00014 = read_csv("data/8-3-17-download/part-00009-c47c31a1-2923-43fe-a32b-f1b8f5b9b2fb.csv")
+newBeginData = rbind(newPart00000,newPart00001,newPart00002,newPart00003,newPart00004,newPart00005,newPart00006,newPart00007,newPart00008,newPart00009,newPart00010,newPart00011,newPart00012,newPart00013,newPart00014)
+newBeginData_slim = newBeginData[,c("cluster","text")] 
+newBeginData_slim = newBeginData_slim %>% mutate(genre="unknown")
+newBeginData_slim$cluster <- newBeginData_slim$cluster %>% as.character()
+
 #select longest witness of each cluster
 beginData = beginData %>% 
   group_by(cluster) %>% 
   mutate(count=nchar(text)) %>%
   arrange(-count) %>% 
   slice(1)
+
+newBeginData = newBeginData %>% 
+  group_by(cluster) %>% 
+  mutate(count=nchar(text)) %>%
+  arrange(-count) %>% 
+  slice(1)
+
+newBeginData_slim = newBeginData_slim %>% as_data_frame()
 
 #Read in clusters parts (end of corpus)
 part00005 = read.csv("data/part-00995", header=TRUE, fill = TRUE, sep = ",", row.names = NULL, stringsAsFactors = FALSE)
@@ -32,10 +64,12 @@ endData = endData %>%
 
 endData <- endData[sample(1:nrow(endData), 5000,replace=FALSE),]
 
+
 newData = rbind(beginData, endData)
 newData = newData[,c("cluster","text")] 
 newData = newData %>% mutate(genre="unknown")
 newData$cluster <- as.character(newData$cluster)
+newData <- newData %>% as_data_frame()
 
 #sampe data
 sampleData <- newData[sample(1:nrow(newData), 20,replace=FALSE),]
@@ -70,6 +104,9 @@ allData = replace(allData, is.na(allData), "unknown")
 
 
 #Merge hand-tagged clusters into alldata
+allData <- rbind(newData_slim,allDataGenres)
+
+
 allData = newData %>% left_join(allDataGenres, by="cluster")
 allData = allData[,c("cluster","text.x","genre.y")]
 names(allData)[names(allData)=="genre.y"] <- "genre"
@@ -77,6 +114,16 @@ names(allData)[names(allData)=="text.x"] <- "text"
 #allData <- allData[sample(1:nrow(allData), 2000,replace=FALSE),]
 allData = replace(allData, is.na(allData), "unknown") 
 
+# Merge early LJ with alldata
+#allData <- rbind(allData,earlyLJ) %>% as_data_frame()
+#allData <- allData %>% filter(genre != "prose")
+
+# Merge new genres from PCA with alldata
+newData <- allData %>% filter(genre == "unknown")
+allData <- rbind(newData,newGenres)
+#allData <- inner_join(allParts_short, newGenres)
+newGenres$cluster <- newGenres$cluster %>% as.character()
+allData <- rbind(newBeginData_slim, newGenres)
 
 #Merge hand-tagged vignettes into alldata
 vignettes = read.csv("data/vignettesWithA-7-5-16.csv", header=TRUE, fill = TRUE, sep = ",", row.names = NULL, stringsAsFactors = FALSE)

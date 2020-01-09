@@ -40,7 +40,7 @@ build_model = function(genre,model_function=glm,...) {
 }
 
 #Visualize top ten (filter_to_top) genres
-filter_to_top = 2
+filter_to_top = 4
 topicsDF %>% 
   filter(should_be_training) %>% 
   group_by(genre) %>% 

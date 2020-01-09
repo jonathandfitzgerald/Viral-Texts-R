@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18570110">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Music; The Empress Josephine</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="cm">Carmen McCue</editor>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2015</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">Music; The Empress Josephine</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1857-01-10">10 January 1857</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-10-07">proofed, and further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#cm" when="2012-04-08">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18570110.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18570110.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18570110.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18570110.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18570110.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18570110.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18570110.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18570110.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+            
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1856, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+
+                <head type="main">MUSIC.</head>
+
+               <p>Mr. Richard S. Willis, in a recent lecture on Music, in New York, remarks, "that a great deal of expense is thrown away upon those who have no thought of adopting music as a profession and are only to perform before a home circle." Now Richard, that's sensible; those are my sentiments to a charm; and had I as handsome a moustache, and as nice a profile as yours, I would have stood up in my patent-leather's long ago, to have said that very thing. I don't want to dampen your ardor, or throw a shower bath on your philanthropy, at this state of the thermometer; but I tell you, that you and I might tell the public that, till we were hoarse, and still foolish parents, not for love of art, but because it is fashionable, would continue to throw away thousands on the musical education of inappreciative daughters, who have no more taste or talent for music, than I have for digging out the root of a Greek verb. Another thing, you said Richard, in that lecture&#8212;to wit&#8212;"that the piano is unduly exalted for home music, above the harp and guitar." Good again. If ever a mortal was piano-weary, it is this persecuted and unhappy woman. Do I take a walk? from every "ten footer" I pass, I hear that eternal tum, tum, tum, till a jews-harp would be an untold relief to my aching ears. Tortured pantalet-dom, hoisted by fond parents on a piano-stool, executing some <hi rend="italic">simple</hi> piece of music, like "Battle of Prague"&#8212;the "<hi rend="italic">dead and wounded</hi>," not being confined to the parlor where the "Battle" fearfully rages!</p>
+
+                <byline>FANNY FERN.</byline>
+            </div>
+
+<milestone unit="line"/>
+         
+            <div type="column">
+                <head type="main">THE EMPRESS JOSEPHINE.</head>
+
+                <q>A romantic halo has been thrown around Josephine's history by reason of her misfortunes and her sufferings. But, in reality, up to the elevation of Napoleon to the Consulate, her life was a series of gross departures from rectitude, and although, measured by the standard of French morality, she had many noble qualities, she had no pretensions to virtue,&#8212;"The Court of Napoleon," by Frank B. Goodrich.</q>
+
+               <p>Josephine a woman of "loose morality!"&#8212;Josephine a woman of "notorious profligacy!" Mr. Goodrich, it were hard to believe it; it were hard to dethrone this magnanimous creature from the pedestal upon which our love has delighted to place her; it were hard to believe her destitute of that, without which all her intellect, all her loveliness, were shorn of their beams&#8212;were but <hi rend="italic">ignis fatuus</hi> lights, to lead astray those whom they allured! We would fain shut our eyes at this sad blot upon the fair page of her life. But, if it must be so, shall we give one sigh the less to her sorrows, because added to their crushing weight was the crowning grief, that on that fairest of brows was the ineffaceable brand of woman's shame? Shall we pity her the less, in those weary hours of solitude and desertion, that she could not leave to her young daughter the priceless legacy of an unspotted name? Do you tell me that thoughts like these could bring no pang to her French heart? Then so much the more&#8212;a thousand-fold&#8212;do I pity Josephine; so much the more, a thousand-fold, do I sorrow, that one so magnificently endowed by nature, education, and station, should not have <hi rend="italic">wished</hi> to glide amid that corrupt court, brilliant but unapproachable as the pure stars above her.</p>
+
+                <p>Alas! that we may only call her beautiful, whom our woman's heart yearns to call <hi rend="italic">pure</hi>!</p>
+
+                <byline>FANNY FERN.</byline>
+            </div>
+
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

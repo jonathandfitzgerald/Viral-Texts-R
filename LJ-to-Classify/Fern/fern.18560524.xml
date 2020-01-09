@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560524">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Jenny And The Butcher ; A Fern Leaf for the Men</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2014</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">Jenny And The Butcher; A Fern Leaf for the Men</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-05-24">24 May 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-06-25">further updated encoding; edited</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#jf" when="2012-05-02">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18560524.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18560524.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18560524.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18560524.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18560524.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18560524.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18560524.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18560524.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+            
+            
+            
+            
+            <div type="column">
+            <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by R. BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                <head type="main">JENNY AND THE BUTCHER</head>
+                <head type="sub">A TRUE STORY.</head>
+                <head type="sub">FOR THE LITTLE READERS OF THE LEDGER.</head>
+                
+               <p>Little Jenny was an only child. Now I suppose you think she was a great, petted cry-baby. "Petted," she certainly was, but all the petting in the world could not spoil Jenny. If you should miss her from the parlor, ten to one, she would be found binding a wet napkin round the forehead of her mother's cook, to cure her headache, or applying a bit of court-plaster to her cut finger. Sally used to say that the dark, underground kitchen seemed to grow lighter whenever Jenny flitted through it with her sunshiny face. Now, perhaps, you think that Jenny was a beauty; there, again, you are mistaken; for she had light-blue-gray eyes, a pugnose, and a freckled skin. But what of that? Did it ever enter your head when you kissed your mamma whether she was handsome or not? Is not every person whom we love handsome to us? Certainly. And I would defy anybody to be with Jenny ten minutes, and not love her. Even the milkman, who brought such a wholesome odor of clover and hay-fields into the city kitchens, always had a pretty little nosegay slightly tucked away among his milk-cans for Jenny. A ball-room belle might have turned up her nose at it; for often it was only a simple bunch of red and white clover, with one or two buttercups to brighten it u p; but to Jenny it was quite as beautiful as the scentless hot-house Camelia&#8212;yes&#8212;and more so; for a Camelia always reminds one of a beautiful woman without a soul.</p>
+               
+               <p>Then&#8212;beside the milkman, there was Shagbark, the grocer's boy, for whom Jenny had once opened the back gate, when Sally's hands were in the dough; I should like to have counted the great three-cornered nuts he used to empty on the kitchen table, from his pockets, for Jenny, every time he brought in a pound of tea or sugar. Oh&#8212;I can tell you, that a good-humored, smiling face, and a voice made musical by a kind heart, are worth all the beautiful Camelia faces that every peeped from under a green veil.</p>
+               
+                <p>Jenny was quite a little musician. She could hum tunes correctly before she could speak plain; and as soon as she was big enough to reach her little hands up to the piano keys, she began to play "by ear," for she could not read a note of music. When she heard fine singing, it seemed to throw her into an <choice><sic>ectasy</sic><corr>ecstasy</corr></choice> of pleasure; her plain face grew so luminous and beautiful, freckled Jenny. Her kind father and mother procured her good teachers, and Jenny was not discouraged at the idea of practising, as, I am sorry to say, are some little girls; for she know that nothing great is ever attained without patient labor; and long before even Sally was up in the morning, Jenny would be running up and down the scales, as fast as her little fat fingers could fly. Sally used to say, as she set the breakfast table, that "she did not like that tune as well as Yankee Doodle." This made Jenny laugh very heartily, but she did not pain Sally by calling her an ignoramus for saying so. And so things went on very pleasantly in Jenny's home, as is always the case, where each one strives to make the other happy.</p>
+               
+               <p>Little Jenny was in the habit of watching for her father to come home; and when she heard his step in the hall, she would bound down stairs like a little antelope, and jump into his arms, and kiss his face, just as if it were not all covered with beard, whiskers, mustaches and things. One day she seated herself at the front window, as usual, to wait his turning the corner of the street which led toward the house. "There he comes!" exclaimed Jenny; and then her little hands fell at her side, and she bent her head forward, and pressed her bright face close to the window pane. <hi rend="italic">Was&#8212;</hi> that&#8212;her&#8212;papa, walking so slowly, like an old man, his head bent down upon his breast, and never one look for his little girl? He must be sick&#8212;and Jenny ran down stairs, and out at the front door, to meet him on the threshold.</p>
+               
+               <p>When she asked him, "was he sick?" he said "No;" but his voice trembled, and a great warm tear fell on Jenny's face, as he bent over her; and as he turned from her to meet her mamma, Jenny heard him say, "God shield the little lamb;" then Jenny's mamma told her that "she had better go and practice her music lesson;" and then Jenny's father and mother had a long&#8212;long talk; and when they came into dinner, her mamma's eyes were red with weeping, and her father looked as though he had a fit of sickness.</p>
+               
+                <p>Little Jenny asked no questions, for she had a great deal of delicacy, and she knew that if it was proper she should know what troubled her father, that he would tell her; but every time he helped his little daughter to any thing at the table she would kiss his hands, and at the dessert, she put the biggest orange and largest bunch of grapes upon his plate. Her papa's heart seemed too full to thank her, but his eyes brimmed with tears, as he laid his hand on her little brown head.</p>
+               
+                <p>The truth was, Jenny's father had failed, and lost all his money; and when he looked at Jenny, and thought that he might die before he could earn any more, and leave her, and her mamma, helpless in the world, it was too bitter a thought for him to bear: then the people to whom he owed the money which he had hoped to pay, were coming to take away all the furniture, and fine things; and Jenny's favorite piano, of course, must go with the rest; and he could not find heart to say a word to her about it.</p>
+               
+               <p>Well&#8212;the day came, on which all the things were to be sold; and nobody <hi rend="italic">yet</hi> had had courage to tell Jenny&#8212;good little Jenny, who never gave a minute's pain to anybody in her life, not even to a little fly. Jenny wondered what made Sally, and all the family, look so strangely at her, but she was put off with excuses of one kind and another, and so the bewildered child went to her dear old friend the piano, for comfort.</p>
+               
+                <p>As she was playing, she heard a strange voice in the hall; then the door opened, and her father came in with the butcher, of whom he had purchased all the meat for the family since they had lived in that house.</p>
+               
+               <p>Then&#8212;Jenny's father put his arm around his little girl, and told her, that the butcher had come to take her piano for some money which he owed him. Jenny looked at her father as though she could not believe her ears&#8212;then she looked at the piano&#8212;then at the butcher&#8212;while great tears gathered slowly in her eyes.</p>
+               
+                <p>Now, the butcher was a great rough fellow, with a fist like a sledge hammer, and a voice like a bass drum; he had killed many a fat little calf, and bleating lamb, in his day; but he had never met such a sweet, pleading, tearful look, as Jenny gave him that minute, and he melted down under it, just like a pile of snow when the warm sun kisses it.</p>
+               
+                <p>Rubbing the corner of his white butcher's frock into his eyes, and turning to Jenny's father, he said,</p>
+               
+               <p>"<hi rend="italic">I'm</hi> not the fellow to take that little girl's piano away from her;&#8212;and what's more, I wont!" and before Jenny could thank him, he, and the carman whom he had brought to carry away the piano, were through the door, and out of sight.</p>
+               
+                <p>Now should'nt you like to <hi rend="italic">hug</hi> that butcher? I should. I tell you what it is, the best hearts are oftenest found under the roughest coats; and this, Jenny's father and mother very soon found out, for the gay people who had eaten their dinner and drank their wine, took flight as soon as Poverty came in and sat down at the table with them.</p>
+               
+                <p>The good butcher did not lose sight of Little Jenny, I promise you; he not only forgave her father's debt, but offered to lend him some money to begin business again. What do you thing of that?</p>
+               
+                <p>Bye and bye Jenny grew up a big girl, and learned a deal more about music; then she gave lessons on her piano, and helped her father, and beside that, played the organ on Sunday in one of the churches. This was very lucky, for her father, through disappointment and too close attention to business, was taken sick, and was unable to earn any more money. By and bye trouble overtook the good butcher too, and he had a long, and painful, and expensive sickness. Did Jenny forget her benefactor now? Did she draw down her face and her purse-strings, and tell him to "trust in Providence?" Did she try to hunt up some fault, which he might at some time in his life have committed, and make that a cover for her parsimony, and an excuse for not helping him in his necessity?—Not she. She stood by his bed, gave him his medicines, brought him wine, jellies and broths, sang to him, read to him, prayed God to save his life, and was as much of an angel as she could be, and be flesh and blood. But the good butcher died, and left a little orphan daughter. Oh, how far the influence of one good deed may reach! He had not laid up money for her in "The Bank Commerce," or "The City Bank," or "The Exchange Bank," but he had laid it up in the BANK OF HEAVEN by his many benevolent and charitable deeds, and God remembered it; and Jenny took the little weeping Susy home, and fed her, and clothed her, and sent her to school, and taught her to sing and play; and none who listen to the sweet voice, or look upon the sweet face, of the butcher's daughter, as she sings in one of our great churches of a Sunday, knows this little story that I have been telling you.</p>
+               
+                <p>Oh, <hi rend="italic">never</hi> believe, dear children, that a good deed goes unrewarded. Angels bend to see it, and a richer, sweeter song rings through the golden streets of Heaven, whenever the strong, loving hand of compassion is held out to the weak, unfortunate and despairing.</p>
+                
+                
+                
+                <byline>FANNY FERN.</byline>
+         </div>
+         
+         <milestone unit="line"/>
+            
+            
+            <div type="column">
+            <head type="main">A FERN LEAF FOR THE MEN.</head>
+               <head type="sub">"By your leave, gentlemen."&#8212;OLD PLAY.</head>
+            
+               <p>The men have all had a time of it over the women's fashions. All right&#8212;they are ridiculous&#8212;but how is it with the <hi rend="itlaics">men's?</hi> They don't approve of hoops. Every mother's son of 'em wears a strip of morocco, or some other stiffening in the hems of his trouser-legs, to make them stand out. Don't I know?</p>
+               
+            <p>They disapprove of superfluous trimmings on ladies' bonnets: Well and good; but they have all made <hi rend="italic">footmen</hi> of themselves this spring, by wearing a broad band of black velvet "all around their hat." Don't I know?</p>
+               
+            <p>They think ladies' dresses should suit their style, size and figure: Do they? Every male Anakim you meet wears the waist of his coat up under his arm-pits, because his tailor tells him to. Don't I knnow?</p>
+               
+            <p>They are disgusted with the lengthened skirts of ladies' dresses: They, themselves, go waddling about the streets with their coat-tails flapping against their heels, till a Roman Catholic priest, or and Andover Theological Student, is a fool to 'em. Don't I know?</p>
+               
+               <p>Of course, they never step into Phalon's to have their locks twisted with the curling tongs, under pretence of "getting Shampooed"&#8212;&#8212;Pooh!</p>
+               
+            <p>Of course, they don't diligently read the newspaper all the time, and then ask the barber, with an innocent start of astonishment, when he gets through, "What the d—ogs he has been doing to their hair?" Oh no!</p>
+               
+            <p>Of course, the <hi rend="italic">military</hi> gentlemen never pad out the breasts of their coats till they look like trussed Thanksgiving turkeys! Oh no!</p>
+               
+               <p>Of course, the men never wear false mustaches, or "gutta percha paddings for lanter jaws," and never dye their whiskers, or beards, or hair, every Saturday night, and refuse all invitations to visit, the <hi rend="italic">latter part</hi> of the week! Oh no! Sensible fellows, every mother's son of 'em. Bless&#8212;their&#8212;p-r-e-c-i-o-u-s, g-r-e-a-t, b-i-g s-o-u-l-s!</p>
+            
+                <byline>FANNY FERN.</byline>
+         </div>
+            
+            
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

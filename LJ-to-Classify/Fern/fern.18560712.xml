@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560712">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Summer Travel; A Gentle Hint</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2014</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">Summer Travel; A Gentle Hint</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-07-12">12 July 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-07-12">proofed and further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#km" when="2012-04-02">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18560712.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18560712.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18560712.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18560712.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18560712.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18560712.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18560712.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18560712.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+           
+            
+            
+            
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by R. BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+
+                <head type="main">SUMMER TRAVEL.</head>
+                
+               <p>Take a journey at this elevation of the <choice><sic>thermometor</sic><corr instant="false">thermometer</corr></choice>! Not I. Think of the breakfastless start before day-break&#8212;think of a twelve hours' ride on the sunny side of the cars, in the neighborhood of some persistent talker, rattling untranslatable jargon into your aching ears; think of a hurried repast, in some barbarous halfway house; amid a heterogeneous assortment of men, women and children, beef, pork, and mutton; minus forks, minus spoons, minus castor, minus come-atable waiters, and four shillings and indigestion to pay. Think of a "collision"&#8212;disembowelled trunks, and a wooden leg; think of an arrival at a crowded hotel; jammed, jaded, dusty and dolorous; think of your closetless sentry-box of a room, infested by mosquitoes and Red Rovers; bed too narrow, window too small, candle too short, all the world and his wife a-bed, and the geography of the house an unexplained riddle. Think of your unrefreshing, vapor-bath sleep; think of the next morning, as seated on a dusty trunk, with your hair drooping about your ears, through which the whistle of the cars, and the jiggle-joggle of the brakeman, are still resounding; you try to remember, with your hand on your bewildered forehead, whether your breakfast robe is in the yellow trunk, or the black trunk, and if in either, whether it is at the top, bottom, or in the middle of the same, where your muslins and laces were deposited, what on earth you did with your dressing comb, and where amid your luggage, your toilet slippers may be possibly located. Think of a summons to breakfast at this interesting moment, the sun meanwhile streaming in through the blind chinks, with volcanic power. Think of all that, I say.</p>
+                
+               <p>Now if I could travel <hi rend="italic"><choice><abbr>incog.</abbr><expan>incognito</expan></choice></hi> in masculine attire, no dresses to look after, no muslins to rumple, no bonnet to soil, no tresses to keep smooth, with only a hat and things, a neck-tie or two, a change of&#8212;of&#8212;shirts&#8212;nothing but a moustache to twist into a horn when the dinner bell rings; just a dip into the wash-basin, a clean dicky, a jump into a pair of&#8212;trousers, and above all, liberty to go where I liked, without being stared at or questioned; a seat in a chair on its hind-legs, or a breezy door-step, a seat on the stairs in a wide hall, "taking notes;" a peep everywhere I chose, by lordly right of my pantaloons; nobody nudging somebody, to enquire why Miss Spinks the authoress wore her hair in curls instead of plaits; or making the astounding discovery that it was hips, not hoops, that made her dress stand out&#8212;that now, would be worth talking about: I'll do it.</p>
+                
+               <p>But stop&#8212;I should have to cut my hair short&#8212;I should have to shave every morning, or at any rate call for hot water and go through the motions; men would jostle rudely past me, just as if they never had said such pretty things to me in flounces; I should be obliged, just as I had secured a nice seat in the cars, to get up, and give it to some imperious woman, who would not even say "thank you;" I should have to look on with hungry eyes till "the ladies" were all served at table; I should have to pick up their fans and reticules and handkerchiefs whenever they chose to drop them; I should have to give up the rocking chairs, arm-chairs and sofas for their use, and be called "a brute" at that; I should have to rush out of the cars, with five minutes' grace, at some stopping place, to get a glass of milk, for some "crying baby," with a contracted swallowing apparatus, and be pursued for life by the curses of its owner, because the whistle sounded while his two shilling tumbler was yet in the voracious baby's tight grip. No&#8212;no&#8212;I'll stay a woman, and what's more, I'll stay at home.</p>
+
+               
+                <byline>FANNY FERN.</byline>
+                
+                </div>
+         
+         <milestone unit="line"/>
+         
+            <div type="column">
+                
+                <head type="main">A GENTLE HINT.</head>
+                
+               <p>In most of the New York shop windows, one reads: "Here we speak French;" "Here we speak Spanish;" "Here we speak German;" "Here we speak Italian." I suggest an improvement&#8212;"Here we speak the <hi rend="italic">Truth</hi>."</p>
+                
+                <byline>FANNY FERN.</byline>
+            </div>
+            
+            
+           
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

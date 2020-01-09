@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560628">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">A Story For Old Husbands With Young Wives</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2014</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">A Story for Old Husbands with Young Wives</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-06-28">28 June 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-07-09">proofed and further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#km" when="2012-03-30">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18560628.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18560628.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18560628.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18560628.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18560628.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18560628.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18560628.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18560628.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+           
+            
+            
+            
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by R. BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+
+                <head type="main">A STORY FOR OLD HUSBANDS WITH YOUNG WIVES.</head>
+
+
+               <p>"I was an old fool! Yes&#8212;I was an old fool; that's all there is about it. I ought to have known better; <hi rend="italic">she</hi> was not to blame, poor thing; she is but a child yet; and these baubles pleased her ambitious mother's eye. It was not the old man, but his <hi rend="italic">money</hi>&#8212;his <hi rend="italic">money</hi>.&#8212;I might have known it. May and December&#8212;May and December&#8212;pshaw! how could I ever have believed, that Mary Terry could <hi rend="italic">love</hi> an old fellow like me?" and Mark Ware surveyed himself in the large parlor mirror.</p>
+                
+               <p>"See!&#8212;it reflects a portly old man of sixty; with ruddy face, snow-white hair, and eyes from which the light of youth has long since departed." And yet there is fire in the old man's veins too; see how he strides across the carpet, ejaculating, with fresh emphasis, "Yes, I was an old fool!&#8212;an old fool! But I will be kind to her; I'm not the man to tyrannize over a young girl, because her mother took her out of the nursery to make her my wife. I see now it is not in reason for a young thing like her, to stay contentedly at home with my frosty head and gouty feet. Poot little Mary! No&#8212;I'll not punish her, because she cannot love me; she shall have what she wants, and go where she likes; her mother is only too proud to trot her out, as the wife of the rich Mark Ware. If that will make them both happy, let them do it;&#8212;may be"&#8212;(and Mark Ware paused)&#8212;"may be, after she has seen what that Dead Sea apple&#8212;the world&#8212;is made of, she will come back and love the old man a little&#8212;may be&#8212;who knows? No woman who is believed in, and well treated, ever makes a bad wife; there never was a bad wife yet, but there was a bad husband <hi rend="italic">first</hi>: that's gospel&#8212;Mark's gospel, anyhow, and Mark Ware is going to act upon it. Mary shall go to the ball to-night, with her mother, and I will stay at home and nurse my patience and my gouty leg. There's no evil in her; she's as pure as a lily, and if she wants to see the world, why&#8212;she shall see it; and though I can't go dancing round with her, I never will dim her bright eyes&#8212;no&#8212;no!"</p>
+                
+                <milestone unit="line"/>
+                
+               <p>"That will do, Tiffy; another pin in this lace; now move that rose in my hair a little to the left; so&#8212;that will do."</p>
+                
+                <p>"That will <hi rend="italic">do!</hi>" Tame praise, for that small Grecian head, with its crown of braided tresses; for the full round throat, and snowy sloping shoulders; for the round ivory arms, and tapering, rose-tipped fingers; for the lovely bosom, and dainty waist. Well might such beauty dazzle Mark Ware's eyes, till he failed to discern the distance betwixt May and December.</p>
+                
+                <p>Mark Ware had rightly read Mary. She was guileless and pure, as he had said; and child as she was, there was that in her manner, before which the most libidinos eye would have shrunk abashed.</p>
+                
+               <p>When the young bride first realized the import of those words she had been made to utter, "til death do us part," she looked forward, with shuddering horror, at the long, monotonous, weary years before her. Her home seemed a prison, and Mark Ware the keeper; its very splendor oppressed her; and she chafed and fretted in her gilded fetters, while her restless heart cried out&#8212;anywhere but home! Must she sit there, in her prison-house, day after day, listening only to the repinings of her own troubled heart? Must the bee and the butterfly only be free to revel in the bright sunshine? Had God made her beauty to fade in the stifling atmosphere of darkened parlors, listening to the complaints of querulous old age? Every pulse of her heart rebelled. How could her mother have thus sold her? How could Mark Ware have so unmagnanimously accepted the compulsory sacrifice? Why not have shown her the world and let her choose for herself? Oh anywhere&#8212;anywhere&#8212;from such a home!</p>
+                
+                <p>There were no lack of invitations abroad; for Mary had flashed across the fashionable horizon, like some bright comet; eclipsing all the reigning beauties. No ball, no party, no dinner, was thought a success without her. Night after night found her <hi rend="italic">en route</hi> to some gay assemblage. To her own astonishment, and her foolish mother's delight, her husband never remonstrated; on the contrary, she often found upon her dressing-table, some coice little ornament, which he had provided for the occassion; and Mary, as she fastened it in her hair, or bosom, would say, bitterly, "He is anxious that I, like the other appendages of his establishment, should reflect credit on his faultless taste."</p>
+                
+                <p>Mistaken Mary!</p>
+                
+               <p>Time passed on. Mark Ware <hi rend="italic">was</hi> "patient," as he promised himself to be. His evenings were not so lonely now, for his little babe kept him company; the reprieved nurse, only too glad to escape to her pink ribbons and a "chat with John at the back gate." It was a pretty sight&#8212;Mark and the babe! Old age and infancy are always a touching sight together. Not a smile or a cloud passed over that little face, that did not wake up all the father in Mark Ware's heart; and he paced the room with it, or rocked it to sleep on his breast, talking to it, as if it could understand the strong, deep love of which it was the unconscious object.</p>
+                
+                <milestone unit="line"/>
+                
+               <p>"I am weary of all this," said Mark's young wife, as she stepped into her carriage, at the close of a brilliant ball. "I am weary of seeing the same faces, and hearing the same stupid nonsense, night after night. I wonder shall I <hi rend="italic">ever</hi> be happy? I wonder shall I ever <hi rend="italcs">love</hi> any thing, or anybody? Mamma is proud of me, because I am beautiful and rich, and she does not <hi rend="italic">love</hi> me. Mark is proud of me"&#8212;and Mary's pretty lip curled scornfully. "Life is so weary, and I am only eighteen!" and Mary sighed heavily.</p>
+                
+               <p>On whirled the carriage through the deserted streets; deserted&#8212;save by some inveterate pleasure-seeker like herself, from whom pleasure forever flees. Occasionally a lamp twinkled from some upper window, where a half-starved sempstress sat stitching her life away, or a heart-broken mother bent over the dead form of a babe, which her mother's heart could ill spare, although she knew not where to find bread for the remaining babes who wept beside her. Now and then, a woman, lost to all that makes woman lovely, flaunted under the flickering street-lamps, while her mocking laugh rang out on the night air. Mary shuddered, and drew back&#8212;there was that in it's hollowness which might make even devils tremble. Overhead the sentinel stars kept their tireless watch, and Mary's heart grew soft under their gentle influence, and tears stole from beneath her lashes, and lay like pearls upon her bosom.</p>
+                
+               <p>"You need not wait to undress me," said Mary to the weary-looking waiting maid, as she averted her swollen eyes from her gaze&#8212;and taking the lamp from her hand Mary passed up to her chamber. So noiseless was the fall of her light foot upon the carpet, that Mark did not know she had entered. He sat with his back to the door, bending over the cradle of his child, till his snow-white locks rested on its rose cheeks; talking to it&#8212;as was his wont&#8212;to beguile his loneliness.</p>
+                
+               <p>"Mary's forehead&#8212;Mary's eyes&#8212;Mary's mouth&#8212;no more like your old father, than a rosebud is like a chestnut burr. <hi rend="italic">You</hi> will love the lonely old man, little one, and perhaps <hi rend="italic">she</hi> will, bye and bye; who knows?" and Mark's voice trembled.</p>
+                
+               <p>"She will&#8212;she does&#8212;" said Mary, dropping on her knees at the cradle of her child, and burying her fact in Mark's hands: "my noble, patient husband!"</p>
+                
+               <p>"You don't mean that?" said Mark, holding her off at arms-length, and looking at her through a mist of tears; "you don't mean that you will love an old fellow like me? God bless you, Mary&#8212;God forever bless you. I have been very&#8212;very lonely,"&#8212;and Mark wept for sheer happiness.</p>
+                
+                <milestone unit="line"/>
+                
+               <p>The gaping world, the far-sighted world, the charitable world, shook its wise head, when the star of fashion became a fixed star. Some said "her health must be failing;" others, that "her husband had become jealous at last;"&#8212;while old stagers maliciously insinuated that it were wise to retire on <hi rend="italic">fresh</hi> laurels.&#8212;&#8212;But none said&#8212;what <hi rend="italic">I</hi> say&#8212;that a true woman's heart may always be won&#8212;aye, and kept, too&#8212;by any husband, who does not consider it beneath him to step off the pedestal of his "<hi rend="italic">dignity</hi>" to learn how.</p>
+
+               
+                <byline>FANNY FERN.</byline>
+            </div>
+            
+            
+           
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

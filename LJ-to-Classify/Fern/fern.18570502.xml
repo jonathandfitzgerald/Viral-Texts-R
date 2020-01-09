@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xml:id="fern.18570502" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Tabitha Trot's Soliloquy Over Her Tea.</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <date>2015</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to Kevin McMullen, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Tabitha Trot's Soliloquy Over Her Tea.</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-05-02">2 May 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2015-06-19" who="#km">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570502.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570502.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570502.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570502.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570502.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570502.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570502.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570502.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+           
+            <div>
+                <head type="column">FRESH FERN LEAVES.</head>
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                <head type="main">TABITHA TROT'S SOLILOQUY OVER HER TEA.</head>
+                
+                <p>Such airs as married woman put on! advertising their happiness to the public; one would think nobody else was of any account. I am sure I never could find out why <hi rend="italic">I</hi> was not married. I have seen scores of worse-looking women, with babies in their arms. Yes&#8212;such a fuss as married women make! See them on a journey&#8212;in the cars, taking off their travelling bonnets, and laying their heads in such a provokingly confiding way on their husband's shoulders, and pretending to go to sleep. A husband is well enough, I suppose, but I have managed to live fort&#8212;I mean thirty years without one. Then they say that married women preserve their good looks much longer than single ones;&#8212;now, that is a joke&#8212;as if any woman who lived such a hurry-skurrying life&#8212;but there's no use in arguing the point; everybody knows how plump, and fresh-looking, and sweet-tempered old maids are; not that I am an old maid&#8212;and speaking of that, I'd like to inquire where's the propriety of calling every <hi rend="italic">unmarried</hi> woman an old maid. I am sure I am not old. If I were seventy now, they might talk; and I am not "set" in my ways either. To be sure, always when I return from walking, I wrap my parasol carefully in a sheet of tissue paper; and I carry my fingers as straight as I can, without getting the cramp, lest bending them should wear my gloves out; and I put my shoes side by side, near my open window at night, on a chair, to air; and always examine the sheets before getting into bed, to see if the seam is exactly in the middle; but, then, I am not an old main, and nobody has any right to call me so. I'd like, at any rate, to see the main I'd marry. Some women take up with any thing, and some fairly ask the men to marry 'em, or what I consider as good. There's Miss Cox, now; she left a good millinery business and took up making gentlemen's stocks, for nothing else, under the sun, but to get married. She invented a new way to fasten stocks, just for an excuse to show her gentlemen customers how to put them round their necks; that's the way <hi rend="italic">she</hi> became Mrs. Spring. Then there was Miss Jives, who advertised right-out and out for a husband, and got him too! I hope he may never remind her of it, some day, when his dinner don't suit him; that's all I have to say. And Mrs. Gore, too, she that was a Flounder; she fixed her eye on our rosy young sexton; and pretended she lost her breast-pin, in church, on a Sunday, and got him to take the key, of a week-day, and help her to go look for it, and a long search they made of it, too. Do you think I, Tabitha Trot, would ever resort to such tricks?&#8212;Never! I had rather live an old maid till I dried up like a piece of parchment, and blew away for want of somebody to hold me. Good gracious! if there isn't deacon Sharp, the widower. I really think it would be but common politeness to run down and inquire after the dear children.</p>
+                
+               
+                <byline>FANNY FERN</byline>
+            </div>
+     
+           
+        </body>
+        
+    </text>
+</TEI>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xml:id="fern.18570418" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Girls' Boarding Schools</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <date>2014</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to Kevin McMullen, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+           
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">Girls' Boarding Schools</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-04-18">18 April 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2014-09-25" who="#km">updated sourceDesc encoding</change>
+            <change when="2014-09-19" who="#km">facsimile element added</change>
+            <change when="2014-05-01" who="#km">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570418.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570418.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570418.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570418.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570418.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570418.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570418.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570418.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+            
+            <div>
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according Act of Congress in the year 1855 by Robert Bonner, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                
+                    <head type="main">GIRLS' BOARDING SCHOOLS.</head>
+                
+                    <p>Had I twenty daughters, which I regret to say I have not, not one of them should ever enter a "Boarding-school." (I beg pardon, I should say "Institute;" schools are exploded; every two-year-older learns his A B C now at an "Institute," though that institute, when hunted down, may consist of a ten-feet-square basement room;) but this is a digression.</p>
+                
+                <p>To every mother who is contemplating sending her daughter to a boarding-school I would say: let neither your indolence, nor the omnipotent voice of fashion, nor high-sounding circulars, induce you to remove her from under your own personal care and supervision, at a time when the physique of this future wife and mother requires a lynx-eyed watchfulness on your part, which no Institute ever has&#8212;ever will supply. This is a point which I am astonished that parents seem so utterly to overlook. Every mother knows how fatal wet feet, or insufficient clothing may be to a young girl at the critical age, at which they are generally sent away to school. It is not enough that you palce india-rubbers, thick-soled shoes, and flannels, in the trunk which bears the little exile company; they will not insure her from disease <hi rend="italic">there</hi>. It is not enough that you say to her, "My dear, be careful of your choice of companions," when she <hi rend="italic">has</hi> no choice; when her bed-fellow, and room-mates&#8212;the latter often three or four in number&#8212;are what chance and the railroads send; for what teacher, with the best intentions, ever gives this subject the attention which it deserves, or which a mother's anxious heart asks? That the distant home of her daughter's room-mates is located within the charmed limits of fashion; that a carriage with liveried servants, (that disgusting libel on Republicanism,) stands daily before their door; that the dresses of these room-mates are made in the latest style, and their wrists and ears decked with gold and precious stones&#8212;is an affirmative answer to these questions to satisfy a true mother?</p>
+                
+                <p>No&#8212;and it is not blushing country maiden, with her simple wardbrode, and simpler manners, whom that mother has to fear for her child's companion or bed-fellow. It is the over-dressed, vain, vapid, brainless offshoot of upstart aristocracy, who would ridicule the simple ginham in which that country girl's mother studied geography, and which fabric she very properly considers quite good enough for her child, and which is much more appropriate in the school-room than silk or satin. It is this child of the upstart rich mother, whose pricesless infancy and childhood has been spent with illiterate servants; with the exception of the hour after dessert, when she was reminded that she had a mother, by being taken in an embroidered robe to be exhibited for a brief space with her guests. It is this girl, whose childhood, as I said, has been passed with servants, peeping into the doubtful books with which doubtful servants often beguile the tedious hours (for there are bad servants as well as mad masters and mistresses)&#8212;this girl, lying awake in her littl bed, bearing unguarded details of servant's amours, while her mother dances away the hours so pregnant with fate to that listening child. It is such a girl, more to be pitied than, blamed, whose existence is to be recognized by her thoughtless mother only, when her "coming out," delayed till the latest possible poeriod, forces her reluctanty to yield to a younger aspirant her own claims to admiration. This girl whose wealth, and the social position arising from it, so dazzles the eyes of proprietors of "Institutes" that they are incapable of perceiving, or unwilling to admit, her great moral and mental delinquencies;&#8212;it is <hi rend="italic">such</hi> a companion that, a true mother has to fear for her pure-minded, simple-hearted young daughter, leaving for the first time the guarded threshold and healthful atmosphere of home.</p>
+                
+                <p>And when after months have passed&#8212;and insufficient exercise,* imperfect ventilation, and improper companionship, have transformed her rosy, healthy, simple-hearted child, to a pale, languid, <hi rend="italic">spineless</hi>, dressy young woman, with a smattering of fashionable accomplishments, and an incurable distaste of simple, home pleasures&#8212;will it restore the bloom to her cheek, the spring to her step, the fresh innocence to her heart, to say, "but the school was fashionable and <hi rend="italic">so</hi> well recommended?"</p>
+                    
+                                   
+                    <byline>FANNY FERN</byline>
+                    
+
+<note type="footnote">
+    <p>* Is a formal, listless walk, in a half-mile-procession, to answer the purpose of <hi rend="italic">exercise</hi> for young, growing girls confined at least ten hours a-day over their lessons, and crowded at night into insufficient sleeping-rooms?&#8212;from which the highest prices paid for tuition, so far as my observation extends, furnish no immunity.</p>
+</note>
+               
+            </div>
+          
+        </body>
+        
+    </text>
+</TEI>

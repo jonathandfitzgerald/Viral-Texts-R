@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560621">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Ours; Or, A Look Backward; Try Again</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2014</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">Ours; Or, A Look Backward; Try Again</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-06-21">21 June 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-07-09">proofed and further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#km" when="2012-03-29">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18560621.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18560621.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18560621.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18560621.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18560621.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18560621.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18560621.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18560621.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+           
+            
+            
+            
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by R. BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+
+                <head type="main">OURS; OR, A LOOK BACKWARD.</head>
+
+
+               <p>Yes, Swissdale was ours! The title deeds were "without a flaw," so lawyer Nix informed us. Ours&#8212;the money was paid down that very day. Those glorious old trees were ours; tossing their branches hither and thither, as if oppressed with exuberant animal life; or stooping to caresss the green earth, as if grateful for its life-sustaining power. Ours were the broad sloping meadows, dotted with daisies and clover, waving responsive to every whisper of the soft west wind; ours were the dense woods, which skirted it, where the sentinel squirrel cocked up his saucy eye, then darted away to the decayed tree-trunk, with his smuggled mouthful of acorns; ours the pretty scarlet berries, nestled under the tiny leaves at our feet; ours the rose-tinted and purple anemones, whose tell-tale breath betrayed their hidden loveliness; ours the wild rose, fair as fleeting; ours the green moss-patches, richer than courtly carpet, trod by kingly feet; ours the wondrously fretted roof, of oak and maple, pine and chestnut, now jealously excluding the sun-rays, now by one magic touch of their neighborly leaves, making way that their bright beams might crimson the heart of some pale and tremulous flower, languishing like a lone maiden for the warm breath of Love. Ours were the robins and orioles, sparrows and katy-dids; ours the whip-poor-will, wailing ever amid marshy sedge, where the crimson lobelia, more gorgeous than kingly robes, defied the covetous eye, and timorous foot. Ours the hedges, tangled with wild grape, snowy with blossoming clematis, woven with sweet briar, guarded by its protecting thorns. Ours the hill-side; where the creeping myrtle charily hid under the tall grass its cherished blue-eyed blossoms; ours the gray old rocks, whose clefts, and fissures, the golden moss made bright with verdure; ours the valley lillies, ringing ever their snowwhite bells for the maidens' bridal. Ours the bower-crowned, vine-wreathed, hill-summit, whence with rapt vision we drank in that broad expanse of earth, and sea, and sky, in all its waving, glowing, sparkling, changing, glorious beauty!&#8212;one perpetual anthem to Him, who hath neither beginning nor end of days.</p>
+                
+                <p>Ours was the little blue-eyed one, who, though of infant stature, measured thought with angels; and with finger on hushed lip and lambent eyes, listened to voices, alas! all unheard by us, that were wooing her fragile form away.</p>
+                
+               <p>"Ours&#8212;" was she? God rest thee Mary&#8212;naught is left us now, but this sweet memory, and our falling tears!</p>
+                
+                <milestone unit="line"/>
+                
+                <p>But we were not the only ones who had exultingly said, "Swissdale is ours." One fine morning, I stood upon the lawn, under the broad spreading trees, watching the mist, as it slowly rolled off the valleys, and up the hill sides. The air was laden with fragrance and music, and the earth bright with beauty. I heard a stifled sob near me! Oh who could sorrow on such an Eden morning? I turned my head. Three young sisters, clad in sable, with their arms about each other, were looking at a luxuriant rose-vine whose drooping clusters hung above my door.</p>
+                
+               <p>"Our mother planted it," they sobbed&#8212;"she died in that room," pointing to the second window, over which the rose-vine&#8212;<hi rend="italic">her</hi> rose-vine had clambered up.</p>
+                
+                <p>"Could they roam over the old place?" I pressed a hand of each, and nodded affirmatively, for their tears were infectious.</p>
+                
+                <p>There are sorrows with which a stranger may not intermeddle; but hour after hour passed, and still those sable-clad sisters sat, on the hill summit, with their arms about each other, mingling with tears. Oh how plaintive to them the blithe song of the bird of the <hi rend="italic">unrifled</hi> nest, the musical murmur of the careless brook! Every twig, every tree, every flower, had its sorrowful history!</p>
+                
+               <p>Ah! how little I thought as I looked at that weeping group&#8212;that years hence&#8212;I too, should make to that very spot, the same sorrowing pilgrimage! That strange eyes should moisten for <hi rend="italic">me</hi>, when I asked leave to roam over the "old place;'" that I too with streaming eyes, and tremulous finger should point to the trees and vines which <hi rend="italic">my</hi> dead had planted.</p>
+                
+                <p>Wise as merciful is the Hand which draws before our questioning eyes the veil of the future!</p>
+
+               
+                <byline>FANNY FERN.</byline>
+            </div>
+         
+         <milestone unit="line"/>
+         
+         <div type="column">
+            
+            <head type="main">TRY AGAIN.</head>
+            
+            <q>"No woman ever produced a great painting or statue."&#8212;<hi rend="italic">Ex</hi>.</q>
+            
+            <p>On the contrary, she has produced a great many "statues," who may be seen any sun-shiny day, walking Broadway, in kid gloves and perfumed broad-cloth, while "Lawrence" lies in ashes.</p>
+            
+            <q>"No woman ever wrote a great drama."&#8212;<hi rend="italic">Ex</hi>.</q>
+            
+            <p>Aye&#8212;but they have lived one; and when worn out with suffering at hands which should have shielded them, have died without a murmur on their martry lips.</p>
+            
+            <q>"No woman ever composed a great piece of music."&#8212;<hi rend="italic">Ex</hi>.</q>
+            
+            <p>What do you call a baby?</p>
+            
+            <q>"No woman was ever a great cook!"&#8212;<hi rend="italic">Ex</hi>.</q>
+            
+            <p>True&#8212;it takes a man to get up a <hi rend="italic">broil</hi>.</p>
+            
+            <q>"Women have invented nothing outside of millinery since the world began."&#8212;<hi rend="italic">Ex</hi>.</q>
+            
+            <p>How can they? when they are so <hi rend="italic">hooped</hi> in?</p>
+            
+            <q>"Women have written clever letters, tolerable novels, and intolerable epics."&#8212;<hi rend="italic">Ex</hi>.</q>
+            
+            <p>Indeed! It strikes me, though, that we have furnished you the material for yours; just tell me what <hi rend="italic">your</hi> "letters," <hi rend="italic">your</hi> "novels," <hi rend="italic">your</hi> "epics," would have amounted to, without the inspiring theme&#8212;<hi rend="italic">woman</hi>. When the world furnishes us <hi rend="italic">heroes</hi>, perhaps <hi rend="italic">we</hi> shall write splendid novels, and splendid letters, and splendid epics. Pharaoh once required bricks to be made "without straw."</p>
+            
+            <p>"Letters?"&#8212;No man, since the world began, could pen a letter equal to a woman. Look at the abortions dignified by that name in men-novels; stiltified&#8212;unnatural&#8212;stiff&#8212;pedantic or else&#8212;coarse. You can no more do it, than an elephant can waltz. The veriest school girl can surpass you at it. I have often heard men confess it, (when off their guard.) One thing at least we know enough to do, viz: when we wish to make one of your sex our eternal and unchangeable friend we always allow him to beat us in an argument.</p>
+            
+            <byline>FANNY FERN.</byline>
+            
+         </div>
+            
+            
+           
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

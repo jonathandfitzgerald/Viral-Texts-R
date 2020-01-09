@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xml:id="fern.18570321" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">A Headache</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <date>2014</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to Kevin McMullen, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">A Headache</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-03-21">21 March 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2014-09-25" who="#km">updated sourceDesc encoding</change>
+            <change when="2014-09-19" who="#km">facsimile element added</change>
+            <change when="2014-04-25" who="#km">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570321.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570321.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570321.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570321.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570321.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570321.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570321.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570321.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+            
+            <div>
+                <head type="column">FRESH FERN LEAVES.</head>
+                <epigraph>
+                    <p>Entered according Act of Congress in the year 1855 by Robert Bonner, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                <head type="main">A HEADACHE.</head>
+                
+                <p>Now I am in for it, with one of my unappeasable headaches. Don't talk to me of doctors; it is incurable as a love-fit; nothing on earth will stop it; you may put that down in your memorandum-book. Now, I suppose everybody in the house today will put on their creakingest shoes; and everybody will go up and down stairs humming all the tunes they ever heard, especially those I most dislike; and I suppose everything that is cooking in the kitchen will boil and stew over, and the odor will come up to me; and I have <hi rend="italic">such</hi> a nose! And I suppose everybody who comes into my room to ask me how I do, will squeak that horrid door, and <hi rend="italic">keep</hi> squeaking it: and I suppose that unhappy dog confined over in that four-square-feet yard, will howl more deliriously than ever; and Mr. Jones's obnoxious blind will flap and hang till I am as crazy as an omnibus-driver who has a baulky horse, and whose passengers are hopping out behind without paying their fare; and I suppose some poor little child will be running under the window every now and then, screaming "Mother," and whenever I haer that I think somebody wants <hi rend="italic">me</hi>; and I've no doubt there will be "proof" to read to-day, and that that pertinacious and Stentorian rag-man will lumber past on his crazy old cart, and insist on having some of my dry goods; and I feel it in my bones that oysters and oranges, and tape and blacking, and brooms and mats and tin-ware, will settle and congregate on this side-walk, and assert their respective claims to my notice, till the sight of an undertaker would be a positive blessing.</p>
+                
+                <p>Whack! how my head snaps! Don't tell me any living woman ever had such a headache before&#8212;because it will fill me with disgust. What o'clock is it? "Twelve." Merciful man! only twelve o'clock! I thought it was five. How am I to get through the day, I would like to know, for this headache wont let up till sun-down; it never does. "Read to me?" What'll you read? "Tom Moore!"&#8212;as if I were not sick enough already. Moore! with his nightingales, and bulbuls, and jessamines; and loves and doves, and roses and posies&#8212;till the introduction of an uneducated wildcat, or the tearingest kind of a hyena in his everlasting gardens, would be an untold relief. No&#8212;I hate Moore. Beside&#8212;he is the fellow who said, "when away from the lips that we love, we'll make love to the lips that are near." No wonder he was baptized <hi rend="italic">more</hi>&#8212;carnivorous old profligate.</p>
+                
+                <p>"Will I have a cup of tea?" No, of course I wont. I'm not an old maid. Tea! I'd like a dose of strychnine. There goes my head again&#8212;I should think a string of fire-crackers was fastened to each hair. Now the pain is in my left temple; now it is in my eye-balls; now&#8212;oh dear&#8212;it is everywhere. Sit down beside me, on the bed&#8212;don't jar it; not put your cold hand on my forehead&#8212;so&#8212;&#8212;good gracious! there's a hand-organ! I knew it&#8212;the very one I moved here to get rid of. Playing the same old tune, too, composed of three notes; "tweedle&#8212;dum&#8212;tweedle&#8212;dee!"</p>
+                
+                <p>Now if that organ man would pull each of my finger and toe-nails out by the root one by one I wouldn't object, but that everlasting "tweele&#8212;" oh, dear!&#8212;Or if a cat's tail <choice><sic>we e</sic><corr>were</corr></choice> to be irretrievably shut into yonder door,&#8212;or a shirt sleeve should be suddenly and unexpectedly thrown around an old maid's neck in this room, anything&#8212;everything but that eternal, die-away "tweedle." What is the use of a city government? What is the use of anything? What is the use of <hi rend="italic">me</hi>?</p>
+                
+                <byline>FANNY FERN</byline>
+            </div>
+        
+        </body>
+        
+    </text>
+</TEI>

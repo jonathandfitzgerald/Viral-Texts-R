@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18570207">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[untitled]</title>
+            <title type="sub">a machine-readable transcription</title>
+             <editor xml:id="cm">Carmen McCue</editor>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2015</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">[untitled]</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1857-02-07">7 February 1857</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+          <change who="#km" when="2015-10-10">proofed, and further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#km" when="2014-03-18">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570207.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570207.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570207.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570207.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570207.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570207.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570207.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570207.08.jpg"/>
+        </surface>
+    </facsimile>
+   <text>
+      <body>
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1856, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>                
+                              
+                <p>Hoary-headed old Winter, I have had enough of you! Not that I shrink from facing your rough breath, in a ten-mile walk, on the coldest day on which you ever made icicles; for I am no fair-weather sailor, not I; I have no thousand, dollar dress to spoil, and I am not afraid to increase the dimensions of my ankle by a never-to-be-sufficiently-adored-india-rubber-boot. I am dependent neither upon cars nor omnibuses, though I am, like other mortals, sometimes brought up short for want of a ferry-boat; but I am tired of frozen ground, and frozen virgins with blue noses, trying to <hi rend="italic">fancy themselves warm</hi> in the new-fashioned, tight-fitting, out-door garment, over which it were charity for the city fathers (or the wearer's own) to throw a blanket-shawl, not to mention the agonised passers-by, who are compelled to look at their stiff awkwardness. I am tired of denuded trees, and leafless vines and branches, scraping against walls and fences, in the vain attempt to frictionize a little warmth into their stiffened limbs. I am tired of gray skies, and the mournful wailing of the winter wind: the stars have a steel-like glitter, and the moonbeams on the snow petrify me like the ghost of a smile on the face of a wire-drawn old maid. I long, like a prisoned bird, for a flight into green fields&#8212;I cannot sing without the blossoming flowers. I would go to sleep with them, nor wake till the soft Spring shed warm, joyful tears, to call forth her hidden treasures.</p>
+                
+                <p>And yet old Winter, I have like thee less well than now; when the hungry fire devoured the last remaining fagot, and Nature's frozen face was but typical of the faces that my adverse fortune had petrified; but who cares for thee or them? So surely as prosperity brough back their sycophantic smiles, so surely shall thy stiff neck be bowed before the bounty-laden Spring. "Hope on&#8212;hope ever;" and yet how meaningless fall these words upon the ear of the poor widow, who but a stone's throw from my window, sits watching beside her dead husband; heeding neither the wailing cry of the babe at her breast, nor the wilder wail of the winter wind, as it drifts the snow against her door.</p>
+                
+                <p>"Hope on&#8212;hope ever." She looks at you with a vacant stare, and then at the lifeless form before her, as if that were her mute answer. You tell her to trust in God, when it is her bitterest sorrow, that the voice of her rebellious heart is, Ye have taken away my idol, and what what I left?</p>
+                
+                <p>"Left?" poor mourner. Oh, so much, that you cannot see until those falling tears have cleared your vision and eased your pain. "Left?" the sweet memory of unclouded earthly love, of which not even death can rob you; tones and looks which you will count over, when no human eye sees you, as the miser tells his hoarded gold.</p>
+                
+                <p>"Left?" his child, and yours, who, with the blessed baptism of holy tears, you will call God's. "Left?" oh, many a household, whose inmates pressing their anguished brows under <hi rend="italic">living</hi> sorrows, would bless God for the sweet memories of earthly love that you cling to in your pain.</p>
+                
+                <p>"Left?" tearful mourner; a crown to win, sweeter for the wearing, when thorns have pressed the brow.</p>
+                
+                <p>"Left?" a cross to bear, but oh so light to carry, when heaven is the goal.</p>
+                
+                <lg type="stanza">
+                    <l>"One by one thy griefs shall meet thee,</l>
+                    <l>Do not fear an armed band;</l>
+                    <l>One will fade as others greet thee,</l>
+                    <l>Shadows passing through the land.</l>
+                </lg>
+                
+                <lg type="stanza">
+                    <l>"Do not look at life's long sorrow</l>
+                    <l>See how small each moment's pain;</l>
+                    <l><hi rend="italic">God will hep thee for to-morrow,</hi></l>
+                    <l><hi rend="italic">Every day begin again."</hi></l>
+                </lg>
+                
+                
+                
+                <byline>FANNY FERN.</byline>            
+            </div>
+          
+        </body>
+   </text>
+</TEI>

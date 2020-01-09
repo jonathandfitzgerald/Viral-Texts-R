@@ -6,9 +6,7 @@ getusersWords = function(data.frame) {
   #Get list of words associated with URL
   allDataWords = data.frame %>% group_by(cluster) %>% do({
     text = .$text %>% as.character
-    words = text %>% 
-      strsplit("[^#A-Za-z]") %>%  # Might want to change this eventually into something more elaborate... try to split on spaces and delete punctuation, got Error: Duplicate identifiers for rows
-      unlist
+    words = text %>% tokenize()
     allDataWords = data.frame(word=words,genre=.$genre,stringsAsFactors = FALSE) 
     # %>% gsub("[\\//“”\";:.,!?\\-]","",.)  
     return(allDataWords)
@@ -40,8 +38,10 @@ allDataWordsIntoTD = function (allDataWords,normalized=F) {
 
 
 wordCutoff = 100
-df = allData
-allDataWords = getusersWords(df)
+
+allDataWords <- allData %>% 
+  unnest_tokens(word,text)
+
 counts = allDataWords %>% filter(word!="") %>% mutate(word=tolower(word)) %>% group_by(cluster,word,genre) %>% summarize(count=n()) %>% ungroup
 td = allDataWordsIntoTD(allDataWords,normalized = T) 
 

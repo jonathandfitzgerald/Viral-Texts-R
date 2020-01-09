@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18561115">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Answers to Fern Correspondents; To Those Whom the Cap Fits</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="cm">Carmen McCue</editor>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2014</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">Answers to Fern Correspondents; To Those Whom the Cap Fits</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-11-15">15 November 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-09-25">proofed, and further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#cm" when="2012-04-06">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18561115.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18561115.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18561115.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18561115.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18561115.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18561115.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18561115.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18561115.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+            
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1856, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+
+                <head type="main">ANSWERS TO FERN CORRESPONDENTS.</head>
+
+                <p>MICHAEL DOLAN'S request "for $500 to establish himself as a market gardener," is respectfully declined.</p>
+
+                <p>MISS H. F., of Bangor, who "wishes $20 to buy a silk dress to go to church in, she not owning one"&#8212;ditto.</p>
+
+               <p>TO KATY &#8212;&#8212;, who would like the writer to "make six tasteful pincushions in the form of a Fern Leaf, for her table at the&#8212;&#8212;fair"&#8212;ditto.</p>
+
+               <p>TO BRIDGET JONES, who "has been a servant-girl in a tavern for many years, who is now married, and lives humble, but who would be willing to give the undersigned house-room while she put into words, her (Bridget's) remarkable history, to be published for her (Bridget's) personal benefit"&#8212;ditto.,</p>
+
+               <p>TO JOSEPH &#8212;&#8212;, who "is willing to pay the undersigned a reasonable sum for composing a moving love-letter for him to a cruel coquette"&#8212;ditto.</p>
+
+               <p>TO FRANKLIN &#8212;&#8212;, who "wishes the undersigned to meet him at the corner of &#8212;&#8212; and &#8212;&#8212; sts., that he may see how she looks"&#8212;ditto.</p>
+
+               <p>TO MOSES WOLF, who "would like to know how much the undersigned receives for copyright&#8212;how much she has made by writing, and how it is invested"&#8212;ditto.</p>
+
+               <p>TO THOMAS &#8212;&#8212;, who "is an invalid, and who has been a long time out of cigars; and who wishes the loan of $2 to buy some"&#8212;ditto.</p>
+
+               <p>TO JOHN CRAM, HENRY STUFF, ARTHUR COOK, AND WILLIAM WELLS, Committee, who "will place all the writings of the undersigned in their village library, if the author will forward them, post-paid, and handsomely bound"&#8212;ditto.</p>
+
+               <p>TO SIX young ladies of the&#8212;&#8212;Ericson Seminary, who "implore the writer to forward for their use, a quantity of compositions, and French exercises, at her earliest convenience"&#8212;ditto.</p>
+
+               <p>TO PROF.&#8212;&#8212;, who wishes the published opinion of the undersigned on this question, "What was the first thing Adam said to Eve when he saw her?"&#8212;ditto.</p>
+
+               <p>TO THOMAS ROHAN, who is "Editor of a paper with an unprecedented subscription, who likes to encourage lady-writers, and who is willing to give the undersigned the advantages of this unprecedented circulation by publishing <hi rend="italic">gratis</hi> one of her articles every week"&#8212;ditto.</p>
+
+               <p>TO JAMES &#8212;&#8212;, who "respectfully solicits the honor of dedicating a work on the raising of Hens, to the undersigned"&#8212;ditto.</p>
+
+                <p>TO MARY M., who desires a frank expressions of opinion from the undersigned, with regards to her marrying an old bachelor.</p>
+
+               <p>Ans. Don't do it. A man who for so long a period has had nobody but himself to think of, who knows where the finest oysters and venison steaks are to be found, and who has for years indulged in these and every other little selfish inclination unchecked, will, you may be sure, (without punning,) make a most miserable <hi rend="italic">help-meat</hi>. When you have tea, he will wish it were coffee; when you have coffee, he will wish it were tea; when you have both, he will desire chocolate; and when you have all, he will tell you that they are much better made at his favorite restaurant. His shirts never will be ironed to suit him, his cravats will be laid in the drawer the wrong way, and his pocket-handkerchiefs marked in the wrong corner. He will always be happy to wait upon you, provided <hi rend="italic">your</hi> way is his way; but an extra walk round a block will put him out of humor for a week. He will be as unbending as a church-steeple&#8212;as exacting as a Grand Turk, and as impossible to please as a teething baby. Take my advice, Mary; give the old fossil the mitten, and choose a male specimen who is in the transition state, and capable of receiving impressions.</p>
+
+                <byline>FANNY FERN.</byline>
+            </div>
+         
+         <milestone unit="line"/>
+            
+            <div type="column">
+                <head type="main">TO THOSE WHOM THE CAP FITS.</head>
+
+               <p>I have just been reading a very severe criticism, from a London paper, on Miss Warner's last book "The Hills of the Shatemuc." That the London Athen&#230;um, the London Leader, and other kindred papers, should dislike Miss Warner's books, or those of any other American lady-author, whose sympathies are on the side of <hi rend="italic">evangelical religion</hi>, is not astonishing when one knows the anti-evangelical views of their editors. The fairness of condemning the book under consideration, and other American lady-books, <hi rend="italic">in toto</hi>, for that reason alone is sufficiently transparent. Miss Warner needs, as an author, no praise of mine; but what I would like to ask, is this: <hi rend="italic">Why</hi>&#8212;the New York paper, in which this severe and most unfair criticism of Miss Warner's book, from a London paper, was copied, is always so lynx-eyed to see, and so ready to pounce upon and pass round, any unfavorable trans-atlantic criticism of an American <hi rend="italic">lady</hi>-book, and so <hi rend="italic">very deaf, dumb and blind</hi>, when one comes from the same source, about Mr.&#8212;&#8212;'s Poems, Mr.&#8212;&#8212;'s Travels, Mr.&#8212;&#8212;'s novels, or indeed any American <hi rend="italic">male</hi> author's book <choice><sic>whatsover</sic><corr>whatsoever</corr></choice>?</p>
+
+               <p>That lady-writers should have found favor with the public&#8212;no matter how great and pressing their pecuniary need, seems to have stirred up the bile of more than one pair of corduroys; and yet, despite the sneers of their owners at "female literature," plenty of instances can be cited, in which men (of late) who have been unable to attract attention literarily, <hi rend="italic">in propri&#230; person&#230;</hi>, have crept under a petticoat to try it in female guise; and what is worse, in this <hi rend="italic">incognita</hi> have made our sex answerable, for <hi rend="italic">double-entendres</hi>, and vulgarisms of sentiment and expression, from which any true woman would shrink.</p>
+
+                <p>Be consistent gentlemen; or if you can't be consistent, be as consistent as you can!</p>
+
+                <byline>FANNY FERN.</byline>
+            </div>
+
+            
+        </body>
+   </text>
+</TEI>

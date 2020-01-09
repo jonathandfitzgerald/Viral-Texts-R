@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="http://fannyfern.org/images/other_images/ferncutout_head.jpg" type="image/jpeg" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<link rel="canonical" href="/columns/fern.18560628" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortlink" href="/node/49" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <title>June 28, 1856 | Fanny Fern in The New York Ledger</title>
+  <style type="text/css" media="all">
+@import url("http://fannyfern.org/modules/system/system.base.css?om2vlq");
+@import url("http://fannyfern.org/modules/system/system.menus.css?om2vlq");
+@import url("http://fannyfern.org/modules/system/system.messages.css?om2vlq");
+@import url("http://fannyfern.org/modules/system/system.theme.css?om2vlq");
+</style>
+<style type="text/css" media="all">
+@import url("http://fannyfern.org/modules/field/theme/field.css?om2vlq");
+@import url("http://fannyfern.org/modules/node/node.css?om2vlq");
+@import url("http://fannyfern.org/modules/search/search.css?om2vlq");
+@import url("http://fannyfern.org/modules/user/user.css?om2vlq");
+</style>
+<style type="text/css" media="all">
+@import url("http://fannyfern.org/modules/ctools/css/ctools.css?om2vlq");
+@import url("http://fannyfern.org/modules/panels/css/panels.css?om2vlq");
+</style>
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700" media="all" />
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Rosarivo:400,400italic&amp;subset=latin,latin-ext" media="all" />
+<style type="text/css" media="all">
+@import url("http://fannyfern.org/themes/bamboo/css/menu.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/normalize.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/style.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/design.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/responsive.css?om2vlq");
+</style>
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="http://fannyfern.org/themes/bamboo/css/ie8-fixes.css?om2vlq" media="all" />
+<![endif]-->
+
+<!--[if IE 9]>
+<link type="text/css" rel="stylesheet" href="http://fannyfern.org/themes/bamboo/css/ie9-fixes.css?om2vlq" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://fannyfern.org/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://fannyfern.org/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://fannyfern.org/misc/drupal.js?om2vlq"></script>
+<script type="text/javascript" src="http://fannyfern.org/themes/bamboo/js/scripts.js?om2vlq"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"bamboo","theme_token":"5FHLHkS5-Tg7y3fTkRrAqauXaoKEyaoxGwNlhjDTUA0","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"themes\/bamboo\/js\/scripts.js":1,"modules\/statistics\/statistics.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/ctools\/css\/ctools.css":1,"modules\/panels\/css\/panels.css":1,"\/\/fonts.googleapis.com\/css?family=Open+Sans:400italic,600italic,700italic,400,600,700":1,"\/\/fonts.googleapis.com\/css?family=Rosarivo:400,400italic\u0026subset=latin,latin-ext":1,"themes\/bamboo\/css\/menu.css":1,"themes\/bamboo\/css\/normalize.css":1,"themes\/bamboo\/css\/style.css":1,"themes\/bamboo\/css\/design.css":1,"themes\/bamboo\/css\/responsive.css":1,"themes\/bamboo\/css\/ie8-fixes.css":1,"themes\/bamboo\/css\/ie9-fixes.css":1}},"urlIsAjaxTrusted":{"\/columns\/fern.18560628":true},"statistics":{"data":{"nid":"49"},"url":"\/modules\/statistics\/statistics.php"}});
+//--><!]]>
+</script>
+    <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-49 node-type-page site-name-hidden bg-green-gradient color-palette-green-bamboo header-font-serif body-font-serif sidebar-right imagecaption section-columns is-node theme-logo-none">
+<div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+
+<header id="head" role="banner" class="container">
+  <hgroup class="ten columns alpha">
+
+    <div id="logo">
+          </div>
+
+    <div id="site-title-wrapper">
+      <h1 id="site-title">
+        <a href="/" title="Home">
+               </a>
+      </h1>
+          </div>
+
+  </hgroup>
+
+<div id="top-links" class="six columns omega">
+        <div class="region region-top-links">
+    <div id="block-search-form" class="block block-search">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <form action="/columns/fern.18560628" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-HRPWlEMQ44XcjxiDLG1L2HjSk1FjDsVQeZfjU9Kf3lU" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+</div>
+</div>
+  </div>
+  </div>
+</header>
+
+<div id="menu-wrapper" class="container">
+  <nav id="main-menu" role="navigation" class="sixteen columns alpha omega">
+    <div class="menu-navigation-container">
+      <!-- Theme native drop downs and mobile menu-->
+      <div id="nav-wrap">
+        <div id="menu-icon">Menu</div>
+        <ul class="menu"><li class="first leaf"><a href="/home">Home</a></li>
+<li class="leaf"><a href="/bio" title="A brief biography of Fanny Fern">Fanny Fern</a></li>
+<li class="leaf"><a href="/ledger" title="A brief historical overview of The New York Ledger">The New York Ledger</a></li>
+<li class="leaf"><a href="/columns" title="Transcriptions and images of Fanny Fern&#039;s columns in the Ledger">Her Columns</a></li>
+<li class="last expanded"><a href="/about">About</a><ul class="menu"><li class="first leaf"><a href="/about">About the Project</a></li>
+<li class="leaf"><a href="/contact" title="Send comments and corrections to the project editor">Contact</a></li>
+<li class="last leaf"><a href="/staff">Project Staff</a></li>
+</ul></li>
+</ul>      </div>
+    </div>
+  </nav>
+</div>
+<!-- end main-menu -->
+
+
+<div class="container" id="content-wrapper">
+
+  
+  
+    
+  
+        
+  <div id="content" class="sixteen columns">
+            <section id="post-content" role="main">
+
+      
+      
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      
+<article id="node-49" class="node node-page node-full clearfix"  about="/columns/fern.18560628" typeof="foaf:Document" role="article">
+
+  
+  <header class="article-header">
+
+  
+  <div class="title-wrapper">
+  
+  
+    <!-- node h1 title -->
+          <h1 class="article-title">June 28, 1856</h1>
+    
+    <span property="dc:title" content="June 28, 1856" class="rdf-meta element-hidden"></span>
+  <!-- Overidden in template.php to show just username. -->
+    
+  </div><!-- // submitted -->
+  </header>
+
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="content">
+<h1 class="pageTitle">28 June 1856 </h1>
+<p><a class="image" href="http://fannyfern.org/images/fern18560628.01.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560628.01.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560628.02.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560628.02.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560628.03.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560628.03.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560628.04.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560628.04.jpg" width="75" class="containsColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560628.05.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560628.05.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560628.06.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560628.06.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560628.07.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560628.07.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560628.08.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560628.08.jpg" width="75" class="noColumn" /></a></p>
+<h1 class="columnHead">FRESH FERN LEAVES.</h1>
+<h4><span class="epigraph">Entered according to Act of Congress, in the year 1855, by R. BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</span></h4>
+<h2 class="columnTitle">A STORY FOR OLD HUSBANDS WITH YOUNG WIVES.</h2>
+<p class="body_paragraph">"I was an old fool! Yes—I was an old fool; that's all there is about it. I ought to have known better; <i>she</i> was not to blame, poor thing; she is but a child yet; and these baubles pleased her ambitious mother's eye. It was not the old man, but his <i>money</i>—his <i>money</i>.—I might have known it. May and December—May and December—pshaw! how could I ever have believed, that Mary Terry could <i>love</i> an old fellow like me?" and Mark Ware surveyed himself in the large parlor mirror.</p>
+<p class="body_paragraph">"See!—it reflects a portly old man of sixty; with ruddy face, snow-white hair, and eyes from which the light of youth has long since departed." And yet there is fire in the old man's veins too; see how he strides across the carpet, ejaculating, with fresh emphasis, "Yes, I was an old fool!—an old fool! But I will be kind to her; I'm not the man to tyrannize over a young girl, because her mother took her out of the nursery to make her my wife. I see now it is not in reason for a young thing like her, to stay contentedly at home with my frosty head and gouty feet. Poot little Mary! No—I'll not punish her, because she cannot love me; she shall have what she wants, and go where she likes; her mother is only too proud to trot her out, as the wife of the rich Mark Ware. If that will make them both happy, let them do it;—may be"—(and Mark Ware paused)—"may be, after she has seen what that Dead Sea apple—the world—is made of, she will come back and love the old man a little—may be—who knows? No woman who is believed in, and well treated, ever makes a bad wife; there never was a bad wife yet, but there was a bad husband <i>first</i>: that's gospel—Mark's gospel, anyhow, and Mark Ware is going to act upon it. Mary shall go to the ball to-night, with her mother, and I will stay at home and nurse my patience and my gouty leg. There's no evil in her; she's as pure as a lily, and if she wants to see the world, why—she shall see it; and though I can't go dancing round with her, I never will dim her bright eyes—no—no!"</p>
+<hr class="column_divider" /><p class="body_paragraph">"That will do, Tiffy; another pin in this lace; now move that rose in my hair a little to the left; so—that will do."</p>
+<p class="body_paragraph">"That will <i>do!</i>" Tame praise, for that small Grecian head, with its crown of braided tresses; for the full round throat, and snowy sloping shoulders; for the round ivory arms, and tapering, rose-tipped fingers; for the lovely bosom, and dainty waist. Well might such beauty dazzle Mark Ware's eyes, till he failed to discern the distance betwixt May and December.</p>
+<p class="body_paragraph">Mark Ware had rightly read Mary. She was guileless and pure, as he had said; and child as she was, there was that in her manner, before which the most libidinos eye would have shrunk abashed.</p>
+<p class="body_paragraph">When the young bride first realized the import of those words she had been made to utter, "til death do us part," she looked forward, with shuddering horror, at the long, monotonous, weary years before her. Her home seemed a prison, and Mark Ware the keeper; its very splendor oppressed her; and she chafed and fretted in her gilded fetters, while her restless heart cried out—anywhere but home! Must she sit there, in her prison-house, day after day, listening only to the repinings of her own troubled heart? Must the bee and the butterfly only be free to revel in the bright sunshine? Had God made her beauty to fade in the stifling atmosphere of darkened parlors, listening to the complaints of querulous old age? Every pulse of her heart rebelled. How could her mother have thus sold her? How could Mark Ware have so unmagnanimously accepted the compulsory sacrifice? Why not have shown her the world and let her choose for herself? Oh anywhere—anywhere—from such a home!</p>
+<p class="body_paragraph">There were no lack of invitations abroad; for Mary had flashed across the fashionable horizon, like some bright comet; eclipsing all the reigning beauties. No ball, no party, no dinner, was thought a success without her. Night after night found her <i>en route</i> to some gay assemblage. To her own astonishment, and her foolish mother's delight, her husband never remonstrated; on the contrary, she often found upon her dressing-table, some coice little ornament, which he had provided for the occassion; and Mary, as she fastened it in her hair, or bosom, would say, bitterly, "He is anxious that I, like the other appendages of his establishment, should reflect credit on his faultless taste."</p>
+<p class="body_paragraph">Mistaken Mary!</p>
+<p class="body_paragraph">Time passed on. Mark Ware <i>was</i> "patient," as he promised himself to be. His evenings were not so lonely now, for his little babe kept him company; the reprieved nurse, only too glad to escape to her pink ribbons and a "chat with John at the back gate." It was a pretty sight—Mark and the babe! Old age and infancy are always a touching sight together. Not a smile or a cloud passed over that little face, that did not wake up all the father in Mark Ware's heart; and he paced the room with it, or rocked it to sleep on his breast, talking to it, as if it could understand the strong, deep love of which it was the unconscious object.</p>
+<hr class="column_divider" /><p class="body_paragraph">"I am weary of all this," said Mark's young wife, as she stepped into her carriage, at the close of a brilliant ball. "I am weary of seeing the same faces, and hearing the same stupid nonsense, night after night. I wonder shall I <i>ever</i> be happy? I wonder shall I ever love any thing, or anybody? Mamma is proud of me, because I am beautiful and rich, and she does not <i>love</i> me. Mark is proud of me"—and Mary's pretty lip curled scornfully. "Life is so weary, and I am only eighteen!" and Mary sighed heavily.</p>
+<p class="body_paragraph">On whirled the carriage through the deserted streets; deserted—save by some inveterate pleasure-seeker like herself, from whom pleasure forever flees. Occasionally a lamp twinkled from some upper window, where a half-starved sempstress sat stitching her life away, or a heart-broken mother bent over the dead form of a babe, which her mother's heart could ill spare, although she knew not where to find bread for the remaining babes who wept beside her. Now and then, a woman, lost to all that makes woman lovely, flaunted under the flickering street-lamps, while her mocking laugh rang out on the night air. Mary shuddered, and drew back—there was that in it's hollowness which might make even devils tremble. Overhead the sentinel stars kept their tireless watch, and Mary's heart grew soft under their gentle influence, and tears stole from beneath her lashes, and lay like pearls upon her bosom.</p>
+<p class="body_paragraph">"You need not wait to undress me," said Mary to the weary-looking waiting maid, as she averted her swollen eyes from her gaze—and taking the lamp from her hand Mary passed up to her chamber. So noiseless was the fall of her light foot upon the carpet, that Mark did not know she had entered. He sat with his back to the door, bending over the cradle of his child, till his snow-white locks rested on its rose cheeks; talking to it—as was his wont—to beguile his loneliness.</p>
+<p class="body_paragraph">"Mary's forehead—Mary's eyes—Mary's mouth—no more like your old father, than a rosebud is like a chestnut burr. <i>You</i> will love the lonely old man, little one, and perhaps <i>she</i> will, bye and bye; who knows?" and Mark's voice trembled.</p>
+<p class="body_paragraph">"She will—she does—" said Mary, dropping on her knees at the cradle of her child, and burying her fact in Mark's hands: "my noble, patient husband!"</p>
+<p class="body_paragraph">"You don't mean that?" said Mark, holding her off at arms-length, and looking at her through a mist of tears; "you don't mean that you will love an old fellow like me? God bless you, Mary—God forever bless you. I have been very—very lonely,"—and Mark wept for sheer happiness.</p>
+<hr class="column_divider" /><p class="body_paragraph">The gaping world, the far-sighted world, the charitable world, shook its wise head, when the star of fashion became a fixed star. Some said "her health must be failing;" others, that "her husband had become jealous at last;"—while old stagers maliciously insinuated that it were wise to retire on <i>fresh</i> laurels.——But none said—what <i>I</i> say—that a true woman's heart may always be won—aye, and kept, too—by any husband, who does not consider it beneath him to step off the pedestal of his "<i>dignity</i>" to learn how.</p>
+<h5 class="byline">FANNY FERN.</h5>
+</div>
+<div class="citation">
+<h6>Source Text:</h6>
+<p class="citation">Fanny Fern, "A Story for Old Husbands with Young Wives" <em>The New-York Ledger </em> (28 June 1856): [4]</p>
+<h6>To cite this project:</h6>
+<p class="citation">Fanny Fern, "A Story for Old Husbands with Young Wives" <em>Fanny Fern in The New York Ledger</em> Ed. Kevin McMullen (2015) <a href="http://fannyfern.org">http://fannyfern.org</a>.</p>
+</div>
+<div class="report">
+<h6 class="report"><a href="http://fannyfern.org/contact" target="_blank">Report corrections</a></h6>
+</div>
+<div class="xmlDownload">
+<h6 class="xmlDownload"><a href="http://fannyfern.org/xml/fern.18560628.xml" download="fern.18560628.xml"><br />
+           Download source XML<br /></a></h6>
+</div>
+<p></p></div></div></div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"></nav>
+    
+      </div>
+</article>
+    </div>
+</div>
+</div>
+  </div>
+          </section>
+    <!-- /#main -->
+  </div>
+
+    
+</div>
+
+<footer id="colophon" class="container">
+
+  
+            <div class="sixteen columns footer-area">
+        <div class="region region-footer-first">
+    <div id="block-block-2" class="block block-block">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <div class="footer">
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Fanny Fern in <em>The New York Ledger</em></span>, edited by <a href="http://iamkevinmcmullen.com" target="_blank">Kevin McMullen</a>, is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+<div>
+</div></div>    </div>
+</div>
+</div>
+  </div>
+      </div>
+                  
+
+</footer>
+<script type="text/javascript" src="http://fannyfern.org/modules/statistics/statistics.js?om2vlq"></script>
+</body>
+</html>

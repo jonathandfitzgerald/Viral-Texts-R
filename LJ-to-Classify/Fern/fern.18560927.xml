@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560927">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Crotchets</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2015</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">Crotchets</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-09-27">27 September 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-09-13">proofed, and further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#km" when="2012-04-10">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18560927.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18560927.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18560927.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18560927.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18560927.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18560927.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18560927.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18560927.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+           
+            
+            
+            
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1856, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+
+                <head type="main">CROTCHETS.</head>
+                
+               <p>All of us have some crazy streak; I maintain it; yes, you&#8212;and you&#8212;and you&#8212;spite of that deprecating shake of the head. One of you, lavish in every other respect, carefully picks up every stray bit of string, which you "hate to see wasted:" another, whose "barns are full of plenty," can never persuade himself to destroy, or throw away, backs of old letters, which he carefully hoards for scribbling use. Another breaks his back gleaning from carpets, and ferreting from cracks, <hi rend="italic">his</hi> speciality, in the shape of glistening pins, with which he embroiders his find broadcloth coat-cuffs and lappets. Another supports his tailor and shoe-maker, by trudging on foot through drenching storms, because he has a financial prejudice against riding. One man can never resist buying a handsome horse, though he go supperless to bed; another will hang his bachelor room with pictures, though his laundress can give her affidavit that he owns but one whole shirt. Another, to whom the bluest sky is pregnant with Noah's flood, is never divorced from his umbrella and India rubbers, save when he is sleeping. One man, who drinks unqualified drafts of green tea, reads a death warrant in his neighbor's mildest cup of coffee. Some people, (and this is the craziest of crazy streaks,) whose butcher's bill is as long as the moral law, see an almshouse in perspective if a newspaper carrier pays them a daily, weekly or monthly visit. Parents who patronize liberally, for their children, confectionery and toy shops, spend hours ferreting obscure street book-stalls, for second-hand school books for their use. A gentleman, whose locks, not his Maker, but his barber curls, boasts he never was guilty of the effeminacy of wearing gloves; a young man, who deplores, in heart-rending tones, that the extravagance of women will forever debar him from the bliss of matrimony, spends money enough daily, in drinks, oysters, and segars, to support a wife and family. Another gentleman, who boards "to avoid the trouble and expense of housekeeping," has sunk a fortune in cutting doors through disconnected boarding-house apartments, for his temporary use.</p>
+                
+               <p>Yes, we all have our crazy streaks&#8212;I have mine; the sun is accountable for it; I can never lie a bed after he is up, or find out what to do with myself after rising, unless it be to drive Betty distracted, teasing for coffee and toast, after which I am ready to forgive all enemies, and to shake hands with the world generally. Stay, I think I have one more crazy streak. I despise street-crossings. I never can bring myself to walk on them. They excite my antagonism. I take unqualified delight in showing the City Fathers that the angles I describe shall be independent, and, consequently, not <hi rend="italic">right</hi>-angles. What! are they to decide as to the Alpha and Omega of my pedestrian peregrinations? Am I to be forced&#8212;by anybody&#8212;at any time, to do anything?&#8212;I trow not.</p>
+                
+                <byline>FANNY FERN.</byline>
+                
+                </div>
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

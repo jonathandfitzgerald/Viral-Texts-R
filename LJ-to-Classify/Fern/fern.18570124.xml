@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18570124">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Holiday Thoughts</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="cm">Carmen McCue</editor>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2015</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">Holiday Thoughts</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1857-01-24">24 January 1857</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-10-10">proofed, and further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#cm" when="2012-04-08">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18570124.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18570124.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18570124.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18570124.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18570124.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18570124.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18570124.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18570124.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+            
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1856, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+
+                <head type="main">HOLIDAY THOUGHTS.</head>
+
+               <p>Well&#8212;New Year's and Christmas are both over: there is a lull equal to that after a Presidential election. What is to be done for an excitement now? Everybody is yawning: the men on account of the number of complimentary fibs that they foolishly felt themselves called upon to tell the ladies, on their New Year's calls; and the ladies, because they were obliged to listen as if they did not know them all stereotyped, to be repeated, <hi rend="italic">ad infinitum</hi>, at every house on their visiting rounds; the matron, because her handsome carpet is inch-deep in cake crumbs&#8212;and her husband, because bills are pouring in from butchers, bakers, grocers, milkmen, tailors, dressmakers, and jewelers, like the locusts of Egypt. Well&#8212;we shall not say anything against New Year's and its jollities, while it frees the poor hack of a clerk, and gives him one day of happiness and rest; while it throws over the indefatigable cook's shoulders the cloak for which she has been vainly toiling and hoping; while it wings the feet of so many bright-eyed children, and lights up the prim parlors of so many hopeless old maids. We shall not say anything against New Year's, when, after long months of wrong and estrangement, it stretches out the tardy hand of repentance, for which even the Bible bids us to wait, ere we forgive; we shall not say anything against New Year's, though it remind us that hands we used to grasp so warmly, are crossed forever over pulseless hearts; though memories sad, but sweet, come thronging thick and fast, of "Happy New Years," from lips upon which Death has set his final seal. And yet <hi rend="italic">not</hi> final; thank Him who giveth, and Him who taketh, <hi rend="italic">not</hi> final; for even here we trace their noiseless footsteps&#8212;even here we see the flitting of their shadowy garments&#8212;even here we smile in dreams, at the overshadowing wings of the angels who "have change to keep us." No, no&#8212;<hi rend="italic">not</hi> final: our love o'erleaps the dark river, to greet the sister, amid whose orange wreath there crept the cypress vine; to clasp the child, who quickened our heart-throbs ere we saw the lips that called us (alas, for so brief a space) by that blessed name&#8212;"Mother." No, no&#8212;<hi rend="italic">not</hi> final;&#8212;else were this fair earth to us a satisfying birthright; else had the midnight stars no eyes of flame to search the guilty conscience; else had the shimmer of the moonbeam, the ripple of the wave, the crash of the thunder, the flash of the lightning, the ceaseless moan of the vexed sea, no voice to waken the never-dying echo of the immortal in our nature. No&#8212;God be praised&#8212;<hi rend="italic">not</hi> final!</p>
+
+                <p>But we had not intended a homily. To return to the observance of New Years: for our own taste, we should prefer the sugar, which custom so lavishly heaps upon New Year's cake, spread more sparingly upon our slices of "daily bread"; in other words, we should prefer to distribute the compressed courtesies of our friends on this day, equally, through the weeks and months of the year. As to the absurd custom of excluding the daylight, to receive one's visitors by the glare of gas, it is a tacit admission of artificial charms, which one would think even "fashion" would be slow to make. The inordinate display of edibles on such occasions, seems to us as useless as it is disgusting; a cup of coffee, a slice of cake, or a sandwich, being, in our humble estimation, sufficient for any gentleman who is able to distinguish between a private house and a restaurant.</p>
+
+                <byline>FANNY FERN.</byline>
+            </div>
+
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

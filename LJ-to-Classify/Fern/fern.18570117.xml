@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18570117">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">The Male Flirt; "What Is a Lady?"</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="cm">Carmen McCue</editor>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2015</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">The Male Flirt; "What Is a Lady?"</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1857-01-17">17 January 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-10-07">proofed, and further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#cm" when="2012-04-08">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18570117.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18570117.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18570117.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18570117.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18570117.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18570117.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18570117.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18570117.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+            
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1856, by Robert Bonner, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+
+                <head type="main">THE MALE FLIRT</head>
+
+               <p>Is not necessarily an exquisite; he is often careless of his dress, paying much more attention to the interior, than the exterior-furnishing of his head, and holdeth that the proper study of mankind is&#8212;woman. He often converseth with fluency and good sense, on all other topics of interest, and may even be found in the garb of priesthood. The male flirt is an adept at the king's English; looketh killingly out of his eyes; seateth himself on an ottoman at the feet of fair ladies, and readeth poetry with well-practised, tell-tale intonations, and soliciteth a lock of hair, a ring, or a glove, as a keepsake; if granted, to be privately exhibited as a trophy to his gentlemen friends. After the male flirt hath made what he considereth "an impression," he purposely absenteth himself for awhile, to fan the ardor of the supposed victim's flame; then&#8212;as suddenly and unexpectedly reappeareth, more devoted, more languishing than ever, only to repeat the same farce at the end of a prolonged visitation. The male flirt keepeth a dozen affairs of this kind on hand at once; and pleaseth himself, while shaving of a morning, in reflecting upon the divers moods and dilemmas of his supposed victims, who are often but giving him a long cord with which to hang himself.</p>
+
+                <p>The male flirt being himself a humbug, is naturally suspicious, and bristleth up immensely at the most glimmering ghost of foul play from the other side; groweth facetious thereupon, and mentioneth, as one of his infirmities, a constant tendency to <hi rend="italic">joke</hi> upon all subjects. Lastly, the male flirt, with all his fancied penetration and victories, is ingloriously caught at last, thanks to a retributive justice, in the toils of the weakest, where he floundereth like a mad leviathan, to the amusement of interested spectators!</p>
+
+                <byline>FANNY FERN.</byline>
+            </div>
+         
+         <milestone unit="line"/>
+
+            <div type="column">
+                <head type="main">"WHAT IS A LADY?"</head>
+
+               <p>I will tell you negatively. She never overdresses. She attires herself with regard to the weather and the occasion, and at no hour of the day, whatever may be her occupation, is untidy. She is civil and obliging to all persons in public, whom chance throws in her way, without distinction of garb or class, and is reasonable and humane with her servants. She never, under shelter of her sex, is conversationally overbearing towards the other, to whom the rules of courtesy forbid a reply in kind. She never omits by a smile or word, gracefully to acknowledge slight favors they render her. She never solicits gifts from them, by going into ecstacies in their presence about "love of rings," or bracelets, which she saw at Show &amp; Co's. She never encourages matrimonial offers, which she has no idea of accepting, (N.B. male flirts excepted!) She makes a distinction in her reception of gentlemen, between those who at heart respect our sex, and those who only make a pretence of doing so. She never betrays, from a mean vanity, the honorable love which she cannot reciprocate. She never talks or laughs loudly in public, or has the bad taste, and bad manners, to disturb her neighbors in this way, at concert, or opera. She is reverential at church, or, at least, respects the feelings of those around her, who desire to be so. She knows when to be <hi rend="italic">silent</hi>&#8212;when to speak&#8212;and how; in a word she has <hi rend="italic">tact</hi>&#8212;I repeat it, <hi rend="italic">Tact</hi>, my hearers, without which the most beautiful woman is but a tasteless fruit, a song-less bird, a scentless flower, or, in other words, a blundering numskull!</p>
+
+                <byline>FANNY FERN.</byline>
+            </div>
+
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

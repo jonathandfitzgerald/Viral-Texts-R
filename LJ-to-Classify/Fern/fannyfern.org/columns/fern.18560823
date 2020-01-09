@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="http://fannyfern.org/images/other_images/ferncutout_head.jpg" type="image/jpeg" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<link rel="canonical" href="/columns/fern.18560823" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortlink" href="/node/56" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <title>August 23, 1856 | Fanny Fern in The New York Ledger</title>
+  <style type="text/css" media="all">
+@import url("http://fannyfern.org/modules/system/system.base.css?om2vlq");
+@import url("http://fannyfern.org/modules/system/system.menus.css?om2vlq");
+@import url("http://fannyfern.org/modules/system/system.messages.css?om2vlq");
+@import url("http://fannyfern.org/modules/system/system.theme.css?om2vlq");
+</style>
+<style type="text/css" media="all">
+@import url("http://fannyfern.org/modules/field/theme/field.css?om2vlq");
+@import url("http://fannyfern.org/modules/node/node.css?om2vlq");
+@import url("http://fannyfern.org/modules/search/search.css?om2vlq");
+@import url("http://fannyfern.org/modules/user/user.css?om2vlq");
+</style>
+<style type="text/css" media="all">
+@import url("http://fannyfern.org/modules/ctools/css/ctools.css?om2vlq");
+@import url("http://fannyfern.org/modules/panels/css/panels.css?om2vlq");
+</style>
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700" media="all" />
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Rosarivo:400,400italic&amp;subset=latin,latin-ext" media="all" />
+<style type="text/css" media="all">
+@import url("http://fannyfern.org/themes/bamboo/css/menu.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/normalize.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/style.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/design.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/responsive.css?om2vlq");
+</style>
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="http://fannyfern.org/themes/bamboo/css/ie8-fixes.css?om2vlq" media="all" />
+<![endif]-->
+
+<!--[if IE 9]>
+<link type="text/css" rel="stylesheet" href="http://fannyfern.org/themes/bamboo/css/ie9-fixes.css?om2vlq" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://fannyfern.org/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://fannyfern.org/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://fannyfern.org/misc/drupal.js?om2vlq"></script>
+<script type="text/javascript" src="http://fannyfern.org/themes/bamboo/js/scripts.js?om2vlq"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"bamboo","theme_token":"Bfp6eNEKTtjtp7MiPxI5nmuINDDFj3zNUG6dyKy7uV0","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"themes\/bamboo\/js\/scripts.js":1,"modules\/statistics\/statistics.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/ctools\/css\/ctools.css":1,"modules\/panels\/css\/panels.css":1,"\/\/fonts.googleapis.com\/css?family=Open+Sans:400italic,600italic,700italic,400,600,700":1,"\/\/fonts.googleapis.com\/css?family=Rosarivo:400,400italic\u0026subset=latin,latin-ext":1,"themes\/bamboo\/css\/menu.css":1,"themes\/bamboo\/css\/normalize.css":1,"themes\/bamboo\/css\/style.css":1,"themes\/bamboo\/css\/design.css":1,"themes\/bamboo\/css\/responsive.css":1,"themes\/bamboo\/css\/ie8-fixes.css":1,"themes\/bamboo\/css\/ie9-fixes.css":1}},"urlIsAjaxTrusted":{"\/columns\/fern.18560823":true},"statistics":{"data":{"nid":"56"},"url":"\/modules\/statistics\/statistics.php"}});
+//--><!]]>
+</script>
+    <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-56 node-type-page site-name-hidden bg-green-gradient color-palette-green-bamboo header-font-serif body-font-serif sidebar-right imagecaption section-columns is-node theme-logo-none">
+<div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+
+<header id="head" role="banner" class="container">
+  <hgroup class="ten columns alpha">
+
+    <div id="logo">
+          </div>
+
+    <div id="site-title-wrapper">
+      <h1 id="site-title">
+        <a href="/" title="Home">
+               </a>
+      </h1>
+          </div>
+
+  </hgroup>
+
+<div id="top-links" class="six columns omega">
+        <div class="region region-top-links">
+    <div id="block-search-form" class="block block-search">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <form action="/columns/fern.18560823" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-l_1mRQO3BcyG7vX_jzaRokO62vIEXWh7F5JxvNjfe80" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+</div>
+</div>
+  </div>
+  </div>
+</header>
+
+<div id="menu-wrapper" class="container">
+  <nav id="main-menu" role="navigation" class="sixteen columns alpha omega">
+    <div class="menu-navigation-container">
+      <!-- Theme native drop downs and mobile menu-->
+      <div id="nav-wrap">
+        <div id="menu-icon">Menu</div>
+        <ul class="menu"><li class="first leaf"><a href="/home">Home</a></li>
+<li class="leaf"><a href="/bio" title="A brief biography of Fanny Fern">Fanny Fern</a></li>
+<li class="leaf"><a href="/ledger" title="A brief historical overview of The New York Ledger">The New York Ledger</a></li>
+<li class="leaf"><a href="/columns" title="Transcriptions and images of Fanny Fern&#039;s columns in the Ledger">Her Columns</a></li>
+<li class="last expanded"><a href="/about">About</a><ul class="menu"><li class="first leaf"><a href="/about">About the Project</a></li>
+<li class="leaf"><a href="/contact" title="Send comments and corrections to the project editor">Contact</a></li>
+<li class="last leaf"><a href="/staff">Project Staff</a></li>
+</ul></li>
+</ul>      </div>
+    </div>
+  </nav>
+</div>
+<!-- end main-menu -->
+
+
+<div class="container" id="content-wrapper">
+
+  
+  
+    
+  
+        
+  <div id="content" class="sixteen columns">
+            <section id="post-content" role="main">
+
+      
+      
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      
+<article id="node-56" class="node node-page node-full clearfix"  about="/columns/fern.18560823" typeof="foaf:Document" role="article">
+
+  
+  <header class="article-header">
+
+  
+  <div class="title-wrapper">
+  
+  
+    <!-- node h1 title -->
+          <h1 class="article-title">August 23, 1856</h1>
+    
+    <span property="dc:title" content="August 23, 1856" class="rdf-meta element-hidden"></span>
+  <!-- Overidden in template.php to show just username. -->
+    
+  </div><!-- // submitted -->
+  </header>
+
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="content">
+<h1 class="pageTitle">23 August 1856 </h1>
+<p><a class="image" href="http://fannyfern.org/images/fern18560823.01.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560823.01.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560823.02.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560823.02.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560823.03.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560823.03.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560823.04.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560823.04.jpg" width="75" class="containsColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560823.05.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560823.05.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560823.06.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560823.06.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560823.07.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560823.07.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560823.08.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560823.08.jpg" width="75" class="noColumn" /></a></p>
+<h1 class="columnHead">FRESH FERN LEAVES.</h1>
+<h4><span class="epigraph">Entered according to Act of Congress, in the year 1856, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</span></h4>
+<h2 class="columnTitle">A FEMININE VIEW OF NAPOLEON AS A HUSBAND.</h2>
+<p class="body_paragraph">It is said that writers of books seldom read many. The "Confidential Letters of Napoleon and Josephine" had not been published when that remark was made. The Napoleon-mad author, Mr. Abbott, says, in his Preface:—"We are familiar with him as a warrior, the statesman, the great administrator—but here we behold him as the husband, the father, the brother, moving freely amid all the tender relations of domestic life. His <i>heart</i> is here revealed," &amp;c. I suggest to Mr. Abbott, (for whom, apart from this extraordinary hallucination, I have a great respect,) the following amendment of the above sentence, viz: his want of heart is here revealed; but let that pass.</p>
+<p class="body_paragraph">I have devoured the book at a sitting, and it has given me, as do stimulants generally, mental or otherwise, a villainous headache. With the sad fate of the peerless Josephine fresh in my mind, I read with an impatient—pshaw! the burning billet-doux, addressed to her by the man who could cooly thrust her aside for his mad ambition. Hear what he once said:—</p>
+<p class="body_paragraph">"Death alone can break the union, which love, sentiment and sympathy have formed. A thousand and a thousand kisses."</p>
+<p class="body_paragraph">Also,</p>
+<p class="body_paragraph">"I hope very soon to be in your arms; I love you most passionately, (<i>a la fureur</i>.)"</p>
+<p class="body_paragraph">Also;</p>
+<p class="body_paragraph">"I hope in a little time to fold you in my arms, and cover you with kisses burning as the equator."</p>
+<p class="body_paragraph">Also, this consistent lover begs from her whom he afterwards deserted,</p>
+<p class="body_paragraph">"Love without bounds, and <i>fidelity without limit</i>."</p>
+<p class="body_paragraph">How very like a man!</p>
+<p class="body_paragraph">Well, I turned over the pages, and read with moistened eyes, for the hundredth time, the wretched state farce enacted at the divorce; and with fresh admiration perused the magnanimous and memorable reply of the queenly Josephine, to the brilliant but cold, intellectual but selfish, imperious yet fascinating Napoleon. Ah, then I would have led away his victim, spite of herself, out of sight, sound and fearing of this cold, cruel man, who, when it suited his whim, caprice or convenience; who, when weary of the tame, spiritless Maria Louise, returned secretly to the intoxicating presence of the bewitching Josephine; whom, though repudiating, he yet controlled, down to the lowest menial in her household, down to the color of their jackets and hose; quite safe, in always appending, with gracious condescension, permission "to please herself," to one whose greatest pleasure, he well knew, was to kiss his imperial shoe-tie.</p>
+<p class="body_paragraph">My love and pity for her, merge (momentarily) into contempt, when she abjectly begs for the crumbs of his favor, that fall from happier favorites; for (to quote the touching words of her who would have shared his exile had not death prevented, when the woman for whom she had been cast aside, by a retributive justice, deserted him in his extremity) "he could forget me <i>when he was happy!</i>" Aye, it was when pleasure palled, when friends proved false, when the star of his destiny paled, when he <i>needed</i> the noble Josephine, that he sought her.</p>
+<p class="body_paragraph">And she? When pealing bells and roaring cannon announced to France that her rival had presented her husband the long-desired heir; <i>she</i>, upon whose quivering heart every stroke of those joyous bells must have smitten like a death-knell; she, the deserted wife, hung festal wreaths over the grave of her hopes, gave jewels to the messenger who brought her the news of <i>his</i> happiness, and ordered a <i>fete</i> in honor of the young heir. Match me that, who can, in the wide annals of <i>man's</i> history? But, oh! when midnight came on, and garlands drooped, and bright eyes closed, and tripping feet were stilled, when the farce was played out, and the iron hand of Court etiquette was lifted from off that loving, throbbing, bursting heart, it thus poured itself out to Napoleon:—</p>
+<p class="body_paragraph">"She (Maria Louise,) cannot be more tenderly devoted to you than I; but she has been enabled to contribute more to your happiness, by securing that of France. She has then a right to your first feelings, to all your cares; and I, who was but your companion in times of difficulty, I cannot ask more than a place in your affections far removed from that occupied by the Empress Louise. <i>Not till you shall have ceased to watch by her bed, not till you are weary of embracing your son, will you take the pen to converse with your best friend. I will wait.</i>"
+            </p>
+<p class="body_paragraph">The answer to the touching letter, from which this is an extract, (and every <i>woman</i> with a heart, who read it, can measure the height and depth of its anguish,) was the following <i>verbal</i>, the following <i>delicate</i> message, through Eugene!</p>
+<p class="body_paragraph">"Tell your mother I would have written to her already, <i>had I not been completely absorbed in the pleasure of looking upon my son</i>."</p>
+<p class="body_paragraph">About eleven o'clock that evening, she received the much conveted line from his own hand; in which he seemed to have been able at last to remember somebody beside himself; and for which the all-enduring, all-forgiving Josephine adores as a God, "the man who, <i>when he willed</i>, could be the most delightful of men." Nobody will deny the matchless tact of the lines which dried poor Josephine's tears.</p>
+<p class="body_paragraph">"This infant, <i>in concert with our Eugene</i>, will constitute my happiness, and that of France."</p>
+<p class="body_paragraph">But the man "who could be so delightful when he willed," did not, any more than the rest of his sex, always will it. Motes and butterflies seek the sunbeams, and the friends of poor Josephine's happier days, forsook her for those whom fortune smiled upon. Malice, always on tiptoe to whisper into the tortured ear, told her of the "happiness" of the inconstant Napoleon; and with the birds, flower and fountains of Malmaison mocking her tears, her crushed heart thus sobs itself out to the Emperor:—</p>
+<p class="body_paragraph">"I limit myself in asking one favor; it is, that you, yourself, will seek means, <i>sometimes to convince me, and those who surround me</i>"—(mark how strong and deathless must be the love that could thus abjectly sue,)—"that I have still a place in your memory, and a large share of your esteem and friendship. These means, whatever they may be, will soothe my anguish, without the danger, as it seems to me, of compromising that <i>which is more important than all altogether, the happiness of your Majesty</i>."</p>
+<p class="body_paragraph">Well, what was the answer of "his Majesty," to the tortured Josephine, in whose heart, his Majesty boasted that "he held the first place, and her children by a former husband next, and that she did right thus to love him!" What was his Majesty's answer to her, whom he wished to "cover with kisses burning as the equator," "whom he would wish to imprison in his heart, lest she should escape;" "the beautiful, the good one, all unequalled, all divine," to whom he had "sent thousands of kisses, burning as his heart, pure as her own," whom "he loved <i>a la fureur?</i>" What was his Majesty's answer to the weary, weeping, faithful watcher at Malmaison?</p>
+<p class="body_paragraph">"I have received your letter of the 19th of April; it <i>is in a very bad style</i>."</p>
+<p class="body_paragraph">Could anything be more coolly diabolical? Oh, foolish Josephine! with all your tact and wisdom, not to have found out that man, (with rare exceptions,) is un-magnanimous; that to pet and fondle him is to forge your own chains; that the love which is sure is to him worthless; that variety is as necessary to his existence, as a looking glass and a cigar; and that his vows are made, like women's hearts, to break.</p>
+<p class="body_paragraph">And yet, how surely, even in this world, Retribution follows. The dreary rock of St. Helena; the dilapidated, vermin-infested lodgings; the petty, grinding, un-let-up-able tyranny of the lynx-eyes foe; the unalloyed, unassuaged anguish of hydra-headed disease; the merciless separation from the child, who had dug poor Josephine's premature grave; the heaped up, viper, newspaper obloquy which had always free pass to Longwood, when bristling bayonets kept at bay the voices which the ear of its captives ached to hear; the dreary, comfortless death-bed; the last faltering request denied; as if malice still hungered for vengeance when the weary heart it would torture had lost all power to feel. Josephine! Josephine! thou wert indeed avenged!</p>
+<h5 class="byline">FANNY FERN.</h5>
+</div>
+<div class="citation">
+<h6>Source Text:</h6>
+<p class="citation">Fanny Fern, "A Feminine View of Napoleon as a Husband" <em>The New-York Ledger </em> (23 August 1856): [4]</p>
+<h6>To cite this project:</h6>
+<p class="citation">Fanny Fern, "A Feminine View of Napoleon as a Husband" <em>Fanny Fern in The New York Ledger</em> Ed. Kevin McMullen (2015) <a href="http://fannyfern.org">http://fannyfern.org</a>.</p>
+</div>
+<div class="report">
+<h6 class="report"><a href="http://fannyfern.org/contact" target="_blank">Report corrections</a></h6>
+</div>
+<div class="xmlDownload">
+<h6 class="xmlDownload"><a href="http://fannyfern.org/xml/fern.18560823.xml" download="fern.18560823.xml"><br />
+           Download source XML<br /></a></h6>
+</div>
+<p></p></div></div></div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"></nav>
+    
+      </div>
+</article>
+    </div>
+</div>
+</div>
+  </div>
+          </section>
+    <!-- /#main -->
+  </div>
+
+    
+</div>
+
+<footer id="colophon" class="container">
+
+  
+            <div class="sixteen columns footer-area">
+        <div class="region region-footer-first">
+    <div id="block-block-2" class="block block-block">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <div class="footer">
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Fanny Fern in <em>The New York Ledger</em></span>, edited by <a href="http://iamkevinmcmullen.com" target="_blank">Kevin McMullen</a>, is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+<div>
+</div></div>    </div>
+</div>
+</div>
+  </div>
+      </div>
+                  
+
+</footer>
+<script type="text/javascript" src="http://fannyfern.org/modules/statistics/statistics.js?om2vlq"></script>
+</body>
+</html>

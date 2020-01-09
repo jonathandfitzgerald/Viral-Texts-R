@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18570103">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Matrimonial Advertisements; Things That Surprise Me; Niagra&#8212;A Contrast</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="cm">Carmen McCue</editor>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2015</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">Matrimonial Advertisements; Things That Surprise Me; Niagra&#8212;A Contrast</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1857-01-03">3 January 1857</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-10-06">proofed, and further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#cm" when="2012-04-08">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18570103.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18570103.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18570103.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18570103.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18570103.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18570103.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18570103.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18570103.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+            
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1856, by Robert Bonner, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+
+                <head type="main">MATRIMONIAL ADVERTISEMENTS.</head>
+
+                <p>That prurient young men, and broken-down old ones, should seek amusement in matrimonial advertisements, is not so much a matter of surprise; but that respectable papers should lend such, a voice in their columns, is, I confess, astonishing. I do not say that a virtuous woman has never answered such an advertisement; but I do say, that the virtue of a woman who would do so is not invincible. There is no necessity for an attractive, or to use a hateful phrase, a "marketable" woman, to take such a degrading step to obtain what, alas! under legitimate circumstances often proves, when secured, but a Dead Sea apple. It is undesirable, damaged and unsaleable goods that are oftenest offered at auction. A woman must first have ignored the sweetest attributes of womanhood, have overstepped the last barrier of self-respect, who would parley with a stranger on such a topic. You tell me that marriage has sometimes been the result. Granted: but has a woman who has effected it in this way, bettered her condition, how uncongenial soever it might have been? Few husbands, (and the longer I observe, the more I am convinced of the truth of what I am about to say, and I make no exception in favor of education or station,) have the magnanimity to use justly, generously, the power which the law puts in their hands. But what if a wife's helplessness be aggravated by the reflection that she has <hi rend="italic">abjectly solicited</hi> her wretched fate? How many men, think you, are there, who, when out of humor, would hesitate tauntingly to use this drawn sword which you have foolishly placed in their hands?</p>
+
+               <p>Our sex has need of all the barriers, all the defences, which nature has given us. No&#8212;let woman be the wooer, save as the flowers woo, with their sweetness&#8212;save as the stars woo, with their brightness&#8212;save as the summer wind woos&#8212;silently unfolding the rose's heart.</p>
+
+                <byline>FANNY FERN.</byline>
+            </div>
+         
+         <milestone unit="line"/>
+
+            <div type="column">
+                <head type="main">THINGS THAT SURPRISE ME.</head>
+
+                <p>That the most contemptible biped in pantaloons imagines that the most attractive and ladylike woman out on a sunshiny day, is but too happy to be ogled and followed.</p>
+
+                <p>That women who are hump-backed, squint-eyed, or lame in one leg, should always select the most stunning colors and costumes.</p>
+
+                <p>That women should show their shallowness in public by wearing conversationally threadbare the eternal "him," and the "lovely laces."</p>
+
+                <p>That women should accept presents valuable, or the contrary, from gentlemen who are not relatives.</p>
+
+                <p>That men should submit their chins and heads to the <hi rend="italic">promiscuous</hi> utensils of a barber.</p>
+
+                <p>That men can use profane language, and deprecate female virtue, in the presence of ladies, and still expect to maintain their claims to the title of <hi rend="italic">gentlemen</hi>.</p>
+
+                <p>That they can consider it a proof of a superior understanding, to sneer at the Sabbeth and those <gap reason="page folded over" extent="two words"/> and observe it.</p>
+
+                <p><gap reason="page folded over" extent="eight to ten words"/> make matimonial overtures to little <gap reason="page folded over" extent="one word"/> of women.</p>
+
+                <p>That a lecturer should so often find the lost thread of his discourse, in the tumbler of water at his elbow.</p>
+
+                <p>That the tall, nicely got-up beau who occasionally shows himself in Broadway, should present the anomaly of a jet-black moustache with grey locks.</p>
+
+               <p>That women should unrobe to "try on a dress before a dozen dress-makers' apprentices, and any stray lady visitor who calls on the same errand; not to mention the occasional ingress of the dress-maker's brother in search of&#8212;&#8212;his sister.</p>
+
+               <p>Lastly&#8212;That two women should by any possibility be willing to sleep together.</p>
+
+                <byline>FANNY FERN.</byline>
+            </div>
+         
+         <milestone unit="line"/>
+
+            <div type="column">
+                <head type="main">NIAGARA&#8212;A CONTRAST.</head>
+
+               <p>No tongue, no pen ever could, ever has described Niagara&#8212;its beauty, its majesty. I would that I had never heard of Niagara&#8212;that I had come upon it unawares, some glorious morning, before those Indian girls had peddled moccasins, or boys had profaned it by selling pictures and crosses. I would have knelt on that lovely island, and seen God's majesty in the ceaseless, roaring torrent; God's smile in the bright rainbow, hung upon the fleecy mist; God's love in making earth so beautiful, for those who forget to thank Him for it. I would lead <hi rend="italic">him</hi> there who says there is no God, that he might hear His voice, and see His glory.</p>
+
+                <p>No two persons look on Niagara with the same eyes. Some it animates and makes jubilant; others it depresses and terrifies; some hear in it the thunder and lightning of Sinai; others hear in it the voice of Him who stilled the raging waves with "Peace, be still!"</p>
+
+                <p>I was glad to see Niagara, but I was not sorry to leave it. Its rushing torrent threw a shadow over my spirit. Its monster jaws seemed hungry for some victim, other than the unconscious leaves, which it whirled so impatiently out of sight. Its never-ceasing roar seemed like the trumpet-challenge to battle, telling of mangled corpses and broken hearts.</p>
+
+               <p>No;&#8212;dearer to me is the silvery little brook, tripping lightly through green meadows, singing low and sweet to the nodding flowers, bending to see their own sweet beauty mirrored in its face. I like not that all Nature's gentle voices should be tyrannically hushed to silence&#8212;drowned by a despot's deafening roar. Give me the low murmur of the trees&#8212;the hum of the bee&#8212;the flash of the merry little fish. I like the little bird circling, darting, singing, skimming the blue above, dipping his bright wings in the blue below. I like the cricket which chirps the tired farmer to sleep; I like the distant bleat of the lamb, the faint lowing of the cow. I lay my head on Nature's breast, in her gentler moods, and tell her all my hopes and fears, and am not ashamed of my tears. But she drives me from her when she roars and foams, and flashes fierce lightning from her angry eyes: I close my ears to her roaring thunder. But when, clearing the cloud from her brow, she hangs a rainbow on her breast, throws perfume to the pretty flowers, and smiles caressingly through her tears&#8212;ah, then I love her; then she is all my own again.</p>
+                
+                <byline>FANNY FERN.</byline>
+            </div>
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

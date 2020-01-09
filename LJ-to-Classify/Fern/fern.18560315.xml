@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560315">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">A Glance At A Chameleon Subject.</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="jf">Jacob K. Friefeld</editor>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2014</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">A Glance At A Chameleon Subject.</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-03-15">15 March 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-01-31">encoding further updated; text proofed</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#jf" when="2012-05-02">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18560315.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18560315.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18560315.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18560315.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18560315.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18560315.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18560315.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18560315.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+            
+            
+            
+            
+            <div>
+              
+                <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by R. BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                <head type="main">A GLANCE AT A CHAMELEON SUBJECT.</head>
+                
+                <p>"Tell you what are the fashions?" I who am sick of the very word Fashion? who could shake hands with every rustic I meet, for very delight at his nap-less hat, and ark-like coat?</p>
+               
+                <p>You should be surfeited, as I am, with harlequin costumes; disgusted, as I am, with troops of women, strutting, like peacocks, to show their plumage; but who, less sensible that peacocks, never <hi rend="italic">shed their feathers.</hi> You should see brocades, and silk velvets, fit only for carriage, or dinner dress, daily mopping up the tobacco pools on these unmitigatedly nasty sidewalks. You should see the gay little bonnets, and oh! you should see the vapid, expression-less, soul-less faces beneath them. You should see the carriages, with their liveried servants, in our republican streets, and the faces, seamed with <hi rend="italic">ennui</hi> and discontent, which peer through the windows, from beneath folds of lace and satin.</p>
+                
+                <p>You should see how this dress-furore infects every class and circle. You should see the
+                   
+                   <figure>
+                      <graphic url="http://fannyfern.org/images/illustrations/fern18560315.04_ill1.jpg"/>
+                      <figDesc>A woman in an elaborate dark-colored dress and hat.</figDesc>
+                   </figure>
+                                
+                young apprentice girl, who can afford but one bonnet, buying a flimsy dress-hat, to be worn in all weathers; securing for Sunday, a showy silk dress and gilt bracelet, when she has hardly a decent chemise, or  petticoat, and owns, perhaps, but one handkerchief, and a couple of pairs of stockings. You should see the wife of the young mechanic, with her embroidered pocket-handkerchief, and flaunting pink parasol, while she can number but one pair of sheets, and one table-cloth. You should see her children, with their plumed hats, while parti-colored, dilapidated petticoats peep from beneath their dresses, and they are shivering for the want of warm flannels. You should see the servant girl, with 
+                
+                   <figure>
+                      <graphic url="http://fannyfern.org/images/illustrations/fern18560315.04_ill2.jpg"/>
+                      <figDesc>An older woman in an elaborate, flower-printed dress and a plaid shawl. Her face is heavily rouged.</figDesc>
+                   </figure>              
+                                    
+                her greasy flounces, and soiled artificial flowers. You should see young men, with staring diamond-pins
+                
+                   <figure>
+                      <graphic url="http://fannyfern.org/images/illustrations/fern18560315.04_ill3.jpg"/>
+                      <figDesc>A man in an elaborate vest and pattern-printed pants.</figDesc>
+                   </figure>                
+                    
+                stuck on their course shirt bosoms,&#8212;with shabby velvet vests, and mock chains looped over them.</p>
+               
+               <p>You should go into the "Furnishing stores for ladies' and children's garments;" and see how <hi rend="italic">impossible</hi> it is to find <hi rend="italic">plain, substantial</hi> articles of clothing <hi rend="italic">for either;</hi> two-thirds, at least, of the cost of every article, being for elaborate trimming, and ruffling, and useless embroidery. You should go into the "Ladies' cloak stores," and see these garments loaded indeed with gay trimmings, but miserably thin, and ill-adapted for winter wear; hence the <hi rend="italic">stories</hi> of garments you frequently notice on New York ladies, (as winter intensifies,) as if one good, sensible, thickly-wadded, old-fashioned, outside-garment, could by any possibility be more awkward and ugly, than such "an arrangement," and as if it were not a million degrees more comfortable, and less troublesome; but, then&#8212;Fashion says&#8212;No!</p>
+               
+                <p>"Tell you the Fashions?"</p>
+               
+                <p>Excuse my rambling. Well; here they are, as near as I can find out:</p>
+                
+                <p>Puff your hair and your skirts. Lace your lungs and your handkerchief. Put on the most stunning dress you can find; wear it of a <hi rend="italic">stumbling</hi> length, because Queen Victoria's royal ankles are thick.</p>
+               
+                <p>Take a handful of artificial roses, each of a different color, half-a-dozen yards of ribbon ditto, lace ditto. Secure them (for a bonnet) to your bump of amativeness, with two long pins. Then sprinkle the contents of a jeweller's shop promiscuously over your person; and by no means, before you go out, omit drawing on a pair of bright <hi rend="italic">yellow</hi> gloves; that <hi rend="italic">sine qua non</hi> of a New York woman's toilette.</p>
+               
+                <p>"Tell you the Fashions?" Take a walk down Broadway, and see for yourself. If you have a particle of sense, it will cure you of your absorbing interest in that question during your natural life, though your name be written "Methusaleh."</p>
+                
+                
+         
+                
+                
+                <byline>FANNY FERN.</byline>
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

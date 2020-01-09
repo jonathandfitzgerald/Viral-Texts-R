@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560517">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Anniversary Time</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="jf">Jacob K. Friefeld</editor>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2014</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">Anniversary Time</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-05-17">17 May 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-03-13">further updated encoding; proofed text</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#jf" when="2012-05-02">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18560517.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18560517.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18560517.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18560517.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18560517.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18560517.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18560517.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18560517.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+                        
+            <div type="column">
+            <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by R. BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                <head type="main">ANNIVERSARY TIME.</head>
+                <head type="sub">MR. GOUGH AT THE OPERA HOUSE.</head>
+                
+                <p>Funny, isn't it? Country ministers with their wives and daughters in the unhallowed precincts of an Opera House! I trust they crossed themselves on the threshold, by way of exorcising Beelzebub. Observe their furtive glances at the naked little dimplednesses perched upon yonder wooden pillars. How legibly is—Saints and angels! where are those children's trousers? written upon the elongated corners of their evangelical mouths. R-a-t-h-e-r different I confess from the Snagtown "meetin-house," with its slam-down seats, its swallow-nested roof, and its shirt-sleeved chorister; but, my strait-laced friends, if you strain at a harmless marble Cupid, how could you swallow an electric flesh-and-blood ballet-dancer, such as we are wont to see in this house? I have tried to educate myself up to do it, but may I be pinched this minute if I do not catch myself diligently perusing the play-bill, whenever they execute one of their astounding rotary pas. I can't stand it; and yet my friends, at the risk of being excommunicated, allow me to say, that I would rather stand a ballet-dancer's chance of getting to heaven, than that of many a vinegar-visaged saint of high repute in your churches.</p>
+               
+                <p>But this is a digression. Just see those women seating themselves <hi rend="italic">on the stage.</hi> Saucy as I am, I could not do that; nor, if I did, would I put my feet up on the rounds of a chair in front of me—and the audience. How patriarchal Solon Robinson looks, with his clear, calm face, and his long, snow-white beard. He is quite a picture. What a pity he ever burned his fingers with "Hot Corn." But let him throw the first stone who has never by one well-meant, but mistaken act of his life, called forth the regretful—"what a pity!" The river which never overflows its banks may never devastate, nor—does it ever freshen the distant and arid Sahara. Many a poor man has blessed, and will bless, the name of Solon Robinson; and many a hard-toiling woman, too, whom he has instructed how to procure the most nutriment for her starving children from an old bone or a couple of onions. Let those who make wry mouths at "Hot Corn" taste his "poor man's soup," and do justice to the active brain and philanthropic heart of its originator.</p>
+                
+               <p>I used to think the New York Tribune, of which Solon is Agricultural Editor, a great institution, until I discovered two things: 1st. The number of able, talented, practical men employed in its getting up; 2ndly. That a <hi rend="italic">bull's head<ptr target="#note1" xml:id="nr1" n="1"/></hi> is kept constantly seething in the machine boiler to impart a wholesome ferocity to its paragraphs!</p>
+               
+                <p>Hush! here comes the speaker of the evening—John B. Gough, supported by Dr. Tyng—(good Dr. Tyng, who believes in preaching to dear little children, as well as to their fathers and mothers). John says, "Ladies and gentlemen" (not—<hi rend="italic">Gentlemen</hi> and ladies, as do some ungallant orators). "Ladies and gentlemen, when the admission tickets are twenty-five cents I feel doubtful of giving you your money's worth; judge then how a fifty cent ticket embarrasses me." A very politic preface, John; but ere you had spoken five consecutive sentences, I knew it was mock-modesty. You know very well that no man understands better how to sway a crowd; you know that many an audience, who yawn through addresses that are squared, rounded, and plumb-ed by nicest rules of rhetoric, will sit spell-bound unconscious hours, and laugh and cry at <hi rend="italic">your</hi> magnetic will. John, you are a good and great institution, and right glad am I that the noble cause in which your eloquence is enlisted, has so pleasing and indomitable a defender.</p>
+               
+                <p>But John—it is not all in <hi rend="italic">you</hi> Double-edged is the sword wielded in a <hi rend="italic">just</hi> cause; and not a man, woman or child has listened to your burning words to-night who did not know and feel that you spoke God's truth.</p>
+               
+                <p>Success to the Temperance cause, and all its apostles, both great and small; and above all, <hi rend="italic">never</hi> let <hi rend="italic">woman's</hi> lip baptise the bowl, which for aught she can tell may sepulcher her dearest hopes this side heaven.</p>
+                
+                
+                <byline>FANNY FERN.</byline>
+    
+            
+            
+           
+                <note type="footnote">
+               <p>*We presume our contributor refers to the fact that a bullock's head is put occasionally into the boiler of a steam-engine to neutralise the corrosive substances in the water; though Fanny found this out, as well as many other things she seems to know, we cannot tell.—ED. LEDGER.</p>
+            </note>
+         </div>
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

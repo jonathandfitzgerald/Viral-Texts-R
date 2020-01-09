@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560531">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">The Two Babes</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2015</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">The Two Babes</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-05-31">31 May 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-07-09">proofed and further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#jf" when="2012-05-02">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18560531.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18560531.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18560531.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18560531.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18560531.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18560531.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18560531.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18560531.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+            
+            
+            
+            
+            <div type="column">
+            <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by R. BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                <head type="main">THE TWO BABES.</head>
+                
+                    <p>Cannon thundering—bells pealing—flags waving; illuminations—military parades;—peasants, obles and princes—all crowding to that big house! What the mischief is all this fuss about? Some great victory perhaps. No; as sure as your name is Johnny, it is all about an hour-old baby; but for all that, you had better not speak of him, without taking your hat off; that baby is of some consequence, I can tell you, for all he lies there, wheezing and sneezing, winking and blinking, like an astonished little pup.</p> 
+                    
+                <p>Long before he came to town, there were more baby clothes made up for him than he could wear, should he stay a baby twenty years; and all loaded with lace and embroidery, and finified with silk and satin; and the people left their workshops, and ran to see them, as if they had not another minute to live. Then there were half a dozen rooms, all prepared for his expected little cry-baby-ship; for you had better not believe that he was going to stay in <hi rend="italic">one</hi> room, like any common baby; not he!&#8212;Then all the grey-haired old men, and beautiful women, bent over his magnificent cradle, and declared him to be the most splendid baby that ever was born; and it was as much as his nurse's life was worth to stick a pin into him, or wash his little flabby nose the wrong way, or tie his frock a tenth of an inch too tight or too loose, or nurse him a minute too long or too short, or allow an impertinent sunbeam to make him sneeze, when he didn't want to. Oh he was a great baby that! Even his playthings were gold crosses, and ribbons, that kings have been known to cut each other's heads off, scrambling which should wear. Step softly—bend low before his cradle; royal blood flushes that little face. He is the <hi rend="italic">King of Algiers.</hi></p>
+               
+                    <milestone unit="line"/>
+               
+                    <p>Peep with me into yonder stable; the door is a-jar; there is nothing there to frighten you. The light glances through a chink in the roof upon the meek, submissive cattle, who with bowed heads, drowsily dose the listless hours away. Is there nothing else in the stable? Look again.&#8212;&#8212;Yes, there, in yonder corner, sits a fair young mother. Her course mantle is wrapt around her shrinking form, and her small head is drooping, partly with weariness, partly with tender solicitude for the new-born babe upon her lap. No rich wardrobe awaits the little stranger; clothed only in his own sweet loveliness, he slumbers the quiet hours away.&#8212;But see! above that stable glows a star, brighter than ever glittered on the breast of earthly Prince or King; and above that star is a City, "which hath no need of the sun, nor of the moon to shine in it, for the glory of God doth lighten it, and the Lamb is the light thereof;" and that is the Heavenly Home of the lowly "Babe of Bethlehem."</p>
+                
+                <byline>FANNY FERN.</byline>
+         </div>
+            
+            
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

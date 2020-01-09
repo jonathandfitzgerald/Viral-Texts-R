@@ -1,0 +1,230 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="http://fannyfern.org/images/other_images/ferncutout_head.jpg" type="image/jpeg" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<link rel="canonical" href="/bio" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortlink" href="/node/10" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <title>Fanny Fern: A Brief Biography | Fanny Fern in The New York Ledger</title>
+  <style type="text/css" media="all">
+@import url("http://fannyfern.org/modules/system/system.base.css?om2vlq");
+@import url("http://fannyfern.org/modules/system/system.menus.css?om2vlq");
+@import url("http://fannyfern.org/modules/system/system.messages.css?om2vlq");
+@import url("http://fannyfern.org/modules/system/system.theme.css?om2vlq");
+</style>
+<style type="text/css" media="all">
+@import url("http://fannyfern.org/modules/field/theme/field.css?om2vlq");
+@import url("http://fannyfern.org/modules/node/node.css?om2vlq");
+@import url("http://fannyfern.org/modules/search/search.css?om2vlq");
+@import url("http://fannyfern.org/modules/user/user.css?om2vlq");
+</style>
+<style type="text/css" media="all">
+@import url("http://fannyfern.org/modules/ctools/css/ctools.css?om2vlq");
+@import url("http://fannyfern.org/modules/panels/css/panels.css?om2vlq");
+</style>
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700" media="all" />
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Rosarivo:400,400italic&amp;subset=latin,latin-ext" media="all" />
+<style type="text/css" media="all">
+@import url("http://fannyfern.org/themes/bamboo/css/menu.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/normalize.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/style.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/design.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/responsive.css?om2vlq");
+</style>
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="http://fannyfern.org/themes/bamboo/css/ie8-fixes.css?om2vlq" media="all" />
+<![endif]-->
+
+<!--[if IE 9]>
+<link type="text/css" rel="stylesheet" href="http://fannyfern.org/themes/bamboo/css/ie9-fixes.css?om2vlq" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://fannyfern.org/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://fannyfern.org/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://fannyfern.org/misc/drupal.js?om2vlq"></script>
+<script type="text/javascript" src="http://fannyfern.org/themes/bamboo/js/scripts.js?om2vlq"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"bamboo","theme_token":"kCx9H6jw1589hmi2UqTM6QbORpjqsrMokAhKjf3UXmg","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"themes\/bamboo\/js\/scripts.js":1,"modules\/statistics\/statistics.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/ctools\/css\/ctools.css":1,"modules\/panels\/css\/panels.css":1,"\/\/fonts.googleapis.com\/css?family=Open+Sans:400italic,600italic,700italic,400,600,700":1,"\/\/fonts.googleapis.com\/css?family=Rosarivo:400,400italic\u0026subset=latin,latin-ext":1,"themes\/bamboo\/css\/menu.css":1,"themes\/bamboo\/css\/normalize.css":1,"themes\/bamboo\/css\/style.css":1,"themes\/bamboo\/css\/design.css":1,"themes\/bamboo\/css\/responsive.css":1,"themes\/bamboo\/css\/ie8-fixes.css":1,"themes\/bamboo\/css\/ie9-fixes.css":1}},"urlIsAjaxTrusted":{"\/bio":true},"statistics":{"data":{"nid":"10"},"url":"\/modules\/statistics\/statistics.php"}});
+//--><!]]>
+</script>
+    <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-10 node-type-page site-name-hidden bg-green-gradient color-palette-green-bamboo header-font-serif body-font-serif sidebar-right imagecaption section-bio is-node theme-logo-none">
+<div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+
+<header id="head" role="banner" class="container">
+  <hgroup class="ten columns alpha">
+
+    <div id="logo">
+          </div>
+
+    <div id="site-title-wrapper">
+      <h1 id="site-title">
+        <a href="/" title="Home">
+               </a>
+      </h1>
+          </div>
+
+  </hgroup>
+
+<div id="top-links" class="six columns omega">
+        <div class="region region-top-links">
+    <div id="block-search-form" class="block block-search">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <form action="/bio" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-i9eglFlOCSrHNjmqkJaIe932A2LhzoU8Kkz1ma2OWAQ" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+</div>
+</div>
+  </div>
+  </div>
+</header>
+
+<div id="menu-wrapper" class="container">
+  <nav id="main-menu" role="navigation" class="sixteen columns alpha omega">
+    <div class="menu-navigation-container">
+      <!-- Theme native drop downs and mobile menu-->
+      <div id="nav-wrap">
+        <div id="menu-icon">Menu</div>
+        <ul class="menu"><li class="first leaf"><a href="/home">Home</a></li>
+<li class="leaf"><a href="/bio" title="A brief biography of Fanny Fern" class="active">Fanny Fern</a></li>
+<li class="leaf"><a href="/ledger" title="A brief historical overview of The New York Ledger">The New York Ledger</a></li>
+<li class="leaf"><a href="/columns" title="Transcriptions and images of Fanny Fern&#039;s columns in the Ledger">Her Columns</a></li>
+<li class="last expanded"><a href="/about">About</a><ul class="menu"><li class="first leaf"><a href="/about">About the Project</a></li>
+<li class="leaf"><a href="/contact" title="Send comments and corrections to the project editor">Contact</a></li>
+<li class="last leaf"><a href="/staff">Project Staff</a></li>
+</ul></li>
+</ul>      </div>
+    </div>
+  </nav>
+</div>
+<!-- end main-menu -->
+
+
+<div class="container" id="content-wrapper">
+
+  
+  
+    
+  
+        
+  <div id="content" class="sixteen columns">
+            <section id="post-content" role="main">
+
+      
+      
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      
+<article id="node-10" class="node node-page node-full clearfix"  about="/bio" typeof="foaf:Document" role="article">
+
+  
+  <header class="article-header">
+
+  
+  <div class="title-wrapper">
+  
+  
+    <!-- node h1 title -->
+          <h1 class="article-title">Fanny Fern: A Brief Biography</h1>
+    
+    <span property="dc:title" content="Fanny Fern: A Brief Biography" class="rdf-meta element-hidden"></span>
+  <!-- Overidden in template.php to show just username. -->
+    
+  </div><!-- // submitted -->
+  </header>
+
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="body">
+<h1 class="pageTitle">Fanny Fern: A Brief Biography</h1>
+<p class="body_paragraph">Sara Payson Willis, the woman that would become Fanny Fern, was the fifth of nine children born to Nathaniel Willis and Hannah Parker. Born on July 9, 1811, in Portland, Maine, Sara spent most of her childhood in Boston, where her father was a newspaper editor and a deacon at the Park Street Church. Her older brother, Nathaniel Parker Willis, was already a fairly established writer and editor by the time that Sara began attending Catherine Beecher’s prestigious Hartford Female Seminary in Hartford, Massachusetts, in 1828.  At school, the young Sara displayed impressive literary talents, and after her time at the seminary ended, she returned to Boston and wrote pieces for her father’s children’s periodical, <em>The Youth’s Companion</em>. In 1837, Sara married Charles Harrington Eldredge, a Boston banker. By all accounts the marriage was a happy one, and the couple soon had three daughters. But the next few years would not be kind to Sara Eldredge.</p>
+<p><img src="http://fannyfern.org/images/portraits/fernportrait1.jpg" alt="Portrait of Fanny Fern, standing, facing left." class="bioRight" /></p>
+<p class="body_paragraph">In 1844, her youngest sister, Ellen, died during childbirth. Her mother died just a few months later. In 1845, Sara’s oldest daughter, Mary, died of meningitis, and in 1846, her husband Charles succumbed to typhoid fever. Left a widowed mother of two children, and with little financial support from her family or in-laws, Sara soon remarried, this time to Samuel P. Farrington, a merchant and widower. The marriage proved to be a disaster; Farrington was both unkind and intensely jealous, accusing Sara of infidelity and attempting to turn her children against her. In 1851, only two years after her second marriage, Sara took the bold step of moving out of her home with her two daughters and taking up residence at a Boston hotel, a decision which scandalized and further alienated her from her conservative family. Greatly angered, Farrington spread rumors intended to call his wife's integrity into question; he eventually filed for a divorce, which was granted on September 7, 1853.</p>
+<p class="body_paragraph">To provide for herself and her children, Sara took up the pseudonym Fanny Fern and began writing regular newspaper columns for the <em>True Flag</em> and <em>Olive Branch</em>, two Boston publications. Although she earned barely enough to keep her small family afloat, the newly fashioned Fanny Fern’s popularity soon grew. The lack of strict copyright restrictions in the mid-nineteenth century meant that Fern’s columns were frequently reprinted, and she soon developed a fairly devoted following throughout the Northeast. In 1846 her brother Nathaniel had started his own publication, the <em>Home Journal</em> (a periodical that survives today as <em>Town &amp; Country</em>), and by the early 1850s it had become quite successful. The journal’s editor, James Parton, liked Fern’s work so much that he decided to reprint several pieces. When Willis discovered that his sister was the author of the columns, he forbade Parton to publish any more of her work. Parton resigned in protest.</p>
+<p class="body_paragraph">Despite this setback, Fern’s fame was such that J. C. Derby, a publisher from Auburn, New York, approached her about the possibility of publishing a collection of columns. Fern agreed, wisely choosing to accept royalty payments of ten cents per copy instead of a lump sum, and within a year <em>Fern Leaves from Fanny’s Port-folio</em> had sold nearly 100,000 copies. By this time, Fern had moved to New York, where she soon took up writing for the <em>Musical World and Times</em>, a periodical edited by her other brother, Richard Willis. Neither the older Willis nor his publisher, Oliver Dyer, had any idea as to Fanny Fern’s real identity when they offered to double her salary if she agreed to write exclusively for their paper. When he did discover that the columns' author was his sister, Richard's response was much more gracious than that of his brother Nathaniel, and he continued to encourage Sara and publish her writing. Her work for the <em>Musical World and Times</em>, combined with the royalty payments from <em>Fern Leaves</em>, meant that Fern was able to both comfortably provide for her young family and devote herself fully to her writing. Over the next several years she published two more books for Derby, one another collection of columns and the other a children’s book entitled <em>Little Ferns for Fanny’s Little Friends</em>, both of which appeared in 1853. Her career prospects improved even more in 1854 and 1855, two years that would prove instrumental in establishing Fanny Fern as one of the most recognized voices in America.</p>
+<p class="body_paragraph">In December 1854, Fern published her first novel, <em>Ruth Hall: A Domestic Tale of the Present Time</em>. A roman á clef, the book told the tale of a young woman who overcomes the death of her first husband and the cold shoulders of her family (particularly her brother, a prominent newspaper editor) to become a successful newspaper columnist. Sales of the novel were boosted considerably when, just weeks after the book’s publication, it was publicly revealed that Sara Payson Willis, sister of well-known editor Nathaniel Parker Willis, was the woman behind the façade of Fanny Fern. Readers clambered to see what Fern had to say about her famous brother, and although the incident brought Fern considerable criticism from those who claimed it was unfeminine and indelicate to satirize ones family in such a public manner, Fanny Fern’s fame had never been more valuable. Thus it was that Robert Bonner, the brash young editor of an up-and-coming literary magazine, approached Fern about writing an exclusive story for his paper, <em>The New York Ledger</em>.</p>
+<p><img src="http://fannyfern.org/images/portraits/fernportrait2.jpg" alt="Portrait of Fanny Fern, close-up, facing right" class="bioLeft" /></p>
+<p class="body_paragraph">Originally offering Fern twenty-five, then fifty, then seventy-five dollars per column, only to be turned down on all three occasions, Bonner then offered her an unprecedented $100 for each column of a serialized story, an offer which Fern finally accepted, making her the highest-paid newspaper writer in the country. Her serialized story, “Fanny Ford,” appeared in the pages of the <em>Ledger</em> in June 1855, and marked the beginning of a long and fruitful partnership with Bonner. Fern agreed to write a weekly column for the <em>Ledger</em>, the first of which appeared in January of 1856. She would publish a column every week until her death in 1872.</p>
+<p class="body_paragraph">In addition to her <em>Ledger</em> columns, Fern would go on to publish another novel (<em>Rose Clark</em>, in 1856), four more collections of newspaper columns, and two more books for children. While she became known for her advocacy of women’s rights and women’s independence and was frequently a strong proponent of educational reform for children, Fern was a prolific writer and offered her views on topics as varied as summer travel, the simple joys of a closet, literature, Civil War camps, prison reform, autograph-seekers, the importance of breakfast, and which New York cemeteries she preferred.</p>
+<p class="body_paragraph">In 1856, Fern married James Parton, the former <em>Home Journal</em> editor who had resigned in protest over Fern’s treatment at the hands of her brother. Eleven years Fern’s junior, Parton would go on to have a distinguished literary career of his own, penning successful biographies of Benjamin Franklin, Andrew Jackson, Thomas Jefferson, Horace Greeley, and others. Parton and Fern’s marriage was a happy one, and with their literary connections, they ran in the same circles as respected writers William Cullen Bryant, Bret Harte, and Horace Greeley, as well as a more Bohemian crowd, including Walt Whitman.</p>
+<p class="body_paragraph">Fern battled cancer for the last six years of her life, finally succumbing on October 10, 1872. On November 2, the fourth page of <em>The New York Ledger</em>, on which Fern’s column always appeared, was edged in black in her honor. Sara Willis Parton was buried in Mount Auburn Cemetery in Cambridge, Massachusetts, next to her first husband, Charles Eldredge. Only two words adorn her gravestone: “Fanny Fern.” The stone itself is also simple: a large, plain cross, with intricately carved ferns creeping around its base and winding their way to the top. The monument serves as an apt metaphor for a woman who came to be known, even by those closest to her, by the name that she fashioned for herself, a woman raised in a deeply religious and highly traditional household who climbed to the top of her profession and went on to become one of the most well-known and outspoken writers of her day. She became the country’s highest paid newspaper columnist, and, in the words of a contemporary rival newspaper, a writer whom “all the world knows.” And she accomplished it all with an infinitely clever blend of satire, sentiment, humor, and critique, all pulled together by a strong and captivating voice, a voice that hundreds of thousands of readers came to know as that of Fanny Fern.</p>
+<h5 class="byline">Kevin McMullen</h5>
+<h5 class="byline">Images courtesy of Bill Nelson</h5>
+</div>
+<div class="notes">
+<h2>Biographical sources consulted:</h2>
+<ul><li>Walker, Nancy. <em>Fanny Fern.</em> New York: Twayne Publishers, 1993. Print.</li>
+<li>Warren, Joyce. <em>Fanny Fern: An Independent Woman.</em> New Brunswick, NJ: Rutgers UP, 1992. Print.</li>
+<li>Warren, Joyce. <em>Ruth Hall and Other Writings.</em> New Brunswick, NJ: Rutgers UP, 1986: ix-xxxix. Print.</li>
+</ul></div>
+</div></div></div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"></nav>
+    
+      </div>
+</article>
+    </div>
+</div>
+</div>
+  </div>
+          </section>
+    <!-- /#main -->
+  </div>
+
+    
+</div>
+
+<footer id="colophon" class="container">
+
+  
+            <div class="sixteen columns footer-area">
+        <div class="region region-footer-first">
+    <div id="block-block-2" class="block block-block">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <div class="footer">
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Fanny Fern in <em>The New York Ledger</em></span>, edited by <a href="http://iamkevinmcmullen.com" target="_blank">Kevin McMullen</a>, is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+<div>
+</div></div>    </div>
+</div>
+</div>
+  </div>
+      </div>
+                  
+
+</footer>
+<script type="text/javascript" src="http://fannyfern.org/modules/statistics/statistics.js?om2vlq"></script>
+</body>
+</html>

@@ -36,7 +36,9 @@ sentimentTest <- c(
   "In fact, I am now the least happy person on the planet.",
   "There is no happiness left in me.",
   "Wait, it's returned!",
-  "I don't feel so bad after all!"
+  "I don't feel so bad after all!",
+  "Nope, there it is again",
+  "Deep dark sadness has returned"
 )
 
 

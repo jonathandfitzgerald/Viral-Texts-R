@@ -1,0 +1,279 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="http://fannyfern.org/images/other_images/ferncutout_head.jpg" type="image/jpeg" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<link rel="canonical" href="/columns/fern.18560308" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortlink" href="/node/32" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <title>March 8, 1856 | Fanny Fern in The New York Ledger</title>
+  <style type="text/css" media="all">
+@import url("http://fannyfern.org/modules/system/system.base.css?om2vlq");
+@import url("http://fannyfern.org/modules/system/system.menus.css?om2vlq");
+@import url("http://fannyfern.org/modules/system/system.messages.css?om2vlq");
+@import url("http://fannyfern.org/modules/system/system.theme.css?om2vlq");
+</style>
+<style type="text/css" media="all">
+@import url("http://fannyfern.org/modules/field/theme/field.css?om2vlq");
+@import url("http://fannyfern.org/modules/node/node.css?om2vlq");
+@import url("http://fannyfern.org/modules/search/search.css?om2vlq");
+@import url("http://fannyfern.org/modules/user/user.css?om2vlq");
+</style>
+<style type="text/css" media="all">
+@import url("http://fannyfern.org/modules/ctools/css/ctools.css?om2vlq");
+@import url("http://fannyfern.org/modules/panels/css/panels.css?om2vlq");
+</style>
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700" media="all" />
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Rosarivo:400,400italic&amp;subset=latin,latin-ext" media="all" />
+<style type="text/css" media="all">
+@import url("http://fannyfern.org/themes/bamboo/css/menu.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/normalize.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/style.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/design.css?om2vlq");
+@import url("http://fannyfern.org/themes/bamboo/css/responsive.css?om2vlq");
+</style>
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="http://fannyfern.org/themes/bamboo/css/ie8-fixes.css?om2vlq" media="all" />
+<![endif]-->
+
+<!--[if IE 9]>
+<link type="text/css" rel="stylesheet" href="http://fannyfern.org/themes/bamboo/css/ie9-fixes.css?om2vlq" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://fannyfern.org/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://fannyfern.org/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://fannyfern.org/misc/drupal.js?om2vlq"></script>
+<script type="text/javascript" src="http://fannyfern.org/themes/bamboo/js/scripts.js?om2vlq"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"bamboo","theme_token":"sFmEmQOxLZIlR6tDdGEAa7YjgdmYNZt4uVpqEAYaZFw","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"themes\/bamboo\/js\/scripts.js":1,"modules\/statistics\/statistics.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/ctools\/css\/ctools.css":1,"modules\/panels\/css\/panels.css":1,"\/\/fonts.googleapis.com\/css?family=Open+Sans:400italic,600italic,700italic,400,600,700":1,"\/\/fonts.googleapis.com\/css?family=Rosarivo:400,400italic\u0026subset=latin,latin-ext":1,"themes\/bamboo\/css\/menu.css":1,"themes\/bamboo\/css\/normalize.css":1,"themes\/bamboo\/css\/style.css":1,"themes\/bamboo\/css\/design.css":1,"themes\/bamboo\/css\/responsive.css":1,"themes\/bamboo\/css\/ie8-fixes.css":1,"themes\/bamboo\/css\/ie9-fixes.css":1}},"urlIsAjaxTrusted":{"\/columns\/fern.18560308":true},"statistics":{"data":{"nid":"32"},"url":"\/modules\/statistics\/statistics.php"}});
+//--><!]]>
+</script>
+    <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-32 node-type-page site-name-hidden bg-green-gradient color-palette-green-bamboo header-font-serif body-font-serif sidebar-right imagecaption section-columns is-node theme-logo-none">
+<div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+
+<header id="head" role="banner" class="container">
+  <hgroup class="ten columns alpha">
+
+    <div id="logo">
+          </div>
+
+    <div id="site-title-wrapper">
+      <h1 id="site-title">
+        <a href="/" title="Home">
+               </a>
+      </h1>
+          </div>
+
+  </hgroup>
+
+<div id="top-links" class="six columns omega">
+        <div class="region region-top-links">
+    <div id="block-search-form" class="block block-search">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <form action="/columns/fern.18560308" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-YFzL0ZvT1zFLloKM3gvXqBFYMywrEVfrxS1v9bfubwg" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+</div>
+</div>
+  </div>
+  </div>
+</header>
+
+<div id="menu-wrapper" class="container">
+  <nav id="main-menu" role="navigation" class="sixteen columns alpha omega">
+    <div class="menu-navigation-container">
+      <!-- Theme native drop downs and mobile menu-->
+      <div id="nav-wrap">
+        <div id="menu-icon">Menu</div>
+        <ul class="menu"><li class="first leaf"><a href="/home">Home</a></li>
+<li class="leaf"><a href="/bio" title="A brief biography of Fanny Fern">Fanny Fern</a></li>
+<li class="leaf"><a href="/ledger" title="A brief historical overview of The New York Ledger">The New York Ledger</a></li>
+<li class="leaf"><a href="/columns" title="Transcriptions and images of Fanny Fern&#039;s columns in the Ledger">Her Columns</a></li>
+<li class="last expanded"><a href="/about">About</a><ul class="menu"><li class="first leaf"><a href="/about">About the Project</a></li>
+<li class="leaf"><a href="/contact" title="Send comments and corrections to the project editor">Contact</a></li>
+<li class="last leaf"><a href="/staff">Project Staff</a></li>
+</ul></li>
+</ul>      </div>
+    </div>
+  </nav>
+</div>
+<!-- end main-menu -->
+
+
+<div class="container" id="content-wrapper">
+
+  
+  
+    
+  
+        
+  <div id="content" class="sixteen columns">
+            <section id="post-content" role="main">
+
+      
+      
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      
+<article id="node-32" class="node node-page node-full clearfix"  about="/columns/fern.18560308" typeof="foaf:Document" role="article">
+
+  
+  <header class="article-header">
+
+  
+  <div class="title-wrapper">
+  
+  
+    <!-- node h1 title -->
+          <h1 class="article-title">March 8, 1856</h1>
+    
+    <span property="dc:title" content="March 8, 1856" class="rdf-meta element-hidden"></span>
+  <!-- Overidden in template.php to show just username. -->
+    
+  </div><!-- // submitted -->
+  </header>
+
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="content">
+<h1 class="pageTitle">8 March 1856 </h1>
+<p><a class="image" href="http://fannyfern.org/images/fern18560308.01.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560308.01.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560308.02.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560308.02.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560308.03.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560308.03.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560308.04.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560308.04.jpg" width="75" class="containsColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560308.05.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560308.05.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560308.06.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560308.06.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560308.07.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560308.07.jpg" width="75" class="noColumn" /></a><a class="image" href="http://fannyfern.org/images/fern18560308.08.jpg" target="blank"><img src="http://fannyfern.org/images/thumbs/fern18560308.08.jpg" width="75" class="noColumn" /></a></p>
+<h1 class="columnHead">FRESH FERN LEAVES.</h1>
+<h4><span class="epigraph">Entered according to Act of Congress, in the year 1855, by R. BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</span></h4>
+<h2 class="columnTitle">THINGS I SHOULD LIKE TO SEE.</h2>
+<p class="body_paragraph">A fashionable boot-maker, who was not "from Paris."</p>
+<p class="body_paragraph">A sexton, who ventilated his church between forenoon and afternoon service.</p>
+<p class="body_paragraph">A New York gentleman, who was not a self-constituted inspector of ladies' bonnet-linings.</p>
+<p class="body_paragraph">A business man, how great soever his hurry, who would not stop to watch feminine ankles climb in-and-out of omnibusses.</p>
+<p class="body_paragraph">"A fiend in human shape" in "the New York Tribune," who was not "a German."</p>
+<p class="body_paragraph">An authoress, who could see a typographical error, in a critical passage, without tearing out her hair.</p>
+<p class="body_paragraph">A male pedestrian divorced from his cane, who knew what to do with his hands.</p>
+<p class="body_paragraph">A man who could hold an umbrella properly over a lady's bonnet; <br /><br />
+                OR, <br /><br />
+                Put on her cloak, or shawl, without crushing her hat, or hair;<br /><br />
+                OR, <br /><br />
+                Diet when he was ailing;<br /><br />
+                OR,<br /><br />
+                Take physic that did not "taste good;"<br /><br />
+                OR,<br /><br />
+                Be good natured when he was sick, or had cut his chin in shaving, or had to wait ten minutes for his dinner or breakfast;<br /><br />
+                OR,<br /><br />
+                Who was ever "refused" by a lady;<br /><br />
+                OR,<br /><br />
+                Who could preserve the table cloth immaculate, while carving.</p>
+<p class="body_paragraph">A bachelor, whose carpet did not wear out <i>first,</i> in front of the looking glass.</p>
+<p class="body_paragraph">A male author, who could successfully counterfeit a feminine letter.</p>
+<p class="body_paragraph">An editor, or author, who did not feel nervous at the idea of examining trunk linings, and parcel wrappers.</p>
+<p class="body_paragraph">A handsome child, who did not grow up to be homely.</p>
+<p class="body_paragraph">A woman, who was not <i>at heart</i> inimical to her own sex.</p>
+<p class="body_paragraph">A married man, who could give the right hand of fellowship to a wife's old lover;<br /><br />
+                OR,<br /><br />
+                Take a hint from the toe of her slipper, under the table, before company;<br /><br />
+                OR,<br /><br />
+                Was not anxious lest his favorite dish should give his wife the headache, if she ate of it;<br /><br />
+                OR,<br /><br />
+                Could have faith that his wife could cut his hair "to suit his countenance," better than a barber.</p>
+<p class="body_paragraph">A milliner, who could be bribed to make a bonnet to cover the head.</p>
+<p class="body_paragraph">A dressmaker, who did not consider a "perfect fit," to consist in an armor of whalebone, and a breathless squeeze.</p>
+<p class="body_paragraph">A New York lady, who, in making her outdoor toilette, ever consulted the hour of day,<br />
+                the thermometer, the skies, or the sidewalk.</p>
+<p class="body_paragraph">A husband's relatives, who could speak well of his wife.</p>
+<p class="body_paragraph">A Doctor, who had not more patients than he could attend to.</p>
+<p class="body_paragraph">A school teacher, whose interest in his pupils was not graduated by the standing of the parents, or the length of their purse.</p>
+<p class="body_paragraph">A washerwoman, who ever lost an article of clothing.</p>
+<p class="body_paragraph">A public speaker, who did not search for the lost thread of his discourse, in the convenient tumbler of water at his elbow.</p>
+<p class="body_paragraph">An editor, who could resist the temptation of inserting a spicy paragraph, on the score of scurrility;<br /><br />
+                OR,<br /><br />
+                Whose arithmetic was not defective when alluding to his subscription list.</p>
+<p class="body_paragraph">A pussy-cat peace-advocate, who was not the maddest lunatic out of Bedlam when the shoe pinched <i>his own</i> foot.</p>
+<p class="body_paragraph">A store-keeper, who had not "just the article you wanted," at the extreme end of an eternity of a counter, where there was nothing of the sort.</p>
+<p class="body_paragraph">A woman, who would not feign to be "<i>so</i> fond of cigar smoke," rather than exile the smoker.</p>
+<p class="body_paragraph">A policeman, who failed to see a <i>pretty</i> woman who wished to cross the street.</p>
+<p class="body_paragraph">A minister's wife, whom a Broadway omnibus horse might not pity.</p>
+<p class="body_paragraph">An old maid, who was not so from choice.</p>
+<h5 class="byline">FANNY FERN</h5>
+</div>
+<div class="citation">
+<h6>Source Text:</h6>
+<p class="citation">Fanny Fern, "Things I Should Like To See." <em>The New-York Ledger </em> (8 March 1856 ): [4]</p>
+<h6>To cite this project:</h6>
+<p class="citation">Fanny Fern, "Things I Should Like To See." <em>Fanny Fern in The New York Ledger</em> Ed. Kevin McMullen (2014) <a href="http://fannyfern.org">http://fannyfern.org</a>.</p>
+</div>
+<div class="report">
+<h6 class="report"><a href="http://fannyfern.org/contact" target="_blank">Report corrections</a></h6>
+</div>
+<div class="xmlDownload">
+<h6 class="xmlDownload"><a href="http://fannyfern.org/xml/fern.18560308.xml" download="fern.18560308.xml"><br />
+           Download source XML<br /></a></h6>
+</div>
+<p></p></div></div></div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"></nav>
+    
+      </div>
+</article>
+    </div>
+</div>
+</div>
+  </div>
+          </section>
+    <!-- /#main -->
+  </div>
+
+    
+</div>
+
+<footer id="colophon" class="container">
+
+  
+            <div class="sixteen columns footer-area">
+        <div class="region region-footer-first">
+    <div id="block-block-2" class="block block-block">
+<div class="block-inner clearfix">
+          <div class="block-content" >
+      <div class="footer">
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Fanny Fern in <em>The New York Ledger</em></span>, edited by <a href="http://iamkevinmcmullen.com" target="_blank">Kevin McMullen</a>, is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+<div>
+</div></div>    </div>
+</div>
+</div>
+  </div>
+      </div>
+                  
+
+</footer>
+<script type="text/javascript" src="http://fannyfern.org/modules/statistics/statistics.js?om2vlq"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18561227">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Foolish Fashions; Errata</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="cm">Carmen McCue</editor>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2015</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">Foolish Fashions; Errata</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-12-27">27 December 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-09-30">proofed, and further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#cm" when="2012-04-07">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18561227.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18561227.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18561227.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18561227.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18561227.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18561227.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18561227.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18561227.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+            
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1856, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+
+                <head type="main">FOOLISH FASHIONS.</head>
+
+                <p>Any new fashions? Yes. The women have taken to wearing long-tailed basques, for a promenade, out-door garment, made sometimes of velvet, sometimes of broadcloth, and sometimes of plush. The Parisian name for these affairs, I am so ignorant as to be unable to tell you. It is an unfortunate fashion: first, because nine-tenths of the women in New York who have adopted, and will adopt, this public test of a woman's proportions, have high shoulders, or protruding shoulder-blades, or are lamentably one-sided; secondly, it is an unfortunate fashion, because a fur tippet, or victorine, spoils the effect of it, and the thermometer just now is at shiver point; thirdly, in my humble opinion, flowing drapery, like a shawl, or cloak, looks much more graceful for a promenade dress, even on the most perfect figure, than any tight-fitting garment could possibly do.</p>
+
+                <p>As to the winter display of brocades, poplins and silks, time would fail me to tell of their splendor, or price, or the vulgar and insane folly of their wearers, in dragging what was never intended for promenade dress, over our dirty pavements. Heaven help the husbands and fathers of the wearers!</p>
+
+               <p>It is my opinion, after all that is said, that women dress much more with an eye to their own sex, than to the other. What man, unless he be a dry goods merchant, knows whether a woman wears Honiton or cotton lace? What man else, knows the value of the dainty handkerchiefs with which ladies so ostentatiously polish their pretty noses? What man else, knows, or cares to know, the value of the camel's hair shawl, spread so carefully over their shoulders? By the rood!&#8212;not one. But the delighted peacock possessor rejoices that every feminine eye which resets upon it, computes its value to a fraction. Yes&#8212;women dress much more for each other's eyes that those of men! I never knew a man, whose opinion was worth asking, who did not prefer to see a pretty woman (and I imagine the most demure of 'em don't look long at any other!) unostentatiously and modestly dressed; and I never saw a pretty woman who did not look prettier in her plainest home-dress than in her most elaborate adornments. But alas! for plain home-dresses&#8212;where are they? Where is the pretty de laine, and neat calico, none too good for little climbing feet (now fashion banished)? Echo answers&#8212;<hi rend="italic">Where?</hi>
+            </p>
+
+               <p>Why, even our school girls must study geography in silks and satins, and "wouldn't be seen" wearing anything less costly. I may be old-fashioned, but a greasy, soiled silk looks, to me, much less respectable, and less lady-like, than a fresh, two-shilling de laine&#8212;and a defaced velvet hat, than a clean, plainly trimmed, straw bonnet.</p>
+
+                <p>Dress is horribly overdone in New York. Can't some pretty, distinguished, and sensible woman have mercy on us, and head a reform? I defy her to walk Broadway, on a sunshiny day, between one and four, in a shilling de laine, three shilling straw bonnet, and woolen shawl! I dare her to go to the springs, in "the height of the season," with no jewels but the diamonds in her eyes, and but two dresses, and those of the aforementioned de laine or calico. Heavens! how the upstart, overdressed, and liveried-equipage descendants of cobblers and butchers would stare! What a rebuke to their vulgar, ostentatious display of dry goods and diamonds!</p>
+
+                <p>When the fabulous and independent female alluded to, tries the stunning experiment, may I be there to see!</p>
+
+                <byline>FANNY FERN.</byline>
+            </div>
+
+         <milestone unit="line"/>
+
+            <div type="column">
+                <head type="main">ERRATA.</head>
+
+               <p>Honored critics, one and all, who may be nibbing your reviewing pens to use on my new "Play-Day Book," allow me to inform you, that the printer, not I, made its pages say, "how she <hi rend="italic">sets</hi> her horse,"&#8212;instead of, "how she <hi rend="italic">sits</hi> her horse," and "I can <hi rend="italic">set</hi> a horse," instead of, "I can <hi rend="italic">sit</hi> a horse;" and "how roughly <hi rend="italic">falls</hi> harsh words," instead of, "how roughly  <hi rend="italic">fall</hi> harsh words;" and the "bird <hi rend="italic">who</hi>," instead of the "bird <hi rend="italic">which</hi>." May I be hung for a witch if I ever so outraged Lindley Murray. To cut the matter short,&#8212;whatever in that "Play-Day Book" is <hi rend="italic">right</hi>, is mine; whatever is <hi rend="italic">wrong</hi>, is the printer's!</p>
+
+                <byline>FANNY FERN.</byline>
+            </div>
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

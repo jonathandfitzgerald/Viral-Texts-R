@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560503">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">"Come On MacDuff."</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="jf">Jacob K. Friefeld</editor>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2014</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">"Come On MacDuff."</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-05-03">3 May 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-03-13">further updated encoding; proofed text</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#jf" when="2012-05-02">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18560503.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18560503.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18560503.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18560503.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18560503.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18560503.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18560503.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18560503.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+            
+            
+            
+            
+            <div type="column">
+            <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by R. BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                <head type="main">"COME ON MACDUFF."</head>
+                
+                <q>A correspondent wishes us to "oblige a lady," by publishing a communication containing strictures on FANNY FERN. But, why should we "oblige a lady" whom we do not know, and at the same time disoblige a lady whom all the world knows.&#8212;<hi rend="italic">N.Y. Evening Mirror.</hi></q>
+               
+               <p>"Oblige a lady." She is not the first, or the only lady, who has tried to be "obliged," and <hi rend="italic">obliging,</hi> in this way. Dear creatures! how they love me! There was Miss Moses, <hi rend="italic">proper</hi> Miss Moses, who had been for a year or more writing for the Scribetown Gazette, when I commenced. How delighted she was at my advent&#8212;how pleased she was with my articles&#8212;how many things she said about me, personally and literarily, to the editor of the Gazette&#8212;what an interest she took in my progress. <hi rend="italic">She</hi> never tried to keep my articles out of the paper, (benevolent soul!) "lest they should injure its reputation"&#8212;not she; she never, when looking over the exchanges, hid away those in which my articles were copied, and commended&#8212;not she; she never, when she found one containing a personal attack on me (written at her own suggestion) marked it with a double row of ink marks, and laid it in a conspicuous place on the Editor's Table&#8212;not she. She <hi rend="italic">liked</hi> my articles&#8212;liked them so well, that, on several occasions, she appropriated whole sentences and paragraphs; omitting (probably through forgetfulness) to make the necessary quotation marks! Dove-like Miss Moses! I think I see her now looking as though she was ready to be translated, (which by the way, her works never have been.) Pious Miss Moses, who rang threadbare changes on the ten commandments, and was addicted to meetings and melancholy; she tried hard to extinguish me, but success makes one magnanimous. I forgive her.</p>
+               
+               <p>And there was Miss Fox, who "never could see anything to like in FANNY FERN's articles," who knew her to have come from a family, "who <hi rend="italic">always</hi> fizzled out"&#8212;(on this point this deponent saith nothing)&#8212;but who, when she (Miss Fox) had occasion to write a newspaper story, got some kind friend to say in print, "that the story by Rosa, was probably written by FANNY FERN." Sweet Miss Fox!</p>
+               
+                <p>Then there was Miss Briar, who "wondered if MR. BONNER, of the N.Y. LEDGER, gave FANNY FERN, <hi rend="italic">who had never been out of sight of America,</hi> $100 a column for her stupid trash, what he would give <hi rend="italic">her,</hi> Miss Briar, who had crossed the big pond, when <hi rend="italic">she</hi> touched pen to paper! FANNY FERN indeed! Humph!"</p>
+               
+                <p>Lovely creatures! I adore the whole sex. I always prefer hotels, ferry boats and omnibusses, where they predominate, and abound; how courteous they are to each other, in case of a squeese! Lord bless 'em! How truly Burns says: </p>
+                
+                <lg type="stanza">
+               <l>"Auld Nature swears, the lovely dears</l>
+                <l>Her noblest work she classes, O:</l>
+                <l>Her 'prentice han' she tried on man,</l>
+                <l>And then she made the lasses, O.</l>
+                <l><hi rend="italic">The sweetest hours that e'er I spend</hi></l>
+                <l><hi rend="italic">Are spent among the lasses, O."</hi></l>
+            </lg>
+                
+                
+                
+                
+                <byline>FANNY FERN.</byline>
+         </div>
+            
+            
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

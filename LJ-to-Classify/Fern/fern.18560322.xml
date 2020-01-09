@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560322">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main"> Breakfast At The Paxes'.</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="jf">Jacob K. Friefeld</editor>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2014</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">Breakfast At The Paxes'.</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-03-22">22 March 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-01-31">further updated encoding; proofed text</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#jf" when="2012-05-02">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18560322.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18560322.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18560322.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18560322.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18560322.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18560322.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18560322.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18560322.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+            
+            
+            
+            
+            <div>
+            <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by R. BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                <head type="main">BREAKFAST AT THE PAXES'.</head>
+                
+                <p>"Morning paper, John?"</p>
+               
+                <p>"Didn't come this morning, Mem; I inquired at the office as I came up with the breakfast, Mem; none there, Mem."</p>
+               
+                <p>How provoking! What is breakfast without the morning paper? Coffee and eggs are well enough, but they don't tell a body whether the Pacific has arrived, or Greeley's head is safe on his non-resistant shoulders; (I wish that man <hi rend="italic">could</hi> fight!) or whether breadstuffs have "riz," as every housekeeper knows they ought to, or whether Olmsted's new book is selling as it deserves, (were it only for that racy little morceau about his ride with Jenny, the mare;) or whether the "Onguent warranted to raise a moustache and whiskers in six weeks" is still on the sprout; or whether Griswold is proven a saint or a sinner; or whether the amiable young man, who advertised the other day for "board in a family where there are no babies," has found his desert-s; or whether the philanthropic firm of McMush &amp; Co., are still persisting in that "ruinous sacrifice," for the benefit of a credulous public in general, and themselves in particular; or whether Barnum's head is <hi rend="italic">really</hi> under water, or whether he has only made a dive to grab some new mermaid; or whether the Regular Male Line via, (nobody knows where,) is an heir line; or whether there are any lectures to be delivered to-night worth foregoing a cosy fireside, and freezing the tip of ones nose to hear. How am I going to find out all this, I should like to know, without the morning paper? (Long life to the inventor of it)!</p>
+               
+               <p>Oh! here comes Mr. Pax with one&#8212;good soul&#8212;he has been out in his slippers, and bought one; now I shall find out all about everything, and&#8212;who did what. See what a thing it is to have a husband! No, I shan't either; may I be kissed if Pax has not set down to read that paper himself, instead of giving it to me. Now I like that; I dare say he thinks because he is connected with the Press that he should have the first reading of it. Am not I connected with the Press I'd like to know? I guess you'd have thought so, had you seen me squeezing into the Opera House the other night to hear Everett's lecture.</p>
+               
+               <p>Perhaps he is going to read it aloud to me&#8212;I'll sip my coffee and wait a bit. Good Pax! how I have maligned him; what an impatient wretch I am. I think impatience is a fault of mine. I wonder is it a fault? I wonder if I can help it, if it is? I wonder if people weren't made that way the year I was born? Yes; Pax must be going to read me the paper; that's it. Good Pax&#8212;how well he looks in that Turkish breakfast-jacket; he has really a nice profile, and pretty hand. I can't say that he has a very saintly under lip, but I have known more saintly <hi rend="italic">looking</hi> ones do naughtier things! Yes; I'll sip my coffee&#8212;he is undoubtedly going to read the paper to me; no, he isn't either; he means to devour the whole of it solus. I won't stand it&#8212;hem&#8212;no reply&#8212;hem&#8212;none so deaf as those who won't hear.</p>
+               
+                <p>"Pax!"</p>
+               
+                <p>"Well, dear," (without raising his eyes.)</p>
+               
+                <p>"Pax! what is there interesting in that paper?"</p>
+               
+                <p>(Pax still reading intently.) "Nothing, my dear, absolutely nothing."</p>
+               
+                <p>Humph! wonder if it takes a man a whole hour to read "nothing?"</p>
+               
+               <p>Now, do you suppose I whined about that? cried till my eyes looked as though they were bound with pink tape? Not I. I just sat down and wrote an article about it for the "WEEKLY MONOPOLIZER," and when it is published, as published it will be, I shall be disinterested enough to hand Pax my paper to read first! Then&#8212;when he reads the article, and looking up reproachfully, says: "Mrs. Pax!" it will be <hi rend="italic">my</hi> turn not to hear, you know; and when he gets up, and laying his connubial paw on my shoulder, says: "Mrs. Pax, do you know anything about this article in the Weekly Monopolizer?" I shall reply, with lamb-like innocence: "Nothing, my dear, absolutely nothing!"</p>
+               
+               <p>Won't that floor him?</p>              
+                
+                
+                
+                <byline>FANNY FERN.</byline>
+         </div>
+            
+            
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

@@ -6,14 +6,14 @@
 
 #I removed numbers from stopwords.txt
 
-dataTM = allData
+dataTM = newGenres
 
 clustersForTM = dataTM[,c("cluster","text","genre")] %>% filter(nchar(as.character(text), allowNA=TRUE) > 50) 
 clustersForTM = data.frame(Cluster=as.character(dataTM$cluster),Text=as.character(dataTM$text),Genre=as.character(dataTM$genre),stringsAsFactors = F)
 
 input=clustersForTM
 
-n.topics=12
+n.topics=12 
 SEED = 1789
 
 #Don't change below...

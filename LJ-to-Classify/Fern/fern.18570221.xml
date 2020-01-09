@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xml:id="fern.18570221" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">A Gauntlet for the Men</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <date>2014</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to Kevin McMullen, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">A Gauntlet for the Men</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-02-21">21 February 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2014-09-25" who="#km">updated sourceDesc encoding</change>
+            <change when="2014-09-19" who="#km">added facsimile element</change>
+            <change when="2014-04-08" who="#km">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570221.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570221.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570221.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570221.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570221.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570221.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570221.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570221.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+      
+            <div>
+                <head type="column">FRESH FERN LEAVES.</head>
+                <epigraph>
+                    <p>Entered according Act of Congress in the year 1855 by Robert Bonner, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                <head type="main">A GAUNTLET FOR THE MEN.</head>
+                
+                <p>I maintain it: all the heroism of the present day is to be found among women. I say it to your beards. I am sick of such remarks as these: "Poor fellow! he was unfortunate in business, and so he took to drinking;" or&#8212;"poor fellow! he had a bad wife, and lost all heart." What does a woman do, who is unfortunate in business, I would like to know? Why&#8212;she tries again, of course, and keeps on trying to the end of the chapter, notwithstanding the pitiful remuneration man bestows upon her labor&#8212;notwithstanding his oft-repeated attempts to cheat her out of it when she has earned it! What does a woman do, who has a bad, improvident husband? Works all the harder, to be sure, to make up his deficiencies to her household; works day and night&#8212;smiles when her heart and back are both breaking&#8212;speaks hopeful words when her very soul is dying within her; denies herself the needed morsel to increase her children's portion, and crushed neither by the iron gripe of poverty, nor allured by the Judas smile of temptation, hopefully puts her trust in Him who feedeth the sparrows.</p>
+                
+                <p>She&#8212;"the weaker sex?" Out on your pusillanimous manhood! "Took to drinking because he was unhappy!" Bless&#8212;his&#8212;big&#8212;Spartan&#8212;soul! How I admire him! Couldn't live a minute without he had everything to his mind; never had the slightest idea of walking round an obstacle, or jumping over it; never practised that sort of philosophical gymnastics&#8212;couldn't grit his teeth at fate, and defy it to do its worst, because they chattered so;&#8212;poor fellow! Wanted buttered toast, and had to eat dry bread; liked "2:40," and had to go a-foot; fond of wine, and had to drink Croton; couldn't smoke, though his stove-pipe did; rushed out of the world and left his wife and children to battle with the fate that his coward soul was afraid to meet. Brave, magnanimous fellow!</p>
+                
+                <p>Again&#8212;we are constantly hearing that the extravagance of women debars young men from the bliss of matrimony. Poor things! they can't select a wife <hi rend="italic">from out</hi> the frivolous circle of fashion; there are no refined, well educated, lady-like, practical girls and women, whom any man, with a man's soul, might be proud to call wife, nobly struggling for an honest maintenance as writers, governesses, teachers, semptresses, and milliners. They never read such an advertisement as this in the papers:</p>
+                
+                <q>"Wanted, by a young girl, the situation as governess. She can teach the English branches, French and Italian; and is willing to accept a small remuneration, to secure a respectable home."</q>
+                
+                <p>Fudge! None so blind as they who <hi rend="italic">wont</hi> see. The truth is, most of the young men of the present day are selfish to the backbone. "Poor," too&#8212;very poor!&#8212;never go to Shelley's or Delmonico's for a nice little game supper, washed down with champagne at $2 a bottle; never smoke dozens of cigars a-day, at six cents a piece; never invite&#8212;&#8212;<hi rend="italic">themselves</hi> to go to concerts, the opera, or the theatre! Wish they could afford to get married, but can't, at least not&#8212;till, as they elegantly express it, "they meet a pretty girl who has the tin."</p>
+                
+                <byline>FANNY FERN.</byline>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

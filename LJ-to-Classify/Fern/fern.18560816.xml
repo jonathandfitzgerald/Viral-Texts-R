@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560816">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">The Vacant Lot</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2015</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">The Vacant Lot</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-08-16">16 August 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-09-11">proofed, and further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#km" when="2012-04-07">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18560816.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18560816.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18560816.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18560816.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18560816.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18560816.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18560816.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18560816.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+           
+            
+            
+            
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1856, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+
+                <head type="main">THE VACANT LOT.</head>
+                
+               <p>So they call it. Vacant? I wonder have they noticed its tenants? The loquacious flock of geese, which waddle in procession to greet the rising sun, with a simultaneous screech of delight; unfurling and clapping their huge snowy wings, as if to say, "Ah, we can have it all our own way, now, while yonder sluggards slumber!" Not so fast:&#8212;yonder, with solemn step and slow, struts a pompous old rooster, whose blood-red crest defies goose-dom, and all its waddling works. See how meekly, how circumspectly, those Mormon wives of his&#8212;black, brown, white and speckled, tag behind his rooster-ship; too happy to pick up the smallest fragment of a worm which his satiated appetite disdains&#8212;and even that is to be approached at a proper distance from this two-footed, epicurean Nero, or a handful of feathers reminds their hen-ships that the lord of the harem is, and will be, cock of the walk. Pompous old tyrant! you should have a little tar mixed with your feathers. I could laugh at your ridiculous struttings, were you not the type of many a biped wife-killer, of whom <hi rend="italic">human</hi> laws take no cognisance.</p>
+                
+                <p>Vacant lot?</p>
+                
+                <p>See yonder urchin, who has crept from his bed while "mammy" is sleeping, that he may enjoy an unrebuked frolic with the hens and geese. Could any artist improve him? The red-flannel night-gown, scarce reaching to the bare fat calves, and falling gracefully away from the ivory shoulders; the little snowy feet, scare bending the dewy grass; the white arms tossed joyously over the curly brown head. Pretty creature! that ever time should transform you into a swearing, drinking, roystering, bar-room loafer!</p>
+               
+               <p>"Vacant lot?"</p>
+                
+                <p>What could be more picturesque than the group round yonder pump? Those herculean Newfoundlands shaking the glistening drops from their shaggy sides. The master, and his two horses neighing, plunging, rearing, tossing their flowing manes and tails, and rolling upon the grass, hoofs uppermost, in uproarious abandon; while the pretty occupant of the red-flannel night-gown, claps his dimpled hands in fearless ecstasy.</p>
+                
+                <p>Vacant lot?</p>
+                
+                <p>That old pump is a picture, any hour in the twenty-four. The matron, with her round white arms bared to the shoulder, poising the well-filled pitcher, the wee babe hanging at her skirts; the toil-worn father, laving his flushed brow and soiled hands, and quaffing the cool nectar. Were I an artist, the rosy morning light should show me no prettier pictures than may be found in "the vacant lot."</p>
+               
+                <byline>FANNY FERN.</byline>
+                
+                </div>
+            
+            
+           
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560906">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Greenwood and Mount Auburn</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2014</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">Greenwood and Mount Auburn</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-09-06">6 September 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-09-11">proofed, and further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#km" when="2012-04-09">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18560906.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18560906.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18560906.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18560906.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18560906.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18560906.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18560906.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18560906.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+           
+            
+            
+            
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1856, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+
+                <head type="main">GREENWOOD AND MOUNT AUBURN.</head>
+                
+                              
+                <p>I have seen Greenwood. With Mount Auburn for my ideal of what a cemetery <hi rend="italic">should</hi> be, I was prepared for disappointment. But the two are not comparable. Greenwood is the larger, and more indebted to the hand of art; the gigantic trees of Mount Auburn are the growth of half a century; but then Greenwood has its ocean view, which, paradoxical as it may seem, is not to be overlooked. The entrance to Mount Auburn I think the finer. Its tall army of stately pines stand guard over its silent sleepers, and strew their fragrant leaves on the pathway, as if to deaden the sound of the carriage wheels, which, at each revolution, crush out their aromatic incense, sweet as the box of spikenard which kneeling Mary broke at Jesus' feet.</p>
+                
+                <p>Greenwood has the greater monumental variety, attributable, perhaps, (more than to design,) to the motley population of New York; the proprietors of each tomb, or grave, carrying out their national ideas of sepulture. This is an advantage. Mount Auburn sometimes wearies the eye with its monumental monotony. Mount Auburn, too, <hi rend="italic">had</hi> (for he long since laid down in its lovely shade,) a grey-haired old gate-keeper, courteous and dignified; "a man of sorrows," whose bald, uncovered head, many will remember, who have stood waiting at the portal to bear in their dead. Many a bouquet, simple but sweet, of my favorite flowers have I taken from his palsied hand; and many a sympathising look, treasured up in my heart from him whom Death had also bereft of all. Greenwood has, at least if my afternoon visit was a fair exponent, its jocund grave-diggers, who, with careless poise, and indecent foot of haste, stumble on with the unvarnished coffin of the poor, and exchange over the fresh and narrow mound, the comrade's time-worn jest. Money has its value, for it purchases gentler handling and better manners.</p>
+                
+                <p>Let those who will, linger before the marble statue, or chiseled urn of the rich; dearer to me is the grave of the poor man's child, where the tiny, half-worn shoe, is sad and fitting monument. Dearer to me, the mouldy toys, the whip, the cap, the doll, the faded locks of hair, on which countless suns have risen and set, and countless showers have shed their kindly tears. And yet for the infant army who slumber there, I cannot weep; for I bethink me of the weary toil and strife; the wrecks that strew the life-coast; the plaint of the weary-hearted, unheard in life's fierce clamor; the remorseless, iron heel of strength, on the quivering heart of weakness; the swift-winged, poisoned arrow of cruel slander; the hearts that are near of kind as void of love; and I thank God that the little shoes were laid aside, and the dreary path untrod.</p>
+                
+                <p>And yet, not all drear, for, as I pass along, I read, in graven lines, of those who periled life to save life; who parted raging billows and forked flames, at woman's wild, despairing shriek, and childhood's helpless wail. Honor to such dauntless spirits, while there are eyes to moisten and hearts to feel!</p>
+                
+               <p>Beautiful Greenwood! with thy feathery swaying willows, thy silver-voiced fountains and glassy lakes; with thy grassy knolls and shady dells; with thy "Battle Hill," whose sod, of yore, was nourished by brave men's blood. The sailor here rests him well, in sound of old Ocean's roar; the fireman heeds nor booming bell, nor earthly trump, nor hurried tramp of anxious feet; the pilot's bark is moored and voyage o'er; the school-boy's lesson conned; beauty's lid uncloses not, though rarest flowers bloom above her; no husband's hand is outstretched to her, who stoops with jealous care to pluck the obtrusive weed which hides the name she, lonely, bears; no piping, bird-like voice, answers the anguished cry, "My child, my child!" but, still the mourners come, and sods fall dull and heavy on loved and loving hearts, and the busy spade heeds never the dropping tears; and for her who writes, and for them who read&#8212;ere long&#8212;tears in their turn shall fall. God help us all.</p>
+               
+                <byline>FANNY FERN.</byline>
+                
+                </div>
+            
+            
+           
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

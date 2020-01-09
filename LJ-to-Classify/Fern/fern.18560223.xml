@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560223">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Tea And Darning Needles "For Two!"</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2014</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">   <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>   <author ref="#ff">Fanny Fern</author>   <title level="a">Tea And Darning Needles "For Two!"</title>
+               </analytic>
+               <monogr>   <title xml:id="paper" level="j">The New-York Ledger</title>   <editor ref="#rb">Robert Bonner</editor>   <imprint>      <date xml:id="issue_date" when="1856-02-23">23 February 1856</date>   </imprint>   <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>   <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>   <title level="j" sameAs="#paper"/>   <imprint>      <date sameAs="#issue_date"/>   </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#jf" when="2012-05-02">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18560223.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18560223.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18560223.03.jpg"/>
+      </surface>
+       <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18560223.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18560223.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18560223.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18560223.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18560223.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+            
+            
+            
+            
+            <div>
+            <head type="column">Fresh Fern Leaves</head>  <epigraph>     <p>Entered according to Act of Congress, in the year 1855, by R. BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p> <p>Written for the New York Ledger.</p></epigraph>  <head type="main"> Tea And Darning Needles "For Two!"</head>  <p>Not long since, John Bull, in the columns of an English newspaper, growled out his intense disgust at the "trash in the shape of American lady books," which constantly afflicted him from the other side of the Atlantic.</p> <p>Here is a book called " <hi rend="italic">Letters from the United States, Canada and Cuba,</hi>     by the Hon. Amelia M. Murray—a lady of supposable refinement,  education, and of the highest social position in England; a lady whose daily bread was  <hi rend="italic">not</hi> dependent upon the immediate publication of her book; who had leisure and opportunity carefully to write, and to correct and  revise what she had written.</p> <p>We propose giving a few extracts to show what advance has been made upon  American literature, by our aristocratic British sister. But before beginning, we wish to throw our glove in John Bull's face, and defy him to produce a greater, or even and <hi rend="italic">equal</hi> amount of stupid twattle, unrhetorical sentences, hap-hazard conclusions, petty, egotistical, uninteresting details, narrow-minded views, and utter want of talent, from between the covers of any <hi rend="italic">American</hi>lady book yet published.</p> <p>The political question discussed by "the Hon." authoress we shall not meddle with, farther than to say: 1st., that her book contains not one new idea upon the subject; secondly, that her advocacy of a system which condemns a portion of her own sex to helpless, hopeless, brutal prostitution, reflects as little credit on her standard of what is lovely and of good report in woman, as does her book upon female English literature.</p> <p>We quote the following specimens of Miss Murray's style: <lb/> "At the house of his sister I saw another work by the same artist: two children, the one as an angel leading the awakened soul of the other, with an inscription below; very pretty!"</p> <p>Again. <lb/> Speaking of the cholera in Boston, and the practice of using hot vinegar there, as a disinfective, she says: <lb/> "I was told a carriage of this <hi rend="italic">fumigated</hi> liquid had been driven through the streets; there are deaths here every day and some at Newport, but <hi rend="italic">it</hi>is not believed to  be contagious at present, only carrying off the profligate and the debilitated!"</p> <p>Again. <lb/>  "Till my introduction to the Governor of New York I did not know that each State has a Governor. Gov. Seymour lives at Albany. Some of these Governors are only elected for two years, and this gentleman does credit to popular choice."</p> <p>So much for the <hi rend="italic">Queen's</hi> English! Now for one or two specimens of her penetration. The first quotation we make will  undoubtedly cause as much surprise to the very many benevolent associations in Boston, (which are constantly deploring their inability to meet the voices of distress which cry help us!) as it did to ourself: <lb/> "I never met a beggar in Boston, bot even among the Irish, and ladies have told me that  <hi rend="italic">they could not find a family on which to exercise their benevolent feelings!"</hi>
+            </p> <p>Gov. Seymour, Miss Murray's friend, will doubtless feel flattered by  the following patronising mention of him. And here we will say, that it would have been more politic in the Hon. Mis Amelia, when we consider England's late relations to Sebastopol, had she omitted to touch upon so ticklish a subject as British military discipline.</p> <p>Speaking of Gov. Seymour's review of the New York troops, on Evacuation day, she says: <lb/> "Gov. Seymour reviewed these troops in front of the City Hall with as much tranquility of manner and simple dignity <hi rend="italic">as might have been evinced by one of the most experienced of OUR public men!"</hi>
+            </p> <p>One more instance of Miss Murray's superior powers of observation: <lb/>  "I have found out the reason why ladies, travelling alone in the United States, must be extravagantly dressed; without that precaution they meet with no attention, and little civility, decidedly much less than in any other country, so here it is not as <hi rend="italic">women</hi>but as ladies they are cared for, and this in democratic America!"</p> <p>In the first place, everybody but Miss Murray knows that an American LADY never "travels expensively dressed." That there are females who do this, just as they walk our streets in similar attire, and for a similar purpose, is undeniable; and that they receive from the opposite sex the "attentions" which they seek is also true; but this, it seems to us, should hardly <hi rend="italic">disturb the serenity of a "Maid of Honor!"</hi>
+            </p> <p>As an American woman, and proud of our birthright, we resent from our  British sister her imputation upon the proverbial chivalry of American gentlemen. We have travelled alone, and in threadbare garments, and we have never found these garments non-conductors of the respectful courtesy of American gentlemen; they have never prevented the coveted glass of water being proffered to our  thirsty lips at the depot; the offer of the more eligible seat on the shady side of the cars; the offer of the beguiling newspaper, or book, or magazine; the kindly excluding of annoying dust or sun by means of obstinate blinds or windows, unmanageable by feminine fingers; the offer of camphor or cologne for headache or faintness, or one, or all, of the thousand attentions to which the chivalry of American gentlemen prompts them without  regard to externals, and too often, (shame on the recipients!) without the reward of the bright smile, or kindly "thank you," to which they are so surely entitled.</p> <p>I could cite many instances in contradiction of Miss Murray's assertion that it is "not as <hi rend="italic">women</hi>but as ladies," that American gentlemen care for the gentler sex in America. I will mention only two,  out of many, which have come under my own personal observation.</p> <p>Everybody in New York must have noticed the decrepid old woman, with her basket of peanuts and apples,     who sits on the steps near the corner of Canal street (for how long a period the oldest inhabitant only knows). One     day toward nightfall, when the execrable state of crossings almost defied petticoat-dom, I saw her slowly     gather up her decrepid limbs, and undiminished wares, and, leaning upon her     stick, slowly totter homeward. She reached the point where she wished to cross; it was slippery,     wet, and crowded with a Babel of carts and carriages.</p> <p>She looked despondingly up and down with her faded eyes, and I was about to proffer her my assistance when a gentlemanly, handsome young man stepped to her side, and drawing her withered hand within his arm, safely guided her tottering footsteps across to the opposite sidewalk; then, with a  bow, graceful and reverential enough to have satisfied even the cravings of the Hon. and virginal Miss Murray, he left her. It was a holy and a beautiful sight, and by no means an uncommon one, <hi rend="italic">"even in America."</hi>
+            </p> <p>Again. I was riding in an omnibus, when a woman, very unattractive in person and dress, got out, leaving a very common green veil upon the seat. A gentleman present sprang after her with it in his hand, ran two blocks, placed it in her possession, and returned to his place, not having received even a bow of thanks from the woman in whose service his nicely polished boots had been so plentifully mud-bespattered.</p> <p>If "The Hon. Miss Murray" came to this country with the expectation that a coach-and-six would be on hand to convey her from every depot to the hotel she was to honor with her aristocratic presence, or that gentlemen would remain with their heads uncovered,  and their hands on the left side of their vests as she passed, in honor of the reflected  effulgence of England's Queen, (supposed to emanate from Miss Murray's ordinary person,) it is no marvel she was disappointed. We should like to be as sure, when we travel in  England, of being (as a woman) as well and as courteously treated by John Bull as was the Hon. Miss Amelia by Brother Jonathan in America.</p> <p>That there may be men, "even in America," who measure out their nods, and bows, and wreathed smile, by the wealth and position of the recipient, we do not doubt; for we have seen such, but would gently suggest to "the Hon. Miss Amelia" that in the pockets of such men she will generally find—<hi rend="italic">naturalization papers!</hi>
+            </p>
+                   <byline>FANNY FERN</byline>
+         </div>
+            
+            
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

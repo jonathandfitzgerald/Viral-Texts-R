@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xml:id="fern.18570328" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">The Autograph Fever; A Crying Evil</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <date>2014</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to Kevin McMullen, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">The Autograph Fever; A Crying Evil</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-03-28">28 March 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2014-09-25" who="#km">updated sourceDesc encoding</change>
+            <change when="2014-09-19" who="#km">facsimile element added</change>
+            <change when="2014-04-29" who="#km">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570328.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570328.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570328.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570328.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570328.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570328.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570328.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570328.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+           
+            <div>
+                <head type="column">FRESH FERN LEAVES.</head>
+                <epigraph>
+                    <p>Entered according Act of Congress in the year 1855 by Robert Bonner, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                <div>
+                    <head type="main">THE AUTOGRAPH FEVER.</head>
+                
+                    <p>How much room there would be in the world, if all the fools were put out of it. First, there is a mania for antique furniture; and straightaway all the cabinet-shop cock-lofts, and their worm-eaten treasures, are rummaged over for claw-footed tables and steeple-top chairs, invented, if we may believe our doomed back-bones, for rascally heretics. Directly our parlors are filled with these ghostly seats, on which we are expected to squirm, while we attempt to converse; inwardy imploring fate the while, that the bunch German-worsted rabbit beneath, may find his legs and let us down on a flat surface. Antique furniture having had its day, retires to make room for anitque china, and Credulity goes mad for bowls, cups, jugs, vases and pitchers, dug up to order by those who live on the weakness of others, from unheard-of, unpronouncable, and subterranean ruins; and long histories are improvised to the victimised buyers to be repeated by the latter over the innocent porcelain to a-gape visitors, on festive occasions. Then comes the reign of sea-weed; and old Neptune's locks are torn from his hoary head, to be twisted into wreaths and bouquets, or pressed between gilt-covers, to keep visitors from yawning their heads off when conversation is dull. Follows&#8212;the conchological mania; a most-unmitigated shell-out! then the Puseyistical mania, in which the unappropriated feelings of young damsels find vent at their fingers ends, in embroidering altar-cloth "fixins," and sacerdotal book-marks, for interesting young rectors. Next the wax-flower and wax-fruit mania; close on the heels of which comes the leather-work manias, for picture frames, work-boxes, etc. to be shrivelled up in furnace-heated apartments and finally thrown away.</p>
+                    
+                    <p>All this is comparatively harmless; but when this insanity breaks out in the form of the Autograph fever, <hi rend="italic">then</hi> I implore the aid of straight-jackets for those affected with this contagious disease. Mermaids very possibly are kept out of mischief by keeping up the supply of sea-weed; manufacturers paid for their trouble, by those who desire these things; but when you expect an author, who lives by his inkstand, (and is often sick to death of the sight of it), whose time is bread and butter, and possible fame, to scribble dozens of his autographs per week for your amusement, mail them, and perhaps pay the postage; or give house-room to huge folios, in which you are expected to write your name, and which you are to preserve intact till it suits the whim of the owners to send for them; I call <hi rend="italic">that</hi>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;. Don't <hi rend="italic">you?</hi></p>
+                
+                    <byline>FANNY FERN</byline>
+                </div>
+                <div>
+                    <head type="main">A CRYING EVIL.</head>
+                    
+                    <p>I wonder if shopkeepers (who often, I confess, are bored to death by silly women,) are aware that there are some sensible ones, who go shopping because they wish to purchase, and not to amuse themselves; who make up their minds before they start, what they want, and how much, and are not to be coaxed or badgered into buying what they don't want; who are disgusted and annoyed beyond measure to have a store-keeper rattle off an inventory-volley of his goods in their ears, the instant they have the ill-luck to close hise door; or to have some grinning ape follow them around with his face within an inch of their noses, with, "can't I <hi rend="italic">temp</hi> you, ladies? <hi rend="italic">Allow</hi> me&#8212;<hi rend="italic">permit</hi> me&#8212;if you'll <hi rend="italic">only</hi> let me show you what I have," &amp;c., &amp;c. Equally disgusting is the impertinent practice of informing a lady, that some article she desires, <hi rend="italic">which the shop-kepper does not happen to have</hi>, is "old-fashioned," or "out of style;" or to make her walk to the end of a long store, and frequently up stairs at the end of that, (for an article which they positively assure her on her entrance that they have,) only to show her some fabric, between which and the desired article they think she will not know the difference. These are losing games for any shop-keeper to play; for any woman of sense would think it worth her while to walk an extra mile to a store where she is treated civilly and respectfully; where she is allowed to get her breath after entering, before she is deafened with interrogatories; or to cast her eye upon a piece of goods, without having a yard-stick and a pair of scissors immediately brandished under her nose.</p>
+                    
+                    <byline>FANNY FERN.</byline>
+                </div>
+            </div>
+           
+        </body>
+        
+    </text>
+</TEI>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560705">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Look Aloft</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2014</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+                     Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/).
+                     Derivatives must be credited to Fanny Fern in The New York Ledger, made
+                     available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">Look Aloft</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-07-05">5 July 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation,
+            punctuation, variant spellings, and errors present in the source text have been
+            retained. The transcription does not attempt to capture all aspects of the original
+            formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2016-09-18">added missing/obscured text from another source, and added explanatory note</change>
+         <change who="#km" when="2015-07-11">proofed and further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#km" when="2012-04-02">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18560705.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18560705.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18560705.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18560705.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18560705.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18560705.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18560705.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18560705.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+
+
+
+
+
+
+
+         <div type="column">
+            <head type="column">FRESH FERN LEAVES.</head>
+
+            <epigraph>
+               <p>Entered according to Act of Congress, in the year 1855, by R. BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+            </epigraph>
+
+            <head type="main">LOOK ALOFT.</head>
+
+
+            <epigraph>
+               <lg type="stanza">
+                  <l rend="epigraph">"Long have you timidly waded, holding a plank by the shore,</l>
+                  <l rend="epigraph">Now, I will you to be a bold swimmer."</l>
+               </lg>
+
+               <ab type="epigraphByline">WALT. WHITMAN.</ab>
+            </epigraph>
+
+            <p>You are "discouraged!" <hi rend="italic">You?</hi> with strong limbs, good health, the green earth beneath your feet, and the broad blue sky above? "Discouraged?" and why? You are poor, unknown, friendless, obscure, unrecognized and alone in this great swarming metropolis; the rich man suffocates you with the dust of his pretentious chariot wheels.</p>
+
+            <p>As you are now, so once was he. Did he waste time whining about it? No, by the rood! or he would not now be President of the Bank before which he once sold beer at a penny a glass, to thirsty cab-men and news-boys. For shame, man! get up and shake yourself, if you are not afraid such a mass of inanity will fall to pieces. Cock your hat on your head, torn rim and all; elbow your way through the crowd; if they don't move for you, <hi rend="italic">make</hi> them do it;&#8212;push past them; you have as much right in the world as your neighbor; if you wait for him to take you by the hand, the grass will grow over your grave. Rush past him, and get employment. "You have tried, and failed." So have thousands before you, who, to-day, are pecuniarily independent. I have the most unqualified disgust of a man, who folds his hands at every obstacle, instead of leaping over it; or who dare not do anything under heaven, unless it be to blaspheme God, wrong his neighbor; or dishonor woman.</p>
+
+            <p>I tell you, if you are determined, you <hi rend="italic">can</hi> get employment; but you won't get it, by cringing round the doors of rich relations; you won't get it if you can't dine on a crust, month after month, and year after year, if need be, with hope for a dessert; you won't get it, if you stand with your lazy hands in your pockets, listening to croakers; you won't do it, if you don't raise your head above every billow of discouragement which dashes over you, and halloo to fate, with a stout heart,&#8212;"Try again old fellow!" No&#8212;and it is not right you should&#8212;you are good for nothing but to go snivelling through the world, making wry faces at the good fortune of other people. Bah! I'm disgusted with you.</p>
+
+            <milestone unit="line"/>
+
+            <p><hi rend="italic">You</hi> despair? why, "You are a widow." Of how much sorrow is that little word the voice? Oh, I know, poor mourner, how dark earth looks to you. I know that sun and stars mock you with their brightness. I know that you shut out the placid moonbeams, and<!-- The preceding seven words are obscured in the microfilm image, due to a fold in the periodical page. The missing words have been supplied from the reprinting of this column in Fern's collection entitled Fresh Leaves (New York: Mason Brothers, 1857), 96. --> pray to die.&#8212;Listen! Are there no bleeding hearts but yours? Your dead sleep peacefully&#8212;their tears all shed&#8212;their sighs all heaved&#8212;their weary hands folded over quiet hearts; but oh! repiner&#8212;the <hi rend="italic">living</hi> sorrows that are masked beneath the smiling faces you envy! the corroding bitterness of a <hi rend="italic">dishonored</hi> hearth-stone; the mantle all too narrow, all too scant, to hide from prying, malignant eyes, the torturing secret!&#8212;bone of your bone, flesh of your flesh, <choice><sic>asd</sic><corr>and</corr></choice> yet&#8212;stranger to you than the savage of the desert; colder to you than the dead for whom you so repiningly grieve. Ah!&#8212;are there no bleeding hearts save yours? Is the "last vial" emptied on your shrinking head?</p>
+
+            <p>But your little children stand looking into your tear-stained face, imploring you for bread; bread that you know not where to procure; your ear aches for the kinds words which never come to you. Oh where is your faith in God? Who says to you in accents sweeter than ever fell from mortal lips,&#8212;"A bruised reed will I not break;"&#8212;"Let your widows trust in me." No kind words? is it nothing, that those musical little voices call you "mother?" Is the clasp of those soft arms&#8212;the touch of those velvet lips, nothing? Is it thus you teach them to put their little hands into that of the Almighty Father, and say, "Give us this day our daily bread?" Oh&#8212;get on your knees before those sweet little teachers, who know no danger&#8212;no harm,&#8212;who fear no evil while "mother" is near, and learn of them to watch, and hope, and trust; for sure as the sun shines above your and their heads, so sure is <hi rend="italic">His</hi> promise to those who believingly claim it.</p>
+
+            <p>"Lonely" are you? Oh, above all loneliness is his, who, having thrown away his faith in God, and bereft of earthly idols, stands like some lightning reft tree, blossomless&#8212;verdureless&#8212;scathed and blasted!</p>
+
+
+            <byline>FANNY FERN.</byline>
+         </div>
+
+
+
+
+
+
+
+
+      </body>
+   </text>
+</TEI>

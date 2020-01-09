@@ -159,10 +159,10 @@ top_predictors = lapply(1:length(top_genres),function(n,return_length=50) {
 
 ggplot(top_predictors %>% filter(topic!="(Intercept)")) + geom_point(aes(x=strength,y=topic,color=strength>0)) + facet_wrap(~genre,scales="fixed",ncol=2)
 ggplot(top_predictors %>% filter(topic!="(Intercept)", strength>0)) + geom_bar(stat="identity") + aes(x=topic,y=strength,fill=genre) + coord_flip() + 
-  theme(plot.title = element_text(family = "Helvetica", color="#666666", face="bold", size=22, hjust=0)) +
-  theme(axis.title = element_text(family = "Helvetica", color="#666666", face="bold", size=18)) + 
-  theme(legend.title = element_text(family = "Helvetica", color="#666666", face="bold", size=18)) +
-  theme(axis.text = element_text(family = "Helvetica", color="#333333", face="bold", size=16))
+  theme(plot.title = element_text(family = "Helvetica", color="#666666", face="bold", size=12, hjust=0)) +
+  theme(axis.title = element_text(family = "Helvetica", color="#666666", face="bold", size=12)) + 
+  theme(legend.title = element_text(family = "Helvetica", color="#666666", face="bold", size=12)) +
+  theme(axis.text = element_text(family = "Helvetica", color="#333333", face="bold", size=12))
 
 
 
@@ -177,13 +177,19 @@ out_of_domain_predictions_tidied = out_of_domain_predictions_frame %>% gather("c
 out_of_domain_predictions_best_guesses = out_of_domain_predictions_tidied %>% group_by(cluster) %>% 
   arrange(-probability) %>% slice(1) %>% # (Only take the top probability for each episode)
   mutate(actual_genre=primary_genre)
-genreClass = out_of_domain_predictions_best_guesses %>% mutate(Cluster = cluster) %>% left_join(allData) 
+genreClass = out_of_domain_predictions_best_guesses %>% left_join(allData) 
 
+genreClass$genre <- genreClass$classified_genre 
+genreClass = genreClass[,c("cluster","genre","probability","text")]
+#genreClass = genreClass %>% filter(probability>.8)
+#genreClass = genreClass %>% filter(classified_genre=="literary")
+#literaryClass <- genreClass %>% filter(genre=="literary")
 
-genreClass = genreClass %>% filter(probability>.8)
-genreClass = genreClass %>% filter(classified_genre=="Sentimental")
-genreClass = genreClass[,c("cluster","classified_genre","probability","text")]
-write.csv(genreClass, file = paste('output/sentimentalClass-12-3-16.csv',sep=""))
+#write.csv(genreClass, file = paste('output/genreClass-8-8-17.csv',sep=""))
+
+# Remove dups and regularize column names
+genreClassDeDup <- genreClass[!duplicated(genreClass[,1]),]
+genreClassDeDup$genre <- genreClassDeDup$classified_genre
 
 #visualize best guesses of unknown
 
@@ -209,24 +215,40 @@ out_of_domain_predictions_best_guesses %>%
   
 
 
-#Rank classified genres in order of probability THE RESHAPE PACKAGE FOR CAST BREAKS THE MODEL FOR SOME REASON
-genreRank = out_of_domain_predictions_tidied %>% group_by(cluster) %>% arrange(-probability) %>% mutate(genreOrder = paste("genre_",row_number(-probability),sep=""))
+#Rank classified genres in order of probability 
+genreRank = out_of_domain_predictions_tidied %>% group_by(cluster) %>% arrange(-probability) %>% mutate(genreOrder = paste("genre_",row_number(-probability),sep="")) 
 genreRank$probability=paste(round(genreRank$probability*100,digits=2)) %>% as.numeric()
-genreRank = genreRank %>% cast(cluster~classified_genre, value="probability") 
-genreRank = genreRank %>% left_join(allData) 
-genreRank = genreRank[,c("cluster","text","prose","advertisement","news","poetry")]
-write.csv(genreRank, file = paste('output/genreRank-2-22-17.csv',sep=""))
+
+#Spread genre order for crowdsource app
+genreRankDF2 <- genreRank %>% spread(genreOrder,classified_genre) %>% group_by(cluster) %>%
+  summarise_all(funs(first(na.omit(.))))
+genreRankDF2 = genreRankDF2 %>% left_join(allData) 
+genreRankDF2 = genreRankDF2[,c("cluster","text","genre_1","genre_2","genre_3","genre_4")]
+write.csv(genreRankDF2, file = paste('output/genreRank-8-28-17.csv',sep=""))
 
 #Histogram for genreRank
 
-genreRankTest = genreRank[1:50,]
+genreRankTest <- genreRank %>% group_by(cluster) %>% sample_n_groups(40)
+
+genreRankTest %>% group_by(cluster) %>% 
+  ggplot() + geom_bar(stat="identity") + aes(x=classified_genre,y=probability,fill=classified_genre) + coord_flip() + facet_wrap(~cluster,ncol=4)
+
 
 genreRankTest %>% group_by(cluster) %>% 
   ggplot() + geom_histogram(stat="identity") + aes(x=cluster,y=probability,fill=classified_genre) + coord_flip() 
 
 
-genreRankTest %>% group_by(cluster) %>% 
-  ggplot() + geom_bar(stat="identity") + aes(x=classified_genre,y=probability,fill=classified_genre) + coord_flip() + facet_wrap(~cluster,ncol=4)
+#Dataframe for genreRank THE RESHAPE PACKAGE FOR CAST BREAKS THE MODEL FOR SOME REASON
+genreRankDF = genreRank %>% cast(cluster~classified_genre, value="probability") 
+genreRankDF = genreRankDF %>% left_join(allData) 
+
+# changing the names from poetry and prose to literary and informatinal from original test data
+#names(genreRankDF) <- c("cluster", "ads", "news", "literary", "informational", "text", "original_genre")
+
+genreRankDF = genreRankDF[,c("cluster","text","literary","ads","news","informational")]
+write.csv(genreRankDF, file = paste('output/genreRank-6-15-18.csv',sep=""))
+
+genreRankDF %>% ggplot() + geom_bar() + aes(x=cluster) + coord_flip() + facet_wrap(~cluster,ncol=4)
 
 
 #merge justPoems, justProse, NewsPoemsProse, and take the highest probability/genre for each cluster

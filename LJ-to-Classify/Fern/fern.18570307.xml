@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xml:id="fern.18570307" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">A Much-Needed Kind of Minister's Wife; To a Correspondent</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <date>2014</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to Kevin McMullen, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">A Much-Needed Kind of Minister's Wife; To a Correspondent</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-03-07">7 March 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2016-09-20" who="#km">added milestone between columns, and added second column title to metadata titles</change>
+            <change when="2014-09-25" who="#km">updated sourceDesc encoding</change>
+            <change when="2014-09-19" who="#km">facsimile element added</change>
+            <change when="2014-04-10" who="#km">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570307.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570307.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570307.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570307.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570307.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570307.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570307.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570307.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+           
+            <div>
+                <head type="column">FRESH FERN LEAVES.</head>
+                <epigraph>
+                    <p>Entered according Act of Congress in the year 1855 by Robert Bonner, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                <head type="main">A MUCH-NEEDED KIND OF MINISTER'S WIFE;</head>
+                <head type="sub">OR, A HAIR-BREADTH ESCAPE FOR SOME PARISH.</head>
+                
+                <p>I once had a narrow escape from being a minister's wife. No wonder you laugh. Imagine a vestry-meeting called to decide upon the width of my bonnet-strings, or the proper altitude of the bow on that bonnet's side. Imagine my being called to an account for asking Mrs. A. to tea, without incuding the rest of the alphabet. Imagine my parishioners expecting me to attend a meeting of the Dorcas Society in the morning, the Tract Society in the afternoon, and the Foreign Mission Society in the evening, five days in the week&#8212;and make parish calls on the sixth&#8212;besides keeping the buttons on my husband's shirts, and taking care of my "nine children, and one at the breast." Imagaine a self-constituted committee of female Paul Pry's running their arms up to the elbows in my pickle-jar&#8212;rummaging my cupboards&#8212;cross-questioning my maid-of-all-work, and catechising my grocer for the price I paid for tea. Imagine my ministerial progeny prohibited chess and chequers by the united voice of the parish. Christopher!</p>
+                
+                <p>Still, the world lost a great deal by my non-acceptance of that "call." What would I have done? I would not, on Saturday afternoon, (that holiday which should never, on any pretext, be wrested from our over-schooled, over-taught, children,) when put the finishing touch to the crook in their poor little spines, by drumming them all into a Juvenile Sewing Society, to stitch pinafores for the Kangaroo heathen. What would I have done? I would have ate, drunk, slept and laughed, like any other decent man's wife. I would have educated my children as do other men's wives, to suit myself, which would have been to turn them out to grass till they were seven years old, before which time no child, in my opinion, should ever see the inside of a school-room; and after that, given them study in hom&#230;pathic, and exercise in allopathis quantities. I would have taken the liberty, as do other men's wives, when family duties demanded it, to send word to morning callers that I "was engaged." I should have taken a walk on Sunday, if my health required it, without asking leave of the deacons of my parish. I would have gone into my husband's study, every Saturday night, and crossed out every line in his forethcoming sermon, after "<hi rend="italic">sixthly</hi>." I would have encouraged a glorious beard on my husband's sacerdotal chin, not under the cowardly plea of a preventive to a possible bronchitis, but because a minister's wife has as much right to a good-looking husband, as a lay-woman. I would have invited all the children in my parish to drink tea with me once a week, to play hunt the slipper, and make molasses candy; and I would have made them each a rag-baby to look at, while their well-meaning, but infatuated Sunday-school teachers were bothering their brains with the doctrine of election. That's what <hi rend="italic">I</hi> would have done.</p>
+                
+                <byline>FANNY FERN.</byline>
+            </div>
+            
+            <milestone unit="line"/>
+            
+            <div>
+                <head type="main">TO A CORRESPONDENT:</head>
+                
+                <p>I have nothing new to offer on the subject of "Stepmothers;" whose claims to compassion, you are mistaken in supposing, have escaped my notice or pen, (as a reference to "Fern Leaves" will convince you.) It is next to impossible for them, with the best intentions, to give satisfaction to prying relatives, who have divorced nearly as many couples, spiritually, if not legally, as ever priests have blessed. A Broadway omnibus horse is not more deserving of pity, than a stepmother. Let her who would accept this, or any other office, make up her mind to do her duty to the best of her knowledge and capability, and let outsiders "take their time to croak."</p>
+                
+                <byline>FANNY FERN.</byline>
+            </div>
+           
+        </body>
+        
+    </text>
+</TEI>

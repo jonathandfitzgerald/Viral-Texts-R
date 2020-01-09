@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xml:id="fern.18570314" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">A Word to Parents and Teachers; Breakfast</title>
+                <title type="sub">a machine-readable transcription</title>              
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <date>2014</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). Derivatives must be credited to Kevin McMullen, made available non-commercially, and distributed under the same terms.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct xml:id="column">
+                    <analytic>
+                        <author ref="#ff">Fanny Fern</author>
+                        <title level="a">A Word to Parents and Teachers; Breakfast</title>
+                    </analytic>
+                    <monogr>
+                        <title xml:id="paper" level="j">The New-York Ledger</title>
+                        <editor ref="#rb">Robert Bonner</editor>
+                        <imprint>
+                            <date xml:id="issue_date" when="1857-03-14">14 March 1857</date>                    
+                        </imprint>
+                        <biblScope type="pp">[4]</biblScope>                    
+                    </monogr>
+                    <series>
+                        <title level="s">Fresh Fern Leaves</title>
+                    </series>
+                </biblStruct>
+                
+                <biblStruct xml:id="issue">               
+                    <monogr>
+                        <title level="j" sameAs="#paper"/>
+                        <imprint>
+                            <date sameAs="#issue_date"/>                  
+                        </imprint>              
+                    </monogr>                   
+                </biblStruct>                        
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+        </encodingDesc>
+        
+        
+        <revisionDesc>
+            <change when="2014-09-25" who="#km">updated sourceDesc encoding</change>
+            <change when="2014-09-19" who="#km">facsimile element added</change>
+            <change when="2014-04-10" who="#km">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18570314.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18570314.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18570314.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18570314.04.jpg"/> 
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18570314.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18570314.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18570314.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18570314.08.jpg"/>
+        </surface>
+    </facsimile>
+    
+    
+    <text>
+        <body>
+           
+            <div>
+                <head type="column">FRESH FERN LEAVES.</head>
+                <epigraph>
+                    <p>Entered according Act of Congress in the year 1855 by Robert Bonner, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                <head type="main">A WORD TO PARENTS AND TEACHERS.</head>
+                
+                <p>I have before me a simple but imploring letter from a little child, begging me "to write her a composition." I could number scores of such, which I have received. I allude to it for the sake of calling the attention of parents and teachers to this cruel bugbear of childhood, with which I can fully sympathize, although it never had terrors for me. The Multiplication Table was the rock on which I was scholastically wrecked; my total inability to ascertain "if John had ten apples, and Thomas took away three, how many John would have left," having often caused me to wish that all the Johns in creating were&#8212;&#8212;well, never mind that, now. I have learned to like Johns since!</p>
+                
+                <p>But to return to the subject. Just so long as themes like "The Nature of Evil," or "Hydrostatios," or "Moral Science," and kindred subjects, are given out to poor bewildered children, to bite their nails and grit their teeth over, while the ink dries on the nib of their upheld pens, just so long will "composition day" dawn on them full of terrors. Such themes are bad enough, but when you add the order to write three pages at a mark, you simply invite them to diffuse and unmeaning repetitions, as subversive of good habits of composition, as the command is tyrannical, stupid, and ridiculous. You also tempt to duplicity, for a child cowered in this way has strong temptations to pass off for its own what is the product of the brains of another; and this of itself, as a matter of principle, should receive serious consideration at the hands of these child-tormentors. A child should never be allowed, much less <hi rend="italic">compelled</hi>, to write words without ideas. Never be guilty of such a piece of stupidity as to return a child's composition to him with the remark, "It is very good, but it is <hi rend="italic">too short</hi>." If he has said all he has to say, what more would you have?&#8212;what more can you get, but repetition? Tell him to <hi rend="italic">stop when he gets through, if it is at the end of the first line</hi>&#8212;a lesson which mnay an adult has yet to learn.</p>
+                
+                <p>In the first place, give a child no theme above his comprehension and capacity; or, better still, allow him to make his own selection, and always consider one line, intelligibly and concisely expressed, better than pages of wordy bombast. In this way only can he be taught to write well, sincerely, and fluently. Nature teaches you this: The little bird at first takes but short flights to the nearest twig or tree. Bye and bye, as his strength and confidence grow, they are voluntarily and pleasurably lengthened, till at least you can scarce follow him, as he pierces the clouds. This forcing Nature&#8212;pushing the little fledgling rudely out of the nest, can result only in total incapacity, or, at best, but crippled flights. In the name of the children, I enter my earnest protest against it, and beg teachers and parents to think of and remedy this evil.</p>
+                
+                <byline>FANNY FERN.</byline>
+            </div>
+            
+            <milestone unit="line"/>
+            
+            <div>
+                <head type="main">BREAKFAST.</head>
+                
+                <p>Let the world fly off its axle any hour in the twenty-four, save the breakfast hour. Ruffle me not then, and I promise to out-Socrates Socrates, though it should rain tribulations all the rest of the day. If I am to have one glimpse of sunshine until nightfall, let it be then. A plague on him or her who sits down to coffee (all hail coffee!) with a doleful phiz. The witches fly away with that female who presents herself in curl-papers, or introduces herself with a yawn. Unassoiled be that grocer, who offends my proboscis with a doubtful egg; garroted be that dairy-man who waters my milk; kneaded be that fat podge of a baker who is tardy with his hot rolls.</p>
+                
+                <p>Tell me no disagreeables&#8212;be not argumentative over our Mocha; discourse not of horrid murders, not yet dabble in the Black Sea of politics. Tell me not the price of any article I am eating, neither inquire of my prematurely, what I will have for my dinner. Let thy "Good morning." have <hi rend="italic">heart</hi> in it, and touch thy lips to my eye-lids as thou passest to thy seat. If thou hast a clover-blossom, or a babe, set it before me; and dream not, because my heart's incense rises silently as its perfumed breath, that I praise not God for the sweet morning.</p>
+                
+                <byline>FANNY FERN.</byline>
+            </div>
+         
+        </body>
+        
+    </text>
+</TEI>

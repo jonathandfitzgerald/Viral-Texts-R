@@ -23,7 +23,10 @@ library(tokenizers)
 library(plotly)
 library(magrittr)
 library(tidyverse)
-library(wordVectors)
+#library(wordVectors)
+library(XML)
+library(httr)
+
 #library(ggbiplot)
 
 
@@ -120,5 +123,15 @@ dunning.log = function(set1,set2) {
 
 #plotly
 Sys.setenv("plotly_username"="jonathandfitzgerald")
-Sys.setenv("plotly_api_key"="qksRUSqO7kZ8Xeccbayq")
+Sys.setenv("plotly_api_key"="raHY9goKSqSDDhYk5GJN")
 
+#Sample whole groups (https://github.com/tidyverse/dplyr/issues/361)
+sample_n_groups = function(tbl, size, replace = FALSE, weight = NULL) {
+  # regroup when done
+  grps = tbl %>% groups %>% lapply(as.character) %>% unlist
+  # check length of groups non-zero
+  keep = tbl %>% summarise() %>% ungroup() %>% sample_n(size, replace, weight)
+  # keep only selected groups, regroup because joins change count.
+  # regrouping may be unnecessary but joins do something funky to grouping variable
+  tbl %>% right_join(keep, by=grps) %>% group_by_(.dots = grps)
+}

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18561011">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Knickerbocker and Tri-Mountain</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="cm">Carmen McCue</editor>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2015</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">Knickerbocker and Tri-Mountain</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-10-11">11 October 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-09-22">proofed, and further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#cm" when="2012-04-03">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18561011.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18561011.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18561011.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18561011.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18561011.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18561011.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18561011.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18561011.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+            
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1856, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+
+                <head type="main">KNICKERBOCKER AND TRI-MOUNTAIN.</head>
+
+               <p>The New York woman doateth on rainbow hats and dresses, confectionary, the theatre, the opera, and flirtation. She stareth gentlemen in the street out of countenance, in a way that puzzleth a stranger to decide the question of her respectability. The New York woman thinketh it well-bred to criticise, <hi rend="italic">in an audible tone</hi>, the dress and appearance of every chance lady near her, in the street, shop, ferry-boat, car, or omnibus. If doubtful of the material of which her dress is composed, she draweth near, examineth it microscopically, and pronounceth it&#8212;"after all&#8212;silk." The New York woman ne-
+
+               <figure>
+                  <graphic url="http://fannyfern.org/images/illustrations/fern18561011.04_ill1.jpg"/>
+                  <figDesc>A young woman in a voluminous striped dress, facing right.</figDesc>
+               </figure>
+
+                ver appeareth without a dress-hat and flounces; though the time be nine o'clock in the morning, and her destination the grocer's, to order some superfine tea. She delighteth in embroidered petticoats, which she liberally displayeth to curious bipeds of the opposite sex. She turneth up her nose at a delaine, wipeth up the pavement with a thousand-dollar silk, and believeth point-lace collars and handkerchiefs essential to salvation. She scorneth to ride in an omnibus, and if driven by an impertinent shower therein, sniffeth up her aristocratic nose at the plebeian occupants, pulleth out her costly gold watch to&#8212;ascertain the time! and draweth off her gloves to show her diamonds. Arrived at Snob-Avenue, she shaketh off the dust of her silken flounces against her fellow-travelers, trippeth up her aristocratic steps, and holding up her dress sufficiently high to display to the retreating passengers her silken hose, and dainty boot, resigneth her parasollette to black John, and maketh her triumphant exit.</p>
+
+                <p>At the opera, the New York woman taketh the most conspicuous box, spreadeth out her flounces to their fullest circumference, and betrayeth a constant and vulgar consciousness that she is in her go-to-meetin-fixins, by arranging her bracelets and shawl, settling her rings, and fiddling at her coiffure, and the lace kerchief on her neck. She also talketh incessantly during the opera, to show that she is not a novice to be amused by it; and leaveth with much bustle, just before the last act, for the same reason, and also to display her toilette.</p>
+
+                <p>On Sunday morning, the New York woman taketh all the jewelry she can collect, and in her flashiest silk and bonnet, taketh her velvetbound, gilt-clasped prayer-book out for an airing. Arrived at Dives church, she straightway kneeleth and boweth her head; not, as the uninitiated may suppose, to pray, but privately to re-arrange her curls; this done, and raising her head, she sayeth "we beseech thee to hear us, good Lord!" while she taketh a minute inventory of the Hon. Mrs. Peters's Parisian toilette. After church, she taketh a turn or two in Fifth Avenue, to display her elaborate dress, and to wonder "why vulgar people don't confine themselves to the Bowery."</p>
+
+               <figure>
+                  <graphic url="http://fannyfern.org/images/illustrations/fern18561011.04_ill2.jpg"/>
+                  <figDesc>An older woman wearing a veil and a dark dress, facing left.</figDesc>
+               </figure>
+
+               <p>The <hi rend="italic">Boston</hi> woman draweth down her mouth, rolleth up her eyes, foldeth her hands, and walketh on a crack. She rejoiceth in anatomical, mineralogical, astronomical and chemical lectures. She prateth of Macaulay and Carlyle; belongeth to many and divers reading classes, and smileth in a chaste, moonlight kind of way on literary men. She dresseth (to her praise be it spoken) plainly in the street, and considereth india-rubbers, a straw bonnet, and a thick shawl, the fittest costume for damp and cloudy weather. She dresseth her children more for comfort than show, and bringeth them up also to walk on a crack. She maketh the tour of the Common, twice or three times a day, without regard to the barometer. She goeth to church twice or three times on Sunday, sandwiched with Bible-classes and Sabbath-schools. She thinketh London, Vienna, or Paris&#8212;fools to Boston; and the "Boulevards" and "Tuileries," not to be mentioned with the Frog Pond and the Common. She is well posted up as to politics&#8212;thinketh "as Pa does," and sticketh to it through thunder and lightning. When asked to take a gentleman's arm, she hooketh the tip of her little finger, circumspectly on to his male coat sleeve. She is as prim as a bolster, as stiff as a ram-rod, as frigid as an icicle, and not even matrimony with a New Yorker could thaw her.</p>
+
+                <byline>FANNY FERN.</byline>
+            </div>
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

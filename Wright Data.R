@@ -56,7 +56,7 @@ allFiction = allFiction[,c("cluster","text","genre")]
 
 
 #read in news
-allNews = read.csv("output/justNews-5-23-16.csv", header=TRUE, fill = TRUE, sep = ",", row.names = NULL, stringsAsFactors = FALSE)
+allNews = read.csv("output/genres/news.csv", header=TRUE, fill = TRUE, sep = ",", row.names = NULL, stringsAsFactors = FALSE)
 names(allNews)[names(allNews)=="classified_genre"] <- "genre"
 names(allNews)[names(allNews)=="Text"] <- "text"
 allNews = allNews[,c("cluster","text","genre")]
@@ -75,6 +75,10 @@ allVignettes$text = gsub("\r?\n|\r", "\\s", allVignettes$text)
 #combine above
 allData = rbind(allWRIGHT2,allNews,allVignettes)
 
+# What about vignettes classified against the general population of genres
+
+allData <- rbind(allVignettes, newGenres_slim)
+allData <- allData %>% mutate(cluster = as.character(cluster))
 
 
 

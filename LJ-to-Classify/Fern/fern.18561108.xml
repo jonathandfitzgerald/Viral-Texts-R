@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18561108">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Airy Costumes</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="cm">Carmen McCue</editor>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2015</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">Airy Costumes</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-11-08">8 November 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-09-25">proofed; further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#cm" when="2012-04-04">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18561108.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18561108.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18561108.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18561108.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18561108.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18561108.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18561108.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18561108.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+            
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1856, by Robert Bonner, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+
+                <head type="main">AIRY COSTUMES.</head>
+
+               <p>Are the New York children to be frozen this winter, I want to know? Are their legs to be bared from the knee to the tip of their little white socks, just above the ankle, to please some foolish mother, who would rather her child were a martyr to neuralgia and rheumatism, its natural life, than to be out of fashion? Are sneezing babes to face the winter wind in embroidered muslin caps, lined with silk, the costly lace borders of which are supposed to atone for the premature loss of their eye-sight? Are little girls to shiver in cambric pantalettes, and skirts lifted high in the air by infantile hoops? Are their mothers to tiptoe through the all-abounding "slosh" of New York streets, in paper-soled gaiters, and rose-colored silk stockings? And yet one scarcely cares about the latter, because the sooner such "mothers of families" tiptoe themselves into their graves, the better for coming generations; but for the children, one can but sigh, and shiver too; and enquire, as did an old-fashioned physician of a little undressed victim, "If cloth was so dear that her mother could not afford to cover her knees?" It is a comfort to look at the men, who, whatever follies they may be guilty of, (and no human arithmetic can compute them), have yet sense enough to wear thick-soled boots, and wadded wrappers in the proper season. One looks at their comfortable garments and heaves a sigh for breeze and mud-defying pantaloondom; for with the most sensible arrangements for skirts, they are an unabated and intolerable nuisance in walking; and yet those horrid Bloomers! those neutral yet "strong-minded" Miss Nancys! with their baggy stuff-trousers, flapping fly-aways, and cork-screw stringlets. I <hi rend="italic">could</hi> get up a costume! but alas! the brass necessary to wear it! I see now, with my mind's eye, the jaunty little cap, the well-fitting, graceful pants, the half-jacket, half-blouse&#8212;the snow-white collar, and pretty fancy neck-tie&#8212;the ravishing boot&#8212;the nicely fitting wrist-band, with its gold sleeve-buttons; but why awake the jealousy of the other "sect?" Why drive the tailors to commit suicide in the midst of their well-stocked warehouses? Why send little boys grinning around corners? Why make the parson forget his prayers, and the lawyer his clients? Why drive distracted the feminine owners of big feet and thick ankles? Why force women to mend the holes in the heels of their stockings? Why leave to scavengers the pleasant task of mopping up dirty streets and sidewalks? Why drive "M. Ds." to take down their signs, and take up "de shovel and de hoe?" I'll be magnanimous. I won't do it.</p>
+
+                <byline>FANNY FERN.</byline>
+            </div>
+            
+            
+        </body>
+   </text>
+</TEI>

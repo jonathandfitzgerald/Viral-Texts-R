@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560823">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">A Feminine View of Napoleon as a Husband</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2015</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">A Feminine View of Napoleon as a Husband</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-08-23">23 August 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-09-11">proofed, and further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#km" when="2012-04-08">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18560823.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18560823.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18560823.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18560823.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18560823.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18560823.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18560823.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18560823.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+           
+            
+            
+            
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1856, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+
+                <head type="main">A FEMININE VIEW OF NAPOLEON AS A HUSBAND.</head>
+                
+               <p>It is said that writers of books seldom read many. The "Confidential Letters of Napoleon and Josephine" had not been published when that remark was made. The Napoleon-mad author, Mr. Abbott, says, in his Preface:&#8212;"We are familiar with him as a warrior, the statesman, the great administrator&#8212;but here we behold him as the husband, the father, the brother, moving freely amid all the tender relations of domestic life. His <hi rend="italic">heart</hi> is here revealed," &amp;c. I suggest to Mr. Abbott, (for whom, apart from this extraordinary hallucination, I have a great respect,) the following amendment of the above sentence, viz: his <hi rend="italcis">want of heart</hi> is here revealed; but let that pass.</p>
+                
+               <p>I have devoured the book at a sitting, and it has given me, as do stimulants generally, mental or otherwise, a villainous headache. With the sad fate of the peerless Josephine fresh in my mind, I read with an impatient&#8212;pshaw! the burning billet-doux, addressed to her by the man who could cooly thrust her aside for his mad ambition. Hear what he once said:&#8212;</p>
+                
+                <p>"Death alone can break the union, which love, sentiment and sympathy have formed. A thousand and a thousand kisses."</p>
+                
+                <p>Also,</p>
+                
+                <p>"I hope very soon to be in your arms; I love you most passionately, (<hi rend="italic">a la fureur</hi>.)"</p>
+               
+               <p>Also;</p>
+                
+                <p>"I hope in a little time to fold you in my arms, and cover you with kisses burning as the equator."</p>
+                
+                <p>Also, this consistent lover begs from her whom he afterwards deserted,</p>
+                
+                <p>"Love without bounds, and <hi rend="italic">fidelity without limit</hi>."</p>
+                
+                <p>How very like a man!</p>
+                
+                <p>Well, I turned over the pages, and read with moistened eyes, for the hundredth time, the wretched state farce enacted at the divorce; and with fresh admiration perused the magnanimous and memorable reply of the queenly Josephine, to the brilliant but cold, intellectual but selfish, imperious yet fascinating Napoleon. Ah, then I would have led away his victim, spite of herself, out of sight, sound and fearing of this cold, cruel man, who, when it suited his whim, caprice or convenience; who, when weary of the tame, spiritless Maria Louise, returned secretly to the intoxicating presence of the bewitching Josephine; whom, though repudiating, he yet controlled, down to the lowest menial in her household, down to the color of their jackets and hose; quite safe, in always appending, with gracious condescension, permission "to please herself," to one whose greatest pleasure, he well knew, was to kiss his imperial shoe-tie.</p>
+                
+                <p>My love and pity for her, merge (momentarily) into contempt, when she abjectly begs for the crumbs of his favor, that fall from happier favorites; for (to quote the touching words of her who would have shared his exile had not death prevented, when the woman for whom she had been cast aside, by a retributive justice, deserted him in his extremity) "he could forget me <hi rend="italic">when he was happy!</hi>" Aye, it was when pleasure palled, when friends proved false, when the star of his destiny paled, when he <hi rend="italic">needed</hi> the noble Josephine, that he sought her.</p>
+                
+               <p>And <hi rend="italcis">she?</hi> When pealing bells and roaring cannon announced to France that her rival had presented her husband the long-desired heir; <hi rend="italic">she</hi>, upon whose quivering heart every stroke of those joyous bells must have smitten like a death-knell; <hi rend="italcs">she</hi>, the deserted wife, hung festal wreaths over the grave of her hopes, gave jewels to the messenger who brought her the news of <hi rend="italic">his</hi> happiness, and ordered a <hi rend="italic">fete</hi> in honor of the young heir. Match me that, who can, in the wide annals of <hi rend="italic">man's</hi> history? But, oh! when midnight came on, and garlands drooped, and bright eyes closed, and tripping feet were stilled, when the farce was played out, and the iron hand of Court etiquette was lifted from off that loving, throbbing, bursting heart, it thus poured itself out to Napoleon:&#8212;</p>
+                
+                <p>"She (Maria Louise,) cannot be more tenderly devoted to you than I; but she has been enabled to contribute more to your happiness, by securing that of France. She has then a right to your first feelings, to all your cares; and I, who was but your companion in times of difficulty, I cannot ask more than a place in your affections far removed from that occupied by the Empress Louise. <hi rend="italic">Not till you shall have ceased to watch by her bed, not till you are weary of embracing your son, will you take the pen to converse with your best friend. I will wait.</hi>"
+            </p>
+                
+                <p>The answer to the touching letter, from which this is an extract, (and every <hi rend="italic">woman</hi> with a heart, who read it, can measure the height and depth of its anguish,) was the following <hi rend="italic">verbal</hi>, the following <hi rend="italic">delicate</hi> message, through Eugene!</p>
+                
+                <p>"Tell your mother I would have written to her already, <hi rend="italic">had I not been completely absorbed in the pleasure of looking upon my son</hi>."</p>
+                
+                <p>About eleven o'clock that evening, she received the much conveted line from his own hand; in which he seemed to have been able at last to remember somebody beside himself; and for which the all-enduring, all-forgiving Josephine adores as a God, "the man who, <hi rend="italic">when he willed</hi>, could be the most delightful of men." Nobody will deny the matchless tact of the lines which dried poor Josephine's tears.</p>
+                
+                <p>"This infant, <hi rend="italic">in concert with our Eugene</hi>, will constitute my happiness, and that of France."</p>
+                
+               <p>But the man "who could be so delightful when he willed," did not, any more than the rest of his sex, always will it. Motes and butterflies seek the sunbeams, and the friends of poor Josephine's happier days, forsook her for those whom fortune smiled upon. Malice, always on tiptoe to whisper into the tortured ear, told her of the "happiness" of the inconstant Napoleon; and with the birds, flower and fountains of Malmaison mocking her tears, her crushed heart thus sobs itself out to the Emperor:&#8212;</p>
+                
+               <p>"I limit myself in asking one favor; it is, that you, yourself, will seek means, <hi rend="italic">sometimes to convince me, and those who surround me</hi>"&#8212;(mark how strong and deathless must be the love that could thus abjectly sue,)&#8212;"that I have still a place in your memory, and a large share of your esteem and friendship. These means, whatever they may be, will soothe my anguish, without the danger, as it seems to me, of compromising that <hi rend="italic">which is more important than all altogether, the happiness of your Majesty</hi>."</p>
+                
+                <p>Well, what was the answer of "his Majesty," to the tortured Josephine, in whose heart, his Majesty boasted that "he held the first place, and her children by a former husband next, and that she did right thus to love him!" What was his Majesty's answer to her, whom he wished to "cover with kisses burning as the equator," "whom he would wish to imprison in his heart, lest she should escape;" "the beautiful, the good one, all unequalled, all divine," to whom he had "sent thousands of kisses, burning as his heart, pure as her own," whom "he loved <hi rend="italic">a la fureur?</hi>" What was his Majesty's answer to the weary, weeping, faithful watcher at Malmaison?</p>
+                
+                <p>"I have received your letter of the 19th of April; it <hi rend="italic">is in a very bad style</hi>."</p>
+                
+                <p>Could anything be more coolly diabolical? Oh, foolish Josephine! with all your tact and wisdom, not to have found out that man, (with rare exceptions,) is un-magnanimous; that to pet and fondle him is to forge your own chains; that the love which is sure is to him worthless; that variety is as necessary to his existence, as a looking glass and a cigar; and that his vows are made, like women's hearts, to break.</p>
+                
+                <p>And yet, how surely, even in this world, Retribution follows. The dreary rock of St. Helena; the dilapidated, vermin-infested lodgings; the petty, grinding, un-let-up-able tyranny of the lynx-eyes foe; the unalloyed, unassuaged anguish of hydra-headed disease; the merciless separation from the child, who had dug poor Josephine's premature grave; the heaped up, viper, newspaper obloquy which had always free pass to Longwood, when bristling bayonets kept at bay the voices which the ear of its captives ached to hear; the dreary, comfortless death-bed; the last faltering request denied; as if malice still hungered for vengeance when the weary heart it would torture had lost all power to feel. Josephine! Josephine! thou wert indeed avenged!</p>
+               
+                <byline>FANNY FERN.</byline>
+                
+                </div>
+            
+            
+           
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

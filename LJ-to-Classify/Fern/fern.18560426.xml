@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560426">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Launch of the Adriatic.</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="jf">Jacob K. Friefeld</editor>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2014</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">Launch Of The Adriatic.</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-04-26">26 April 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-02-18">further updated encoding; proofed text</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#jf" when="2012-05-02">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18560426.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18560426.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18560426.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18560426.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18560426.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18560426.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18560426.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18560426.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+            
+            
+            
+            
+            <div type="column">
+            <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by R. BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                <head type="main">LAUNCH OF THE ADRIATIC.</head>
+                
+                <p>MR PAX. (Looking up from the morning paper.) "Mary, won't you go with me to see the launch this morning?"</p>
+               
+                <p>MRS. PAX. (Ensconcing herself comfortably in an easy chair.) "Me? I don't know a row-boat from a steamship; beside, my breakfast has not had time to digest, the children must be packed off with their grammars and luncheons to school, and&#8212;there you see," said Mrs. Pax, with a long drawn breath of relief, "that it is quite impossible, for here comes a proof to be read for the WEEKLY MONOPOLIZER."</p>
+               
+                <p>MR. PAX. "Pshaw! you know very well that you can run that over in ten minutes; the launch comes off at ten; it is not far to the dock; I will get your bonnet."</p>
+               
+                <p>Men always think a woman has nothing to do in case of a promenade but to "put on her bonnet." (I am pleased to say Mr. Pax does not pronounce bonnet "bunnet," like the rest of his sex); gloves, handkerchiefs, parasols, (blessed invention!) shawls and mantillas being supposed by some magic to leap forth and dispose themselves; as in the case of novel heroines, who draggle through uncounted miles of bog, ditch and briar, and come out resplendent in drawing-room attire, without the aid of water, napkins, or a relay of robes.</p>
+               
+                <p>Mrs. Pax corrects her proofs; answering questions meanwhile to the little Paxes about stray geographies and gloves, missing arithmetics and aprons, with occasional parentheses to the chambermaid, who has a way of mistaking MSS. for "waste paper," and who after all may be nearer right than her mistress; Mr. Pax gallantly lacing Mrs. Pax's boots, and using an uncanonical word when he has the misfortune to tie a knot in the lacing. This done, the "bonnet" is put on, and through much tribulation Mr. and Mrs. Pax are launched for "the Launch."</p>
+               
+               <p>On they go&#8212;across Tompkins Square, which, like a youngster's beard, is very extensively laid out, but very thinly settled!&#8212;through endless stretches of unmitigatedly nasty streets; over hillocks, originally snow, now crusted over and plastered down with decayed cabbages, onions, potatoes, coffee and tea grounds, in which children and pigs are promiscuously rooting; past reeking groceries and their blear-eyed keepers; past crowded tenement houses; through omnibusses&#8212;carts&#8212;milk wagons&#8212;avenue cars and Irish women to the dock, where hundreds are already congregated; some on foot, some in carriages, some on horseback; perched on housetops, perched on fences; strung like beads on ship riggings, and floating in egg-shell boats in the river. Little boys whimpering "cause their toes are trea<hi rend="italic">ded</hi> on;" ladies pouting at their broken hoops; Irish women, with most incredible appliances for sustenance, cooly nursing their "babbies;" "Dr. Spolaski&#8212;M.D.A.B.C.G.Q.R.S.T.Y.Z., &amp;c., of World Wide or European fame," striking an attitude and his horse for doing just what he slyly touched up his hind leg to <hi rend="italic">make</hi> him do! Artists, editors, lawyers, reporters, clergymen, dandies, clerks, coquettes and sailors, all waiting for&#8212;the Launch.</p>
+               
+                <p>MR. PAX. "Well, Mary, I see no way for us to get a good view but to go aboard that steamer yonder, and get up on the paddle-wheel."</p>
+               
+                <p>MRS. PAX. (Quite <hi rend="italic">consterned</hi>.) "Paddle-wheel? what's that?"</p>
+               
+                <p>MR. PAX. "Never mind definitions now; the only vacant place there, will be occupied in a second, if you don't hurry. Come!"</p>
+               
+                <p>Mrs. Pax very gingerly treads the slight plank from the wharf to the steamer, clutching at Mr. Pax's digits in a most nervous and unbelieving manner, till she gains the deck; and then stops short at the sight of a new feat she is expected to perform, exclaiming reproachfully, "Oh, Pax! I am so bad at ladders!"</p>
+               
+                <p>"Better at <hi rend="italic">lads,</hi> I grant you," said the impetuous and merciless Mr. Pax; "now give us your hand, Mary; pshaw, never mind, with such a pair of gaiter boots."</p>
+               
+               <p>Under the influence of this dexterous and well-timed compliment up&#8212;up went Mrs. Pax, clutching and climbing&#8212;and so the "paddle-wheel" was gained at last; and a good-natured Irishman makes room for "the leddy," while a biped more pretentious, and less civil, wonders, as he moves the sixteenth part of an inch, "what the&#8212;&#8212;! women folks want to see a Launch for?"</p>
+               
+                <p>Mr. Pax mutters "brute!" and then waves his hand triumphantly at the scene before him. Sure enough, what an inspiriting sight! what a delicious health-giving air! how blue the sky! how bright the sparkling waters! how eager the countless thousands who gaze spell-bound at that noble, graceful, majestic ship!</p>
+               
+                <p>MRS. PAX. (Unable to express her emotions.) "Oh, Pax!"</p>
+               
+                <p>MR. PAX. (Exultingly.) "Ah, I knew just how you would feel, if I could only get you here."</p>
+               
+               <p>MRS. PAX. (With a burst of patriotism.) "How beautifully the stars and stripes wave at the&#8212;&#8212;"</p>
+               
+                <p>MR. PAX. (Coming to the rescue.) <hi rend="italic">"Stern</hi>, my dear."</p>
+               
+                <p>MRS. PAX. (Incredulously and disdainfully.) "Stern? I guess so; you won't make me believe, that a vessel goes to sea hind side before."</p>
+               
+                <p>(Sailor at Mrs. Pax's elbow relieves himself by a suppressed giggle, in which Mr. Pax ungallantly joins.)</p>
+               
+               <p>MRS. PAX. "What's all that wood work on her&#8212;&#8212;?"</p>
+               
+               <p>MR. PAX. "<hi rend="italic">"Keel</hi>, you delicious ignoramus! Why, that wood work as you call it is the props; don't you see that the workmen are now engaged in knocking them away? When they are all gone, then&#8212;huzza for the launch! How magnificent she is; the largest ship but one ever built."</p>
+               
+                <p>MRS. PAX. (Jealously pouting.) "Where was the other built I would like to know?"</p>
+               
+                <p>MR. PAX. "In England."</p>
+               
+                <p>MRS. PAX. "I am so sorry. I so like to beat those British."</p>
+               
+                <p>MR. PAX. (With his thumbs in the arm-holes of his vest.) "As an Englishman and a husband, Mrs. Pax, I cannot endorse that little sentiment."</p>
+               
+               <p>MRS. PAX. (Adroitly turning the subject.) 'But who is the captain of the Adriatic? who built her? where is she going? and why ain't her&#8212;her keel&#8212;as you call it&#8212;fixed? and where's her masts and things?"</p>
+               
+                <p>The sailor and Mr. Pax exchange giggles, again, and Mr. Pax makes an abortive attempt to enlighten Mrs. Pax on these points; Mrs. Pax before he half gets through, wandering, woman fashion, to another branch of the subject:</p>
+                
+               <p>"I say, think of the science it must take to build that ship! Little by little too, as the coral insect builds her cell. Do you remember Longfellow's inimitable lines on "The building of the ship?" I never forget the night I heard them read by Fanny Kemble, before a crowded house; simply, earnestly, without one false intonation; every syllable distinctly enunciated;&#8212;not chopped&#8212;not minced&#8212;no rolling of eye-balls&#8212;no stage attitudinizing; while Longfellow (his fine classical face all-a-glow) must, as he listened, have thanked God that he had inspired him to write anything so beautiful!</p>
+                
+                <lg type="stanza">
+               <l>"Day by day, the vessel grew,</l>
+                <l>With timbers fashioned strong and true,</l>
+                <l>Sternson and keelson and sternson knee,</l>
+                <l>Till, framed with perfect symmetry,</l>
+                <l>A skeleton ship rose up to view!</l>
+                <l>And around the bows and along the side</l>
+                <l>The heavy hammers and mallets plied,</l>
+                <l>Till after many a week, at length,</l>
+                <l>Wonderful for form and strength</l>
+                <l>Sublime in its enormous bulk,</l>
+                <l>Loomed aloft the shadowy hulk!</l>
+                <l>And around it columns of smoke, upwreathing,</l>
+                <l>Rose from the boiling, bubbling, seething,</l>
+                <l>Caldron that glowed,</l>
+                <l>And overflowed</l>
+                <l>With the black tar, heated for the sheathing.</l>
+                <l>And amid the clamors</l>
+                <l>Of clattering hammers,</l>
+                <l>He who listened heard now and then</l>
+                <l>The song of the Master and his men.</l>
+            </lg>
+                
+               
+               <p>MR. PAX. "Fine!&#8212;and now, think of the emotions of 'the Master,' at the launch? but hark! hear that underground swell of an huzza. Now&#8212;she's going!"</p>
+                
+                
+                <lg type="stanza">
+               <l>"And see! she stirs!</l>
+                   <l>She starts,&#8212;she moves,&#8212;she seems to feel</l>
+                    <l>The thrill of life along her keel,</l>
+                    <l>And, spurning with her foot the ground,</l>
+                    <l>With one exulting, joyous bound,</l>
+                    <l>She leaps into the ocean's arms!</l>
+            </lg>
+                
+                <lg type="stanza"> 
+               <l>And lo! from the assembled crowd</l>
+                    <l>There rose a shout, prolonged and loud,</l>
+                   <l>That to the ocean seemed to say,&#8212;</l>
+                    <l>Take her, O bridge-groom old and grey,</l>
+                    <l>Take her to thy protecting arms,</l>
+                    <l>With all her youth and all her charms!"</l>
+            </lg>
+               
+                <p>MR. PAX. "Beautiful, and well recited; I am maritally bound to believe Fanny Kemble could not have done better."</p>
+                
+                <milestone unit="line"/>
+                
+                <p>As the Adriatic glided gracefully and majestically into the water, it were hard to believe her unconscious of her proud beauty. The little boats followed like satellites in her wake, and the tall-masted ships neared the shore, making reluctant way like <hi rend="italic">passee</hi> belles, for the triumphal advent of Beauty's young Queen. The ringing plaudits of the multitude bore witness to the <hi rend="italic">personal</hi> interest of each beholder in this <hi rend="italic">chef-d'auvre</hi> of American ship-craft, and alike with the balmy air, the fair blue sky, and the sparkling waters, must have been so many cheering omens for the future to the anxious heart of The Builder.</p>
+               
+                <milestone unit="line"/>
+               
+                <p>Success to George Steers and the Majestic Adriatic! May he glide as gently down the stream of Time, as did this day his noble ship; with as fair a sky, as balmy a gale, and followed by as many heart-cheering, and well-deserved plaudits!</p>
+                
+                
+                
+                <byline>FANNY FERN.</byline>
+         </div>
+            
+            
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560308">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Things I should Like To See.</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="jf">Jacob K. Friefeld</editor>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2014</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">Things I Should Like To See.</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-03-08">8 March 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-01-30">updated encoding further; proofed text</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#jf" when="2012-05-02">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18560308.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18560308.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18560308.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18560308.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18560308.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18560308.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18560308.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18560308.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+            
+            
+            
+            
+            <div>
+            <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by R. BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                <head type="main">THINGS I SHOULD LIKE TO SEE.</head>
+                
+                <p>A fashionable boot-maker, who was not "from Paris."</p>
+                <p>A sexton, who ventilated his church between forenoon and afternoon service.</p>
+                <p>A New York gentleman, who was not a self-constituted inspector of ladies' bonnet-linings.</p>
+                <p>A business man, how great soever his hurry, who would not stop to watch feminine ankles climb in-and-out of omnibusses.</p>
+                <p>"A fiend in human shape" in "the New York Tribune," who was not "a German."</p>
+                <p>An authoress, who could see a typographical error, in a critical passage, without tearing out her hair.</p>
+                <p>A male pedestrian divorced from his cane, who knew what to do with his hands.</p>
+                <p>A man who could hold an umbrella properly over a lady's bonnet; <lb/>
+                OR, <lb/>
+                Put on her cloak, or shawl, without crushing her hat, or hair;<lb/>
+                OR, <lb/>
+                Diet when he was ailing;<lb/>
+                OR,<lb/>
+                Take physic that did not "taste good;"<lb/>
+                OR,<lb/>
+                Be good natured when he was sick, or had cut his chin in shaving, or had to wait ten minutes for his dinner or breakfast;<lb/>
+                OR,<lb/>
+                Who was ever "refused" by a lady;<lb/>
+                OR,<lb/>
+                Who could preserve the table cloth immaculate, while carving.</p>
+                <p>A bachelor, whose carpet did not wear out <hi rend="italic">first,</hi> in front of the looking glass.</p>
+                <p>A male author, who could successfully counterfeit a feminine letter.</p>
+                <p>An editor, or author, who did not feel nervous at the idea of examining trunk linings, and parcel wrappers.</p>
+                <p>A handsome child, who did not grow up to be homely.</p>
+                <p>A woman, who was not <hi rend="italic">at heart</hi> inimical to her own sex.</p>
+                <p>A married man, who could give the right hand of fellowship to a wife's old lover;<lb/>
+                OR,<lb/>
+                Take a hint from the toe of her slipper, under the table, before company;<lb/>
+                OR,<lb/>
+                Was not anxious lest his favorite dish should give his wife the headache, if she ate of it;<lb/>
+                OR,<lb/>
+                Could have faith that his wife could cut his hair "to suit his countenance," better than a barber.</p>
+                <p>A milliner, who could be bribed to make a bonnet to cover the head.</p>
+                <p>A dressmaker, who did not consider a "perfect fit," to consist in an armor of whalebone, and a breathless squeeze.</p>
+                <p>A New York lady, who, in making her outdoor toilette, ever consulted the hour of day,
+                the thermometer, the skies, or the sidewalk.</p>
+                <p>A husband's relatives, who could speak well of his wife.</p>
+                <p>A Doctor, who had not more patients than he could attend to.</p>
+                <p>A school teacher, whose interest in his pupils was not graduated by the standing of the parents, or the length of their purse.</p>
+                <p>A washerwoman, who ever lost an article of clothing.</p>
+                <p>A public speaker, who did not search for the lost thread of his discourse, in the convenient tumbler of water at his elbow.</p>
+                <p>An editor, who could resist the temptation of inserting a spicy paragraph, on the score of scurrility;<lb/>
+                OR,<lb/>
+                Whose arithmetic was not defective when alluding to his subscription list.</p>
+                <p>A pussy-cat peace-advocate, who was not the maddest lunatic out of Bedlam when the shoe pinched <hi rend="italic">his own</hi> foot.</p>
+                <p>A store-keeper, who had not "just the article you wanted," at the extreme end of an eternity of a counter, where there was nothing of the sort.</p>
+                <p>A woman, who would not feign to be "<hi rend="italic">so</hi> fond of cigar smoke," rather than exile the smoker.</p>
+                <p>A policeman, who failed to see a <hi rend="italic">pretty</hi> woman who wished to cross the street.</p>
+                <p>A minister's wife, whom a Broadway omnibus horse might not pity.</p>
+                <p>An old maid, who was not so from choice.</p>
+               
+                
+                
+                
+                
+                <byline>FANNY FERN</byline>
+         </div>
+            
+            
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

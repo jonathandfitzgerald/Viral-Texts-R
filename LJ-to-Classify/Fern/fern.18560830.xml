@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560830">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Fair Play; or, Both Sides of the Story</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2015</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">Fair Play; or, Both Sides of the Story</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-08-30">30 August 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-09-11">proofed, and further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#km" when="2012-04-08">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18560830.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18560830.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18560830.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18560830.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18560830.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18560830.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18560830.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18560830.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+           
+            
+            
+            
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1856, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+
+                <head type="main">FAIR PLAY;</head>
+               <head type="sub">OR,</head>
+               <head type="sub">BOTH  SIDES OF THE STORY.</head>
+                
+                              
+                <p>"It is too bad," said a lady to me, not long since, "it is too bad; I am almost tired to death." She had been to New York, on a shopping expedition; and having finished her purchases, and returned, laden with them to the ferry, found two-thirds of the seats in the <hi rend="italic">Ladies' Cabin</hi> of the Fulton Ferry boat occupied my <hi rend="italic">men</hi>, while she, and several other ladies were compelled to stand till the boat reached the Brooklyn pier. "It is too bad," she repeated; "they have no right to occupy the <hi rend="italic">ladies'</hi> cabin, when ladies are standing; give them a dig, Fanny, won't you?"</p>
+                
+                <p>"Of course I will," said I; "the case, to my mind, is clearly against the coat tails; more especially, as, when the boat touches the pier, they rush past the ladies, and by right of their pantaloons leap over the chain, (which femininity must wait to see unhooked,) in order to monopolize all the seats in the street cars, to the exclusion of the aforesaid dismayed and weary ladies. Most certainly I will give them a dig, my dear; it is an exhibition of 'grab' which is quite disgusting."</p>
+                
+                <p>But stay&#8212;have the <hi rend="italic">ladies</hi> no sins to answer for? May it not be just possible that the men are at last getting weary of rendering civilities to women, who receive them as a matter of right, without even an acknowledging smile, or "thank you?" May they not have tired of creeping, with an abject air, into cars and omnibusses, and gradually and circumspectly lowering themselves amid such billows of hoops and flounces? May they not at last have become disgusted at the absurd selfishness which ladies manifest on these occasions? the "Sit closer, ladies," of the conductors and drivers being met with a pouting frown, or, at best, the emigration of the sixteenth part of an inch to the right or left. And is it not a shame, that a deprecating blush should crimson a gentleman's forehead, because he ventures to seat himself, in a public conveyance, in the proximity of those abominable, limb-disguising, uncomfortable, monopolizing hoops? Women who are blessed with hips, should most certainly discard these nuisances, and women who are not, should know that narrow shoulders, and a bolster-conformation, look more ramrod-y still, in contrast with this artificial voluminousness of the lower story.</p>
+                
+               <p>And then the little girls! The idea of hunting under those humbugs of hoops, for little fairy girls, whose antelope motions are thus circumscribed, their graceful limbs hidden, and their gleeful sports checked&#8212;the monstrosity of making hideous <hi rend="italic">their</hi> perfect proportions, and rendering them a laughing stock to every jeering boy whom they meet; and&#8212;worse than all&#8212;the <hi rend="italic">irreparable moral wrong</hi> of teaching them that comfort and decency must be sacrificed to Fashion! Bah&#8212;I have no patience to think of it. I turn my pained eyes for relief to the little ragged romps who run round the streets, with one thin garment, swaying artistically to the motion of their unfettered limbs. I rush into the sculptor's studio, and feast my eyes on limbs which have no drapery at all.</p>
+                
+               <p>Yes, it is trying to feminine ankles and patience, to have gentlemen occupy ladies places in the "Ladies' Cabin," and gentlemen who do this, will please consider themselves rebuked for it; but it is also disgusting, that women have not fortitude sufficient to discard the universal and absurd custom of wearing hoops. Nay, more, I affirm that any woman who has not faith enough in her Maker's taste and wisdom, to prefer her own bones to a whale's, deserves the fate of Jonah&#8212;minus the ejectment.</p>
+               
+                <byline>FANNY FERN.</byline>
+                
+                </div>
+            
+            
+           
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

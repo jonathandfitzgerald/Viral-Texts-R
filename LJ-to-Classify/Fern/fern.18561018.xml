@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18561018">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Knickerbocker and Tri-Mountain. Number Two.</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="cm">Carmen McCue</editor>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2014</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">Knickerbocker and Tri-Mountain. Number Two.</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-10-18">18 October 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-09-22">proofed, and further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#cm" when="2012-04-03">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18561018.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18561018.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18561018.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18561018.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18561018.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18561018.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18561018.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18561018.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+            
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1856, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+
+                <head type="main">KNICKERBOCKER AND TRI-MOUNTAIN.</head>
+
+                <head type="sub">NUMBER TWO.</head>
+
+               <p>The New York male exulteth in fast horses&#8212;stylish women&#8212;long legged hounds&#8212;a coat-of-arms, and liveried servants. Beside, or behind him, may be seen his servant, with folded arms, and white gloves, driven out daily by his master, to inhale the gutter breezes of Broadway, to excite the wonder of the curious, and to curl the lips of republicanism. The New York male hath many and diverse garments; some of which he weareth bob-tailed; some shanghai, some with velvet collars, some with silk; anon turned up; anon turned down; and some carelessly a-la-flap. The New York male breakfasteth late, owing to pressing engagements which keep him abroad after midnight. About twelve the next morning, he lighteth a cigar to assist his blear-eyes to find the way down town; and with hands in his pockets, and arms akimbo, he navigateth tortuously around locomotive "hoops;"&#8212;indefatigably pursueth a bonnet for several blocks, to get a peep at its owner; nor getteth discouraged at intervening parasols, or impromptu shopping errants; nor thinketh his time or shoe leather wasted. The New York male belongeth to the most ruinous club, and military company; is a connoisseur in gold sleeve buttons, seal rings and diamond studs. He cometh into the world, with an eye-glass and black ribbon winked into his left eye, and prideth himself upon having broken all the commandments before he arrived at the dignity of coat-tails.</p>
+
+               <p>The <hi rend="italic">Boston</hi> male is respectable all over; from the crown on his glossy hat, to the soles of his shiny shoes; and huggeth his mantle of self-esteem inseparably about him, that he may avoid contaminating contact with the non-elect of his "set." The Boston male is for the most part good-looking; and a staunch devotee of starch and buckram; he patroniseth jewelry but sparingly, and <hi rend="italic">never discerneth a diamond in the rough</hi>. If, as Goethe saith, "the unconscious is the alone complete," then is the male Bostonian yet in embryo. He taketh and readeth all the newspapers and magazines, foreign and domestic; and yet, strange to say, sweareth by the little tea-table "Transcript." When the Boston male traveleth he weareth his best clothes; arrived at his destination he putteth up at the most showy hotel, ordereth the most expensive rooms and edibles, and maketh an unwonted "splurge" generally. He then droppeth the proprieties&#8212;pro tem.&#8212;being seized with an anatomical desire to dissect the great sores of the city; fancying like the ostrich, that if his head only be hidden he is undiscernible.</p>
+
+               <p>The Boston male is conversative as a citizen; prosaic as a lover; hum-drum as a husband, and hath no sins&#8212;&#8212;&#8212;<hi rend="italic">to speak of!</hi></p>
+
+                <byline>FANNY FERN.</byline>
+            </div>
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

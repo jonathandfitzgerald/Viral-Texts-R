@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18561025">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">A Word To Parents and Teachers</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="cm">Carmen McCue</editor>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2014</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">A Word To Parents and Teachers</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-10-25">25 October 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-09-25">proofed, and further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#cm" when="2012-04-03">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18561025.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18561025.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18561025.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18561025.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18561025.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18561025.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18561025.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18561025.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+            
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1856, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+
+                <head type="main">A WORD TO PARENTS AND TEACHERS.</head>
+
+                <p>Why <hi rend="italic">will</hi> New York women be eternally munching cake and confectionary? What is more disgusting than to see a lady devouring at a sitting, ounces of burnt almonds, and sugared-wine-and-brandy-drops, or packing away, in her rosy mouth, uncounted platesful of jellycake or maccaroons? "But shopping is hungry business:" that is true, and many a shopper comes hungry distances to perform it; but are cake and confectionary wholesome diet between meals? and is not ice cream at such a time rank poison? Call for a sandwich or a roll, and you may not be considered suicidal.</p>
+
+                <p>Everybody knows that young girls are foreordained to go through a regular experience in eating slate-pencils, burnt quills, pickles, and chalk; but this green age past, one looks for a little common-sense. I have often seen New York women, not content with ruining their own constitution in this way, (and consequently periling their prospective offspring,) buy, before leaving the confectioner's shop, five or six pounds of candy for <hi rend="italic">nursery distribution</hi>, and ask Betty, the next day, (the sapient mother!) "what can ail those children, to fret so?" It were more merciful to purchase a dose of strychnine, and put an immediate end to their misery, than thus murder them by inches. Are the rosy, robust, beautiful English children, candyfed? Are they suffered to gorge themselves on hot bread, preserves, cake and pastry, <hi rend="italic">ad libitum?</hi> Do they have anything but the plainest puddings, the stalest bread, and the most unmitigated roast and boiled meat, unpoisoned by those dyspepsia-breeding gravies of ours?</p>
+
+                <p>It is pitiful, this dwarfing of American children with improper food, want of exercise, and cork-screw clothes. It is inhuman to require of their enfeebled minds and bodies, in ill-ventilated school-rooms, tasks which the most vigorous child should never have imposed upon his tender years. As if a child's physique were not of the first importance!&#8212;as if all the learning in the world could be put to any practical use by an enfeebled body! As if a parent <hi rend="italic">had a right</hi>, year after year, thus to murder the innocents.</p>
+
+                <p>Think of one of those candy-and-cake-fed young girls, bending over her tasks in school, from nine o'clock till three, with perhaps ten or fifteen minutes intermission, (spent in the close air of the school room) and two days out of a week at 3, after another ten minutes intermission, and another cake-and-candy feed, commencing drawing, or music lessons, to last till five; her mother, meanwhile, rocking away as comfortably in her chair at home, as if her daughter's spine were not crooking irretrievably. I will not speak of the utter impossibility that this young girl should have a <hi rend="italic">steady hand</hi> for drawing under such circumstances, because any fool can understand that to be impossible.</p>
+
+                <p>I ask what <hi rend="italic">right</hi> have you to require of your child, your growing, restless child, what it would be impossible for you to do yourself? You know very well that you could not keep your mind on the stretch for so many hours to any profit; or your body in one position for such a length of time, without excessive pain, and untold weariness. Then add to this, the tasks which must be conned on the return home for the next day's lessons, and one marvels no longer at the sickly, sallow, narrow-chested, leaden-eyed young girls we are in the habit of meeting.</p>
+
+                <p>What <hi rend="italic">would</hi> I have? I would have teachers less selfishly consult their own convenience, in insisting upon squeezing into the forenoon what should be divided between forenoon and afternoon, as in the good old-fashioned way of keeping school, with time to eat a wholesome dinner between. A teacher's established constitution may possibly stand this modern nonsense, (though I am told not long;) but that <hi rend="italic">children</hi> should be thus victimised, without at least a remonstrance on the part of their natural guardians, I can only ascribe to the criminal indifference of parents to the welfare of their offspring.</p>
+
+                <byline>FANNY FERN.</byline>
+            </div>
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

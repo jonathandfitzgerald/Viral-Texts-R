@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560802">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">A Premonitory Squib Before Independence; Is It So? And If So, Why So?</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2014</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">A Premonitory Squib Before Independence; Is It So? And If So, Why So?</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-08-02">2 August 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-08-28">proofed, and further updated encoding</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#km" when="2012-04-07">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18560802.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18560802.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18560802.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18560802.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18560802.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18560802.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18560802.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18560802.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+           
+            
+            
+            
+            <div type="column">
+                <head type="column">FRESH FERN LEAVES.</head>
+
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1856, by ROBERT BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+
+                <head type="main">A PREMONITORY SQUIB BEFORE INDEPENDENCE.</head>
+                
+               <p>JULY 3RD.&#8212;Issue a book, and put my name to it! Mine? A <hi rend="italic">man</hi> to do such a thing! That's what I call honest, honorable and chivalric. A Cook Book ,too! of all unlikely things I should be supposed to get up. A Cook Book! the stupidest of all stupid notions; when new ranges, new stoves, new cooking utensils, are being invented to supersede the old, every hour in the twenty-four, and rendering receipts a dead letter. It was all very well in old times, when fire-places and ministers were settled for life; but a Cook Book in the chain-lightning year of grace 1856&#8212;&#8212;Dinah, support me to the sofa!</p>
+                
+                <p>A Cook Book! including, proverbially, ingredients out of reach, pecuniarily and latitudinally, of the very persons for whom cook books are intended; and useless of course to those who if they can incur the expense of such dishes can also afford to hire cooks, who know more than any cook book can teach them. A Cook Book indeed! I, FANNY FERN, to be guilty of such a piece of stupidity! I may be a fool, but I am not of that genus of fool.</p>
+                
+               <p>"What am I going to do about it?" Why, get an injunction served on the honorable publisher, to be sure. What is the use of laws if they were not made for my use? What is the use of lawyers, if they can't plead my cause?&#8212;and "Philadelphia lawyers," too?</p>
+                
+               <p>"FANNY FERN is not my name, is it?" Let me tell you, that if I originated it, as a <hi rend="italic">nom de plume</hi>, I have as much right to the sole possession of it, as I have to the one I was baptised by; and no one has any more right to appropriate it, than to take the watch from my girdle. "Doubted?"&#8212;We shall see; I have listened to croakers before now, with my arms a-kimbo.</p>
+                
+               <q>JULY 14.&#8212;"FANNY FERN" BEFORE JUDGE KANE.&#8212;In the United States District Court of Philadelphia, before Judge Kane on Friday, James Parton and Sarah P. Parton, his wife, made application for a special injunction to restrain William Fleming from printing, publishing, and circulating a "Cook Book," purporting to be prepared and published by "Fanny Fern." Mrs. Parton alleges that she is <hi rend="italic">the</hi> "Fanny Fern;" that all <hi rend="italic">her</hi> writings are published under that name, and that she has acquired a special and the only right to use it; that the defendant has published a "Cook Book," calling it "Fanny Fern's," and purporting to be prepared by her; that she had nothing whatever to do with the said book; that the said "Cook Book" is a mere ordinary collection of receipts for kitchen use; that the preface is an attempted imitation of her style; that it is ungrammatical, vulgar, and somewhat obscene; and that the said "Cook Book" will injure the character of the complainant, (Mrs. Parton,) will lessen the value of her title, ("Fanny Fern,") and will inflict great pecuniary loss upon her. A special injunction to restrain respondent, as prayed for, with leave to the defendant to move to dissolve on forty-eight hours' notice to the complainants, was granted by the court.</q>
+                
+               <p>There!&#8212;what do you think of that?</p>
+                
+                <p>What is the use of being a woman, if you can't carry a point? Are bonnets to be trampled on by boots? Judge Kane says NO. May he live to Pass-more such decrees.</p>
+                
+               <p>Listen! All you who wear (blue) bonnets, and down on your grateful knees to me, for unfurling the banner of Women's (scribblers) Rights. Know, henceforth, that Violet Velvet, is as much your name, (for purposes of copyright and other rights,) as Julia Parker, if you choose to make it so. Would <hi rend="italic">you</hi> have worn out shoe leather, threading the hot, dusty, dirty, business streets of New York, on what croakers told you was a <hi rend="italic">bootless</hi> errand? No, of course you wouldn't;&#8212;you would have gone home, believing what they told you, rubbing your fists into your eyes, and crying about it: that's what <hi rend="italic">you</hi> would have done; and that's the reason why you will always have enough to cry about, as long as you own a pocket handkerchief. Would you have run the gauntlet of files of business men, to get to a lawyer's office, to get a paper drawn up, as long as Broadway, and quite as dry; with more "hereas-es," and "whereas-es," and "provideds," and "hereuntos," and "thereuntos," and "heretofores," and "so-forths," than you could imagine any lawyer could possibly have on hand, taking into consideration the number of legal documents which have been drawn up since Adam's time? Would you, then, have gone to the United States Commissioner's Office, and sworn&#8212;(yes, may I be pinched if I didn't have to swear)&#8212;that you was <hi rend="italic">the</hi> Fanny Fern, that you knew what that lengthy document contained, and that you had told no fibs about it? and would you&#8212;(and here's where the groan comes in)&#8212;when a good looking lawyer asked you to kiss the&#8212;&#8212;"book," have understood him, or&#8212;<hi rend="italic">misunderstood</hi> him! That's what I want to know?</p>
+               
+                <byline>FANNY FERN.</byline>
+                
+                </div>
+                
+                <milestone unit="line"/>
+                
+                <div type="column">
+                <head type="main">IS IT SO? AND IF SO, WHY SO?</head>
+                    
+                   <p>My friend Parton, in his recent book, called "Humorous Poetry of the English Language," says, that he could find no Humorous Poetry by Women, worthy a place in his collection; and his mind seems to be quite exercised in the Preface, upon this question: Can women write Humorous Poetry, or&#8212;can they not?</p>
+                    
+                    <p>I charge him no fee for my opinion, which is as follows:</p>
+                    
+                    <p>1st. That women have not written humorous verses for the reason, that Poetry, with them, is the outlet, only, for the holiest, strongest, and deepest feelings of their nature; they approach it, as the priests of old approached the sacred ark, with bowed heads and clean hands.</p>
+                    
+                    <p>2ndly. That in making this remark, I endorse the utility of Humorous Poetry in general, and this exhaustless fountain of fun, collected by my friend Parton, in particular; on the principle, that whatever shortens our faces, lengthens our days.</p>
+                    
+                   <p>3rdly&#8212;lastly, concludingly, and conclusively, I would venture to add, that it may be lucky for the male sex, that our sex never felt inclined to try their hand at Humorous Poetry.</p>
+                    
+                    <byline>FANNY FERN.</byline>
+                
+                </div>
+          
+            
+            
+           
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

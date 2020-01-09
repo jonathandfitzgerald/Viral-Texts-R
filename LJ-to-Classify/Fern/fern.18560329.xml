@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560329">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Peeps From Under A Parasol.</title>
+            <title type="sub">a machine-readable transcription</title>
+            <editor xml:id="jf">Jacob K. Friefeld</editor>
+            <editor xml:id="km">Kevin McMullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <date>2014</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                  <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be credited to Fanny Fern in The New York Ledger, made available non-commercially, and distributed under the same terms.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="column">
+               <analytic>
+                  <author ref="#ff">Fanny Fern</author>
+                  <title level="a">Peeps From Under A Parasol.</title>
+               </analytic>
+               <monogr>
+                  <title xml:id="paper" level="j">The New-York Ledger</title>
+                  <editor ref="#rb">Robert Bonner</editor>
+                  <imprint>
+                     <date xml:id="issue_date" when="1856-03-29">29 March 1856</date>
+                  </imprint>
+                  <biblScope type="pp">[4]</biblScope>
+               </monogr>
+               <series>
+                  <title level="s">Fresh Fern Leaves</title>
+               </series>
+            </biblStruct>
+            <biblStruct xml:id="issue">
+               <monogr>
+                  <title level="j" sameAs="#paper"/>
+                  <imprint>
+                     <date sameAs="#issue_date"/>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This electronic text is a semi-diplomatic transcription of the source text. Hyphenation, punctuation, variant spellings, and errors present in the source text have been retained. The transcription does not attempt to capture all aspects of the original formatting or layout.</p>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#km" when="2015-01-31">further updated encoding; proofed text</change>
+         <change who="#km" when="2014-10-09">updated encoding</change>
+         <change who="#jf" when="2012-05-02">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile corresp="#issue">
+      <surface xml:id="pp1">
+         <graphic url="fern18560329.01.jpg"/>
+      </surface>
+      <surface xml:id="pp2">
+         <graphic url="fern18560329.02.jpg"/>
+      </surface>
+      <surface xml:id="pp3">
+         <graphic url="fern18560329.03.jpg"/>
+      </surface>
+      <surface xml:id="pp4" type="containsColumn">
+         <graphic url="fern18560329.04.jpg"/>
+      </surface>
+      <surface xml:id="pp5">
+         <graphic url="fern18560329.05.jpg"/>
+      </surface>
+      <surface xml:id="pp6">
+         <graphic url="fern18560329.06.jpg"/>
+      </surface>
+      <surface xml:id="pp7">
+         <graphic url="fern18560329.07.jpg"/>
+      </surface>
+      <surface xml:id="pp8">
+         <graphic url="fern18560329.08.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            
+            
+            
+            
+            
+            
+            
+            <div>
+            <head type="column">FRESH FERN LEAVES.</head>
+                
+                <epigraph>
+                    <p>Entered according to Act of Congress, in the year 1855, by R. BONNER, in the Clerk's Office of the District Court for the Southern District of New York.</p>
+                </epigraph>
+                
+                <head type="main">PEEPS FROM UNDER A PARASOL.</head>
+                
+                <p>People describe me, without saying "by your leave;" a little thought has just occurred to me that two can play at that game! I don't go about with my eyes shut&#8212;no tailor can "take a measure" quicker than I, as I pass along. </p>
+               
+                <p>There is Richard Grant White; now don't he look like a greyhound on two legs? I never see him, but I feel like challenging him to his speed in running a race; (in which by the way, he would be sure to come off second best.)</p>
+               
+                <p>There are Drs. Chapin, and Bethune; whose well-to-do appearance in this world, quite neutralises their Sunday exhortations to "set one's affections on a better." There's Greeley&#8212;but why describe the town pump? he has been handle-d enough, to keep <hi rend="italic">him</hi> from Rust-ing. There's that Epicurean Rip-lie, critic of the New York Tribune; if I have spelt his name wrong, it was because I was thinking of the unmitigated fibs he has told in his book reviews! There's Col. Fuller, editor of the New York Evening Mirror, handsome, witty and saucy. There's Mr. Young, editor of The Albion, who looks too much like a gentleman, to have abused in so wholesale a manner, the lady writers of America. There's Lieut. Gov. Raymond, editor of the New York Times, who always reminds me of what the Scotch parson said to his wife, whom he noticed asleep in church: "Jennie! Jennie! you have no beauty, as all the congregation may see, and if you have no grace, I have made but a poor bargain of it!" There's Richard Storrs Willis, or, Storrs Richard Willis, or, Willis Richard Storrs, (it is a way that family have to keep changing their names) editor of the Musical World; not a bad paper either; Richard has a fine profile, a trim, tight figure, always unexceptionally arrayed; and has a gravity of mien most edifying to one who has eat bread and molasses out of the same plate with him.</p>
+               
+               <p>Behind that beard coming down the street in that night-gown overcoat, is Mr. Charles A. Dana, of the New York Tribune, who is ready to say, "Now lettest thou thy servant depart in peace," when he shall have made the New York Tribune like unto the London Times. Charles should remember, that the motto of the London Times is <hi rend="italic">Fair Play</hi>&#8212;not the <hi rend="italic">appearance</hi> of fair play. There's Bayard Taylor&#8212;"the Oriental Bayard." Now I don't suppose Bayard is to blame for being a <hi rend="italic">pretty</hi> man, or for looking so nice and bandbox-y. But if some public benefactor <hi rend="italic">would</hi> tumble his hair and shirt collar, and tie his cravat in a loose sailor knot; and if Bayard himself <hi rend="italic">would</hi> open that little three-cent-piece mouth of his a l-i-t-t-l-e wider when he lectures, it would take a load off my mind! I write this, in full view of his interest in the Almighty Tribune, and also set up before him, certain "Leaves" for a target, by way of reprisal.</p>
+               
+               <p>Then there is Henry Ward Beecher; who is getting what country people call "<hi rend="italic">peart</hi>," on his increasing popularity, and who seems now-a-days more anxious to startle, and astonish, than to edify, and spiritualise: He&#8212;Henry Ward, says, that "eating is vulgar." It is just possible that it may be, but I have never thought so, except when I have seen the male and female members of the Beecher family, D.D's&#8212;and authoress&#8212;munching oranges, apples, and peanuts, in the street.</p>
+               
+                <p> Yes, Henry Ward is getting spoiled; ah! many a man who steers his bark safely on a stormy sea, rides into any port but Heaven, on the wave of popular favor.</p>
+               
+               <p>And there is George P. Morris&#8212;Gen. George Morris&#8212;and Briga-<hi rend="italic">dear</hi> General at that; with an eye like a star; and more vitality in him, than there is in half the young men who might call him father. May Time, who has dealt so gently with "The Woodman," long delay to cut him down.</p>
+                
+                <milestone unit="line"/>
+               
+               <p>One, day after my arrival in New York, I met a man striding down street, in the face of a pin-and-needle-wind, that was blowing his long hair away from his bloodshot eyes, and forcing him to compress his lips, to keep what breath he had&#8212;inside&#8212;to warm him; tall and lank, he clutched his rough blanket shawl about him like a brigand. Fearing he might be an escaped lunatic, I gave him a wide berth on the sidewalk. Each day, in my walks, I met him, till at last I learned to watch for the wearied, haggard looking face; I think the demonism of it magnetized me. After looking at the kidded dandies, who flourished their perfumed handkerchiefs past, the sight of him was as refreshing as a grand, black thunder cloud, looming up in the horizon, after the oppressive hum-drum-ness of a sultry day. One night I was at the Opera; and amid its blaze, and glitter and glare, was that haggard face, looking ten fold more Satanic than ever. Grisi charmed him not, nor Mario either.</p>
+               
+               <p>Ah&#8212;that strain! who could resist it? A luminous smile in an instant transforms Lucifer&#8212;was that the same haggard face, upon which, but one moment ago, every passing hour had seemed to set its seal of care, and sorrow, and disappointment?</p>
+               
+                <p>What was that smile like?</p>
+               
+                <p>It was like the glorious out-bursting of the sun, on bud, and tree, and blossom, when the thunder cloud has rolled away. It was like the sudden flashing of light through a crystal vase, revealing the delicate tracery of <hi rend="italic">His</hi> fingers who made man <hi rend="italic">originally</hi> "but little lower than the angels."</p>
+               
+               <p>And so when I hear Mr. Fry, the musical thunderer of the Tribune, called "gaunt" and "ugly"&#8212;I shake my head incredulously; and when I read in the Tribune a biting article from his caustic pen, dissecting poor Napoleon, (who certainly expiated all his sins, even that wretched divorce, when he fretted his eagle soul away at St. Helena, beating his strong but powerless wings, heavily, against his English prison bars;) when I read Mr. Fry's vulture like dissection of Napoleon, I recall that luminous music-born smile; and rejoice that in every man's heart, is an oasis which the Simoon breath of worldly care, and worldly toil and ambition has no power to blight!</p>
+               
+               <p>And there is Mr. James Parton, author of the Life of Horace Greely, whom I occasionally meet; Jim is five feet ten inches, and modest,&#8212;wears his hair long, and don't believe in a devil&#8212;has written more good anonymous articles, now floating unbaptized through newspaperdom, (on both sides of the water) than any other man, save himself, would suffer to go unclaimed. Jim believes in Carlyle and lager bier&#8212;can write book better than he can tie a cravat; though since his late marriage I am pleased to observe a wonderful improvement in this respect. It is my belief, that Jim is destined by steady progress, to eclipse many a man who has shot up like a rocket, and who will fizzle out and come down a stick.</p>
+                
+                
+                
+                <byline>FANNY FERN.</byline>
+               
+                <postscript>                    
+                   <p>P.S.&#8212;For the benefit of those who may feel themselves slighted, I wish to state, that these little crayon sketches will be continued at my leisure.</p>
+                </postscript>
+            </div>
+            
+            
+            
+            
+            
+            
+            
+        </body>
+   </text>
+</TEI>

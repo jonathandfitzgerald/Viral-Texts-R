@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.2.0.2/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fern.18560209">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Tom Pax's Conjugal Soliloquy</title>
+                <title type="sub">a machine-readable transcription</title>
+                <editor xml:id="jf">Jacob Friefeld</editor>
+                <editor xml:id="km">Kevin McMullen</editor>
+            </titleStmt>
+            <publicationStmt>
+                <date>2014</date>
+                <availability> <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">     <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike         4.0 Unported License         (http://creativecommons.org/licenses/by-nc-sa/4.0/). Derivatives must be         credited to Fanny Fern in The New York Ledger, made available         non-commercially, and distributed under the same terms.</p> </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct xml:id="column"> <analytic>     <author ref="#ff">Fanny Fern</author>     <title level="a"/> </analytic> <monogr>     <title xml:id="paper" level="j">The New-York Ledger</title>     <editor ref="#rb">Robert Bonner</editor>     <imprint>         <date xml:id="issue_date" when="18156-02-09">9 February 1856</date>     </imprint>     <biblScope type="pp">[4]</biblScope> </monogr> <series>     <title level="s">Fresh Fern Leaves</title> </series>
+                </biblStruct>
+                <biblStruct xml:id="issue"> <monogr>     <title level="j" sameAs="#paper"/>     <imprint>         <date sameAs="#issue_date"/>     </imprint> </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>This electronic text is a semi-diplomatic transcription of the source text.
+                Hyphenation, punctuation, variant spellings, and errors present in the source text
+                have been retained. The transcription does not attempt to capture all aspects of the
+                original formatting or layout.</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="#km" when="2014-10-09">updated encoding</change>
+            <change who="#jf" when="2012-05-02">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile corresp="#issue">
+        <surface xml:id="pp1">
+            <graphic url="fern18560209.01.jpg"/>
+        </surface>
+        <surface xml:id="pp2">
+            <graphic url="fern18560209.02.jpg"/>
+        </surface>
+        <surface xml:id="pp3">
+            <graphic url="fern18560209.03.jpg"/>
+        </surface>
+        <surface xml:id="pp4" type="containsColumn">
+            <graphic url="fern18560209.04.jpg"/>
+        </surface>
+        <surface xml:id="pp5">
+            <graphic url="fern18560209.05.jpg"/>
+        </surface>
+        <surface xml:id="pp6">
+            <graphic url="fern18560209.06.jpg"/>
+        </surface>
+        <surface xml:id="pp7">
+            <graphic url="fern18560209.07.jpg"/>
+        </surface>
+        <surface xml:id="pp8">
+            <graphic url="fern18560209.08.jpg"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div>
+                <head type="column">Fresh Fern Leaves</head>
+                <epigraph> <p>Entered according to Act of Congress, in the year 1855, by R. BONNER, in the     Clerk's Office of the District Court for the Southern District of New     York.</p>
+                </epigraph>
+                <head type="main">TOM PAX'S CONJUGUAL SOLILOQUY.</head>
+                <p>Mrs. Pax is an authoress. I knew it when I married her. I liked the idea. I had not tried it then. I had not a clear idea what it was to have one's wife belong to the public. I thought marriage was marriage, brains not excepted. I was mistaken. Mrs. Pax is very kind; I don't wish to say that she is not. Very obliging; I would not have you think the contrary; but when I put my arm round Mrs. Pax's waist, and say, "Mary, I love you," she smiles in an absent, moonlight-kind of a way, and says, "Yes, to-day is Wednesday, is it not? I must write an article for The Weekly Monopolizer to-day." That dampens my ardor; but presently I say again, being naturally affectionate, "Mary, I love you;" she replies (still abstractedly), "Thank you, how do you think it will do to call my next article for the Weekly Monopolizer, 'The Stray Waif?'"</p>
+                <p>Mrs. Pax sews on all my shirt-buttons with the greatest good humor; I would not have you think she does not; but with her thoughts still on the Weekly Monopolizer, she sews them on the flaps, instead of the wristbands. This is inconvenient; still Mrs. Pax is kindness itself; I make no complaint.</p>
+                <p> I am very fond of walking. After dinner I say to Mrs. Pax, "Mary, let us take a walk." She says, "Yes, certainly, I must go down town to read the proof of my article for The Monopolizer." So, I go down town with Mrs. Pax. After tea I say, "Mary, let us go to the Theatre to-night;" she says, "I would be very happy to go, but, the atmosphere is so bad there, the gas always escapes, and my head must be clear to-morrow, you know, for I have to write the last chapter of my forthcoming work, 'Prairie Life.'" So I stay at home with Mrs. Pax, and as I sit down by her on the sofa, and as nobody comes in, I think that this, after all, is better, (though I must say my wife looks well at the Opera, and I like to take her there.) I put my arm around Mrs. Pax. It is a habit I have. In comes the servant; and brings a handful of letters for her by mail, directed to "Julia Jessamine" (that's my wife's <hi rend="italic">nom-de-plume</hi>). I remove my arm from her waist, because she says "they are probably business letters which require immediate notice." She sits down at the table, and breaks the seals. Four of them are from fellow who want "her autograph." <hi rend="italic">Mrs.     Pax's</hi> autograph! The fifth is from a gentleman who, delighted with her last book, which he says "mirrored his own soul," (how do you suppose Mrs. Pax found out how to mirror <hi rend="italic">his</hi>soul?) requests "permission to correspond with the charming authoress." "Charming!" my wife! "his soul!" Mrs. Pax! The sixth is from a gentleman who desires "the loan of $500, as he has been unfortunate in business, and has heard that her works have been very remunerative." $500 for John Smith, from my wife! The seventh letter is from a man at the West, offering her her own price to deliver a Lecture before the Pigtown Young Men's Institute. <hi rend="italic"> I like that!</hi>
+                </p>
+                <p>Mrs. Pax opens her writing desk; it is one I gave her; takes some delicate buff note paper; I gave her that, too; dips her gold pen (my gift) into the inkstand, and writes—writes till eleven o'clock. Eleven! and I, her husband, Tom Pax, sit there and wait for her.</p>
+                <p>The next morning when I awake, I say, "Mary dear?" She says, "Hush! don't speak, I've just got a capital subject to write about for The Weekly Monopolizer." Not that I am <hi rend="italic">complaining</hi>of Mrs. Pax, not at all, not that I don't like my wife to be an authoress; I do. To be sure I can't say that I knew     <hi rend="italic">exactly</hi> what it involved. I did not know, for instance, that the Press in speaking of her by her <hi rend="italic"     >nom-de-plume</hi>would call her "Our Julia," but I would not have you think I object to her being literary. On the contrary, I am not sure that I do not rather like it; but I ask the Editor of "The Weekly Monopolizer," as a man—as a Christian—as a husband—if he thinks it right—if it is doing as he would be done by—to monopolize my wife's thoughts as early as five o'clock in the morning? I merely ask for information. I trust I have no resentful feelings toward the animal.</p>
+                <byline>FANNY FERN.</byline>
+            </div>
+        </body>
+    </text>
+</TEI>
